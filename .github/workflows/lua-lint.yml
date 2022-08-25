@@ -1,0 +1,36 @@
+name: Lua lint
+
+on: 
+  push:
+    branches:
+      - main
+      - develop
+      - 'feature/**'
+      - 'hotfix/**'
+      - 'bugfix/**'
+      - 'support/**'
+      - 'update/**'
+    paths:
+      - 'script/**'
+      - '.luacheckrc'
+  pull_request:
+    branches:
+      - main
+      - develop
+      - 'feature/**'
+      - 'hotfix/**'
+      - 'bugfix/**'
+      - 'support/**'
+      - 'update/**'
+  workflow_dispatch:
+
+jobs:
+  db-check:
+    uses: Warhammer-Mods/workflows/.github/workflows/lua-lint.yml@main
+    with:
+      paths: script
+      config_file: .luacheckrc
+      vendor_path: .luarocks
+      pr_enabled: true
+    secrets:
+      token: ${{ github.token }}
