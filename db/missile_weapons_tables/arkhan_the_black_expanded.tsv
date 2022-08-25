@@ -1,0 +1,4 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
+#missile_weapons_tables;11;db/missile_weapons_tables/arkhan_the_black_expanded				
+steve_ark_archer_bow	false	steve_ark_archer_projectile	bow	false
+arkhan_ushabti_bow	false	arkhan_ushabti_bow_projectile	bow_large	false

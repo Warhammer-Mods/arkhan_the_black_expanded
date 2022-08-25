@@ -1,0 +1,24 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_the_black_expanded_unit_abilities__.loc		
+unit_abilities_onscreen_name_skill_arkhan_character_abilities_tomb_king_rally	Dark Reanimation	true
+unit_abilities_tooltip_text_skill_arkhan_character_abilities_tomb_king_rally	It takes an iron will and unnatural - supernatural - strength to rally bound troops routed by magical means.	true
+unit_abilities_onscreen_name_skill_arkhan_character_abilities_tomb_king_rally_upgraded	Dark Reanimation Upgraded	true
+unit_abilities_tooltip_text_skill_arkhan_character_abilities_tomb_king_rally_upgraded	It takes an iron will and unnatural - supernatural - strength to rally bound troops routed by magical means.	true
+unit_abilities_onscreen_name_skill_arkhan_passive_endless_hordes	Undying Legions	true
+unit_abilities_tooltip_text_skill_arkhan_passive_endless_hordes	Nagash's Grand Vizier Arkhan is masterfully adept in the art of Necromancy that he can summon forth endless hordes of undead minions to do his bidding.	true
+unit_abilities_onscreen_name_skill_lore_passive_necromantic_vigour	Necromantic Vigour	true
+unit_abilities_tooltip_text_skill_lore_passive_necromantic_vigour	As the powers of Dark Magic are wielded for the purpose of Necromancy, its unwholesome energies invigorate the Undead.	true
+unit_abilities_onscreen_name_skill_arkhan_facton_passive_siphon_of_souls_1	Siphon of Souls Tier 1	true
+unit_abilities_onscreen_name_skill_arkhan_facton_passive_siphon_of_souls_2	Siphon of Souls Tier 2	true
+unit_abilities_onscreen_name_skill_arkhan_facton_passive_siphon_of_souls_3	Siphon of Souls Tier 3	true
+unit_abilities_tooltip_text_skill_arkhan_facton_passive_siphon_of_souls_1	From the battlefield, Arkhan siphons the soulstuff of the fallen, restoring damage done to his undead minions.	true
+unit_abilities_tooltip_text_skill_arkhan_facton_passive_siphon_of_souls_2	Slain warriors and monsters are bound and summoned to fight once again for their master.	true
+unit_abilities_tooltip_text_skill_arkhan_facton_passive_siphon_of_souls_3	Binding the very essence to new corporeal bodies restores and resurrects the undead legion, ever serving and ever loyal.	true
+unit_abilities_onscreen_name_arkhan_army_ability_raise_skeletons	Summon Skeleton Warriors	true
+unit_abilities_tooltip_text_arkhan_army_ability_raise_skeletons	"""Let the splintered bones burrow from the grave pall. Let cold fingers grip tomb-worn blades, and unseeing eyes survey the fields of slaughter. For your time has come once more."""	true
+unit_abilities_onscreen_name_arkhan_lord_abilities_eldritch_blast	Eldritch Blast	true
+unit_abilities_tooltip_text_arkhan_lord_abilities_eldritch_blast	Bathe in death and destruction!	true
+unit_abilities_onscreen_name_arkhan_hero_abilities_raise_dead	Raise Zombies	true
+unit_abilities_tooltip_text_arkhan_hero_abilities_raise_dead	"""Let the splintered bones burrow from the grave pall. Let cold fingers grip tomb-worn blades, and unseeing eyes survey the fields of slaughter. For your time has come once more."""	true
+unit_abilities_onscreen_name_arkhan_unit_abilities_passive_hellblade	Hellblade	true
+unit_abilities_tooltip_text_arkhan_unit_abilities_passive_hellblade	The ethereal sythes of Cairn Wraiths become more effective the longer the battle rages and the greater the number of piteous souls they harvest.	true

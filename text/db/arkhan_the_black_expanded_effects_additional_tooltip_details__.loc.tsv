@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_the_black_expanded_effects_additional_tooltip_details__.loc		
+effects_additional_tooltip_details_localised_description_stephen_effect_ability_enable_spell_mastery	Mastery of the Elemental Winds. When more than one unit that share this attribute are in the same army, the power of spells cast is increased.	false
+effects_additional_tooltip_details_localised_description_stephen_effect_arkhan_item_advanced_vampire_magic_dummy	Fragments can be equipped by Arkhan in the Character Details panel to swap some spells from the Lore of Death for spells from other Lores of Magic. Only one Fragment may be equipped at a time.	false
+effects_additional_tooltip_details_localised_description_tech_arkhan_effect_agent_action_passive_spread_corruption_buff	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] (Constant Local Effect)\\nIncreases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province.	false

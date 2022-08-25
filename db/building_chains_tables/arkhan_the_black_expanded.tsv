@@ -1,0 +1,16 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
+#building_chains_tables;9;db/building_chains_tables/arkhan_the_black_expanded									
+stephen_tmb_followers_major			money	false	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_tze_city.png	1		true
+stephen_tmb_followers_minor			money	false	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_tze_city.png	0		true
+stephen_tmb_followers_necropolis			military	false	wh2_main_sch_infrastructure8_major		20		true
+stephen_tmb_followers_minor_walls			military	false	wh2_main_sch_defence_major_def		12		true
+stephen_tmb_followers_major_walls			military	false	wh2_main_sch_defence_minor		12		true
+stephen_tmb_followers_ushabti			military	false	wh2_main_sch_military1_barracks		4		true
+stephen_tmb_followers_barracks			military	false	wh2_main_sch_military2_stables		4		true
+arkhan_tmb_vault_nagash			money	false	wh2_main_sch_special_pyramid_of_nagash		0		true
+arkhan_tmb_followers_scorpions			military	false	wh2_main_sch_support5_extra		0		true
+stephen_tmb_followers_hierotitan			military	false	wh2_main_sch_support3_wizards_tmb		8		true
+stephen_tmb_followers_necrosphinx			military	false	wh2_main_sch_support4_other		7		true
+stephen_tmb_followers_decaying_battlefield			military	false	wh2_main_sch_infrastructure2_industry		8		true
+stephen_tmb_followers_cavalry			military	false	wh2_main_sch_military2_stables		2		true
+stephen_tmb_followers_graveguard			military	false	wh2_main_sch_vampires_raisedead		1		true

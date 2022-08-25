@@ -1,0 +1,25 @@
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables;6;db/technologies_tables/arkhan_technology										
+tech_arkhan_nagash_monsters_1_1	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557788	false	false	true
+tech_arkhan_nagash_monsters_1_2	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557789	false	false	true
+tech_arkhan_nagash_monsters_1_3	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557790	false	false	true
+tech_arkhan_nagash_monsters_2_1	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557792	false	false	true
+tech_arkhan_nagash_monsters_2_2	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557793	false	false	true
+tech_arkhan_nagash_monsters_2_3	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557794	false	false	true
+tech_arkhan_nagash_arkhans_legions	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557798	false	false	true
+tech_arkhan_nagash_black_tower	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557799	false	false	true
+tech_arkhan_nagash_black_pyramid	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557800	false	false	true
+tech_arkhan_army_unlock_left	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557807	false	false	true
+tech_arkhan_army_unlock_right	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557808	false	false	true
+tech_arkhan_nagash_burial_mound	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557809	false	false	true
+tech_arkhan_nagash_royal_barracks	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557810	false	false	true
+tech_arkhan_nagash_nagashizzar_me	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557811	false	false	true
+tech_arkhan_nagash_vault_of_nagash_me	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557812	false	false	true
+tech_arkhan_nagash_lord_awakening_1	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557813	false	false	true
+tech_arkhan_nagash_lord_awakening_2	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557814	false	false	true
+tech_arkhan_nagash_legions_bonus_1	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557815	false	false	true
+tech_arkhan_nagash_legions_bonus_2	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557816	false	false	true
+tech_arkhan_nagash_legions_bonus_3	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557817	false	false	true
+tech_arkhan_nagash_sacrament_bonus_1	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557818	false	false	true
+tech_arkhan_nagash_sacrament_bonus_2	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557819	false	false	true
+tech_arkhan_nagash_sacrament_bonus_3	wh_main_chs_port_ruin	1	wh3_main_tech_kho_1_1	false	false		33557820	false	false	true

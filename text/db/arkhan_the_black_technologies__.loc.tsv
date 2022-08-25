@@ -1,0 +1,71 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_the_black_technologies__.loc		
+technologies_long_description_tech_arkhan_nagash_burial_mound		true
+technologies_onscreen_name_tech_arkhan_nagash_burial_mound	Ancient Mounds	true
+technologies_short_description_tech_arkhan_nagash_burial_mound		true
+technologies_long_description_tech_arkhan_nagash_royal_barracks		true
+technologies_onscreen_name_tech_arkhan_nagash_royal_barracks	Desecrated Barracks	true
+technologies_short_description_tech_arkhan_nagash_royal_barracks		true
+technologies_long_description_tech_arkhan_army_unlock_left		true
+technologies_onscreen_name_tech_arkhan_army_unlock_left	Legions of Nagash	true
+technologies_short_description_tech_arkhan_army_unlock_left	The incantations of Nagash are the darkest of fell rituals, not to be used lightly if at all. For while they may ease the burden of Unlife, they can also act as a siren call to their original author. Nagash has been gone long from this world, but should he ever return then doom awaits us all! 	true
+technologies_long_description_tech_arkhan_army_unlock_right		true
+technologies_onscreen_name_tech_arkhan_army_unlock_right	Legions of Sacrament	true
+technologies_short_description_tech_arkhan_army_unlock_right	In the forsaken lands of Sylvania, the Undead battalions of the Vampire Counts gather. Upon fen and moor, creatures of darkness that have haunted the nightmares of Men for millennia break free from ancient cairns and age worn mausoleums, thundering the ground beneath them and eclipsing the moon as they spread their tattered wings and take to the skies.	true
+technologies_long_description_tech_arkhan_nagash_arkhans_legions		true
+technologies_onscreen_name_tech_arkhan_nagash_arkhans_legions	Arkhan's Legions	true
+technologies_short_description_tech_arkhan_nagash_arkhans_legions	For a price, the dead will heed my call.	true
+technologies_long_description_tech_arkhan_nagash_black_tower		true
+technologies_onscreen_name_tech_arkhan_nagash_black_tower	Black Tower	true
+technologies_short_description_tech_arkhan_nagash_black_tower	Constructed in union with the accursed Black Pyramid, Arkhan's infernal spire and the lands that surround it are saturated with magic, and many vile things dwell in its shadow.	true
+technologies_long_description_tech_arkhan_nagash_black_pyramid		true
+technologies_onscreen_name_tech_arkhan_nagash_black_pyramid	Black Pyramid	true
+technologies_short_description_tech_arkhan_nagash_black_pyramid	The first of Nagash's great and powerful edifices. Even millennia later it is still surrounded by fell magic.	true
+technologies_long_description_tech_arkhan_nagash_monsters_1_1		true
+technologies_onscreen_name_tech_arkhan_nagash_monsters_1_1	Strigoi Legacy	true
+technologies_short_description_tech_arkhan_nagash_monsters_1_1	The legacy of the Strigoi runs deep among Ghoul-kind for it was at Mourkain, capital of the Strygos Empire, when they were at the pinnacle of their power. Now, the remnants of that bloodline scavenge amidst the Ghouls, awaiting a return to greatness. It is a racial memory that can be implanted into all Crypt Ghouls, if the correct rituals are used.   	true
+technologies_long_description_tech_arkhan_nagash_monsters_1_2		true
+technologies_onscreen_name_tech_arkhan_nagash_monsters_1_2	Bat Swarms	true
+technologies_short_description_tech_arkhan_nagash_monsters_1_2	To blight the trees, blacken and twist them, is to create the perfect surrounding for creatures that skulk with the Undead. This may be wolves with black hearts or those who are dead already, or Fell Bats resting between feedings of blood and the bodies of domestic cats. 	true
+technologies_long_description_tech_arkhan_nagash_monsters_1_3		true
+technologies_onscreen_name_tech_arkhan_nagash_monsters_1_3	The Alpha of the Pack	true
+technologies_short_description_tech_arkhan_nagash_monsters_1_3	To glean obedience from the notoriously feral Dire Wolves is to become the alpha whom they follow. The iron will of Vampires and Necromancers alike can achieve this through strength of mind, but the bestiary provides other, more efficient methods to make the hounds eager to join the fray and fight on the reader's behalf. 	true
+technologies_long_description_tech_arkhan_nagash_monsters_2_1		true
+technologies_onscreen_name_tech_arkhan_nagash_monsters_2_1	Ghostly Steeds	true
+technologies_short_description_tech_arkhan_nagash_monsters_2_1	Behold the reapers - summoned from their cairns to enact the doom of all mortals!  	true
+technologies_long_description_tech_arkhan_nagash_monsters_2_2		true
+technologies_onscreen_name_tech_arkhan_nagash_monsters_2_2	Infernal Devices	true
+technologies_short_description_tech_arkhan_nagash_monsters_2_2	Ushabti are imposing monuments to Nehekhara's former power, and all who pass through their shadows tremble under their unnerving and imposing sight.	true
+technologies_long_description_tech_arkhan_nagash_monsters_2_3		true
+technologies_onscreen_name_tech_arkhan_nagash_monsters_2_3	Vengeful Spirits	true
+technologies_short_description_tech_arkhan_nagash_monsters_2_3	Beasts that are already blooded, that know the thrill of hunting living things, will always be the superior breed. 	true
+technologies_long_description_tech_arkhan_nagash_nagashizzar_me		true
+technologies_onscreen_name_tech_arkhan_nagash_nagashizzar_me	Halls of Nagashizzar	true
+technologies_short_description_tech_arkhan_nagash_nagashizzar_me	Within his audience chamber at the height of the peak the husk of Nagash sits on his throne of skulls. He has brooded here for over a millennium, waiting and planning, guiding his agents by the power of his thoughts.	true
+technologies_onscreen_name_tech_arkhan_nagash_vault_of_nagash_me	Vault of Nagash	true
+technologies_short_description_tech_arkhan_nagash_vault_of_nagash_me	The Black Pyramid was the greatest legacy of the Great Necromancer.	true
+technologies_long_description_tech_arkhan_nagash_vault_of_nagash_me		true
+technologies_onscreen_name_tech_arkhan_nagash_lord_awakening_1	Legion Ascendancy	true
+technologies_short_description_tech_arkhan_nagash_lord_awakening_1		true
+technologies_long_description_tech_arkhan_nagash_lord_awakening_1		true
+technologies_onscreen_name_tech_arkhan_nagash_lord_awakening_2	Sacrament Ascendancy	true
+technologies_short_description_tech_arkhan_nagash_lord_awakening_2		true
+technologies_long_description_tech_arkhan_nagash_lord_awakening_2		true
+technologies_onscreen_name_tech_arkhan_nagash_legions_bonus_1	Dark Studies	true
+technologies_short_description_tech_arkhan_nagash_legions_bonus_1		true
+technologies_long_description_tech_arkhan_nagash_legions_bonus_1		true
+technologies_onscreen_name_tech_arkhan_nagash_legions_bonus_2	Rites of Death	true
+technologies_short_description_tech_arkhan_nagash_legions_bonus_2		true
+technologies_long_description_tech_arkhan_nagash_legions_bonus_2		true
+technologies_onscreen_name_tech_arkhan_nagash_legions_bonus_3	Carver of Bones	true
+technologies_short_description_tech_arkhan_nagash_legions_bonus_3		true
+technologies_long_description_tech_arkhan_nagash_legions_bonus_3		true
+technologies_onscreen_name_tech_arkhan_nagash_sacrament_bonus_1	Books of Necromancy	true
+technologies_short_description_tech_arkhan_nagash_sacrament_bonus_1		true
+technologies_long_description_tech_arkhan_nagash_sacrament_bonus_1		true
+technologies_onscreen_name_tech_arkhan_nagash_sacrament_bonus_2	Formations of Death	true
+technologies_short_description_tech_arkhan_nagash_sacrament_bonus_2		true
+technologies_long_description_tech_arkhan_nagash_sacrament_bonus_2		true
+technologies_onscreen_name_tech_arkhan_nagash_sacrament_bonus_3	Shaper of Decay	true
+technologies_short_description_tech_arkhan_nagash_sacrament_bonus_3		true
+technologies_long_description_tech_arkhan_nagash_sacrament_bonus_3		true

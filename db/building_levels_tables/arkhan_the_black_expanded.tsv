@@ -1,0 +1,33 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
+#building_levels_tables;0;db/building_levels_tables/arkhan_the_black_expanded																						
+stephen_tmb_followers_major_1	wh2_dlc09_tmb_settlement_major	1	4	750	0		false	false		true	wh2_dlc09_tmb_settlement_major	false	0.0	0	true	0	wh2_cam_settlement_major_tombkings	true	0	0		0
+stephen_tmb_followers_major_2	wh2_dlc09_tmb_settlement_major	2	5	1500	0		false	false		true	wh2_dlc09_tmb_settlement_major	false	0.0	1	true	0	wh2_cam_settlement_major_tombkings	true	0	0		0
+stephen_tmb_followers_major_3	wh2_dlc09_tmb_settlement_major	3	6	3000	0		false	false		true	wh2_dlc09_tmb_settlement_major	false	0.0	2	true	0	wh2_cam_settlement_major_tombkings	true	0	0		0
+stephen_tmb_followers_major_4	wh2_dlc09_tmb_settlement_major	4	7	6000	0		false	false		true	wh2_dlc09_tmb_settlement_major	false	0.0	4	true	0	wh2_cam_settlement_major_tombkings	true	0	0		0
+stephen_tmb_followers_major_5	wh2_dlc09_tmb_settlement_major	5	8	12000	0		false	false		true	wh2_dlc09_tmb_settlement_major	false	0.0	5	true	0	wh2_cam_settlement_major_tombkings	true	0	0		0
+stephen_tmb_followers_minor_1	wh2_dlc09_tmb_settlement_minor	1	4	750	0		false	false		true	wh2_dlc09_tmb_settlement_minor	false	0.0	0	true	0	wh2_cam_settlement_minor_tombkings	true	0	0		0
+stephen_tmb_followers_minor_2	wh2_dlc09_tmb_settlement_minor	2	5	1500	0		false	false		true	wh2_dlc09_tmb_settlement_minor	false	0.0	1	true	0	wh2_cam_settlement_minor_tombkings	true	0	0		0
+stephen_tmb_followers_minor_3	wh2_dlc09_tmb_settlement_minor	3	6	3000	0		false	false		true	wh2_dlc09_tmb_settlement_minor	false	0.0	2	true	0	wh2_cam_settlement_minor_tombkings	true	0	0		0
+stephen_tmb_followers_necropolis_1	stephen_tmb_followers_necropolis	0	2	1000	0		false	false		true	stephen_tmb_followers_necropolis	false	0.0	0	true	1		true	0	0		0
+stephen_tmb_followers_necropolis_2	stephen_tmb_followers_necropolis	1	4	6000	0		false	false		true	stephen_tmb_followers_necropolis	false	0.0	0	true	3		true	0	0		0
+stephen_tmb_followers_necropolis_3	stephen_tmb_followers_necropolis	2	8	15000	0		false	false		true	stephen_tmb_followers_necropolis	false	0.0	0	true	5		true	0	0		0
+stephen_tmb_followers_minor_walls_1	stephen_tmb_followers_minor_walls	0	5	2000	0		false	false		true	stephen_tmb_followers_minor_walls	false	0.0	0	true	2		true	0	0		0
+stephen_tmb_followers_minor_walls_2	stephen_tmb_followers_minor_walls	1	6	4000	0		false	false		true	stephen_tmb_followers_minor_walls	false	0.0	0	true	3		true	0	0		0
+stephen_tmb_followers_major_walls_1	stephen_tmb_followers_major_walls	0	5	2000	0		false	false		true	stephen_tmb_followers_major_walls	false	0.0	0	true	2		true	0	0		0
+stephen_tmb_followers_major_walls_2	stephen_tmb_followers_major_walls	1	6	4000	0		false	false		true	stephen_tmb_followers_major_walls	false	0.0	0	true	3		true	0	0		0
+stephen_tmb_followers_major_walls_3	stephen_tmb_followers_major_walls	2	7	6000	0		false	false		true	stephen_tmb_followers_major_walls	false	0.0	0	true	4		true	0	0		0
+stephen_tmb_followers_ushabti_1	stephen_tmb_followers_ushabti	0	4	1000	0		false	false		true	stephen_tmb_followers_ushabti	false	0.0	0	true	2		true	0	0		0
+stephen_tmb_followers_ushabti_2	stephen_tmb_followers_ushabti	1	5	2500	0		false	false		true	stephen_tmb_followers_ushabti	false	0.0	0	true	3		true	0	0		0
+stephen_tmb_followers_barracks_1	stephen_tmb_followers_barracks	0	2	500	0		false	false		true	stephen_tmb_followers_barracks	false	0.0	0	true	1		true	0	0		0
+stephen_tmb_followers_barracks_2	stephen_tmb_followers_barracks	1	3	1000	0		false	false		true	stephen_tmb_followers_barracks	false	0.0	0	true	2		true	0	0		0
+stephen_tmb_followers_barracks_3	stephen_tmb_followers_barracks	2	4	2000	0		false	false		true	stephen_tmb_followers_barracks	false	0.0	0	true	3		true	0	0		0
+arkhan_tmb_vault_nagash	arkhan_tmb_vault_nagash	0	20	10000	0		false	false		true	wh2_main_special_pyramid_of_nagash	false	0.0	0	true	3	wh2_cam_settlement_capital_tombkings	true	0	0		0
+stephen_tmb_followers_scorpions_1	arkhan_tmb_followers_scorpions	0	5	2500	0		false	false		true	arkhan_tmb_followers_scorpions	false	0.0	0	true	3		true	0	0		0
+stephen_tmb_followers_hierotitan_1	stephen_tmb_followers_hierotitan	0	5	8000	0		false	false		true	stephen_tmb_followers_hierotitan	false	0.0	0	true	5		true	0	0		0
+stephen_tmb_followers_necrosphinx_1	stephen_tmb_followers_necrosphinx	0	7	8000	0		false	false		true	stephen_tmb_followers_necrosphinx	false	0.0	0	true	5		true	0	0		0
+stephen_tmb_followers_decaying_battlefield_1	stephen_tmb_followers_decaying_battlefield	0	1	500	0		false	false		true	stephen_tmb_followers_decaying_battlefield	false	0.0	0	true	1		true	0	0		0
+stephen_tmb_followers_decaying_battlefield_2	stephen_tmb_followers_decaying_battlefield	1	2	1000	0		false	false		true	stephen_tmb_followers_decaying_battlefield	false	0.0	0	true	2		true	0	0		0
+stephen_tmb_followers_decaying_battlefield_3	stephen_tmb_followers_decaying_battlefield	2	3	1500	0		false	false		true	stephen_tmb_followers_decaying_battlefield	false	0.0	0	true	3		true	0	0		0
+stephen_tmb_followers_cavalry_1	stephen_tmb_followers_cavalry	0	4	2000	0		false	false		true	stephen_tmb_followers_cavalry	false	0.0	0	true	3		true	0	0		0
+stephen_tmb_followers_cavalry_2	stephen_tmb_followers_cavalry	1	5	3000	0		false	false		true	stephen_tmb_followers_cavalry	false	0.0	0	true	4		true	0	0		0
+stephen_tmb_followers_graveguard	stephen_tmb_followers_graveguard	0	3	2500	0		false	false		true	stephen_tmb_followers_graveguard	false	0.0	0	true	3		true	0	0		0

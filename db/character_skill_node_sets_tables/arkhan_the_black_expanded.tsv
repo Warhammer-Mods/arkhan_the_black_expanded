@@ -1,0 +1,7 @@
+key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtype_key
+#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/arkhan_the_black_expanded							
+sda_skill_node_set_steve_ark_tmb_liche_priest_vampire	wizard	false	false				steve_ark_tmb_liche_priest_vampire
+stephen_skill_node_set_tmb_tomb_king_vampire	general	false	false				arkhan_tmb_tomb_king
+stephen_skill_node_set_tmb_liche_priest_death	wizard	false	false				xereus_tmb_cha_liche_priest_death
+stephen_skill_node_set_tmb_liche_priest_light	wizard	false	false				xereus_tmb_cha_liche_priest_light
+stephen_skill_node_set_tmb_liche_priest_nehekhara	wizard	false	false				xereus_tmb_cha_liche_priest_nehekhara

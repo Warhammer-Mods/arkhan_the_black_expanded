@@ -1,0 +1,12 @@
+faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
+#character_skill_level_details_tables;1;db/character_skill_level_details_tables/arkhan_the_black_lords_heroes						
+		1	stephen_skill_nagash_must_rise		x	19
+		1	stephen_skill_arkhan_unique_vampires_advanced_1		x	11
+		1	stephen_skill_arkhan_unique_vampires_advanced_2		x	11
+		1	arkhan_skill_mount_tmb_wizard_unique_liche_priest_death_skeletal_steed		x	6
+		1	stephen_skill_tmb_liche_priest_death_mount_steed		x	6
+		1	stephen_skill_tmb_liche_priest_light_mount_steed		x	6
+		1	stephen_skill_tmb_liche_priest_nehekhara_mount_steed		x	6
+		1	stephen_skill_tmb_tomb_king_mount_warsphinx		x	13
+		1	stephen_skill_tmb_tomb_king_mount_steed		x	3
+		1	stephen_skill_tmb_tomb_king_mount_chariot		x	9

@@ -1,0 +1,85 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_the_black_expanded_effects__.loc		
+effects_description_wh2_dlc10_effect_skill_rank_increase_fell_bats_crypt_ghoul_dire_wolves_hexwraiths	Recruit rank: %+n for Cairn Wraiths, Fell Bats, Dire Wolves, Crypt Ghouls, Hexwraiths & Mortis Engine units	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_skeleton_archers_hidden	Unit capacity: %+n\\nSkeleton Archers	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_tomb_guard_hidden	Unit capacity: %+n\\nTomb Guard	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_tomb_guard_halberd_hidden	Unit capacity: %+n\\nTomb Guard (Halberds)	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_nehekhara_warriors_hidden	Unit capacity: %+n\\nNehekhara Warriors	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_cairn_wraith_hidden	Unit capacity: %+n\\nCairn Wraiths	false
+effects_description_wh2_dlc09_effect_unit_cap_tmb_cav_hexwraiths_hidden	Unit capacity: %+n\\nHexwraiths	false
+effects_description_wh2_dlc09_effect_unit_cap_tmb_inf_crypt_ghouls_hidden	Unit capacity: %+n\\nCrypt Ghouls	false
+effects_description_wh2_dlc09_effect_unit_cap_tmb_mon_dire_wolves_hidden	Unit capacity: %+n\\nDire Wolves	false
+effects_description_wh2_dlc09_effect_unit_cap_tmb_mon_fell_bats_hidden	Unit capacity: %+n\\nFell Bats	false
+effects_description_stephen_effect_ability_enable_dark_reanimation	"Ability: ""Dark Reanimation"""	false
+effects_description_stephen_effect_ability_enable_dark_reanimation_upgraded	"Ability: ""Dark Reanimation Upgraded"""	false
+effects_description_stephen_effect_passive_undying_legions	Passive ability 'Undying Legions'	false
+effects_description_stephen_effect_ability_enable_spell_mastery	Attribute: Mastery of the Elemental Winds for Liche Priest Heroes 	false
+effects_description_stephen_effect_arkhan_remove_advanced_death_magic_1	"Disables spells: ""Aspect of the Dread Knight"" and ""Purple Sun of Xereus"""	false
+effects_description_stephen_effect_arkhan_unlock_advanced_vampire_magic_1	"Enables spells: ""Raise Zombies"" and ""Wind of Death"""	false
+effects_description_stephen_effect_arkhan_remove_advanced_death_magic_1_dummy	"Disables spells: ""Aspect of the Dread Knight"" and ""Purple Sun of Xereus"" (when equipped)"	false
+effects_description_stephen_effect_arkhan_unlock_advanced_vampire_magic_1_dummy	"Enables spells: ""Raise Zombies"" and ""Wind of Death"" (when equipped)"	false
+effects_description_stephen_effect_arkhan_remove_advanced_death_magic_2	"Disables spells: ""Doom & Darkness"" and ""Fate of Bjuna"""	false
+effects_description_stephen_effect_arkhan_unlock_advanced_vampire_magic_2	"Enables spells: ""Invocation of Nehek"" and ""Curse of Years"""	false
+effects_description_stephen_effect_arkhan_remove_advanced_death_magic_2_dummy	"Disables spells: ""Doom & Darkness"" and ""Fate of Bjuna"" (when equipped)"	false
+effects_description_stephen_effect_arkhan_unlock_advanced_vampire_magic_2_dummy	"Enables spells: ""Invocation of Nehek"" and ""Curse of Years"" (when equipped)"	false
+effects_description_stephen_effect_arkhan_item_advanced_vampire_magic_dummy	"Grants arcane item: [[col:yellow]]""Necromantic Shard""[[/col]]"	false
+effects_description_stephen_effect_ability_enable_necromantic_vigour	"Passive ability: ""Necromantic Vigour"""	false
+effects_description_wh2_dlc09_effect_unit_cap_xereus_tmb_inf_grave_guard	Unit capacity: %+n\\nGrave Guard	false
+effects_description_wh2_dlc09_effect_unit_cap_xereus_tmb_inf_grave_guard_great	Unit capacity: %+n\\nGrave Guard (Great Weapons)	false
+effects_description_wh2_dlc09_effect_unit_cap_xereus_tmb_mon_terrorgheist	Unit capacity: %+n\\nTerrorgheists	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_cairn_wraith	Unit capacity: %+n\\nCairn Wraiths	false
+effects_description_sda_effect_unit_cap_xereus_tmb_veh_mortis_engine	Unit capacity: %+n\\nMortis Engine	false
+effects_description_wh2_dlc09_effect_unit_cap_xereus_tmb_mon_crypt_horror	Unit capacity: %+n\\nCrypt Horrors	false
+effects_description_stephen_effect_ability_liber_mortis_cooldown	"Cooldown: %+n% to ""The Liber Mortis"""	false
+effects_description_stephen_effect_ability_necropolis_blast_cooldown	"Cooldown: %+n% to ""Eldritch Blast"""	false
+effects_description_sda_effect_arkhan_vampire_unit_increase	Unit capacity: %+n\\nVampiric Units	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_nagashizzar_guard	Unit capacity: %+n\\nNagashizzar Guard	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_skeleton_archers	Unit capacity: %+n\\nSkeleton Archers	false
+effects_description_sda_effect_unit_cap_xereus_tmb_mon_zombie_dragon	Unit capacity: %+n\\nZombie Dragon	false
+effects_description_sda_effect_unit_cap_xereus_tmb_mon_ushabti	Unit capacity: %+n\\nUshabti	false
+effects_description_sda_effect_unit_cap_xereus_tmb_mon_ushabti_great	Unit capacity: %+n\\nUshabti (Great Bows)	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_tomb_guard	Unit capacity: %+n\\nTomb Guard	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_tomb_guard_halberd	Unit capacity: %+n\\nTomb Guard (Halberds)	false
+effects_description_sda_effect_unit_cap_xereus_tmb_art_screaming_skull_catapult	Unit capacity: %+n\\nScreaming Skull Catapults	false
+effects_description_sda_effect_unit_cap_xereus_tmb_mon_tomb_scorpion	Unit capacity: %+n\\nTomb Scorpions	false
+effects_description_sda_effect_unit_cap_xereus_tmb_inf_nehekhara_warriors	Unit capacity: %+n\\nNehekhara Warriors	false
+effects_description_sda_effect_unit_cap_xereus_tmb_mon_heirotitan	Unit capacity: %+n\\nHeirotitans	false
+effects_description_sda_effect_unit_cap_xereus_tmb_mon_necrosphinx	Unit capacity: %+n\\nNecrosphinx	false
+effects_description_stephen_effect_unit_cap_xereus_tmb_cav_necropolis_knights_1	Unit capacity: %+n\\nNecropolis Knights	true
+effects_description_stephen_effect_unit_cap_xereus_tmb_cav_necropolis_knights_2	Unit capacity: %+n\\nNecropolis Knights (Halberds)	true
+effects_description_stephen_effect_agent_enable_recruitment_liche_priest	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Liche Priest	false
+effects_description_stephen_effect_agent_enable_recruitment_tomb_prince	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Tomb Prince	true
+effects_description_stephen_effect_agent_enable_recruitment_necrotect	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Necrotect	true
+effects_description_stephen_effect_agent_cap_increase_liche_priest	Hero capacity: %+n for Liche Priest	false
+effects_description_sda_effect_agent_recruitment_xp_tmb_liche_priest_vampires	Hero recruit rank: %+n for Liche Priest (Nehekhara)	false
+effects_description_stephen_effect_ability_enable_garrison_heroes	[HIDDEN] Enables abilities for Heroes in garrisons	false
+effects_description_tech_arkhan_crypt_ghoul_bonus_1	Enables magical attacks for Crypt Ghoul units	false
+effects_description_tech_arkhan_crypt_ghoul_bonus_2	Physical resistance: %n% for Crypt Ghoul units	false
+effects_description_tech_arkhan_crypt_ghoul_bonus_3	Speed: %+n% for Crypt Ghoul units	false
+effects_description_tech_arkhan_dire_wolves_bonus_1	Enables poison attacks for Dire Wolves	false
+effects_description_tech_arkhan_dire_wolves_bonus_2	Speed: %+n% for Dire Wolves	false
+effects_description_tech_arkhan_dire_wolves_bonus_3	Bonus vs Infantry: %+n for Dire Wolves	false
+effects_description_tech_arkhan_fell_bats_bonus_1	"Passive ability: ""The Hunger"" for Fell Bats"	false
+effects_description_tech_arkhan_fell_bats_bonus_2	Physical resistance: %n% for Fell Bats	false
+effects_description_tech_arkhan_fell_bats_bonus_3	Enables magical attacks for Fell Bats	false
+effects_description_tech_arkhan_cairn_wraiths_bonus_1	Barrier hit points: %+n for Cairn Wraith units	false
+effects_description_tech_arkhan_cairn_wraiths_bonus_2	"Passive ability: ""Hellblade"" for Cairn Wraith units"	false
+effects_description_tech_arkhan_cairn_wraiths_bonus_3	Melee attack: %+n for Cairn Wraith units	false
+effects_description_tech_arkhan_hexwraith_bonus_1	Barrier hit points: %+n for Hexwraith units	false
+effects_description_tech_arkhan_hexwraith_bonus_2	Attribute: Devastating Flanker for Hexwraith units	false
+effects_description_tech_arkhan_hexwraith_bonus_3	Speed: %+n% for Hexwraith units	false
+effects_description_tech_arkhan_mortis_engine_bonus_1	Barrier hit points: %+n for Mortis Engine units	false
+effects_description_tech_arkhan_mortis_engine_bonus_2	"Passive ability: ""Arcane Mirth"" for Mortis Engine units"	false
+effects_description_tech_arkhan_mortis_engine_bonus_3	Speed: %+n% for Mortis Engine units	false
+effects_description_tech_arkhan_barracks_unit_capacity	Unit capacity: %+n\\nNehekharan Warriors & Skeleton Archers	false
+effects_description_tech_arkhan_mound_unit_capacity	Unit capacity: %+n\\nCrypt Ghouls, Dire Wolves & Fell Bats	false
+effects_description_tech_arkhan_enable_army_abilty_raise_skeletons	"Army ability: ""Raise Skeleton Warriors"""	false
+effects_description_stephen_effect_ability_raise_dead_enable	"Spell: ""Raise Dead"""	false
+effects_description_stephen_effect_ability_cooldown_raise_dead	"Cooldown: %+n% to ""Raise Dead"""	false
+effects_description_stephen_effect_ability_uses_raise_dead	"Spell number of uses: %+n for ""Raise Dead"""	false
+effects_description_stephen_effect_ability_wom_raise_dead	"Winds of Magic cost: %n for ""Raise Dead"""	false
+effects_description_tech_arkhan_effect_agent_action_passive_spread_corruption_vampiric	Vampiric corruption: %+n	false
+effects_description_tech_arkhan_effect_agent_action_passive_spread_corruption_buff	[[col:yellow]]{{tr:agent_action_name_spread_corruption}}[[/col]] action: Vampiric corruption is increased by an additional %n	false
+effects_description_tech_arkhan_effect_campaign_attrition_vampiric_attrition_casualties	Attrition: %+n% casualties suffered from Vampiric territory attrition	false
+effects_description_tech_arkhan_main_effect_commandment_asaph	Worship of Asaph commandment: additional %n to Vampiric corruption 	false
+effects_description_tech_arkhan_main_effect_commandment_khasar	Worship of Khasar commandment: Defensive supplies: %+n per turn when under siege	false

@@ -1,0 +1,25 @@
+key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/arkhan_technology														
+tech_arkhan_nagash_monsters_1_1			5	tech_arkhan_nagash_monsters_1_1	tmb_mil	14	200	0	0			0	0	0
+tech_arkhan_nagash_monsters_1_2			6	tech_arkhan_nagash_monsters_1_2	tmb_mil	14	200	0	0			0	0	0
+tech_arkhan_nagash_monsters_1_3			7	tech_arkhan_nagash_monsters_1_3	tmb_mil	14	200	0	0			0	0	0
+tech_arkhan_nagash_monsters_2_1			5	tech_arkhan_nagash_monsters_2_1	tmb_mil	20	200	0	0			0	0	0
+tech_arkhan_nagash_monsters_2_2			6	tech_arkhan_nagash_monsters_2_2	tmb_mil	20	200	0	0			0	0	0
+tech_arkhan_nagash_monsters_2_3			7	tech_arkhan_nagash_monsters_2_3	tmb_mil	20	200	0	0			0	0	0
+tech_arkhan_nagash_arkhans_legions			4	tech_arkhan_nagash_arkhans_legions	tmb_mil	17	1	0	0	arkhan_3	wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+tech_arkhan_nagash_black_tower			1	tech_arkhan_nagash_black_tower	tmb_mil	16	1	100000	0		arkhan_tech_unlock	0	0	0
+tech_arkhan_nagash_black_pyramid			1	tech_arkhan_nagash_black_pyramid	tmb_mil	18	1	100000	0		arkhan_tech_unlock	0	0	0
+tech_arkhan_army_unlock_left			4	tech_arkhan_army_unlock_left	tmb_mil	15	1500	0	0	arkhan_1		0	0	0
+tech_arkhan_army_unlock_right			4	tech_arkhan_army_unlock_right	tmb_mil	19	1500	0	0	arkhan_2		0	0	0
+tech_arkhan_nagash_burial_mound			8	tech_arkhan_nagash_burial_mound	tmb_mil	15	1	5000	0			0	0	0
+tech_arkhan_nagash_royal_barracks			8	tech_arkhan_nagash_royal_barracks	tmb_mil	19	1	5000	0			0	0	0
+tech_arkhan_nagash_nagashizzar_me			0	tech_arkhan_nagash_nagashizzar_me	tmb_mil	17	1	0	0		arkhan_tech_unlock	0	0	0
+tech_arkhan_nagash_vault_of_nagash_me			2	tech_arkhan_nagash_vault_of_nagash_me	tmb_mil	17	1	0	0		arkhan_tech_unlock	0	0	0
+tech_arkhan_nagash_lord_awakening_1			0	tech_arkhan_nagash_lord_awakening_1	tmb_mil	15	1	100000	0		arkhan_tech_unlock	0	0	0
+tech_arkhan_nagash_lord_awakening_2			0	tech_arkhan_nagash_lord_awakening_2	tmb_mil	19	1	100000	0		arkhan_tech_unlock	0	0	0
+tech_arkhan_nagash_legions_bonus_1			1	tech_arkhan_nagash_legions_bonus_1	tmb_mil	14	200	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+tech_arkhan_nagash_legions_bonus_2			2	tech_arkhan_nagash_legions_bonus_2	tmb_mil	14	200	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+tech_arkhan_nagash_legions_bonus_3			3	tech_arkhan_nagash_legions_bonus_3	tmb_mil	14	200	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+tech_arkhan_nagash_sacrament_bonus_1			1	tech_arkhan_nagash_sacrament_bonus_1	tmb_mil	20	200	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+tech_arkhan_nagash_sacrament_bonus_2			2	tech_arkhan_nagash_sacrament_bonus_2	tmb_mil	20	200	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0
+tech_arkhan_nagash_sacrament_bonus_3			3	tech_arkhan_nagash_sacrament_bonus_3	tmb_mil	20	200	0	0		wh2_dlc09_tmb_tech_follower_unlock	0	0	0

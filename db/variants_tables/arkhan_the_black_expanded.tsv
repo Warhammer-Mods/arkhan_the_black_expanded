@@ -1,0 +1,49 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/arkhan_the_black_expanded							
+xereus_tmb_inf_grave_guard		xereus_tmb_inf_grave_guard	hu1\vmp\vmp_black_knights\low_poly\vmp_grave_guards_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_mon_terrorgheist		xereus_tmb_mon_terrorgheist		1.0	1.0	0.0	
+xereus_tmb_mon_crypt_horror		xereus_tmb_mon_crypt_horror	hu8\vmp\vmp_crypt_horror\low_poly\vmp_crypt_horror_lowlod	1.0	1.5	0.0	
+xereus_tmb_inf_grave_guard_great		xereus_tmb_inf_grave_guard_great	hu1\vmp\vmp_black_knights\low_poly\vmp_grave_guard_great_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_inf_cairn_wraith		xereus_tmb_inf_cairn_wraith	gh1\vmp\vmp_cairn_wraith\low_poly\vmp_cairn_wraith_lowlod	1.0	1.0	0.05	
+xereus_tmb_inf_zmb_summon		xereus_tmb_inf_zmb_summon	hu1\vmp\vmp_zombies\low_poly\vmp_zombies_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_veh_mortis_engine		xereus_tmb_veh_mortis_engine		1.0	1.0	0.05	
+wh2_dlc09_tmb_skeletal_steed_mortis_engine		wh2_dlc09_tmb_skeletal_steed_mortis_engine		1.0	1.0	0.05	
+xereus_tmb_inf_nagashizzar_guard		xereus_tmb_inf_nagashizzar_guard	hu1\vmp\vmp_black_knights\low_poly\vmp_grave_guards_lowlod	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_inf_skeleton_spearmen		xereus_tmb_inf_skeleton_spearmen	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_spear_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_inf_skeleton_warriors		xereus_tmb_inf_skeleton_warriors	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_sword_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_inf_skeleton_archers		xereus_tmb_inf_skeleton_archers	hu1\tmb\tmb_skeleton_warriors\imposter\tmb_skeleton_warriors_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_mon_zombie_dragon		xereus_tmb_mon_zombie_dragon		1.0	1.0	0.0	
+xereus_tmb_mon_ushabti		xereus_tmb_mon_ushabti	hu6e/tmb/tmb_ushabti/imposter/tmb_ushabti_imposter	1.0	1.0	0.0	
+xereus_tmb_mon_ushabti_great		xereus_tmb_mon_ushabti_great	hu6e/tmb/tmb_ushabti/imposter/tmb_ushabti_great_bow_imposter	1.0	1.0	0.0	
+xereus_tmb_inf_tomb_guard		xereus_tmb_inf_tomb_guard	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_inf_tomb_guard_halberd		xereus_tmb_inf_tomb_guard_halberd	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_halberd_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+steve_ark_tmb_cha_liche_priest_vampire_1		tmb_cha_liche_priest_vampire_1		1.0	1.1	0.05	
+steve_ark_tmb_cha_liche_priest_vampire_2		tmb_cha_liche_priest_vampire_2		1.0	1.1	0.05	
+steve_ark_tmb_cha_liche_priest_vampire_3		tmb_cha_liche_priest_vampire_3		1.0	1.1	0.05	
+steve_ark_tmb_cha_liche_priest_vampire_4		tmb_cha_liche_priest_vampire_4		1.0	1.1	0.05	
+steve_ark_tmb_cha_liche_priest_vampire_5		tmb_cha_liche_priest_vampire_5		1.0	1.1	0.05	
+arkhan_tmb_tomb_king_1		arkhan_tmb_tomb_king_1		1.0	1.2	0.05	
+arkhan_tmb_tomb_king_2		arkhan_tmb_tomb_king_2		1.0	1.2	0.05	
+arkhan_tmb_tomb_king_3		arkhan_tmb_tomb_king_3		1.0	1.2	0.05	
+arkhan_tmb_tomb_king_4		arkhan_tmb_tomb_king_4		1.0	1.2	0.05	
+xereus_tmb_mon_tomb_scorpion		xereus_tmb_mon_tomb_scorpion		1.0	1.0	0.0	
+xereus_tmb_inf_nehekhara_warriors		xereus_tmb_inf_nehekhara_warriors	hu1\tmb\tmb_skeleton_warriors_armored\imposter\tmb_skeleton_armoured_sword_dual_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
+xereus_tmb_mon_heirotitan		xereus_tmb_mon_heirotitan		1.0	1.0	0.0	
+xereus_tmb_mon_necrosphinx		xereus_tmb_mon_necrosphinx		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_death_1		tmb_cha_liche_priest_vampire_1		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_death_2		tmb_cha_liche_priest_vampire_2		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_death_3		tmb_cha_liche_priest_vampire_3		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_death_4		tmb_cha_liche_priest_vampire_4		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_death_5		tmb_cha_liche_priest_vampire_5		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_light_1		tmb_cha_liche_priest_vampire_1		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_light_2		tmb_cha_liche_priest_vampire_2		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_light_3		tmb_cha_liche_priest_vampire_3		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_light_4		tmb_cha_liche_priest_vampire_4		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_light_5		tmb_cha_liche_priest_vampire_5		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_nehekhara_1		tmb_cha_liche_priest_vampire_1		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_nehekhara_2		tmb_cha_liche_priest_vampire_2		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_nehekhara_3		tmb_cha_liche_priest_vampire_3		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_nehekhara_4		tmb_cha_liche_priest_vampire_4		1.0	1.0	0.0	
+xereus_tmb_cha_liche_priest_nehekhara_5		tmb_cha_liche_priest_vampire_5		1.0	1.0	0.0	
+xereus_tmb_cav_necropolis_knights_1		xereus_tmb_cav_necropolis_knights_1	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_spear_shield_imposter	1.0	1.0	0.0	hu1\imposter\humanoid_imposter
+xereus_tmb_cav_necropolis_knights_2		xereus_tmb_cav_necropolis_knights_2	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_halberd_shield_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter

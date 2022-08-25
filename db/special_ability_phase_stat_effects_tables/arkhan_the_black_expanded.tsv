@@ -1,0 +1,6 @@
+phase	stat	value	how
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/arkhan_the_black_expanded			
+skill_arkhan_character_abilities_tomb_king_rally	stat_morale	16.0	add
+skill_arkhan_character_abilities_tomb_king_rally_upgraded	stat_morale	16.0	add
+arkhan_unit_abilities_passive_hellblade	scalar_speed	1.1	mult
+arkhan_unit_abilities_passive_hellblade	stat_melee_damage_ap	1.2	mult

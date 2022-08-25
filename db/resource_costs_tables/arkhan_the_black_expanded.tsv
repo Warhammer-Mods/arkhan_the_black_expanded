@@ -1,0 +1,3 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/arkhan_the_black_expanded					
+arkhan_tech_unlock	0	TECHNOLOGIES	TECHNOLOGIES	ARMY_UPKEEP	BACKGROUND_INCOME

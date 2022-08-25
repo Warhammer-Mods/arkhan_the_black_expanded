@@ -1,0 +1,17 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/arkhan_the_black_lords_heroes									
+stephen_skill_nagash_must_rise	wh2_dlc11_grave_sentinels.png	Arkhan’s mastery of the dread art of necromancy is superior to even that of his fellow Mortarchs. He is so steeped in deathly sorcery that his presence bolsters and invorgates his forces.	First of the Mortarchs	19	false	false	false	0.0	0
+stephen_skill_tmb_lord_reanimation	wh2_dlc09_reanimate.png	It takes an iron will and unnatural - supernatural - strength to rally bound troops routed by magical means.	Dark Reanimation	0	false	false	false	0.0	0
+stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_reanimate_upgraded.png	Dark litanies are uttered to restore the Tomb Kings' slain soldiers to a twisted, chattering imitation of life.	Dark Resurrection	0	false	false	false	0.0	0
+stephen_skill_arkhan_unique_vampires_advanced_1	wh_main_lore_passive_the_curse_of_undeath.png		Necromantic Shard	11	false	false	false	0.0	0
+stephen_skill_arkhan_unique_vampires_advanced_2	wh_main_lore_passive_the_curse_of_undeath.png		Necromantic Shard	11	false	false	false	0.0	0
+arkhan_skill_all_dummy_agent_actions_tmb_liche_priest_vampires	battle_attack.png	 	Actions [HIDDEN]	0	false	false	false	0.0	0
+arkhan_skill_mount_tmb_wizard_unique_liche_priest_death_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
+stephen_skill_tmb_liche_priest_death_mount_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
+stephen_skill_tmb_liche_priest_light_mount_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
+stephen_skill_tmb_liche_priest_nehekhara_mount_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
+stephen_skill_tmb_tomb_king_mount_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	3	false	false	false	0.0	0
+stephen_skill_tmb_tomb_king_mount_chariot	mount_skeleton_chariot.png	The pride of Nehekharan armies, impacting enemy lines with bone-shattering force and grinding the corpses beneath their heavy wheels.	Skeleton Chariot	13	false	false	false	0.0	0
+stephen_skill_tmb_tomb_king_mount_warsphinx	mount_warsphinx.png	Giant leonine statues, almost impervious to harm; they wade through foes, crushing them like bothersome insects.	Khemrian Warsphinx	17	false	false	false	0.0	0
+stephen_skill_tmb_tomb_king_title	HIDDEN			0	false	false	false	0.0	0
+stephen_skill_tmb_magic_vampires_raise_dead	wh_main_spell_vampires_raise_dead.png	 	Raise Dead	0	false	false	false	0.0	0
