@@ -1,0 +1,34 @@
+name: DB check
+
+on: 
+  push:
+    branches:
+      - main
+      - develop
+      - 'feature/**'
+      - 'hotfix/**'
+      - 'bugfix/**'
+      - 'support/**'
+      - 'update/**'
+    paths:
+      - 'db/**'
+      - 'text/**'
+  pull_request:
+    branches:
+      - main
+      - develop
+      - 'feature/**'
+      - 'hotfix/**'
+      - 'bugfix/**'
+      - 'support/**'
+      - 'update/**'
+  workflow_dispatch:
+
+jobs:
+  db-check:
+    uses: Warhammer-Mods/workflows/.github/workflows/db-check.yml@v1
+    with:
+      paths: db
+      pr_enabled: true
+    secrets:
+      token: ${{ github.token }}
