@@ -63,7 +63,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7.0.1
     - name: Set values
       id: values
       run: |
@@ -93,25 +93,12 @@ jobs:
         echo "schema_path=rpfm-schemas/schema_${alias[${{ inputs.game }}]}.ron" >> $GITHUB_OUTPUT
         echo "packfile=${{ github.event.repository.name }}.pack" >> $GITHUB_OUTPUT
         echo "workflows_last_commit_sha=${workflows_last_commit_sha}" >> $GITHUB_OUTPUT
-    - name: Get file list
-      id: glob
-      uses: tj-actions/glob@v17
-      with:
-        files-separator: ${{ inputs.paths_separator }}
-        files: ${{ inputs.paths }}
-        match-directories: false
-        separator: "\n"
-    - name: Generate options
+    - name: Select game files and generate options
       id: opts
-      run: |
-        [ "${DEBUG_ENABLED}" = 'true' ] && set -x
-
-        declare -a args
-        while IFS= read -r path; do
-          args+=("-f '"${path}";"${path}"'")
-        done <<< '${{ steps.glob.outputs.paths }}'
-
-        echo "rpfm-add-paths=${args[@]}" >> $GITHUB_OUTPUT
+      env:
+        PACK_PATHS: ${{ inputs.paths }}
+        PACK_SEPARATOR: ${{ inputs.paths_separator }}
+      run: python3 .github/scripts/pack_options.py
     - name: Schema info
       id: schema-info
       run: |
@@ -126,20 +113,20 @@ jobs:
         echo "last_commit_sha=${last_commit_sha}" >> $GITHUB_OUTPUT
     - name: Cache Schema
       id: cache-schema
-      uses: actions/cache@v4
+      uses: actions/cache@v6.1.0
       with:
         key: schema-${{ inputs.game }}-SHA${{ steps.schema-info.outputs.last_commit_sha }}
         path: ${{ steps.values.outputs.schema_path }}
     - name: Checkout Schemas
       if: steps.cache-schema.outputs.cache-hit != 'true'
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7.0.1
       with:
         repository: ${{ env.SCHEMA_REPO }}
         ref: ${{ env.SCHEMA_REF }}
         path: rpfm-schemas
     - name: Cache problem matcher
       id: cache-matcher
-      uses: actions/cache@v4
+      uses: actions/cache@v6.1.0
       with:
         key: matcher-${{ env.PROBLEM_MATCHER }}-SHA${{ steps.values.outputs.workflows_last_commit_sha }}
         path: matchers/${{ env.PROBLEM_MATCHER }}
@@ -175,13 +162,13 @@ jobs:
         echo "::remove-matcher owner=rpfm_cli_warning::"
         echo "::remove-matcher owner=rpfm_cli_error::"
     - name: Upload artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7.0.1
       with:
         name: ${{ github.event.repository.name }}
         path: ${{ steps.values.outputs.packfile }}
         retention-days: 90
     - name: Upload artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7.0.1
       with:
         name: rpfm-cli log
         path: rpfm*.log
