@@ -13,6 +13,8 @@ on:
     paths:
       - 'script/**'
       - '.luacheckrc'
+      - '.github/workflows/**'
+      - '.github/scripts/**'
   pull_request:
     branches:
       - main
@@ -24,13 +26,33 @@ on:
       - 'update/**'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: lua-lint-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  db-check:
-    uses: Warhammer-Mods/workflows/.github/workflows/lua-lint.yml@v1
-    with:
-      paths: script
-      config_file: .luacheckrc
-      vendor_path: .luarocks
-      pr_enabled: true
-    secrets:
-      token: ${{ github.token }}
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua checker
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes lua-check
+      - name: Check campaign scripts
+        shell: bash
+        run: |
+          # Luacheck returns 1 for warnings and 2 for syntax errors.
+          # Preserve the existing workflow's warning policy.
+          set +e
+          luacheck script --config .luacheckrc --formatter plain --codes --ranges
+          result=$?
+          if [ "$result" -eq 1 ]; then
+            echo "::warning::Luacheck reported warnings; see the lint log."
+            exit 0
+          fi
+          exit "$result"

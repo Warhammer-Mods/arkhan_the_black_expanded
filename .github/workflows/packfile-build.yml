@@ -1,0 +1,190 @@
+name: Build Packfile
+
+on: 
+  workflow_call:
+    inputs:
+      paths:
+        required: false
+        type: string
+        default: |
+          *
+          !.git/**
+          !.vscode/**
+          !**/.*
+          !**/*.rockspec
+          !matchers/*
+        description: |
+          A list of glob patterns to include in the packfile.
+      paths_separator:
+        required: false
+        type: string
+        default: "\n"
+        description: |
+          Separator used to split the paths input.
+      game:
+        required: true
+        type: string
+        default: warhammer_3
+        description: |
+          Game used for packfile building.
+          Can be one of the following:
+            arena
+            attila
+            empire
+            napoleon
+            rome_2
+            shogun_2
+            three_kingdoms
+            thrones_of_britannia
+            troy
+            warhammer
+            warhammer_2
+            warhammer_3
+      debug_enabled:
+        required: false
+        type: boolean
+        default: false
+        description: Enable debug logging
+    secrets:
+      token:
+        required: true
+
+env:
+  DEBUG_ENABLED: ${{ secrets.ACTIONS_STEP_DEBUG == 'true' || inputs.debug_enabled }}
+  GH_TOKEN: ${{ secrets.token }}
+  PROBLEM_MATCHER: rpfm_cli.json
+  SCHEMA_REF: master
+  SCHEMA_REPO: Frodo45127/rpfm-schemas
+  WORKFLOW_REF: v2
+  WORKFLOW_REPO: Warhammer-Mods/workflows
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set values
+      id: values
+      run: |
+        [ "${DEBUG_ENABLED}" = 'true' ] && set -x
+
+        workflows_last_commit_sha=$(
+          gh api -H "Accept: application/vnd.github+json" \
+          /repos/${WORKFLOW_REPO}/commits/${WORKFLOW_REF} \
+          --jq '.sha'
+        )
+
+        declare -A alias=(
+          [arena]=are
+          [attila]=att
+          [empire]=emp
+          [napoleon]=nap
+          [rome_2]=rom2
+          [shogun_2]=sho2
+          [three_kingdoms]=3k
+          [thrones_of_britannia]=tob
+          [troy]=troy
+          [warhammer]=wh
+          [warhammer_2]=wh2
+          [warhammer_3]=wh3
+        )
+
+        echo "schema_path=rpfm-schemas/schema_${alias[${{ inputs.game }}]}.ron" >> $GITHUB_OUTPUT
+        echo "packfile=${{ github.event.repository.name }}.pack" >> $GITHUB_OUTPUT
+        echo "workflows_last_commit_sha=${workflows_last_commit_sha}" >> $GITHUB_OUTPUT
+    - name: Get file list
+      id: glob
+      uses: tj-actions/glob@v17
+      with:
+        files-separator: ${{ inputs.paths_separator }}
+        files: ${{ inputs.paths }}
+        match-directories: false
+        separator: "\n"
+    - name: Generate options
+      id: opts
+      run: |
+        [ "${DEBUG_ENABLED}" = 'true' ] && set -x
+
+        declare -a args
+        while IFS= read -r path; do
+          args+=("-f '"${path}";"${path}"'")
+        done <<< '${{ steps.glob.outputs.paths }}'
+
+        echo "rpfm-add-paths=${args[@]}" >> $GITHUB_OUTPUT
+    - name: Schema info
+      id: schema-info
+      run: |
+        [ "${DEBUG_ENABLED}" = 'true' ] && set -x
+
+        last_commit_sha=$(
+          gh api \
+            /repos/${{ env.SCHEMA_REPO }}/commits/${{ env.SCHEMA_REF }} \
+            --jq '.sha'
+        )
+
+        echo "last_commit_sha=${last_commit_sha}" >> $GITHUB_OUTPUT
+    - name: Cache Schema
+      id: cache-schema
+      uses: actions/cache@v4
+      with:
+        key: schema-${{ inputs.game }}-SHA${{ steps.schema-info.outputs.last_commit_sha }}
+        path: ${{ steps.values.outputs.schema_path }}
+    - name: Checkout Schemas
+      if: steps.cache-schema.outputs.cache-hit != 'true'
+      uses: actions/checkout@v4
+      with:
+        repository: ${{ env.SCHEMA_REPO }}
+        ref: ${{ env.SCHEMA_REF }}
+        path: rpfm-schemas
+    - name: Cache problem matcher
+      id: cache-matcher
+      uses: actions/cache@v4
+      with:
+        key: matcher-${{ env.PROBLEM_MATCHER }}-SHA${{ steps.values.outputs.workflows_last_commit_sha }}
+        path: matchers/${{ env.PROBLEM_MATCHER }}
+    - name: Download problem matcher
+      shell: bash
+      if: steps.cache-matcher.outputs.cache-hit != 'true'
+      run: |
+        mkdir -p matchers
+        curl -sL --fail --retry 5 \
+          -o matchers/${{ env.PROBLEM_MATCHER }} \
+          "${GITHUB_SERVER_URL}/${{ env.WORKFLOW_REPO }}/raw/${{ env.WORKFLOW_REF }}/matchers/${{ env.PROBLEM_MATCHER }}"
+    - run: echo "::add-matcher::matchers/${{ env.PROBLEM_MATCHER }}"
+    - name: Create packfile
+      uses: Warhammer-Mods/rpfm_cli-docker@master
+      with:
+        options: -v
+        game: ${{ inputs.game }}
+        subcommand: pack
+        run: >-
+          create
+          -p ${{ steps.values.outputs.packfile }}
+    - name: Populate packfile
+      uses: Warhammer-Mods/rpfm_cli-docker@master
+      with:
+        options: -v
+        game: ${{ inputs.game }}
+        subcommand: pack
+        run: >-
+          add ${{ steps.opts.outputs.rpfm-add-paths }}
+          -t ${{ steps.values.outputs.schema_path }}
+          -p ${{ steps.values.outputs.packfile }}
+    - run: |
+        echo "::remove-matcher owner=rpfm_cli_warning::"
+        echo "::remove-matcher owner=rpfm_cli_error::"
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ github.event.repository.name }}
+        path: ${{ steps.values.outputs.packfile }}
+        retention-days: 90
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: rpfm-cli log
+        path: rpfm*.log
+        retention-days: 90
+        if-no-files-found: ignore
+

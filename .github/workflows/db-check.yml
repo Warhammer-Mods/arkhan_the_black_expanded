@@ -13,6 +13,8 @@ on:
     paths:
       - 'db/**'
       - 'text/**'
+      - '.github/workflows/**'
+      - '.github/scripts/**'
   pull_request:
     branches:
       - main
@@ -24,11 +26,18 @@ on:
       - 'update/**'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: db-check-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  db-check:
-    uses: Warhammer-Mods/workflows/.github/workflows/db-check.yml@v1
-    with:
-      paths: db
-      pr_enabled: true
-    secrets:
-      token: ${{ github.token }}
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate database and localisation exports
+        run: python3 .github/scripts/check_tsv.py
