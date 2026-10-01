@@ -1,0 +1,5 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/arkhan_energy					
+arkhan_lotd_effect_necromantic_energy_buildings	icon_necromantic_power.png	7	icon_necromantic_power.png	campaign	true
+arkhan_lotd_necromantic_energy_buildings_post_mod	icon_necromantic_power.png	103	icon_necromantic_power.png	campaign	true
+arkhan_lotd_necromantic_energy_battle_post_mod	icon_necromantic_power.png	102	icon_necromantic_power.png	campaign	true

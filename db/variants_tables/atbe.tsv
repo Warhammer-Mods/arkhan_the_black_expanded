@@ -1,0 +1,21 @@
+variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables;6;db/variants_tables/atbe							
+xereus_tmb_inf_grave_guard		lsh_nehekwight_guard	hu1\vmp\vmp_black_knights\low_poly\vmp_grave_guards_lowlod	1.0	1.0	0.05000000074505806	hu1\imposter\humanoid_imposter
+xereus_tmb_inf_grave_guard_great		lsh_nehekwight_guard_great_weapons	hu1\vmp\vmp_black_knights\low_poly\vmp_grave_guard_great_lowlod	1.0	1.0	0.05000000074505806	hu1\imposter\humanoid_imposter
+wh3_ghoul		tmb_ghoul	hu8c\vmp\vmp_crypt_ghouls\low_poly\vmp_crypt_ghoul_lowlod	1.0	1.0	0.05000000074505806	
+xereus_tmb_mon_crypt_horror		nv_mistress_ghouls_guard		1.0800000429153442	1.0499999523162842	0.05000000074505806	
+xereus_tmb_inf_zombie		xereus_tmb_inf_zmb	hu1\vmp\vmp_zombies\low_poly\vmp_zombies_lowlod	1.0	1.0	0.05000000074505806	hu1\imposter\humanoid_imposter
+xereus_tmb_inf_zmb_summon		xereus_tmb_inf_zmb	hu1\vmp\vmp_zombies\low_poly\vmp_zombies_lowlod	1.0	1.0	0.05000000074505806	hu1\imposter\humanoid_imposter
+xereus_tmb_veh_mortis_engine		wh2_dlc09_tmb_skeletal_steed_mortis_engine		1.0	1.0	0.05000000074505806	
+xereus_tmb_inf_nagashizzar_guard		xereus_tmb_inf_nagashizzar_guard	hu1\vmp\vmp_black_knights\low_poly\vmp_grave_guards_lowlod	1.0	1.0	0.05000000074505806	hu1\imposter\humanoid_imposter
+xereus_tmb_mon_zombie_dragon		xereus_tmb_mon_zombie_dragon		1.0	1.0	0.0	
+stephen_tmb_necrarch_vampire_lord_1		stephen_tmb_necrarch_vampire_lord_1		1.0	1.2000000476837158	0.0	
+stephen_tmb_cha_strigoi_ghoul_king_1		stephen_tmb_cha_strigoi_ghoul_king_1		1.0	1.149999976158142	0.05000000074505806	
+stephen_tmb_liche_priest_campaign_1		stephen_tmb_liche_priest_campaign_1		1.0	1.100000023841858	0.05000000074505806	
+stephen_tmb_liche_priest_campaign_2		stephen_tmb_liche_priest_campaign_2		1.0	1.100000023841858	0.05000000074505806	
+stephen_tmb_liche_priest_campaign_3		stephen_tmb_liche_priest_campaign_3		1.0	1.100000023841858	0.05000000074505806	
+stephen_tmb_liche_priest_campaign_4		stephen_tmb_liche_priest_campaign_4		1.0	1.100000023841858	0.05000000074505806	
+stephen_tmb_liche_priest_campaign_5		stephen_tmb_liche_priest_campaign_5		1.0	1.100000023841858	0.05000000074505806	
+xereus_tmb_inf_blackened_claws		vmp_ghoul_feasters	hu8c\vmp\vmp_crypt_ghouls\low_poly\vmp_crypt_ghoul_lowlod	1.0	1.0	0.05000000074505806	
+xereus_tmb_inf_zombie_shamblers		xereus_tmb_inf_zmb_shamblers	hu1\vmp\vmp_zombies\low_poly\vmp_zombies_lowlod	1.0	1.0	0.05000000074505806	hu1\imposter\humanoid_imposter
+xereus_tmb_cav_shifting_shades		vmp_ghost_chillgheist	hu1/vmp/vmp_ghost_hexwraith/low_poly/vmp_ghost_chillgheist_lowlod	1.0	1.0	0.05000000074505806	

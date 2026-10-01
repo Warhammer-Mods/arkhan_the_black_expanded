@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_lotd_effects__.loc		
+effects_description_arkhan_lotd_land_of_the_dead_dummy	[[col:yellow]]If Arkhan controls over half of this province, he can perform the Ritual of Undeath to devastate the land.[[/col]]	false
+effects_description_arkhan_lotd_climate_change_revert_dummy	[[col:yellow]]The devastation and Undead Wasteland climate will be removed if Arkhan loses this province.[[/col]]	false

@@ -1,0 +1,3 @@
+campaign_group	ritual	unlock_mission	unlock_turn	initially_unlocked
+#campaign_group_rituals_tables;1;db/campaign_group_rituals_tables/atbe				
+wh2_dlc09_feature_followers_of_nagash	arkhan_lotd_ritual_devastate_province		0	true

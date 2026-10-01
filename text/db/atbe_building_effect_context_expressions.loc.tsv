@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/atbe_building_effect_context_expressions.loc		
+building_effect_context_expressions_display_text_IsFactionArkhan		false
+building_effect_context_expressions_display_text_LandOfTheDeadDevastatedAndArkhan	When Devastated by the Ritual of Undeath:	false

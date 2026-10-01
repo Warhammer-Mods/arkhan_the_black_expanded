@@ -1,0 +1,5 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/atbe					
+wh3_main_tmb_rush_construction_canopic_jar_cost	0	ACTIONS	OTHER	WAGES	BACKGROUND_INCOME
+stephen_arkhan_tech_unlock	0	TECHNOLOGIES	TECHNOLOGIES	ARMY_UPKEEP	BACKGROUND_INCOME
+stephen_arkhan_tech_unlock_final	0	TECHNOLOGIES	TECHNOLOGIES	ARMY_UPKEEP	BACKGROUND_INCOME

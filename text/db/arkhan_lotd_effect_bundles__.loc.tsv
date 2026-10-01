@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_lotd_effect_bundles__.loc		
+effect_bundles_localised_description_arkhan_lotd_land_of_the_dead	Arkhan has established a Necropolis nearby, bringing this region into his Land of the Dead.	false
+effect_bundles_localised_title_arkhan_lotd_land_of_the_dead	Land of the Dead	false
+effect_bundles_localised_description_arkhan_lotd_land_of_the_dead_devastated	Arkhan has drained this province of life. The dead now roam its necromantic wasteland under his command.	false
+effect_bundles_localised_title_arkhan_lotd_land_of_the_dead_devastated	Land of the Dead (Devastated)	false
+arkhan_lotd_ritual_effects	[[col:green]]• Province climate becomes Undead Wasteland.\\n• Arkhan’s buildings can generate Necromantic Energy.[[/col]]\\n[[col:yellow]]• Wizard Caliph’s Palace anchors his first Necropolis; burial mounds in other provincial capitals can establish more.\\n• Ritual cost rises after each cast and falls with Vampiric Corruption.[[/col]]	false

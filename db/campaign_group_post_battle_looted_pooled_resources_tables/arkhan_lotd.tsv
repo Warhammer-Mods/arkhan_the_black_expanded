@@ -1,0 +1,3 @@
+base_multiplier	campaign_group	exponent	exponent_multiplier	maximum	minimum	resource_factor	base_amount	scope
+#campaign_group_post_battle_looted_pooled_resources_tables;0;db/campaign_group_post_battle_looted_pooled_resources_tables/arkhan_lotd								
+0.3499999940395355	wh2_dlc09_feature_followers_of_nagash	1.2999999523162842	0.004999999888241291	999999	0	arkhan_lotd_necromantic_energy_post_battle	0	REGION_GROUP

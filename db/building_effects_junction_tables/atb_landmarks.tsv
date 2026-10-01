@@ -1,0 +1,36 @@
+building	effect	effect_scope	value	value_damaged	value_ruined	context_requirement
+#building_effects_junction_tables;0;db/building_effects_junction_tables/atb_landmarks						
+wh2_dlc15_special_morgheim_necropolis_tmb	stephen_effect_unit_cap_xereus_tmb_mon_terrorgheist	building_to_faction_own	1.0	1.0	0.0	IsFactionArkhan
+wh2_main_special_galbaraz_mourkain_tmb_1	stephen_cap_crypt_horrors	building_to_faction_own	2.0	0.0	0.0	IsFactionArkhan
+wh2_dlc09_tmb_resource_animals_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_animals_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_dyes_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_dyes_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_furs_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_furs_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_gems_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_gems_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_gold_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_gold_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_iron_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_iron_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_marble_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_marble_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_medicine_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_medicine_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_obsidian_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_obsidian_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_pasture_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_pasture_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_pottery_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_pottery_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_salt_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_salt_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_spices_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_spices_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_wine_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_wine_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh2_dlc09_tmb_resource_wood_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh2_dlc09_tmb_resource_wood_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	
+wh3_main_tmb_resource_ivory_1	stephen_faction_effect_rush_construction_cost	building_to_province_own	-10.0	-5.0	0.0	
+wh3_main_tmb_resource_ivory_1	wh2_dlc09_pooled_resource_canopic_jars_buildings	region_to_region_own	10.0	5.0	0.0	

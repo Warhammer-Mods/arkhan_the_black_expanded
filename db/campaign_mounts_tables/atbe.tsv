@@ -1,0 +1,4 @@
+animation_set	model	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount	prebattle_separation_offset
+#campaign_mounts_tables;9;db/campaign_mounts_tables/atbe								
+cam_wm_skeleton_chariot_lord_01	stephen_cam_mnt_tmb_general_chariot	wh2_dlc09_tmb_general_chariot_campaign	1.0	wh2_dlc09_vo_culture_Tomb_Kings	false	0	false	0.0
+cam_hr1_skeleton_steed	stephen_cam_mnt_tmb_skeletal_steed	wh2_dlc09_tmb_skeletal_steed_campaign	1.0	wh_main_vo_culture_Skeletal_horse	false	0	false	0.0

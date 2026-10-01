@@ -1,0 +1,48 @@
+key	text	tooltip
+#Loc;1;text/db/atbe_unit_abilities__.loc		
+unit_abilities_onscreen_name_stephen_passive_unstable_ii	Disintegrating	false
+unit_abilities_onscreen_name_stephen_passive_unstable_i	Crumbling	false
+unit_abilities_tooltip_text_stephen_passive_unstable_ii	The Dark Magic that holds these subjects together has failed. As the necromantic energy flows out of them, nothing is left but a pile of iron and bones in the sand.	false
+unit_abilities_tooltip_text_stephen_passive_unstable_i	In the blasted desert of deepest Nehekhara, the dead rarely remain so. Those dragged back to screaming, clanking Unlife are bound forever to the Tomb King whose will they exist only to serve.	false
+unit_abilities_onscreen_name_stephen_abilities_dark_reanimation	Dark Reanimation	false
+unit_abilities_tooltip_text_stephen_abilities_dark_reanimation	It takes an iron will and unnatural - supernatural - strength to rally bound troops routed by magical means.	false
+unit_abilities_onscreen_name_stephen_abilities_dark_reanimation_upgraded	Dark Reanimation Upgraded	false
+unit_abilities_tooltip_text_stephen_abilities_dark_reanimation_upgraded	It takes an iron will and unnatural - supernatural - strength to rally bound troops routed by magical means.	false
+unit_abilities_onscreen_name_stephen_passive_realm_of_souls_tier_1	Invocation of Nagash I	false
+unit_abilities_onscreen_name_stephen_passive_realm_of_souls_tier_2	Invocation of Nagash II	false
+unit_abilities_onscreen_name_stephen_passive_realm_of_souls_tier_3	Invocation of Nagash III	false
+unit_abilities_tooltip_text_stephen_passive_realm_of_souls_tier_1	The Great Necromancer’s power stirs the fallen, knitting flesh and bone with whispers of eternity.	false
+unit_abilities_tooltip_text_stephen_passive_realm_of_souls_tier_2	Nagash’s will deepens; the dead rise faster, and warriors already slain are dragged screaming back to service.	false
+unit_abilities_tooltip_text_stephen_passive_realm_of_souls_tier_3	The full might of Nagash floods the battlefield — death itself recoils, and the tide of undeath becomes unstoppable.	false
+unit_abilities_onscreen_name_stephen_ability_eldritch_blast	Eldritch Blast	false
+unit_abilities_tooltip_text_stephen_ability_eldritch_blast	A surge of baleful power, flaying the living with Nagash’s dread sorcery.	false
+unit_abilities_onscreen_name_wh_main_spell_vampires_raise_dead_nehekhara	Raise Dead	false
+unit_abilities_tooltip_text_wh_main_spell_vampires_raise_dead_nehekhara	Necromancers can awaken mortal remains to reinforce their Undead legions.	false
+unit_abilities_onscreen_name_wh_main_spell_vampires_raise_dead_nehekhara_upgraded	Raise Dead Upgraded	false
+unit_abilities_tooltip_text_wh_main_spell_vampires_raise_dead_nehekhara_upgraded	Necromancers can awaken mortal remains to reinforce their Undead legions.	false
+unit_abilities_onscreen_name_stephen_passive_phase_shift	Phase Shift	false
+unit_abilities_tooltip_text_stephen_passive_phase_shift	Loose threads of arcane power from nearby incantations are plucked from the breeze and woven into the barrier, reinforcing its strength.	false
+unit_abilities_onscreen_name_stephen_passive_mortarch	First of the Mortarchs	false
+unit_abilities_tooltip_text_stephen_passive_mortarch	Arkhan’s mastery as the first Mortarch binds his legions tighter to undeath, their loyalty and endurance absolute.	false
+unit_abilities_onscreen_name_stephen_spell_bound_curse_of_years	Curse of Years	false
+unit_abilities_tooltip_text_stephen_spell_bound_curse_of_years	The Wizard spits out an ancient curse, causing their enemies to age at an incredible rate - their hair turning white and skin shrivelling up.	false
+unit_abilities_onscreen_name_stephen_passive_the_ravenous_dead	The Ravenous Dead	false
+unit_abilities_tooltip_text_stephen_passive_the_ravenous_dead	As the Undead rip apart their victims they feast on the organs that spill forth – regaining strength in the process.	false
+unit_abilities_onscreen_name_stephen_passive_attuned_to_magic	Soul Energy	false
+unit_abilities_tooltip_text_stephen_passive_attuned_to_magic	Each spell cast unleashes a surge of Nagash’s essence, flooding the undead with dreadful strength.	false
+unit_abilities_onscreen_name_stephen_passive_echoes_of_nagash	Echoes  of Nagash	false
+unit_abilities_tooltip_text_stephen_passive_echoes_of_nagash	The air hums with the Great Necromancer’s resonance, amplifying sorcery and unbinding the winds of death across the battlefield.	false
+unit_abilities_onscreen_name_stephen_passive_haunting_gallop	Reaping of the Damned	false
+unit_abilities_tooltip_text_stephen_passive_haunting_gallop	The restless dead carve through flesh and soul alike, draining the will of the living with every strike.	false
+unit_abilities_onscreen_name_stephen_passive_construct_instability	Crumbling	false
+unit_abilities_onscreen_name_stephen_passive_construct_instability_ii	Disintegrating	false
+unit_abilities_tooltip_text_stephen_passive_construct_instability	Constructs are inanimate objects given form and purpose through magical means. When that magic wavers and ebbs, as it inevitably will, it's immensely difficult to keep one 'alive' and in one piece.	false
+unit_abilities_tooltip_text_stephen_passive_construct_instability_ii	Now that the sorcery that holds this Construct together has failed, the Winds of Magic flow out of it, leaving naught but an empty, static husk behind.	false
+unit_abilities_tooltip_text_stephen_passive_spirit_conduit		false
+unit_abilities_onscreen_name_stephen_passive_spirit_conduit		false
+unit_abilities_onscreen_name_stephen_spell_bound_lesser_raise_dead	Lesser Raise Dead	false
+unit_abilities_tooltip_text_stephen_spell_bound_lesser_raise_dead	Necromancers can awaken mortal remains to reinforce their Undead legions.	false
+unit_abilities_onscreen_name_stephen_passive_ancient_desecrator	Ancient Desecrator	false
+unit_abilities_tooltip_text_stephen_passive_ancient_desecrator	The Great Necromancer’s will smothers all sorcery, stripping foes of their petty enchantments.	false
+unit_abilities_onscreen_name_stephen_army_ability_razkhar_the_abyssal_swarm	The Abyssal Swarm	false
+unit_abilities_tooltip_text_stephen_army_ability_razkhar_the_abyssal_swarm	A predator's bones still remember the hunt. Bound by Dark Magic, they are driven towards prey once more.	false

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layout version="142" comment="" precache_condition="">
+	<hierarchy>
+		<root this="94CB1218-83C7-5BA8-8AC3-174AFEC9E6DC">
+			<arkhan_lotd_necropolis_topbar this="9BCA498A-35B3-587A-8BC6-95E11AF6B152">
+				<bg this="0A7C75A8-FE63-56B8-86CE-F7DF2430C946"/>
+				<arkhan_lotd_necropolis_limit this="ADC88F9D-96D1-59C0-8298-ABB1C8692356">
+					<necropolis_holder this="C667A248-9483-5737-A87E-701508F5E27C">
+						<icon_center this="90D1185D-654C-580B-8563-3152D7CBB367"/>
+						<arkhan_lotd_necropolis_count this="BF08EC0B-CB86-5C24-A5E2-FB9043D78BE7">
+							<capacity this="181F7786-F11B-553C-847B-49CD53F267B9"/>
+							<slash this="FCECC98B-3A27-5D56-8EB2-8E959AEEA43C"/>
+							<value this="CCD5BA47-FA12-50AF-B9DA-D1AFABBFD1CB"/>
+						</arkhan_lotd_necropolis_count>
+					</necropolis_holder>
+					<devestation_count_holder this="3DE3D785-9823-5C0A-AE4E-DBE983EB0F0E">
+						<devestation_count this="C37542DA-B8DC-5A74-B5D2-39801B6BF3FE"/>
+						<devestation_count_list this="07CA4B0D-869B-526D-88FF-D6BA798E5ECF">
+							<template_pip this="569F5BEA-1E0B-551C-A3CF-2758315E5E81"/>
+						</devestation_count_list>
+					</devestation_count_holder>
+				</arkhan_lotd_necropolis_limit>
+				</arkhan_lotd_necropolis_topbar>
+		</root>
+	</hierarchy>
+	<components>
+		<bg this="0A7C75A8-FE63-56B8-86CE-F7DF2430C946" id="bg" offset="0.00,6.00" allowhorizontalresize="false" allowverticalresize="false" docking="Top Left" dock_offset="0.00,6.00" tooltipslocalised="true" uniqueguid="0A7C75A8-FE63-56B8-86CE-F7DF2430C946" currentstate="409F5574-34BB-5D87-9ECF-650C08C59B4F" defaultstate="409F5574-34BB-5D87-9ECF-650C08C59B4F">
+			<componentimages>
+				<component_image this="7BD83A57-AB88-5F36-A25E-BA71E2B76DB6" uniqueguid="7BD83A57-AB88-5F36-A25E-BA71E2B76DB6" imagepath="ui/skins/default/dlc29_nag_black_pyramid/bg_nag_button_frame.png"/>
+				<component_image this="0EE46963-3546-52B2-9206-7580AB735097" uniqueguid="0EE46963-3546-52B2-9206-7580AB735097"/>
+			</componentimages>
+			<states>
+				<default this="409F5574-34BB-5D87-9ECF-650C08C59B4F" name="default" width="200" height="41" uniqueguid="409F5574-34BB-5D87-9ECF-650C08C59B4F">
+					<imagemetrics>
+						<image this="4EDE9AE3-F97B-5CE3-931E-1572FA40B46A" uniqueguid="4EDE9AE3-F97B-5CE3-931E-1572FA40B46A" componentimage="0EE46963-3546-52B2-9206-7580AB735097" width="200" height="41" colour="#FFFFFF00"/>
+						<image this="C1363D14-FA64-5391-9CAF-4347FA2DDAD9" uniqueguid="C1363D14-FA64-5391-9CAF-4347FA2DDAD9" componentimage="7BD83A57-AB88-5F36-A25E-BA71E2B76DB6" offset="2.00,-18.00" width="196" height="96" dockpoint="Center" dock_offset="0.00,9.00" canresizeheight="false" canresizewidth="false" aspect_ratio_locked_behaviour="Width First"/>
+					</imagemetrics>
+				</default>
+			</states>
+		</bg>
+		<capacity this="181F7786-F11B-553C-847B-49CD53F267B9" id="capacity" priority="1" uniqueguid="181F7786-F11B-553C-847B-49CD53F267B9" currentstate="63CD7E9A-A4BD-5944-8AF7-3E79B605DE3B" defaultstate="63CD7E9A-A4BD-5944-8AF7-3E79B605DE3B">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoStaticObject" context_function_id="PlayersFaction.PooledResourceContext(&quot;wh3_dlc29_nag_necropolises_count&quot;)"><child_m_user_properties><property name="event0" value="PooledResourceTransaction"/><property name="event1" value="CampaignTurnStart"/></child_m_user_properties></callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="63CD7E9A-A4BD-5944-8AF7-3E79B605DE3B" name="NewState" width="20" height="18" disabled="true" uniqueguid="63CD7E9A-A4BD-5944-8AF7-3E79B605DE3B">
+					<component_text text="0" textvalign="Center" texthalign="Center" texthbehaviour="Resize" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" text_shader_name="drop_shadow_t0" textshadervars="0.00,-2.00,0.60,0.00"/>
+				</newstate>
+			</states>
+		</capacity>
+		<devestation_count this="C37542DA-B8DC-5A74-B5D2-39801B6BF3FE" id="devestation_count" offset="0.00,1.00" allowhorizontalresize="false" allowverticalresize="false" docking="Center" dock_offset="0.00,1.00" component_anchor_point="0.50,0.50" priority="1" uniqueguid="C37542DA-B8DC-5A74-B5D2-39801B6BF3FE" currentstate="058BB25D-286B-5956-8911-BEE51F43B266" defaultstate="058BB25D-286B-5956-8911-BEE51F43B266">
+			<callbackwithcontextlist>
+				</callbackwithcontextlist>
+			<states>
+				<newstate this="058BB25D-286B-5956-8911-BEE51F43B266" name="NewState" width="42" height="42" interactive="true" uniqueguid="058BB25D-286B-5956-8911-BEE51F43B266">
+					<component_text text="0" textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_font_name="brand_header" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_12"/>
+				</newstate>
+			</states>
+		</devestation_count>
+		<devestation_count_holder this="3DE3D785-9823-5C0A-AE4E-DBE983EB0F0E" id="devestation_count_holder" offset="66.00,62.00" docking="Bottom Center" dock_offset="0.00,8.00" component_anchor_point="0.50,1.00" priority="1" tooltipslocalised="true" uniqueguid="3DE3D785-9823-5C0A-AE4E-DBE983EB0F0E" currentstate="1FD04CA6-373F-51EF-8F06-546887CB58D7" defaultstate="1FD04CA6-373F-51EF-8F06-546887CB58D7">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoStaticObject" context_function_id="PlayersFaction.PooledResourceContext(&quot;wh3_dlc29_nag_devastation_count&quot;)"><child_m_user_properties><property name="event0" value="PooledResourceTransaction"/><property name="event1" value="CampaignTurnStart"/></child_m_user_properties></callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image this="6BBFC2D5-AD10-5F4D-A253-95512B91E4AA" uniqueguid="6BBFC2D5-AD10-5F4D-A253-95512B91E4AA" imagepath="ui/skins/default/dlc29_nag_necrotic_power/icon_slot_frame_gold.png"/>
+			</componentimages>
+			<states>
+				<default this="1FD04CA6-373F-51EF-8F06-546887CB58D7" name="default" width="42" height="42" uniqueguid="1FD04CA6-373F-51EF-8F06-546887CB58D7">
+					<imagemetrics>
+						<image this="DCF9A427-6993-5073-B21D-AF18CD25D321" uniqueguid="DCF9A427-6993-5073-B21D-AF18CD25D321" componentimage="6BBFC2D5-AD10-5F4D-A253-95512B91E4AA" width="42" height="42"/>
+					</imagemetrics>
+				</default>
+			</states>
+		</devestation_count_holder>
+		<devestation_count_list this="07CA4B0D-869B-526D-88FF-D6BA798E5ECF" id="devestation_count_list" offset="13.00,-13.00" allowhorizontalresize="false" allowverticalresize="false" docking="Center" component_anchor_point="0.50,0.50" priority="45" tooltipslocalised="true" uniqueguid="07CA4B0D-869B-526D-88FF-D6BA798E5ECF" currentstate="D6159CE9-28A8-5EE4-ADD4-5CA9073FA1E7" defaultstate="D6159CE9-28A8-5EE4-ADD4-5CA9073FA1E7">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextList" context_object_id="CcoStaticObject" context_function_id="Generate(3)"/>
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="dynamic_child_parent" value="button_default"/>
+			</userproperties>
+			<states>
+				<newstate this="D6159CE9-28A8-5EE4-ADD4-5CA9073FA1E7" name="NewState" width="16" height="68" uniqueguid="D6159CE9-28A8-5EE4-ADD4-5CA9073FA1E7"/>
+			</states>
+			<LayoutEngine type="RadialList" starting_angle="-1.57079637" spacing="1.50098312" radius="18" central_alignment="true"/>
+		</devestation_count_list>
+		<arkhan_lotd_necropolis_topbar this="9BCA498A-35B3-587A-8BC6-95E11AF6B152" id="arkhan_lotd_necropolis_topbar" offset="0.00,4.00" tooltipslocalised="true" uniqueguid="9BCA498A-35B3-587A-8BC6-95E11AF6B152" currentstate="9B088C4E-2B5F-5FE3-92D4-27EDCA6CFC39" defaultstate="9B088C4E-2B5F-5FE3-92D4-27EDCA6CFC39">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoStaticObject" context_function_id="PlayersFaction.PooledResourceContext(&quot;wh3_dlc29_nag_necropolises_soft_cap&quot;)">
+					<child_m_user_properties>
+						<property name="only_target" value=""/>
+					<property name="event0" value="PooledResourceTransaction"/><property name="event1" value="CampaignTurnStart"/></child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<default this="9B088C4E-2B5F-5FE3-92D4-27EDCA6CFC39" name="default" width="200" height="43" uniqueguid="9B088C4E-2B5F-5FE3-92D4-27EDCA6CFC39"/>
+			</states>
+		</arkhan_lotd_necropolis_topbar>
+		<icon_center this="90D1185D-654C-580B-8563-3152D7CBB367" id="icon_center" offset="9.00,16.00" docking="Center" component_anchor_point="0.50,0.50" priority="1" tooltipslocalised="true" uniqueguid="90D1185D-654C-580B-8563-3152D7CBB367" currentstate="5E3C749D-8875-5512-B4C6-DEC2B4D347AD" defaultstate="5E3C749D-8875-5512-B4C6-DEC2B4D347AD">
+			<componentimages>
+				<component_image this="5E60DBCB-9C25-5CDB-B7E2-BC483F6FEA80" uniqueguid="5E60DBCB-9C25-5CDB-B7E2-BC483F6FEA80" imagepath="ui/skins/wh3_dlc29_nag_host_of_nagash/devastate_province.png"/>
+				<component_image this="600D608C-0AE7-503D-B5E4-7A89B4C8E1C2" uniqueguid="600D608C-0AE7-503D-B5E4-7A89B4C8E1C2" imagepath="ui/skins/default/dlc29_nag_necrotic_power/icon_necropolis_head.png"/>
+			</componentimages>
+			<states>
+				<default this="5E3C749D-8875-5512-B4C6-DEC2B4D347AD" name="default" width="54" height="54" uniqueguid="5E3C749D-8875-5512-B4C6-DEC2B4D347AD">
+					<imagemetrics>
+						<image this="2A2A038D-3567-5D3F-9A0E-42D16F1EE57B" uniqueguid="2A2A038D-3567-5D3F-9A0E-42D16F1EE57B" componentimage="5E60DBCB-9C25-5CDB-B7E2-BC483F6FEA80" offset="3.00,3.00" width="48" height="48" colour="#FFFFFF96" dockpoint="Center" aspect_ratio_locked_behaviour="Width First"/>
+						<image this="BA1E9C1A-99DA-528C-A3EB-5886E8DE7DBB" uniqueguid="BA1E9C1A-99DA-528C-A3EB-5886E8DE7DBB" componentimage="600D608C-0AE7-503D-B5E4-7A89B4C8E1C2" offset="6.00,-19.00" width="42" height="42" dockpoint="Top Center" dock_offset="0.00,-19.00"/>
+					</imagemetrics>
+				</default>
+			</states>
+		</icon_center>
+		<arkhan_lotd_necropolis_limit this="ADC88F9D-96D1-59C0-8298-ABB1C8692356" id="arkhan_lotd_necropolis_limit" offset="12.00,-5.00" docking="Top Center" dock_offset="0.00,-5.00" component_anchor_point="0.50,0.00" priority="1" tooltipslocalised="true" uniqueguid="ADC88F9D-96D1-59C0-8298-ABB1C8692356" currentstate="FF47A368-E0D4-5237-9785-5B633843A72F" defaultstate="FF47A368-E0D4-5237-9785-5B633843A72F">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoStaticObject" context_function_id="PlayersFaction.PooledResourceContext(&quot;wh3_dlc29_nag_necropolises_soft_cap&quot;)">
+					<child_m_user_properties>
+						<property name="only_target" value=""/>
+					<property name="event0" value="PooledResourceTransaction"/><property name="event1" value="CampaignTurnStart"/></child_m_user_properties>
+				</callback_with_context>
+				</callbackwithcontextlist>
+			<states>
+				<default this="FF47A368-E0D4-5237-9785-5B633843A72F" name="default" width="175" height="96" uniqueguid="FF47A368-E0D4-5237-9785-5B633843A72F"/>
+			</states>
+		</arkhan_lotd_necropolis_limit>
+		<arkhan_lotd_necropolis_count this="BF08EC0B-CB86-5C24-A5E2-FB9043D78BE7" id="arkhan_lotd_necropolis_count" offset="13.00,36.00" docking="Center" dock_offset="0.00,2.00" component_anchor_point="0.50,0.50" priority="1" uniqueguid="BF08EC0B-CB86-5C24-A5E2-FB9043D78BE7" currentstate="9AA4FF81-32A7-5F86-91B2-33B4CB1DB09F" defaultstate="9AA4FF81-32A7-5F86-91B2-33B4CB1DB09F">
+			<callbackwithcontextlist>
+				</callbackwithcontextlist>
+			<userproperties>
+				<property name="dynamic_image" value="0"/>
+			</userproperties>
+			<componentimages>
+				<component_image this="696B8686-7A33-568C-99FD-35C79008DEC1" uniqueguid="696B8686-7A33-568C-99FD-35C79008DEC1" imagepath="ui/skins/warhammer2/oxyotl_silent_sanctum_button_pattern.png"/>
+			</componentimages>
+			<states>
+				<active this="9AA4FF81-32A7-5F86-91B2-33B4CB1DB09F" name="active" width="46" height="18" disabled="true" shader_name="brighten_t0" uniqueguid="9AA4FF81-32A7-5F86-91B2-33B4CB1DB09F" stateeditordisplaypos="40.00,24.00">
+					<imagemetrics>
+						<image this="7294E2F9-5A48-5BC0-942E-A3936741AB77" uniqueguid="7294E2F9-5A48-5BC0-942E-A3936741AB77" componentimage="696B8686-7A33-568C-99FD-35C79008DEC1" offset="2.00,-12.00" width="42" height="42" dockpoint="Center" canresizeheight="false" canresizewidth="false" aspect_ratio_locked_behaviour="Width First"/>
+					</imagemetrics>
+					<component_text font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12"/>
+				</active>
+			</states>
+			<animations>
+				<glow id="glow">
+					<frames>
+						<frame interpolationtime="0" interpolationpropertymask="8" targetmetrics_m_height="56" targetmetrics_m_width="56" targetmetrics_m_offset="682.00,-495.00"/>
+						<frame interpolationtime="200" interpolationpropertymask="8" targetmetrics_m_height="56" targetmetrics_m_width="56" targetmetrics_m_offset="682.00,-495.00" targetmetrics_m_shadervars="10.00,0.00,0.00,0.00"/>
+						<frame interpolationtime="500" interpolationpropertymask="8" targetmetrics_m_height="56" targetmetrics_m_width="56" targetmetrics_m_offset="682.00,-495.00"/>
+					</frames>
+				</glow>
+			</animations>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" vertical_alignment="Center"/>
+		</arkhan_lotd_necropolis_count>
+		<necropolis_holder this="C667A248-9483-5737-A87E-701508F5E27C" id="necropolis_holder" offset="51.00,0.00" allowhorizontalresize="false" docking="Top Center" component_anchor_point="0.50,0.00" priority="1" tooltipslocalised="true" uniqueguid="C667A248-9483-5737-A87E-701508F5E27C" currentstate="C8E13AAC-EB3B-5BC9-AB4E-2FB9D36CDBBA" defaultstate="C8E13AAC-EB3B-5BC9-AB4E-2FB9D36CDBBA">
+			<callbackwithcontextlist>
+				</callbackwithcontextlist>
+			<componentimages>
+				<component_image this="C9FA69AF-7D01-50E6-8938-8196843BC90C" uniqueguid="C9FA69AF-7D01-50E6-8938-8196843BC90C" imagepath="ui/skins/default/dlc29_nag_necrotic_power/bg_necropolis_frame.png"/>
+				<component_image this="785E8A03-8600-5C63-ABF8-6ACA10A6C89A" uniqueguid="785E8A03-8600-5C63-ABF8-6ACA10A6C89A" imagepath="ui/skins/default/dlc29_nag_necrotic_power/icon_necropolis.png"/>
+				<component_image this="28C04B02-C8B1-5C95-BC8F-7D834E5F4C49" uniqueguid="28C04B02-C8B1-5C95-BC8F-7D834E5F4C49" imagepath="ui/skins/default/dlc29_nag_necrotic_power/bg_necropolis_frame_reverse.png"/>
+				<component_image this="14241C6D-9716-560D-B9FC-2496C6723AEA" uniqueguid="14241C6D-9716-560D-B9FC-2496C6723AEA" imagepath="ui/skins/default/dlc29_nag_necrotic_power/icon_necropolis_head.png"/>
+			</componentimages>
+			<states>
+				<default this="C8E13AAC-EB3B-5BC9-AB4E-2FB9D36CDBBA" name="default" width="72" height="86" interactive="true" uniqueguid="C8E13AAC-EB3B-5BC9-AB4E-2FB9D36CDBBA">
+					<imagemetrics>
+						<image this="77587A7E-0D16-5CB4-B965-F50082130C82" uniqueguid="77587A7E-0D16-5CB4-B965-F50082130C82" componentimage="C9FA69AF-7D01-50E6-8938-8196843BC90C" offset="-34.00,0.00" width="140" height="96" colour="#FFFFFF00" dockpoint="Top Center" canresizeheight="false" canresizewidth="false"/>
+						<image this="78FDDFD3-3FCC-5C08-B426-9A9671E0D866" uniqueguid="78FDDFD3-3FCC-5C08-B426-9A9671E0D866" componentimage="28C04B02-C8B1-5C95-BC8F-7D834E5F4C49" offset="-34.00,-5.00" width="140" height="96" dockpoint="Center"/>
+						<image this="52E73A88-5CAC-5092-B1F9-EDC16C8B28D2" uniqueguid="52E73A88-5CAC-5092-B1F9-EDC16C8B28D2" componentimage="785E8A03-8600-5C63-ABF8-6ACA10A6C89A" offset="12.00,7.00" width="47" height="47" colour="#FFFFFF00" dockpoint="Top Center" dock_offset="0.00,7.00"/>
+						<image this="E299ED7D-E6E5-59F8-AE52-87FF2FD75682" uniqueguid="E299ED7D-E6E5-59F8-AE52-87FF2FD75682" componentimage="14241C6D-9716-560D-B9FC-2496C6723AEA" offset="15.00,-3.00" width="42" height="42" dockpoint="Top Center" dock_offset="0.00,-3.00"/>
+					</imagemetrics>
+					<component_text textvalign="Center" texthalign="Center" texthbehaviour="Never split" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12"/>
+				</default>
+			</states>
+		</necropolis_holder>
+		<root this="94CB1218-83C7-5BA8-8AC3-174AFEC9E6DC" id="root" tooltipslocalised="true" uniqueguid="94CB1218-83C7-5BA8-8AC3-174AFEC9E6DC" currentstate="84579E8F-539C-5C06-B6D8-6892F7B58042" defaultstate="84579E8F-539C-5C06-B6D8-6892F7B58042">
+			<componentimages>
+				<component_image this="BEFBCA27-53E5-5495-BD1E-C5089533BB73" uniqueguid="BEFBCA27-53E5-5495-BD1E-C5089533BB73"/>
+			</componentimages>
+			<states>
+				<default this="84579E8F-539C-5C06-B6D8-6892F7B58042" name="default" width="1600" height="900" uniqueguid="84579E8F-539C-5C06-B6D8-6892F7B58042">
+					<imagemetrics>
+						<image this="01BA8832-34E8-5051-B7D1-E92DFA4E650F" uniqueguid="01BA8832-34E8-5051-B7D1-E92DFA4E650F" componentimage="BEFBCA27-53E5-5495-BD1E-C5089533BB73" width="256" height="80" colour="#1C1C1CFF"/>
+					</imagemetrics>
+				</default>
+			</states>
+		</root>
+		<slash this="FCECC98B-3A27-5D56-8EB2-8E959AEEA43C" id="slash" offset="20.00,0.00" priority="1" tooltipslocalised="true" uniqueguid="FCECC98B-3A27-5D56-8EB2-8E959AEEA43C" currentstate="A942DFDB-DC8D-5674-A549-494C28941DAD" defaultstate="A942DFDB-DC8D-5674-A549-494C28941DAD">
+			<states>
+				<newstate this="A942DFDB-DC8D-5674-A549-494C28941DAD" name="NewState" width="6" height="18" uniqueguid="A942DFDB-DC8D-5674-A549-494C28941DAD">
+					<component_text text="/" textvalign="Center" texthalign="Center" texthbehaviour="Resize" textlabel="StateText_42308c35" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14"/>
+				</newstate>
+			</states>
+		</slash>
+		<template_pip this="569F5BEA-1E0B-551C-A3CF-2758315E5E81" id="template_pip" offset="0.00,44.00" allowhorizontalresize="false" allowverticalresize="false" priority="45" tooltipslocalised="true" uniqueguid="569F5BEA-1E0B-551C-A3CF-2758315E5E81" currentstate="7C5AED99-7B75-52D8-B4EC-B5377D864E96" defaultstate="7C5AED99-7B75-52D8-B4EC-B5377D864E96">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextStateSetter" context_object_id="CcoCampaignPooledResource" context_function_id="GetIfElse(self.ChildIndex &lt;= RoundFloat(Abs(Total % 3)), &quot;active&quot;, &quot;inactive&quot;)">
+					<child_m_user_properties>
+						<property name="event0" value="PooledResourceTransaction"/>
+					<property name="event1" value="CampaignTurnStart"/></child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image this="B13095EA-0134-523E-88DE-94F655DB4EA0" uniqueguid="B13095EA-0134-523E-88DE-94F655DB4EA0" imagepath="ui/skins/default/dlc29_nag_books/slot_pip_empty.png"/>
+				<component_image this="94E0A075-B149-55F5-9194-9A44F8396B65" uniqueguid="94E0A075-B149-55F5-9194-9A44F8396B65" imagepath="ui/skins/default/dlc29_nag_books/slot_pip_lit.png"/>
+				<component_image this="4E0A83E5-E7F7-5BBA-807F-D8F3B91237C7" uniqueguid="4E0A83E5-E7F7-5BBA-807F-D8F3B91237C7" imagepath="ui/skins/default/dlc29_nag_books/slot_pip_over.png"/>
+			</componentimages>
+			<states>
+				<active this="7C5AED99-7B75-52D8-B4EC-B5377D864E96" name="active" width="16" height="16" interactive="true" disabled="true" pixelcollision="true" shader_name="brighten_t0" uniqueguid="7C5AED99-7B75-52D8-B4EC-B5377D864E96">
+					<imagemetrics>
+						<image this="15F9CB55-8492-5173-BEB7-6AA2CF64AA33" uniqueguid="15F9CB55-8492-5173-BEB7-6AA2CF64AA33" componentimage="B13095EA-0134-523E-88DE-94F655DB4EA0" width="16" height="16" dockpoint="Center"/>
+						<image this="ABD25E9B-5DCE-5124-ACE1-E1FDD598B501" uniqueguid="ABD25E9B-5DCE-5124-ACE1-E1FDD598B501" componentimage="94E0A075-B149-55F5-9194-9A44F8396B65" width="16" height="16" colour="#28B1C6FF" dockpoint="Center" shader_name="normal_t0"/>
+						<image this="A0A5EADA-B195-5118-891B-F1632D1C73A6" uniqueguid="A0A5EADA-B195-5118-891B-F1632D1C73A6" componentimage="4E0A83E5-E7F7-5BBA-807F-D8F3B91237C7" width="16" height="16" colour="#FFFFFF64" dockpoint="Center"/>
+					</imagemetrics>
+				</active>
+				<inactive this="2204CF92-FBAA-50AE-99F7-D97CCD507FE4" name="inactive" width="16" height="16" interactive="true" disabled="true" pixelcollision="true" uniqueguid="2204CF92-FBAA-50AE-99F7-D97CCD507FE4">
+					<imagemetrics>
+						<image this="42FEF32F-9CFC-55A8-8248-ABA2B7577871" uniqueguid="42FEF32F-9CFC-55A8-8248-ABA2B7577871" componentimage="B13095EA-0134-523E-88DE-94F655DB4EA0" width="16" height="16" dockpoint="Center"/>
+					</imagemetrics>
+				</inactive>
+			</states>
+			<animations>
+				<glow id="glow">
+					<frames>
+						<frame interpolationtime="0" interpolationpropertymask="8" targetmetrics_m_height="56" targetmetrics_m_width="56" targetmetrics_m_offset="682.00,-495.00"/>
+						<frame interpolationtime="200" interpolationpropertymask="8" targetmetrics_m_height="56" targetmetrics_m_width="56" targetmetrics_m_offset="682.00,-495.00" targetmetrics_m_shadervars="10.00,0.00,0.00,0.00"/>
+						<frame interpolationtime="500" interpolationpropertymask="8" targetmetrics_m_height="56" targetmetrics_m_width="56" targetmetrics_m_offset="682.00,-495.00"/>
+					</frames>
+				</glow>
+			</animations>
+		</template_pip>
+		<value this="CCD5BA47-FA12-50AF-B9DA-D1AFABBFD1CB" id="value" offset="26.00,0.00" priority="1" tooltipslocalised="true" uniqueguid="CCD5BA47-FA12-50AF-B9DA-D1AFABBFD1CB" currentstate="30094DDB-53A2-52F2-BED2-C93E618347EC" defaultstate="30094DDB-53A2-52F2-BED2-C93E618347EC">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextPropagator" context_object_id="CcoStaticObject" context_function_id="PlayersFaction.PooledResourceContext(&quot;wh3_dlc29_nag_necropolises_soft_cap&quot;)"><child_m_user_properties><property name="event0" value="PooledResourceTransaction"/><property name="event1" value="CampaignTurnStart"/></child_m_user_properties></callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="30094DDB-53A2-52F2-BED2-C93E618347EC" name="NewState" width="20" height="18" disabled="true" uniqueguid="30094DDB-53A2-52F2-BED2-C93E618347EC">
+					<component_text text="0" textvalign="Center" texthalign="Center" texthbehaviour="Resize" font_m_font_name="brand_header" font_m_size="14" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="header_14" text_shader_name="drop_shadow_t0" textshadervars="0.00,-2.00,0.60,0.00"/>
+				</newstate>
+			</states>
+		</value>
+	</components>
+</layout>

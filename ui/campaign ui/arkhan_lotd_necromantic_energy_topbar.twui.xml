@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layout version="142" comment="" precache_condition="">
+	<hierarchy><root this="7DDD98B0-580F-59F1-A2A3-4418D020C7CA"><arkhan_lotd_necromantic_energy_topbar this="C7C3E31C-28A9-58F1-B89E-B1DCE52F5547"><resource_holder this="1EAC8657-EA6C-5C8C-9AB6-6B8E6B3B9C20">
+						<icon this="ADA99D1A-C88A-5115-849B-AB49BC48EBF1"/>
+						<dy_necrotic_power this="E7C485BF-6AA1-5570-A7AB-535A2A48E58D"/>
+						<dy_necrotic_power_change_holder this="86E6A828-66D1-55E7-A658-CEE78DCBF192">
+							<tx_open_parenthesis this="62C65D9F-CF8D-5C38-A606-A15043706B52"/>
+							<dy_income_necromantic_power this="D6E4EC30-ABAE-5E60-8988-75408BF7AD1B"/>
+							<tx_close_parenthesis this="D6BFB034-ADC8-5A75-B0D0-6BF58DF77C2E"/>
+						</dy_necrotic_power_change_holder>
+						</resource_holder>
+				</arkhan_lotd_necromantic_energy_topbar></root></hierarchy><components><root this="7DDD98B0-580F-59F1-A2A3-4418D020C7CA" id="root" tooltipslocalised="true" uniqueguid="7DDD98B0-580F-59F1-A2A3-4418D020C7CA" currentstate="1887C1BC-923A-5B3D-B718-7CAB79B43828" defaultstate="1887C1BC-923A-5B3D-B718-7CAB79B43828">
+			<componentimages>
+				<component_image this="A652E679-C475-5968-A497-227838B0975A" uniqueguid="A652E679-C475-5968-A497-227838B0975A"/>
+			</componentimages>
+			<states>
+				<default this="1887C1BC-923A-5B3D-B718-7CAB79B43828" name="default" width="1600" height="900" uniqueguid="1887C1BC-923A-5B3D-B718-7CAB79B43828">
+					<imagemetrics>
+						<image this="E60C8508-9FFA-55BB-AFD5-673360D64FDE" uniqueguid="E60C8508-9FFA-55BB-AFD5-673360D64FDE" componentimage="A652E679-C475-5968-A497-227838B0975A" width="256" height="80" colour="#1C1C1CFF"/>
+					</imagemetrics>
+				</default>
+			</states>
+		</root>
+		<arkhan_lotd_necromantic_energy_topbar this="C7C3E31C-28A9-58F1-B89E-B1DCE52F5547" id="arkhan_lotd_necromantic_energy_topbar" offset="0.00,4.00" tooltipslocalised="true" uniqueguid="C7C3E31C-28A9-58F1-B89E-B1DCE52F5547" currentstate="7F701499-EFEF-58E0-B1C0-2C634EFC55C2" defaultstate="7F701499-EFEF-58E0-B1C0-2C634EFC55C2" allowverticalresize="false">
+			<callbackwithcontextlist>
+				</callbackwithcontextlist>
+			<states>
+				<default this="7F701499-EFEF-58E0-B1C0-2C634EFC55C2" name="default" width="150" height="43" uniqueguid="7F701499-EFEF-58E0-B1C0-2C634EFC55C2"/>
+			</states>
+		<LayoutEngine type="HorizontalList" sizetocontent="true" vertical_alignment="Center" margins="8.00,8.00"/></arkhan_lotd_necromantic_energy_topbar>
+		<resource_holder this="1EAC8657-EA6C-5C8C-9AB6-6B8E6B3B9C20" id="resource_holder" offset="0.00,0.00" visible="true" uniqueguid="1EAC8657-EA6C-5C8C-9AB6-6B8E6B3B9C20" currentstate="324163C0-8300-59A7-AA06-590273D90CEB" defaultstate="324163C0-8300-59A7-AA06-590273D90CEB" tooltipslocalised="true">
+			<componentimages>
+				<component_image this="CAA07D32-1E69-52CF-80A0-1E4D95F1F04F" uniqueguid="CAA07D32-1E69-52CF-80A0-1E4D95F1F04F"/>
+			</componentimages>
+			<states>
+				<default this="324163C0-8300-59A7-AA06-590273D90CEB" name="default" width="123" height="26" interactive="true" uniqueguid="324163C0-8300-59A7-AA06-590273D90CEB">
+					</default>
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" vertical_alignment="Center"/>
+		<callbackwithcontextlist/></resource_holder>
+		<icon this="ADA99D1A-C88A-5115-849B-AB49BC48EBF1" id="icon" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="ADA99D1A-C88A-5115-849B-AB49BC48EBF1" currentstate="6ECC982F-EBFD-5A16-A4AC-2375D86858A6" defaultstate="6ECC982F-EBFD-5A16-A4AC-2375D86858A6">
+			<componentimages>
+				<component_image this="E22E1CC6-5EFD-5EBD-A9D3-B5995FAB0CC2" uniqueguid="E22E1CC6-5EFD-5EBD-A9D3-B5995FAB0CC2" imagepath="ui/skins/default/wh3_dlc29_pooled_resource_necromantic_power.png"/>
+			</componentimages>
+			<states>
+				<negative this="C156EEB8-9BCF-5B56-9F00-50E90B4AD118" name="negative" width="26" height="26" uniqueguid="C156EEB8-9BCF-5B56-9F00-50E90B4AD118">
+					<imagemetrics>
+						<image this="4FFFC815-3F1A-5CAA-85C6-DA0D3861E9D5" uniqueguid="4FFFC815-3F1A-5CAA-85C6-DA0D3861E9D5" componentimage="E22E1CC6-5EFD-5EBD-A9D3-B5995FAB0CC2" offset="-1.00,0.00" width="26" height="26"/>
+					</imagemetrics>
+				</negative>
+				<positive this="6ECC982F-EBFD-5A16-A4AC-2375D86858A6" name="positive" width="26" height="26" uniqueguid="6ECC982F-EBFD-5A16-A4AC-2375D86858A6">
+					<imagemetrics>
+						<image this="9E57D746-0653-5661-A5B7-CEC40982F7FF" uniqueguid="9E57D746-0653-5661-A5B7-CEC40982F7FF" componentimage="E22E1CC6-5EFD-5EBD-A9D3-B5995FAB0CC2" offset="-1.00,0.00" width="26" height="26"/>
+					</imagemetrics>
+				</positive>
+			</states>
+		</icon>
+		<dy_necrotic_power this="E7C485BF-6AA1-5570-A7AB-535A2A48E58D" id="dy_necrotic_power" offset="26.00,5.00" priority="1" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_6525b9f1" uniqueguid="E7C485BF-6AA1-5570-A7AB-535A2A48E58D" currentstate="DBE8B22C-CA73-5458-B87D-D1D4BFD422BF" defaultstate="DBE8B22C-CA73-5458-B87D-D1D4BFD422BF" component_level_text="0">
+			<states>
+				<negative this="87AF1DDC-E32F-5124-9D0D-7C4E95804978" name="negative" width="42" height="16" uniqueguid="87AF1DDC-E32F-5124-9D0D-7C4E95804978">
+					<component_text text="0" textxoffset="0.00,6.00" texthbehaviour="Resize" textlabel="StateText_47dd1864" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" text_shader_name="drop_shadow_t0" textshadervars="0.00,-1.00,2.00,0.00"/>
+				</negative>
+				<positive this="DBE8B22C-CA73-5458-B87D-D1D4BFD422BF" name="positive" width="42" height="16" interactive="true" disabled="true" uniqueguid="DBE8B22C-CA73-5458-B87D-D1D4BFD422BF">
+					<component_text text="0" textxoffset="0.00,6.00" texthbehaviour="Resize" textlabel="StateText_56b3aa9d" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,-1.00,2.00,0.00"/>
+				</positive>
+			</states>
+			<animations>
+				<flash_update id="flash_update" propagate="true">
+					<frames>
+						<frame interpolationtime="0" interpolationpropertymask="3" targetmetrics_m_height="37" targetmetrics_m_width="64" is_movement_absolute="true"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFFF00FF" targetmetrics_m_height="37" targetmetrics_m_width="64" targetmetrics_m_offset="0.00,-4.00" is_movement_absolute="true"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFF8D7FF" targetmetrics_m_height="37" targetmetrics_m_width="64" is_movement_absolute="true"/>
+					</frames>
+				</flash_update>
+			</animations>
+		</dy_necrotic_power>
+		<dy_necrotic_power_change_holder this="86E6A828-66D1-55E7-A658-CEE78DCBF192" id="dy_necrotic_power_change_holder" offset="68.00,4.00" priority="1" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_5719d943" uniqueguid="86E6A828-66D1-55E7-A658-CEE78DCBF192" currentstate="8C840F91-E8FF-533E-A073-77CA3C462DD4" defaultstate="8C840F91-E8FF-533E-A073-77CA3C462DD4">
+			<states>
+				<default this="8C840F91-E8FF-533E-A073-77CA3C462DD4" name="default" width="55" height="19" interactive="true" disabled="true" uniqueguid="8C840F91-E8FF-533E-A073-77CA3C462DD4"/>
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true"/>
+		</dy_necrotic_power_change_holder>
+		<tx_open_parenthesis this="62C65D9F-CF8D-5C38-A606-A15043706B52" id="tx_open_parenthesis" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="62C65D9F-CF8D-5C38-A606-A15043706B52" currentstate="DCC1CD01-F198-5DA3-971E-2C310722C170" defaultstate="DCC1CD01-F198-5DA3-971E-2C310722C170">
+			<states>
+				<newstate this="DCC1CD01-F198-5DA3-971E-2C310722C170" name="NewState" width="5" height="18" disabled="true" uniqueguid="DCC1CD01-F198-5DA3-971E-2C310722C170">
+					<component_text text="(" texthbehaviour="Never split" textlabel="StateText_9cbfd341" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,1.00,2.00,0.00"/>
+				</newstate>
+			</states>
+		</tx_open_parenthesis>
+	<dy_income_necromantic_power this="D6E4EC30-ABAE-5E60-8988-75408BF7AD1B" id="dy_income_necromantic_power" offset="5.00,1.00" allowverticalresize="false" dock_offset="0.00,1.00" priority="1" component_level_text="0" text_label="ComponentText_ccc1ea35" uniqueguid="D6E4EC30-ABAE-5E60-8988-75408BF7AD1B" currentstate="F414C16B-E836-593D-9693-66030F3CDFDA" defaultstate="F414C16B-E836-593D-9693-66030F3CDFDA">
+			<states>
+				<negative this="08744CDE-F8E5-5F9B-AB79-B7AC2DA0579F" name="negative" width="45" height="18" disabled="true" uniqueguid="08744CDE-F8E5-5F9B-AB79-B7AC2DA0579F">
+					<component_text texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" text_shader_name="drop_shadow_t0" textshadervars="-1.00,-1.00,1.00,0.00" text="0"/>
+				</negative>
+				<positive this="F414C16B-E836-593D-9693-66030F3CDFDA" name="positive" width="45" height="18" disabled="true" uniqueguid="F414C16B-E836-593D-9693-66030F3CDFDA">
+					<component_text texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="green" text_shader_name="drop_shadow_t0" textshadervars="-1.00,-1.00,1.00,0.00" text="0"/>
+				</positive>
+			</states>
+		</dy_income_necromantic_power>
+		<tx_close_parenthesis this="D6BFB034-ADC8-5A75-B0D0-6BF58DF77C2E" id="tx_close_parenthesis" offset="50.00,0.00" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="D6BFB034-ADC8-5A75-B0D0-6BF58DF77C2E" currentstate="AFBDD735-A992-5E6F-9572-614A6BDF119D" defaultstate="AFBDD735-A992-5E6F-9572-614A6BDF119D">
+			<states>
+				<newstate this="AFBDD735-A992-5E6F-9572-614A6BDF119D" name="NewState" width="5" height="18" disabled="true" uniqueguid="AFBDD735-A992-5E6F-9572-614A6BDF119D">
+					<component_text text=")" texthbehaviour="Never split" textlabel="StateText_ac0f30d" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,1.00,2.00,0.00"/>
+				</newstate>
+			</states>
+		</tx_close_parenthesis>
+		</components></layout>

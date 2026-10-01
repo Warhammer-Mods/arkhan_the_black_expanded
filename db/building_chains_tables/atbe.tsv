@@ -1,0 +1,5 @@
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled	is_foreign_slot_chain
+#building_chains_tables;10;db/building_chains_tables/atbe										
+stephen_tmb_defence_major			military	false	wh2_dlc09_tmb_defence_major		9		true	false
+stephen_tmb_defence_minor			military	false	wh2_main_sch_defence_minor		9		true	false
+stephen_tmb_defence_norsca			military	false	wh2_main_sch_defence_norsca		0		true	false

@@ -1,0 +1,8 @@
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value	resource_transaction_on_complete	split_chain_sort_order	override_startpos_settlement_display_building
+#building_levels_tables;3;db/building_levels_tables/atbe																										
+stephen_tmb_defence_major_1	stephen_tmb_defence_major	0	5	2000	0		false	false			true	wh2_dlc09_tmb_walls	false	0.0	0	true	2		true	0	0		0		-1	false
+stephen_tmb_defence_major_2	stephen_tmb_defence_major	1	6	4000	0		false	false			true	wh2_dlc09_tmb_walls	false	0.0	0	true	3		true	0	0		0		-1	false
+stephen_tmb_defence_major_3	stephen_tmb_defence_major	2	7	6000	0		false	false			true	wh2_dlc09_tmb_walls	false	0.0	0	true	4		true	0	0		0		-1	false
+stephen_tmb_defence_minor_1	stephen_tmb_defence_minor	0	5	2000	0		false	false			true	wh2_dlc09_tmb_garrison	false	0.0	0	true	2		true	0	0		0		-1	false
+stephen_tmb_defence_minor_2	stephen_tmb_defence_minor	1	6	4000	0		false	false			true	wh2_dlc09_tmb_garrison	false	0.0	0	true	3		true	0	0		0		-1	false
+stephen_tmb_defence_norsca_1	stephen_tmb_defence_norsca	0	5	2000	0		false	false			true	wh2_dlc09_tmb_garrison	false	0.0	0	true	2		true	0	0		0		-1	false

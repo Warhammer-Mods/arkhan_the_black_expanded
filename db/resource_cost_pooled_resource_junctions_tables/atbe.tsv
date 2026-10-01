@@ -1,0 +1,5 @@
+amount	pooled_resource_factor	resource_cost	context	ui_resource_transaction_pooled_resource
+#resource_cost_pooled_resource_junctions_tables;1;db/resource_cost_pooled_resource_junctions_tables/atbe				
+-100	tmb_canopic_jars_construction	wh3_main_tmb_rush_construction_canopic_jar_cost	absolute	default
+-100	canopic_jars_technology	stephen_arkhan_tech_unlock	absolute	default
+-1000	canopic_jars_technology	stephen_arkhan_tech_unlock_final	absolute	default

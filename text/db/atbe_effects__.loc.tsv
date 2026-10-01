@@ -1,0 +1,102 @@
+key	text	tooltip
+#Loc;1;text/db/atbe_effects__.loc		
+effects_description_stephen_battle_healing_cap_vampiric_units	Battle healing cap: %+n% for Vampire Count units	false
+effects_description_stephen_battle_healing_cap_crypt_ghouls_crypt_horrors	Battle healing cap: %+n% for Crypt Ghoul and Crypt Horror units	false
+effects_description_stephen_speed_crypt_ghouls_crypt_horrors	Speed: %+n% for Crypt Ghoul and Crypt Horror units	false
+effects_description_stephen_weapon_strength_crypt_ghouls_crypt_horrors	Weapon strength: %+n% for Crypt Ghoul and Crypt Horror units	false
+effects_description_stephen_the_hunger_crypt_ghouls_crypt_horrors	"Passive ability: ""The Hunger"" for Crypt Ghoul and Crypt Horror units"	false
+effects_description_stephen_barrier_all_ghosts	Barrier hit points: %+n for Cairn Wraiths and Hexwraith units	false
+effects_description_stephen_battle_healing_cap_all_ghosts	Battle healing cap: %+n% for Cairn Wraiths, Hexwraith and Spirit Host units	false
+effects_description_stephen_wight_blades_all_ghosts	"Passive ability: ""Wightblades"" for Cairn Wraiths, Hexwraith and Spirit Host units {{tr:rank7}}"	false
+effects_description_stephen_speed_bats_wolves	Speed: %+n% for Dire Wolves and Fell Bat units	false
+effects_description_stephen_charge_bonus_bats_wolves	Charge bonus: %+n for Dire Wolves and Fell Bat units	false
+effects_description_stephen_devastating_flanker_bats_wolves	Attribute: Devastating Flanker for Dire Wolves and Fell Bat units	false
+effects_description_stephen_weapon_ap_bats_wolves	Armour-piercing weapon damage: %+n for Dire Wolves and Fell Bat units	false
+effects_description_stephen_battle_healing_cap_bats_wolves	Battle healing cap: %+n% for Dire Wolves and Fell Bat units	false
+effects_description_stephen_immune_to_flanking_grave_guard	Attribute: Immune to Flanking for Grave Guard units	false
+effects_description_stephen_melee_defence_grave_guard	Melee defence: %+n for Grave Guard units	false
+effects_description_stephen_melee_attack_grave_guard	Melee attack: %+n for Grave Guard units	false
+effects_description_stephen_armour_grave_guard	Armour: %+n for Grave Guard units	false
+effects_description_stephen_battle_healing_cap_grave_guard	Battle healing cap: %+n% for Grave Guard units	false
+effects_description_stephen_weapon_strength_terrorgheists_zombie_dragons	Weapon strength: %+n% for Terrorgheist and Zombie Dragon units	false
+effects_description_stephen_charge_bonus_terrorgheists_zombie_dragons	Charge bonus: %+n for Terrorgheist and Zombie Dragon units	false
+effects_description_stephen_ward_save_terrorgheists_zombie_dragons	Ward save: %+n for Terrorgheist and Zombie Dragon units	false
+effects_description_stephen_battle_healing_cap_terrorgheists_zombie_dragons	Battle healing cap: %+n% for Terrorgheist and Zombie Dragon units	false
+effects_description_stephen_speed_morghasts	Speed: %+n% for Morghast units	false
+effects_description_stephen_vanguard_deployment_morghasts	Attribute: Vanguard Deployment for Morghast units	false
+effects_description_stephen_battle_healing_cap_morghasts	Battle healing cap: %+n% fo rMorghast units	false
+effects_description_stephen_melee_attack_morghasts	Melee attack: %+n for Morghast units	false
+effects_description_stephen_weapon_ap_crypt_ghouls	Armour-piercing weapon damage: %+n for Crypt Ghoul units	false
+effects_description_stephen_weapon_ap_crypt_horrors	Armour-piercing weapon damage: %+n for Crypt Horror units	false
+effects_description_stephen_soulblight_attacks_enable	"Attacks cause ""Soulblight"" effect"	false
+effects_description_wh2_dlc10_effect_force_stat_charge_bonus_add_dire_wolves_hexwraiths	Charge bonus: %+n for Cairn Wraiths, Crypt Horrors, Dire Wolves and Hexwraiths units	false
+effects_description_wh2_dlc10_effect_force_stat_melee_attack_fell_bats_crypt_ghoul	Melee attack: %+n for Crypt Ghouls, Fell Bats, Grave Guard, Mortis Engine and Zombie units	false
+effects_description_stephen_stat_attribute_enable_spell_mastery_necrarch	Attribute: Mastery of the Elemental Winds	false
+effects_description_stephen_stat_attribute_enable_spell_mastery_arkhan	Attribute: Mastery of the Elemental Winds	false
+effects_description_wh2_dlc09_effect_book_vampire_units	Enables recruitment of certain Vampire Count lords and units	false
+effects_description_stephen_effect_liche_shadows_book_unlock	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Liche Priest (Undeath)	false
+effects_description_stephen_necrarch_tmb_teleport_stance	Has access to the Teleport stance	false
+effects_description_stephen_stat_dark_arrows_dummy	Enables Soulblight attacks for Skeleton Archers, Chariots, Ushabti and Casket of Soul units	false
+effects_description_stephen_faction_effect_projectile_dark_arrow_skeleton_hidden	Hidden effect that replaces the missile projectiles for Skeleton Archers [HIDDEN]	false
+effects_description_stephen_faction_effect_projectile_dark_arrow_skeleton_ror_hidden	Hidden effect that replaces the missile projectiles for Skeleton Archers RoR [HIDDEN]	false
+effects_description_stephen_faction_effect_projectile_dark_arrow_horse_hidden	Hidden effect that replaces the missile projectiles for Skeleton Horse Archers [HIDDEN]	false
+effects_description_stephen_faction_effect_projectile_dark_arrow_chariot_hidden	Hidden effect that replaces the missile projectiles for Skeleton Chariot Archers [HIDDEN]	false
+effects_description_stephen_faction_effect_projectile_dark_bolt_ushabti_hidden	Hidden effect that replaces the missile projectiles for Ushabti [HIDDEN]	false
+effects_description_stephen_faction_effect_projectile_dark_bolt_ushabti_ror_hidden	Hidden effect that replaces the missile projectiles for Ushabti RoR [HIDDEN]	false
+effects_description_stephen_faction_effect_projectile_dark_rays_casket_hidden	Hidden effect that replaces the missile projectiles for Casket of Souls [HIDDEN]	false
+effects_description_stephen_faction_effect_realm_of_souls_t1_arkhan_enable	Hidden effect that enables Arkhan's unique visual for the realm of souls [HIDDEN]	false
+effects_description_stephen_faction_effect_realm_of_souls_t2_arkhan_enable	Hidden effect that enables Arkhan's unique visual for the realm of souls [HIDDEN]	false
+effects_description_stephen_faction_effect_realm_of_souls_t3_arkhan_enable	Hidden effect that enables Arkhan's unique visual for the realm of souls [HIDDEN]	false
+effects_description_stephen_faction_effect_realm_of_souls_t1_arkhan_disable	Hidden effect that disables the vanilla realm of souls ability [HIDDEN]	false
+effects_description_stephen_faction_effect_realm_of_souls_t2_arkhan_disable	Hidden effect that disables the vanilla realm of souls ability [HIDDEN]	false
+effects_description_stephen_faction_effect_realm_of_souls_t3_arkhan_disable	Hidden effect that disables the vanilla realm of souls ability [HIDDEN]	false
+effects_description_stephen_faction_effect_unstable_sand_enable	Hidden effect that enables Arkhan's unique visual for the undead attribute [HIDDEN]	false
+effects_description_stephen_faction_effect_unstable_mark_ii_sand_enable	Hidden effect that enables Arkhan's unique visual for the undead attribute [HIDDEN]	false
+effects_description_stephen_faction_effect_unstable_sand_disable	Hidden effect that disables the vanilla undead attribute [HIDDEN]	false
+effects_description_stephen_faction_effect_unstable_mark_ii_sand_disable	Hidden effect that disables the vanilla undead attribute [HIDDEN]	false
+effects_description_stephen_faction_effect_crumbling_disable	Hidden effect that disables the vanilla undead attribute [HIDDEN]	false
+effects_description_stephen_faction_effect_disintigrating_disable	Hidden effect that disables the vanilla undead attribute [HIDDEN]	false
+effects_description_stephen_cap_grave_guard_combo	Unit capacity: %+n \\nGrave Guard \\nGrave Guard (Great Weapons)	false
+effects_description_stephen_cap_mortis_engine	Unit capacity: %+n\\nMortis Engines	false
+effects_description_stephen_cap_hexwraiths	Unit capacity: %+n\\nHexwraiths	false
+effects_description_stephen_cap_grave_guard	Unit capacity: %+n\\nGrave Guard	false
+effects_description_stephen_cap_grave_guard_great	Unit capacity: %+n\\nGrave Guard (Great Weapons)	false
+effects_description_stephen_effect_army_ability_enable_purple_sun_xereus	"Army ability: ""The Purple Sun of Xereus"""	false
+effects_description_stephen_army_ability_razkhar_the_abyssal_swarm_enable	"Army ability: ""Abyssal Swarm"""	false
+effects_description_stephen_faction_effect_rush_construction_cost	Rush Construction Jar cost: %+n%	false
+effects_description_stephen_effect_agent_enable_recruitment_liche_priest_hidden	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Dread Hierophant (Vampires)	false
+effects_description_wh2_dlc10_effect_skill_rank_increase_fell_bats_crypt_ghoul_dire_wolves_hexwraiths	Recruit rank: %+n for Arkhan's Vampiric units	false
+effects_description_stephen_stat_enable_the_hunger_crypt_ghouls_crypt_horrors	"Passive ability: ""The Hunger for Crypt Ghoul and Crypt Horror units"	false
+effects_description_stephen_faction_effect_resources_dummy	Resource producing buildings reduce Rush Construction Jar costs	false
+effects_description_stephen_effect_title_necrarch	"[HIDDEN] Adds the name ""Necrarch"""	false
+effects_description_stephen_effect_title_traitor_king	"[HIDDEN] Adds the name ""Traitor King"""	false
+effects_description_stephen_effect_title_master_liche	"[HIDDEN] Adds the name ""Master Liche"""	false
+effects_description_stephen_unit_stat_spell_resistance_hexwraiths	Spell resistance: %n% for Hexwraith units	false
+effects_description_stephen_unit_stat_health_zombies	Battle healing cap: %+n% for Zombie units	false
+effects_description_stephen_stat_melee_attack_nehekhara_zombies	Melee attack: %+n for Zombie units	false
+effects_description_stephen_necrarch_defence_zombies	Melee defence: %+n for Zombie units	false
+effects_description_stephen_stat_speed_nehekhara_zombies	Speed: %+n% for Zombie units	false
+effects_description_stephen_effect_ability_enable_dark_reanimation	"Ability: ""Dark Reanimation"""	false
+effects_description_stephen_effect_ability_enable_dark_reanimation_upgraded	"Ability: ""Dark Reanimation Upgraded"""	false
+effects_description_stephen_effect_ability_disable_dark_reanimation	"Replaces: ""Dark Reanimation"""	false
+effects_description_stephen_effect_ability_enable_eldritch_blast	Enable ability: 'Eldritch Blast' for Arkhan the Black	false
+effects_description_stephen_effect_unit_cap_xereus_tmb_mon_terrorgheist	Unit capacity: %+n\\nTerrorgheists	false
+effects_description_stephen_effect_unit_cap_xereus_tmb_mon_zombie_dragon	Unit capacity: %+n\\nZombie Dragons	false
+effects_description_stephen_effect_unit_cap_bundle_ghouls_bats_wolves	Unit capacity: %+n\\nCrypt Ghouls \\nDire Wolves \\nFell Bats	false
+effects_description_stephen_effect_unit_cap_xereus_tmb_mon_carrion_0	Unit capacity: %+n\\nCarrion	false
+effects_description_stephen_cap_cairn_crypt_horror_grave_guard_combo	Unit capacity: %+n\\nCairn Wraiths \\nCrypt Horrors \\nGrave Guard \\nGrave Guard (Great Weapons)	false
+effects_description_stephen_cap_crypt_horrors_grave_guard_combo	Unit capacity: %+n\\nCrypt Horrors \\nGrave Guard \\nGrave Guard (Great Weapons)	false
+effects_description_stephen_effect_ability_raise_dead_enable	"Spell: ""Raise Dead"""	false
+effects_description_stephen_ability_overcast_raise_dead	"Spell: ""Raise Dead Upgraded"""	false
+effects_description_stephen_ability_cooldown_raise_dead	"Cooldown: %+n% to ""Raise Dead"""	false
+effects_description_stephen_ability_miscast_raise_dead_upgraded	"Miscast base chance: %+n% for ""Raise Dead Upgraded"""	false
+effects_description_stephen_ability_uses_raise_dead	"Spell number of uses: %+n for ""Raise Dead"" & ""Raise Dead Upgraded"""	false
+effects_description_stephen_effect_ability_wom_cost_raise_dead	"Winds of Magic cost: %n for ""Raise Dead"""	false
+effects_description_stephen_effect_ability_wom_cost_raise_dead_upgraded	"Winds of Magic cost: %n for ""Raise Dead Upgraded"""	false
+effects_description_stephen_effect_tomb_king_unlock_1	Adds the Necrarch [[col:yellow]]Thutmocris[[/col]] to your faction's [[img:icon_general]][[/img]]Lord pool	false
+effects_description_stephen_effect_tomb_king_unlock_2	Adds the Ghoul King [[col:yellow]]Talongore[[/col]] to your faction's [[img:icon_general]][[/img]]Lord pool	false
+effects_description_stephen_effect_tomb_king_unlock_3		false
+effects_description_stephen_effect_tomb_king_unlock_4	Adds the Lahmian Sister [[col:yellow]]Khestra[[/col]] to your faction's [[img:icon_general]][[/img]]Lord pool	false
+effects_description_stephen_stat_magical_resistance_ethereal	Magic resistance: %n% for Cairn Wraith, Hexwraith and Mortis Engine units	false
+effects_description_stephen_effect_ability_number_uses_raise_dead_strigoi	"Spell number of uses: %+n for ""Command of the Unliving"" & ""Command of the Unliving Upgraded"""	false
+effects_description_stephen_cap_grave_guard_both	Unit capacity: %+n\\nGrave Guard \\nGrave Guard (Great Weapons)	false

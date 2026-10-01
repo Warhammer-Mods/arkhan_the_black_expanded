@@ -1,0 +1,4 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set	sort_order
+#pooled_resource_factor_junctions_tables;3;db/pooled_resource_factor_junctions_tables/atbe						
+tmb_canopic_jars_construction	building_construction	tmb_canopic_jars	-2147483647	0		0
+tmb_canopic_jars_buildings	buildings	tmb_canopic_jars	-2147483647	2147483647		0

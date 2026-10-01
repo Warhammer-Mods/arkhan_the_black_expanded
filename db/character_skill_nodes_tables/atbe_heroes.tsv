@@ -1,0 +1,15 @@
+campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/atbe_heroes									
+	stephen_skill_liche_priest_death_mount_steed		0	stephen_liche_priest_death_mount_skeletal_steed	0		0	0	true
+	stephen_skill_liche_priest_shadow_mount_steed		0	stephen_liche_priest_shadow_mount_skeletal_steed	0		0	0	true
+	stephen_skill_liche_priest_undeath_mount_steed		0	stephen_liche_priest_undeath_mount_skeletal_steed	0		0	0	true
+	stephen_skill_liche_priest_light_mount_steed		0	stephen_liche_priest_light_mount_skeletal_steed	0		0	0	true
+	stephen_skill_liche_priest_nehekhara_mount_steed		0	stephen_liche_priest_nehekhara_mount_skeletal_steed	0		0	0	true
+	stephen_skill_tomb_prince_mount_steed		0	stephen_skill_node_tomb_prince_mount_1	0		0	0	true
+	stephen_skill_tomb_prince_mount_chariot		0	stephen_skill_node_tomb_prince_mount_2	1		0	0	true
+	stephen_skill_necrotect_mount_chariot		0	stephen_skill_node_necrotect_mount_chariot	0		0	0	true
+	stephen_skill_liche_priest_unique_1		0	stephen_skill_node_dread_hierophant_extra_1	8		0	0	true
+	wh2_main_skill_all_hero_passive_spread_corruption_vmp		5	stephen_skill_node_dread_hierophant_campaign_2	1		0	0	true
+	stephen_skilll_dummy_agent_actions_liche_priest		8	stephen_skill_node_dread_hierophant_dummy_actions	0		1	0	false
+	stephen_skill_tomb_herald_skeletal_steed		0	stephen_tomb_herald_mount_skeletal_steed	0		0	0	true
+	stephen_skill_tomb_herald_skeleton_chariot		0	stephen_tomb_herald_mount_chariot	1		0	0	true

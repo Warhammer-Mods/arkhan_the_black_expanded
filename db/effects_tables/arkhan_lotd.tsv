@@ -1,0 +1,4 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/arkhan_lotd					
+arkhan_lotd_land_of_the_dead_dummy	icon_land_of_the_dead_3.png	1	icon_land_of_the_dead_3.png	campaign	true
+arkhan_lotd_climate_change_revert_dummy	icon_land_of_the_dead_3.png	999	icon_land_of_the_dead_3.png	campaign	true

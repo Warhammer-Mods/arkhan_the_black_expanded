@@ -1,0 +1,76 @@
+campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/atbe_tk														
+		4	wh2_dlc09_tech_tmb_campaign_bonus_1_1	wh2_dlc09_tech_tmb_campaign_bonus_1_1	tmb_mil	2	400	0	0			0	0	0
+		5	wh2_dlc09_tech_tmb_campaign_bonus_1_2	wh2_dlc09_tech_tmb_campaign_bonus_1_2	tmb_mil	2	400	0	0			0	0	0
+		6	wh2_dlc09_tech_tmb_campaign_bonus_1_3	wh2_dlc09_tech_tmb_campaign_bonus_1_3	tmb_mil	2	400	0	0			0	0	0
+		4	wh2_dlc09_tech_tmb_campaign_bonus_2_1	wh2_dlc09_tech_tmb_campaign_bonus_2_1	tmb_mil	4	400	0	0			0	0	0
+		5	wh2_dlc09_tech_tmb_campaign_bonus_2_2	wh2_dlc09_tech_tmb_campaign_bonus_2_2	tmb_mil	4	400	0	0			0	0	0
+		6	wh2_dlc09_tech_tmb_campaign_bonus_2_3	wh2_dlc09_tech_tmb_campaign_bonus_2_3	tmb_mil	4	400	0	0			0	0	0
+		4	wh2_dlc09_tech_tmb_campaign_bonus_3_1	wh2_dlc09_tech_tmb_campaign_bonus_3_1	tmb_mil	6	400	0	0			0	0	0
+		5	wh2_dlc09_tech_tmb_campaign_bonus_3_2	wh2_dlc09_tech_tmb_campaign_bonus_3_2	tmb_mil	6	400	0	0			0	0	0
+		6	wh2_dlc09_tech_tmb_campaign_bonus_3_3	wh2_dlc09_tech_tmb_campaign_bonus_3_3	tmb_mil	6	400	0	0			0	0	0
+		4	wh2_dlc09_tech_tmb_campaign_bonus_4_1	wh2_dlc09_tech_tmb_campaign_bonus_4_1	tmb_mil	8	400	0	0			0	0	0
+		5	wh2_dlc09_tech_tmb_campaign_bonus_4_2	wh2_dlc09_tech_tmb_campaign_bonus_4_2	tmb_mil	8	400	0	0			0	0	0
+		6	wh2_dlc09_tech_tmb_campaign_bonus_4_3	wh2_dlc09_tech_tmb_campaign_bonus_4_3	tmb_mil	8	400	0	0			0	0	0
+		4	wh2_dlc09_tech_tmb_campaign_bonus_5_1	wh2_dlc09_tech_tmb_campaign_bonus_5_1	tmb_mil	10	400	0	0			0	0	0
+		5	wh2_dlc09_tech_tmb_campaign_bonus_5_2	wh2_dlc09_tech_tmb_campaign_bonus_5_2	tmb_mil	10	400	0	0			0	0	0
+		6	wh2_dlc09_tech_tmb_campaign_bonus_5_3	wh2_dlc09_tech_tmb_campaign_bonus_5_3	tmb_mil	10	400	0	0			0	0	0
+		4	wh2_dlc09_tech_tmb_campaign_bonus_6_1	wh2_dlc09_tech_tmb_campaign_bonus_6_1	tmb_mil	12	400	0	0			0	0	0
+		5	wh2_dlc09_tech_tmb_campaign_bonus_6_2	wh2_dlc09_tech_tmb_campaign_bonus_6_2	tmb_mil	12	400	0	0			0	0	0
+		6	wh2_dlc09_tech_tmb_campaign_bonus_6_3	wh2_dlc09_tech_tmb_campaign_bonus_6_3	tmb_mil	12	400	0	0			0	0	0
+		3	wh2_dlc09_tech_tmb_dynasty_1	wh2_dlc09_tech_tmb_dynasty_1	tmb_mil	1	1000	0	0	tmb_1	wh3_main_tmb_dynasty	0	0	0
+		3	wh2_dlc09_tech_tmb_dynasty_2	wh2_dlc09_tech_tmb_dynasty_2	tmb_mil	3	1000	0	0	tmb_2	wh3_main_tmb_dynasty	0	0	0
+		3	wh2_dlc09_tech_tmb_dynasty_3	wh2_dlc09_tech_tmb_dynasty_3	tmb_mil	5	1000	0	0	tmb_3	wh3_main_tmb_dynasty	0	0	0
+		3	wh2_dlc09_tech_tmb_dynasty_4	wh2_dlc09_tech_tmb_dynasty_4	tmb_mil	7	1000	0	0	tmb_4	wh3_main_tmb_dynasty	0	0	0
+		3	wh2_dlc09_tech_tmb_dynasty_5	wh2_dlc09_tech_tmb_dynasty_5	tmb_mil	9	1000	0	0	tmb_5	wh3_main_tmb_dynasty	0	0	0
+		3	wh2_dlc09_tech_tmb_dynasty_6	wh2_dlc09_tech_tmb_dynasty_6	tmb_mil	11	1000	0	0	tmb_6	wh3_main_tmb_dynasty	0	0	0
+		0	wh2_dlc09_tech_tmb_extra_army_1	wh2_dlc09_tech_tmb_extra_army_1	tmb_mil	14	200	0	0	tmb_7	wh3_main_tmb_heralds	0	0	0
+		1	wh2_dlc09_tech_tmb_extra_army_2	wh2_dlc09_tech_tmb_extra_army_2	tmb_mil	14	200	0	0	tmb_7	wh3_main_tmb_heralds	0	0	0
+		2	wh2_dlc09_tech_tmb_extra_army_3	wh2_dlc09_tech_tmb_extra_army_3	tmb_mil	14	200	0	0	tmb_7	wh3_main_tmb_heralds	0	0	0
+		3	wh2_dlc09_tech_tmb_extra_army_4	wh2_dlc09_tech_tmb_extra_army_4	tmb_mil	14	200	0	0	tmb_7	wh3_main_tmb_heralds	0	0	0
+		4	wh2_dlc09_tech_tmb_extra_army_5	wh2_dlc09_tech_tmb_extra_army_5	tmb_mil	14	200	0	0	tmb_7	wh3_main_tmb_heralds	0	0	0
+		5	wh2_dlc09_tech_tmb_extra_army_6	wh2_dlc09_tech_tmb_extra_army_6	tmb_mil	14	200	0	0	tmb_7	wh3_main_tmb_heralds	0	0	0
+		6	wh2_dlc09_tech_tmb_extra_army_7	wh2_dlc09_tech_tmb_extra_army_7	tmb_mil	14	200	0	0	tmb_7	wh3_main_tmb_heralds	0	0	0
+		9	wh2_dlc09_tech_tmb_faction_target_1	wh2_dlc09_tech_tmb_faction_target_1	tmb_mil	1	200	0	0		wh3_main_tmb_dynasty	0	0	0
+		9	wh2_dlc09_tech_tmb_faction_target_2	wh2_dlc09_tech_tmb_faction_target_2	tmb_mil	3	200	0	0		wh3_main_tmb_dynasty	0	0	0
+		9	wh2_dlc09_tech_tmb_faction_target_3	wh2_dlc09_tech_tmb_faction_target_3	tmb_mil	5	200	0	0		wh3_main_tmb_dynasty	0	0	0
+		9	wh2_dlc09_tech_tmb_faction_target_4	wh2_dlc09_tech_tmb_faction_target_4	tmb_mil	7	200	0	0		wh3_main_tmb_dynasty	0	0	0
+		9	wh2_dlc09_tech_tmb_faction_target_5	wh2_dlc09_tech_tmb_faction_target_5	tmb_mil	9	200	0	0		wh3_main_tmb_dynasty	0	0	0
+		9	wh2_dlc09_tech_tmb_faction_target_6	wh2_dlc09_tech_tmb_faction_target_6	tmb_mil	11	200	0	0		wh3_main_tmb_dynasty	0	0	0
+		3	wh2_dlc09_tech_tmb_legions_of_legend	wh2_dlc09_tech_tmb_legions_of_legend	tmb_mil	13	800	0	0			0	0	0
+		0	wh2_dlc09_tech_tmb_liche_priest_1	wh2_dlc09_tech_tmb_liche_priest_1	tmb_mil	2	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		0	wh2_dlc09_tech_tmb_liche_priest_2	wh2_dlc09_tech_tmb_liche_priest_2	tmb_mil	4	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		0	wh2_dlc09_tech_tmb_liche_priest_3	wh2_dlc09_tech_tmb_liche_priest_3	tmb_mil	6	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		0	wh2_dlc09_tech_tmb_liche_priest_4	wh2_dlc09_tech_tmb_liche_priest_4	tmb_mil	8	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		0	wh2_dlc09_tech_tmb_liche_priest_5	wh2_dlc09_tech_tmb_liche_priest_5	tmb_mil	10	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		0	wh2_dlc09_tech_tmb_liche_priest_6	wh2_dlc09_tech_tmb_liche_priest_6	tmb_mil	12	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		1	wh2_dlc09_tech_tmb_necrotect_1	wh2_dlc09_tech_tmb_necrotect_1	tmb_mil	2	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		1	wh2_dlc09_tech_tmb_necrotect_2	wh2_dlc09_tech_tmb_necrotect_2	tmb_mil	4	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		1	wh2_dlc09_tech_tmb_necrotect_3	wh2_dlc09_tech_tmb_necrotect_3	tmb_mil	6	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		1	wh2_dlc09_tech_tmb_necrotect_4	wh2_dlc09_tech_tmb_necrotect_4	tmb_mil	8	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		1	wh2_dlc09_tech_tmb_necrotect_5	wh2_dlc09_tech_tmb_necrotect_5	tmb_mil	10	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		1	wh2_dlc09_tech_tmb_necrotect_6	wh2_dlc09_tech_tmb_necrotect_6	tmb_mil	12	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		-1	wh2_dlc09_tech_tmb_tomb_king_1	wh2_dlc09_tech_tmb_tomb_king_1	tmb_mil	1	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+		-1	wh2_dlc09_tech_tmb_tomb_king_2	wh2_dlc09_tech_tmb_tomb_king_2	tmb_mil	3	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+		-1	wh2_dlc09_tech_tmb_tomb_king_3	wh2_dlc09_tech_tmb_tomb_king_3	tmb_mil	5	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+		-1	wh2_dlc09_tech_tmb_tomb_king_4	wh2_dlc09_tech_tmb_tomb_king_4	tmb_mil	7	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+		-1	wh2_dlc09_tech_tmb_tomb_king_5	wh2_dlc09_tech_tmb_tomb_king_5	tmb_mil	9	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+		-1	wh2_dlc09_tech_tmb_tomb_king_6	wh2_dlc09_tech_tmb_tomb_king_6	tmb_mil	11	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+		2	wh2_dlc09_tech_tmb_tomb_prince_1	wh2_dlc09_tech_tmb_tomb_prince_1	tmb_mil	2	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		2	wh2_dlc09_tech_tmb_tomb_prince_2	wh2_dlc09_tech_tmb_tomb_prince_2	tmb_mil	4	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		2	wh2_dlc09_tech_tmb_tomb_prince_3	wh2_dlc09_tech_tmb_tomb_prince_3	tmb_mil	6	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		2	wh2_dlc09_tech_tmb_tomb_prince_4	wh2_dlc09_tech_tmb_tomb_prince_4	tmb_mil	8	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		2	wh2_dlc09_tech_tmb_tomb_prince_5	wh2_dlc09_tech_tmb_tomb_prince_5	tmb_mil	10	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		2	wh2_dlc09_tech_tmb_tomb_prince_6	wh2_dlc09_tech_tmb_tomb_prince_6	tmb_mil	12	200	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
+		7	wh3_main_tech_tmb_faction_child_1	wh3_main_tech_tmb_faction_child_1	tmb_mil	1	200	0	0			0	0	0
+		7	wh3_main_tech_tmb_faction_child_2	wh3_main_tech_tmb_faction_child_2	tmb_mil	3	200	0	0			0	0	0
+		7	wh3_main_tech_tmb_faction_child_3	wh3_main_tech_tmb_faction_child_3	tmb_mil	5	200	0	0			0	0	0
+		7	wh3_main_tech_tmb_faction_child_4	wh3_main_tech_tmb_faction_child_4	tmb_mil	7	200	0	0			0	0	0
+		7	wh3_main_tech_tmb_faction_child_5	wh3_main_tech_tmb_faction_child_5	tmb_mil	9	200	0	0			0	0	0
+		7	wh3_main_tech_tmb_faction_child_6	wh3_main_tech_tmb_faction_child_6	tmb_mil	11	200	0	0			0	0	0
+		9	wh3_main_tech_tmb_patronage_1	wh3_main_tech_tmb_patronage_1	tmb_mil	2	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+		9	wh3_main_tech_tmb_patronage_2	wh3_main_tech_tmb_patronage_2	tmb_mil	4	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+		9	wh3_main_tech_tmb_patronage_3	wh3_main_tech_tmb_patronage_3	tmb_mil	6	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+		9	wh3_main_tech_tmb_patronage_4	wh3_main_tech_tmb_patronage_4	tmb_mil	8	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+		9	wh3_main_tech_tmb_patronage_5	wh3_main_tech_tmb_patronage_5	tmb_mil	10	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0
+		9	wh3_main_tech_tmb_patronage_6	wh3_main_tech_tmb_patronage_6	tmb_mil	12	400	0	0		wh3_main_tmb_dynasty_patronage	0	0	0

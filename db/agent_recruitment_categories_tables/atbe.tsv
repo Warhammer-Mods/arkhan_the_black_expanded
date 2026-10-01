@@ -1,0 +1,5 @@
+key	order	icon_file_path	show_in_recruitment	counts_towards_caps_when_off_the_map
+#agent_recruitment_categories_tables;2;db/agent_recruitment_categories_tables/atbe				
+arkhan_traitor_king	3	UI\Common UI\unit_category_icons\wh_main_lore_vampires.png	true	true
+arkhan_master_liche	0	UI\Common UI\unit_category_icons\necromancer.png	true	true
+tmb_bloodlines	1	UI\Common UI\unit_category_icons\commander.png	true	true

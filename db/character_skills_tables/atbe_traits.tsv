@@ -1,0 +1,6 @@
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/atbe_traits									
+trait_tomb_kings.png	stephen_skill_dynasty_innate_trait_1			0	true	false	false	5.0	0
+trait_tomb_kings.png	stephen_skill_dynasty_innate_trait_2			0	true	false	false	5.0	0
+trait_tomb_kings.png	stephen_skill_dynasty_innate_trait_3			0	true	false	false	5.0	0
+trait_tomb_kings.png	stephen_skill_dynasty_innate_trait_4			0	true	false	false	5.0	0

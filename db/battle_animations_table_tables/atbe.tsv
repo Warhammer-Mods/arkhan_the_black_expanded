@@ -1,0 +1,23 @@
+key	skeleton
+#battle_animations_table_tables;0;db/battle_animations_table_tables/atbe	
+bc1_tainted_warsphinx	bigcat01
+dr1_dragon_zombie_nagash	dragon01
+gi1_tainted_hierotitan_staff_and_scales	giant01
+hr1_steed_nagash	horse01
+hr1_tomb_steed_draught_nagash	horse01
+hu1_arkhan_the_black	humanoid01
+hu1_arkhan_steed	humanoid01
+hu1_graveguard_2handed	humanoid01
+hu1_graveguard_sword	humanoid01
+hu1_liche_priest	humanoid01
+hu1_liche_priest_steed	humanoid01
+hu1_master_liche	humanoid01
+hu1_master_liche_steed	humanoid01
+hu1_nehekhara_zombie	humanoid01
+hu1_skeleton_archers	humanoid01
+hu1_tomb_hr1_tomb_steed_sword	humanoid01
+hu1_tomb_king_modified	humanoid01
+hu1_tomb_wm_tomb_chariot01_modified	humanoid01
+hu6e_ushabti_great_bow	humanoid06e
+hu6e_ushabti_dual_weapons	humanoid06e
+wf1_dire_wolves	wolf01

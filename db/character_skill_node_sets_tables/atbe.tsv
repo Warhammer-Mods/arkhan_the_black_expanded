@@ -1,0 +1,18 @@
+agent_key	for_army	faction_key	key	subculture	for_navy	campaign_key	agent_subtype_key
+#character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/atbe							
+wizard	false		stephen_skill_node_liche_priest_death		false		stephen_tmb_liche_priest_death
+wizard	false		stephen_skill_node_liche_priest_undeath		false		stephen_tmb_liche_priest_undeath
+wizard	false		stephen_skill_node_liche_priest_light		false		stephen_tmb_liche_priest_light
+wizard	false		stephen_skill_node_liche_priest_nehekhara		false		stephen_tmb_liche_priest_nehekhara
+wizard	false		stephen_skill_node_liche_priest_shadow		false		stephen_tmb_liche_priest_shadow
+general	false		stephen_skill_node_tomb_king		false		stephen_tmb_tomb_king
+general	false		stephen_skill_node_master_liche_death		false		stephen_tmb_high_liche_priest_death
+general	false		stephen_skill_node_master_liche_undeath		false		stephen_tmb_high_liche_priest_undeath
+general	false		stephen_skill_node_master_liche_nehekhara		false		stephen_tmb_high_liche_priest_nehekhara
+general	false		stephen_skill_node_master_liche_light		false		stephen_tmb_high_liche_priest_light
+general	false		stephen_skill_node_lahmian		false		stephen_tmb_lahmian_vampire_lord
+general	false		stephen_skill_node_necrarch		false		stephen_tmb_necrarch_vampire_lord
+general	false		stephen_skill_node_strigoi_ghoul_king		false		stephen_tmb_strigoi_ghoul_king
+engineer	false		stephen_skill_node_necrotect		false		stephen_tmb_necrotect
+champion	false		stephen_skill_node_tomb_prince		false		stephen_tmb_tomb_prince
+dignitary	false		stephen_skill_node_set_tmb_tomb_herald		false		stephen_tmb_tomb_herald

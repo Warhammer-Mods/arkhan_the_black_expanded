@@ -1,0 +1,25 @@
+campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/atbe														
+	wh2_dlc09_tmb_followers_of_nagash	9	stephen_tech_arkhan_0	stephen_tech_arkhan_0	tmb_mil	17	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	stephen_tech_arkhan_1	stephen_tech_arkhan_1	tmb_mil	17	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	5	stephen_tech_arkhan_2	stephen_tech_arkhan_2	tmb_mil	17	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	3	stephen_tech_arkhan_3	stephen_tech_arkhan_3	tmb_mil	17	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	1	stephen_tech_arkhan_4	stephen_tech_arkhan_4	tmb_mil	17	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	stephen_tech_arkhan_raise_dead_1	stephen_tech_arkhan_raise_dead_1	tmb_mil	18	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	6	stephen_tech_arkhan_raise_dead_2	stephen_tech_arkhan_raise_dead_2	tmb_mil	18	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	5	stephen_tech_arkhan_raise_dead_3	stephen_tech_arkhan_raise_dead_3	tmb_mil	18	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	8	stephen_tech_arkhan_ghouls_1	stephen_tech_arkhan_ghouls_1	tmb_mil	16	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	8	stephen_tech_arkhan_ghouls_2	stephen_tech_arkhan_ghouls_2	tmb_mil	15	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	stephen_tech_arkhan_bats_wolves_1	stephen_tech_arkhan_bats_wolves_1	tmb_mil	16	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	stephen_tech_arkhan_bats_wolves_2	stephen_tech_arkhan_bats_wolves_2	tmb_mil	15	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	6	stephen_tech_arkhan_ethereal_1	stephen_tech_arkhan_ethereal_1	tmb_mil	16	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	6	stephen_tech_arkhan_ethereal_2	stephen_tech_arkhan_ethereal_2	tmb_mil	15	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	stephen_tech_arkhan_grave_guard_1	stephen_tech_arkhan_grave_guard_1	tmb_mil	16	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	stephen_tech_arkhan_grave_guard_2	stephen_tech_arkhan_grave_guard_2	tmb_mil	15	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	2	stephen_tech_arkhan_terrors_1	stephen_tech_arkhan_terrors_1	tmb_mil	16	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	2	stephen_tech_arkhan_terrors_2	stephen_tech_arkhan_terrors_2	tmb_mil	15	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	2	stephen_tech_arkhan_morghasts_1	stephen_tech_arkhan_morghasts_1	tmb_mil	18	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	2	stephen_tech_arkhan_morghasts_2	stephen_tech_arkhan_morghasts_2	tmb_mil	19	300	0	0			0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	-1	stephen_tech_arkhan_unlock_1	stephen_tech_arkhan_unlock_1	tmb_mil	18	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	-1	stephen_tech_arkhan_unlock_2	stephen_tech_arkhan_unlock_2	tmb_mil	17	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	-1	stephen_tech_arkhan_unlock_3	stephen_tech_arkhan_unlock_3	tmb_mil	16	100	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0

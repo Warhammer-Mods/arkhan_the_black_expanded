@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/atbe_agent_recruitment_categories__.loc		
+agent_recruitment_categories_onscreen_description_arkhan_traitor_king		false
+agent_recruitment_categories_onscreen_name_arkhan_traitor_king	Tomb King	false
+agent_recruitment_categories_onscreen_description_arkhan_master_liche	A supreme necromantic priest devoted to the dark will of Nagash, wielding forbidden rites that twist soul and sand alike to his master’s purpose.	false
+agent_recruitment_categories_onscreen_name_arkhan_master_liche	Liche High Priest	false
+agent_recruitment_categories_onscreen_description_tmb_bloodlines	Elite necromantic courtiers raised from the ashes of Arkhan’s loyalist nobles, their souls shackled to his will by ancient Mortuary incantations.	false
+agent_recruitment_categories_onscreen_name_tmb_bloodlines	Servants of Arkhan	false

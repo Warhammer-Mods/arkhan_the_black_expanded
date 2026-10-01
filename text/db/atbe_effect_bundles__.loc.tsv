@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/atbe_effect_bundles__.loc		
+effect_bundles_localised_title_wh2_dlc09_bundle_stance_necrarch_teleport	Stance: Teleport	false
+effect_bundles_localised_description_wh2_dlc09_bundle_stance_necrarch_teleport	Teleport throughout the world, bypassing impassable terrain with the opportunity to attack unsuspecting enemy armies.	false

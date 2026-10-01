@@ -1,0 +1,3 @@
+amount	pooled_resource_factor	resource_cost	context	ui_resource_transaction_pooled_resource
+#resource_cost_pooled_resource_junctions_tables;1;db/resource_cost_pooled_resource_junctions_tables/arkhan_energy				
+-500	arkhan_lotd_necromantic_energy_devastation	arkhan_lotd_ritual_energy_cost	absolute	default

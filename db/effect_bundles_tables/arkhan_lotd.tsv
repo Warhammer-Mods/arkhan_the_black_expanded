@@ -1,0 +1,4 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/arkhan_lotd								
+arkhan_lotd_land_of_the_dead	Arkhan has established a Necropolis nearby, bringing this region into his Land of the Dead.	Land of the Dead	region	1	icon_land_of_the_dead_2.png	true	true	false
+arkhan_lotd_land_of_the_dead_devastated	Arkhan has drained this province of life. The dead now roam its necromantic wasteland under his command.	Land of the Dead (Devastated)	region	1	icon_land_of_the_dead_3.png	true	true	false

@@ -1,0 +1,17 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/atbe_caps					
+stephen_effect_agent_enable_recruitment_liche_priest_hidden	wizard.png	5	wizard.png	campaign	true
+stephen_cap_hexwraiths	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_crypt_horrors	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_mortis_engine	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_effect_unit_cap_xereus_tmb_mon_zombie_dragon	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_effect_unit_cap_xereus_tmb_mon_carrion_0	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_effect_unit_cap_bundle_ghouls_bats_wolves	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_effect_unit_cap_xereus_tmb_mon_terrorgheist	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_grave_guard_both	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_cairn_wraiths	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_grave_guard	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_grave_guard_great	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_grave_guard_combo	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_cairn_crypt_horror_grave_guard_combo	unit_capacity.png	1	unit_capacity.png	campaign	true
+stephen_cap_crypt_horrors_grave_guard_combo	unit_capacity.png	1	unit_capacity.png	campaign	true
