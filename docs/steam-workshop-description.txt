@@ -22,7 +22,7 @@ Arkhan also starts new campaigns with the custom Tomb Herald. The interface has 
 
 [h1]Lords and Heroes[/h1]
 
-Tomb Kings, Strigoi Ghoul King, Liche Priests, Tomb Princes, Necrotects and the custom Tomb Herald.
+Tomb Kings, Strigoi Ghoul King, Necrarch and Lahmian Vampire Lords, Liche High Priests, Liche Priests, Tomb Princes, Necrotects and the custom Tomb Herald.
 
 [img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/lords-and-heroes.png[/img]
 
