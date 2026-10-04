@@ -71,3 +71,5 @@ Import the source with RPFM configured for Total War: Warhammer III. Download au
 Local validation covers pack integrity, source-table round trips, resource/cost links, UI XML, Lua syntax, separate-pool migration and save-load refresh. The starting-hero replacement has been confirmed in game; the level-one adjustment and multiplayer behaviour still need an in-game check. Campaign changes do not depend on local UI/player state, but multiplayer desynchronisation safety is not yet confirmed.
 
 The complete, ready-to-paste Steam Workshop description (including Khemric Titan and Spirit Hosts, with a transparent Lords and Heroes gallery) is maintained in [docs/steam-workshop-description.txt](docs/steam-workshop-description.txt).
+
+Separate [2× unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are available at 120×260, with the transparent edges from the supplied reference. The larger cards are also included under `ui/units/infopics`, using matching unit filenames. The files in `ui/units/icons` keep their current size and edges.
