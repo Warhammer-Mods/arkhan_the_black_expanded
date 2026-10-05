@@ -65,8 +65,8 @@ jobs:
     - name: Checkout pinned RPFM 5.1.1 tooling
       uses: actions/checkout@v7.0.1
       with:
-        repository: Warhammer-Mods/rpfm_cli-docker
-        ref: 6bd3bdf2740ad95faa3c083c8c31e69dc1429a42
+        repository: Warhammer-Mods/rpfm-server-docker
+        ref: e8630d6b8ff34642867a58a8050d80369f6efaba
         path: .rpfm-action
     - uses: docker/setup-buildx-action@v4.4.1
     - name: Build cached RPFM Server 5.1.1 image
@@ -80,7 +80,7 @@ jobs:
         cache-to: type=gha,mode=max,scope=rpfm-server-5.1.1
     - name: Start RPFM Server 5.1.1
       id: rpfm
-      uses: Warhammer-Mods/rpfm_cli-docker/server@6bd3bdf2740ad95faa3c083c8c31e69dc1429a42
+      uses: Warhammer-Mods/rpfm-server-docker@e8630d6b8ff34642867a58a8050d80369f6efaba
       with:
         image: local/rpfm-server:5.1.1
     - name: Build and verify packfile
