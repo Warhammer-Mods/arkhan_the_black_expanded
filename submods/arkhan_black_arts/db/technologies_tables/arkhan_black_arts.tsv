@@ -1,0 +1,15 @@
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
+#technologies_tables;7;db/technologies_tables/arkhan_black_arts											
+arkhan_black_arts_servants	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_zombies_3b	false	false		33601000	false	false	true	false
+arkhan_black_arts_wights	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_grave_guard_3	false	false		33601001	false	false	true	false
+arkhan_black_arts_mending	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_deadrise_2a	false	false		33601002	false	false	true	false
+arkhan_black_arts_endurance	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_deadrise_3a	false	false		33601003	false	false	true	false
+arkhan_black_arts_spirits	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_ghosts_2	false	false		33601004	false	false	true	false
+arkhan_black_arts_ward	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_magic_3	false	false		33601005	false	false	true	false
+arkhan_black_arts_reservoir	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_2	false	false		33601006	false	false	true	false
+arkhan_black_arts_sorcery	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_3	false	false		33601007	false	false	true	false
+arkhan_black_arts_terrors	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_terrorgheist_1	false	false		33601008	false	false	true	false
+arkhan_black_arts_predators	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_terrorgheist_3	false	false		33601009	false	false	true	false
+arkhan_black_arts_morghasts	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_final_3	false	false		33601010	false	false	true	false
+arkhan_black_arts_dragon	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_terrorgheist_3	false	false		33601011	false	false	true	false
+arkhan_black_arts_great_rite	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_4	false	false		33601012	false	false	true	false

@@ -1,0 +1,41 @@
+name: Build Black Arts add-on
+on:
+  push:
+    branches: [develop]
+    paths:
+      - 'submods/arkhan_black_arts/**'
+      - '.github/workflows/black-arts-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Check add-on tables
+        working-directory: submods/arkhan_black_arts
+        run: python3 ../../.github/scripts/check_tsv.py
+      - name: Check add-on Lua
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes lua-check
+          set +e
+          luacheck submods/arkhan_black_arts/script --config .luacheckrc
+          result=$?
+          if [ "$result" -eq 1 ]; then exit 0; fi
+          exit "$result"
+  build:
+    needs: validate
+    uses: ./.github/workflows/packfile-build.yml
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+    with:
+      source_root: submods/arkhan_black_arts
+      pack_name: arkhan_black_arts_TEST
+      paths: |
+        db/**
+        text/**
+        script/**
+        ui/**
+      game: warhammer_3

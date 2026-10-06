@@ -1,0 +1,52 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_black_arts.loc		
+technologies_onscreen_name_arkhan_black_arts_servants	Bound Servants	false
+technologies_short_description_arkhan_black_arts_servants	Dark magic holds the oldest corpses together.	false
+technologies_long_description_arkhan_black_arts_servants	Cost: 300 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_wights	Sepulchral Discipline	false
+technologies_short_description_arkhan_black_arts_wights	The Wights train for wars their living masters will never see.	false
+technologies_long_description_arkhan_black_arts_wights	Cost: 600 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_mending	Mending the Dead	false
+technologies_short_description_arkhan_black_arts_mending	Bone and sinew answer the same patient spell.	false
+technologies_long_description_arkhan_black_arts_mending	Cost: 1000 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_endurance	Unbroken Legions	false
+technologies_short_description_arkhan_black_arts_endurance	No wound can hold the dead for long.	false
+technologies_long_description_arkhan_black_arts_endurance	Cost: 1500 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_spirits	Shackled Spirits	false
+technologies_short_description_arkhan_black_arts_spirits	Arkhan binds the restless dead behind a veil of dark magic.	false
+technologies_long_description_arkhan_black_arts_spirits	Cost: 300 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_ward	Sepulchral Wards	false
+technologies_short_description_arkhan_black_arts_ward	Ancient seals turn aside the blades of the living.	false
+technologies_long_description_arkhan_black_arts_ward	Cost: 600 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_reservoir	The Black Reservoir	false
+technologies_short_description_arkhan_black_arts_reservoir	The Liche King gathers the winds where life has withered.	false
+technologies_long_description_arkhan_black_arts_reservoir	Cost: 1000 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_sorcery	Mastery of the Black Arts	false
+technologies_short_description_arkhan_black_arts_sorcery	The secrets of death yield to centuries of study.	false
+technologies_long_description_arkhan_black_arts_sorcery	Cost: 1500 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_terrors	Awakened Terrors	false
+technologies_short_description_arkhan_black_arts_terrors	The great dead beasts stir beneath the sand.	false
+technologies_long_description_arkhan_black_arts_terrors	Cost: 300 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_predators	Relentless Predators	false
+technologies_short_description_arkhan_black_arts_predators	Dead wings fall upon the foe with renewed force.	false
+technologies_long_description_arkhan_black_arts_predators	Cost: 600 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_morghasts	The Silent Host	false
+technologies_short_description_arkhan_black_arts_morghasts	The Morghasts march with the certainty of an executioner.	false
+technologies_long_description_arkhan_black_arts_morghasts	Cost: 1000 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_dragon	A Dragon from the Dust	false
+technologies_short_description_arkhan_black_arts_dragon	One more ancient beast rises to serve the Liche King.	false
+technologies_long_description_arkhan_black_arts_dragon	Cost: 1500 Necromantic Energy from Arkhan's reserve.	false
+technologies_onscreen_name_arkhan_black_arts_great_rite	The Great Awakening	false
+technologies_short_description_arkhan_black_arts_great_rite	Unlocks an optional rite offered every five turns while Arkhan has at least 750 Necromantic Energy. Spend 750 for five turns of replenishment and magical strength, or decline.	false
+technologies_long_description_arkhan_black_arts_great_rite	Cost: 2000 Necromantic Energy from Arkhan's reserve.	false
+technology_ui_tabs_localised_name_arkhan_black_arts	Black Arts	false
+dilemmas_localised_title_arkhan_black_arts_awakening	The Great Awakening	false
+dilemmas_localised_description_arkhan_black_arts_awakening	Arkhan can spend 750 Necromantic Energy to invigorate his legions for five turns. The rite draws only from his own reserve. Another opportunity will follow in five turns.	false
+cdir_events_dilemma_choice_details_localised_choice_label_FIRSTarkhan_black_arts_awakening	Perform the rite	false
+cdir_events_dilemma_choice_details_localised_choice_title_FIRSTarkhan_black_arts_awakening	Perform the rite	false
+cdir_events_dilemma_choice_details_localised_choice_description_FIRSTarkhan_black_arts_awakening	Spend 750 Necromantic Energy: +4% replenishment, +10 Winds of Magic capacity and +10% spell mastery for five turns.	false
+cdir_events_dilemma_choice_details_localised_choice_label_SECONDarkhan_black_arts_awakening	Keep the energy	false
+cdir_events_dilemma_choice_details_localised_choice_title_SECONDarkhan_black_arts_awakening	Keep the energy	false
+cdir_events_dilemma_choice_details_localised_choice_description_SECONDarkhan_black_arts_awakening	Decline this rite. You may reconsider at the next opportunity.	false
+effect_bundles_localised_title_arkhan_black_arts_awakening	The Great Awakening	false
+effect_bundles_localised_description_arkhan_black_arts_awakening	Arkhan has poured his reserve of dark magic into his legions.	false

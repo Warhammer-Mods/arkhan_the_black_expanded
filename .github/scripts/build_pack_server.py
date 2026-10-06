@@ -100,6 +100,11 @@ def select_files():
 
 
 def main():
+    source_root = Path(os.environ.get("PACK_SOURCE_ROOT", "."))
+    if source_root.is_absolute() or ".." in source_root.parts:
+        raise RuntimeError("PACK_SOURCE_ROOT must stay inside the checkout")
+    container_root = "/work/" + (source_root.as_posix().rstrip("/") + "/" if source_root != Path(".") else "")
+    os.chdir(source_root)
     files = select_files()
     expected, tables = [], []
     for path in files:
@@ -132,14 +137,14 @@ def main():
         batch = files[start:start + 64]
         result = unpack(client.tool("add_packed_files", {
             "pack_key": key,
-            "source_paths": ["/work/" + path for path in batch],
+            "source_paths": [container_root + path for path in batch],
             "destination_paths": json.dumps([{"File": path} for path in batch])}))
         added, error = result["VecContainerPathOptionString"]
         if error:
             raise RuntimeError(error)
         if len(added) != len(batch):
             raise RuntimeError("RPFM did not import every selected file")
-    container_output = "/work/" + str(output)
+    container_output = container_root + str(output)
     client.tool("save_pack_as", {"pack_key": key, "path": container_output})
     if not output.read_bytes().startswith(b"PFH"):
         raise RuntimeError("Missing pack header")

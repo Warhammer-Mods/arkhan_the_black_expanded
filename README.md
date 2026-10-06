@@ -73,3 +73,7 @@ Local validation covers pack integrity, source-table round trips, resource/cost 
 The complete, ready-to-paste Steam Workshop description (including Khemric Titan and Spirit Hosts, with a transparent Lords and Heroes gallery) is maintained in [docs/steam-workshop-description.txt](docs/steam-workshop-description.txt).
 
 Separate [2× unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are available at 120×260, with the transparent edges from the supplied reference. The larger cards are also included under `ui/units/infopics`, using matching unit filenames. The files in `ui/units/icons` keep their current size and edges.
+
+## Optional test add-ons
+
+[Black Arts](submods/arkhan_black_arts/README.md) adds energy-funded research and a recurring rite. Build it separately with the **Build Black Arts add-on** workflow. Technology layout, regional research costs, TKE compatibility and multiplayer require in-game testing.
