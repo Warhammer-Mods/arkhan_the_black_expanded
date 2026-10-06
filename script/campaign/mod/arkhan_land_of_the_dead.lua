@@ -165,6 +165,31 @@ function mod:check_provinces()
     end
 end
 
+-- Devastation survives changes to the Necropolis energy network. Reapply its
+-- marker on load so the engine also reevaluates conditional building effects.
+function mod:restore_devastation_effects(refresh_existing)
+    for _, province_key in ipairs(sorted_keys(self.provinces)) do
+        local province = cm:get_province(province_key)
+        if province then
+            each_region(province, function(region)
+                local region_key = region:name()
+                if region:has_effect_bundle(self.land_bundle_key) then
+                    cm:remove_effect_bundle_from_region(self.land_bundle_key, region_key)
+                end
+                if region:has_effect_bundle("wh3_dlc29_land_of_the_dead_devastated") then
+                    cm:remove_effect_bundle_from_region("wh3_dlc29_land_of_the_dead_devastated", region_key)
+                end
+                if refresh_existing and region:has_effect_bundle(self.effect_bundle_key) then
+                    cm:remove_effect_bundle_from_region(self.effect_bundle_key, region_key)
+                end
+                if not region:has_effect_bundle(self.effect_bundle_key) then
+                    cm:apply_effect_bundle_to_region(self.effect_bundle_key, region_key, -1)
+                end
+            end)
+        end
+    end
+end
+
 -- All of Arkhan's necropolises share one regional pool, as Nagash's do.
 -- A built Arkhan burial mound in a major city establishes an additional
 -- centre. The starting palace remains the first centre without a prerequisite.
@@ -226,7 +251,9 @@ function mod:sync_necropolises()
                 if region and not region:is_null_interface() then
                     cm:remove_region_from_dynamic_region_group(group, region)
                     cm:remove_effect_bundle_from_region(self.land_bundle_key, region_key)
-                    cm:remove_effect_bundle_from_region(self.effect_bundle_key, region_key)
+                    if not self.provinces[region:province():key()] then
+                        cm:remove_effect_bundle_from_region(self.effect_bundle_key, region_key)
+                    end
                 end
             end
         end
@@ -266,7 +293,11 @@ function mod:sync_necropolises()
     elseif cm:dynamic_region_group_exists(group) then
         for _, region_key in ipairs(sorted_keys(self.group_regions)) do
             cm:remove_effect_bundle_from_region(self.land_bundle_key, region_key)
-            cm:remove_effect_bundle_from_region(self.effect_bundle_key, region_key)
+            local region = cm:get_region(region_key)
+            if region and not region:is_null_interface() and
+                not self.provinces[region:province():key()] then
+                cm:remove_effect_bundle_from_region(self.effect_bundle_key, region_key)
+            end
         end
         cm:remove_dynamic_region_group_pooled_resource_manager(group)
         cm:remove_dynamic_region_group(group)
@@ -274,6 +305,7 @@ function mod:sync_necropolises()
 
     self.group_regions = desired_regions
     self.necropolis_regions = anchors
+    self:restore_devastation_effects(false)
     self:migrate_legacy_energy()
     self:update_necropolis_soft_cap(faction)
 end
@@ -373,15 +405,10 @@ cm:add_first_tick_callback(function()
         if province then
             each_region(province, function(region)
                 cm:add_region_vfx(region, mod.vfx_key, true, false)
-                if region:has_effect_bundle("wh3_dlc29_land_of_the_dead_devastated") then
-                    cm:remove_effect_bundle_from_region("wh3_dlc29_land_of_the_dead_devastated", region:name())
-                end
-                if not region:has_effect_bundle(mod.effect_bundle_key) then
-                    cm:apply_effect_bundle_to_region(mod.effect_bundle_key, region:name(), -1)
-                end
             end)
         end
     end
 
     mod:sync_necropolises()
+    mod:restore_devastation_effects(true)
 end)
