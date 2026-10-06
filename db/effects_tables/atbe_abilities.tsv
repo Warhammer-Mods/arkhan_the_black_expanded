@@ -20,4 +20,3 @@ stephen_ability_uses_raise_dead	magic_character.png	295	magic_character.png	batt
 stephen_effect_ability_wom_cost_raise_dead	magic_character.png	294	magic_character.png	both	false
 stephen_effect_ability_wom_cost_raise_dead_upgraded	magic_character.png	295	magic_character.png	both	false
 stephen_effect_ability_curse_of_years_enable	general_ability.png	600	general_ability.png	battle	true
-stephen_effect_ability_raise_dead_bound_enable	general_ability.png	600	general_ability.png	battle	true

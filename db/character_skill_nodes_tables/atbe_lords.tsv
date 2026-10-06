@@ -1,5 +1,19 @@
 campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/atbe_lords									
+	stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_tmb_followers_of_nagash	4	wh2_dlc09_skill_tmb_tomb_king_army_12	12		0	1	true
+	stephen_skill_tmb_lord_reanimation	wh2_dlc09_tmb_followers_of_nagash	4	wh2_dlc09_skill_tmb_tomb_king_army_7	7		0	6	true
+	stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_tmb_followers_of_nagash	4	wh2_dlc09_skill_tmb_arkhan_army_12	12		0	1	true
+	stephen_skill_tmb_lord_reanimation	wh2_dlc09_tmb_followers_of_nagash	4	wh2_dlc09_skill_tmb_arkhan_army_7	7		0	6	true
+	stephen_skill_tmb_lord_reanimation	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_death_army_08	7		0	6	true
+	stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_death_army_13	12		0	1	true
+	stephen_skill_tmb_lord_reanimation	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_light_army_08	7		0	6	true
+	stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_light_army_13	12		0	1	true
+	stephen_skill_tmb_lord_reanimation	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_nehekhara_army_08	7		0	6	true
+	stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_nehekhara_army_13	12		0	1	true
+	stephen_skill_tmb_lord_reanimation	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_shadow_army_08	7		0	6	true
+	stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_shadow_army_13	12		0	1	true
+	stephen_skill_tmb_lord_reanimation	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_undeath_army_08	7		0	6	true
+	stephen_skill_tmb_lord_reanimation_upgraded	wh2_dlc09_tmb_followers_of_nagash	4	wh3_dlc29_skill_tmb_high_liche_priest_undeath_army_13	12		0	1	true
 	stephen_skill_eternal_veil	wh2_dlc09_tmb_followers_of_nagash	2	stephen_skill_node_eternal_veil	25		0	0	true
 	stephen_skill_dynasty_innate_trait_1		6	stephen_skill_dynasty_innate_trait_1	0		0	0	false
 	stephen_skill_dynasty_innate_trait_2		6	stephen_skill_dynasty_innate_trait_2	0		0	0	false
@@ -13,23 +27,10 @@ campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_o
 	wh2_dlc09_skill_tmb_arkhan_unique_4_new	wh2_dlc09_tmb_followers_of_nagash	1	wh2_dlc09_skill_tmb_arkhan_unique_4	5		0	0	true
 	wh2_dlc09_skill_tmb_arkhan_unique_5_new	wh2_dlc09_tmb_followers_of_nagash	1	wh2_dlc09_skill_tmb_arkhan_unique_5	6		0	2	true
 	stephen_skill_arkhan_mount_dread_abyssal	wh2_dlc09_tmb_followers_of_nagash	0	wh3_main_arkhan_the_black_0	4		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_returned_in_madness		0	wh2_dlc09_skill_tmb_arkhan_misc_0	6		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_ancient_tyrant		0	wh2_dlc09_skill_tmb_arkhan_misc_1	7		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_embalmed_in_elixir		0	wh2_dlc09_skill_tmb_arkhan_misc_2	8		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_ceremonial_bandages		0	wh2_dlc09_skill_tmb_arkhan_misc_3	9		0	0	true
-	wh3_main_skill_tmb_never_say_die		0	wh3_main_skill_node_tmb_dynasty_restless_arkhan	10		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_returned_in_madness		0	wh2_dlc09_skill_tmb_tomb_king_misc_0	6		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_ancient_tyrant		0	wh2_dlc09_skill_tmb_tomb_king_misc_1	7		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_embalmed_in_elixir		0	wh2_dlc09_skill_tmb_tomb_king_misc_2	8		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_ceremonial_bandages		0	wh2_dlc09_skill_tmb_tomb_king_misc_3	9		0	0	true
 	wh2_dlc09_skill_tmb_tomb_king_returned_in_madness		0	stephen_skill_ghoul_king_misc_0	6		0	0	true
 	wh2_dlc09_skill_tmb_tomb_king_ancient_tyrant		0	stephen_skill_ghoul_king_misc_1	7		0	0	true
 	wh2_dlc09_skill_tmb_tomb_king_embalmed_in_elixir		0	stephen_skill_ghoul_king_misc_2	8		0	0	true
 	wh2_dlc09_skill_tmb_tomb_king_ceremonial_bandages		0	stephen_skill_ghoul_king_misc_3	8		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_returned_in_madness		0	stephen_skill_vampire_lord_misc_0	6		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_ancient_tyrant		0	stephen_skill_vampire_lord_misc_1	7		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_embalmed_in_elixir		0	stephen_skill_vampire_lord_misc_2	8		0	0	true
-	wh2_dlc09_skill_tmb_tomb_king_ceremonial_bandages		0	stephen_skill_vampire_lord_misc_3	8		0	0	true
 	stephen_skill_tomb_king_mount_steed		0	stephen_tomb_king_mount_skeletal_steed	0		0	0	true
 	stephen_skill_tomb_king_mount_chariot		0	stephen_skill_tomb_king_mount_chariot	1		0	0	true
 	stephen_skill_tomb_king_mount_warsphinx		0	stephen_skill_tomb_king_mount_warsphinx	2		0	0	true
@@ -95,14 +96,3 @@ campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_o
 	wh2_main_skill_all_magic_light_10_bironas_timewarp_lord		3	stephen_skill_node_master_liche_light_magic_10	7		0	0	true
 	wh_main_skill_all_magic_all_11_arcane_conduit		3	stephen_skill_node_master_liche_light_magic_11	10		0	4	true
 	wh_main_skill_all_magic_light_dummy_shems_burning_gaze_phas_protection		8	stephen_skill_node_master_liche_light_magic_dummy	11		1	0	false
-	wh2_dlc09_skill_tmb_personal_base		3	stephen_skill_node_tomb_king_personal_0	0		0	0	true
-	wh2_dlc09_skill_tmb_personal_conqueror		3	stephen_skill_node_tomb_king_personal_1	1		0	0	true
-	wh2_dlc11_skill_all_lord_self_blade_master		3	stephen_skill_node_tomb_king_personal_2	2		0	0	true
-	wh2_dlc11_skill_all_lord_self_hard_to_hit		3	stephen_skill_node_tomb_king_personal_3	3		0	0	true
-	wh2_dlc11_skill_all_lord_self_self_indomitable		3	stephen_skill_node_tomb_king_personal_4	4		0	0	true
-	wh2_dlc09_skill_tmb_personal_5		3	stephen_skill_node_tomb_king_personal_5	5		0	4	true
-	wh2_dlc11_skill_all_lord_self_wound-maker		3	stephen_skill_node_tomb_king_personal_6	6		0	0	true
-	wh2_dlc11_skill_all_lord_self_full_plate_armour		3	stephen_skill_node_tomb_king_personal_7	7		0	0	true
-	wh2_dlc11_skill_all_lord_self_devastating_charge		3	stephen_skill_node_tomb_king_personal_8	8		0	0	true
-	wh2_dlc09_skill_tmb_personal_9		3	stephen_skill_node_tomb_king_personal_9	9		0	0	true
-	wh2_dlc09_skill_tmb_personal_10		3	stephen_skill_node_tomb_king_personal_10	10		0	4	true

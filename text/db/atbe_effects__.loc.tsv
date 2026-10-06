@@ -1,5 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/atbe_effects__.loc		
+effects_description_stephen_unit_recruitment_duration_all	Local Recruitment duration: %+n turn	false
 effects_description_stephen_battle_healing_cap_vampiric_units	Battle healing cap: %+n% for Vampire Count units	false
 effects_description_stephen_battle_healing_cap_crypt_ghouls_crypt_horrors	Battle healing cap: %+n% for Crypt Ghoul and Crypt Horror units	false
 effects_description_stephen_speed_crypt_ghouls_crypt_horrors	Speed: %+n% for Crypt Ghoul and Crypt Horror units	false
@@ -24,8 +25,13 @@ effects_description_stephen_ward_save_terrorgheists_zombie_dragons	Ward save: %+
 effects_description_stephen_battle_healing_cap_terrorgheists_zombie_dragons	Battle healing cap: %+n% for Terrorgheist and Zombie Dragon units	false
 effects_description_stephen_speed_morghasts	Speed: %+n% for Morghast units	false
 effects_description_stephen_vanguard_deployment_morghasts	Attribute: Vanguard Deployment for Morghast units	false
-effects_description_stephen_battle_healing_cap_morghasts	Battle healing cap: %+n% fo rMorghast units	false
+effects_description_stephen_battle_healing_cap_morghasts	Battle healing cap: %+n% for Morghast units	false
 effects_description_stephen_melee_attack_morghasts	Melee attack: %+n for Morghast units	false
+effects_description_stephen_armour_mortis_engines	Armour: %+n for Mortis Engine units	false
+effects_description_stephen_fire_resistance_mortis_engines	Fire resistance: %+n for Mortis Engine units	false
+effects_description_stephen_missile_resistance_mortis_engines	Missile resistance: %+n for Mortis Engine units	false
+effects_description_stephen_physical_resistance_mortis_engines	Physical resistance: %+n for Mortis Engine units	false
+effects_description_stephen_battle_healing_cap_mortis_engines	Battle healing cap: %+n% for Mortis Engine units	false
 effects_description_stephen_weapon_ap_crypt_ghouls	Armour-piercing weapon damage: %+n for Crypt Ghoul units	false
 effects_description_stephen_weapon_ap_crypt_horrors	Armour-piercing weapon damage: %+n for Crypt Horror units	false
 effects_description_stephen_soulblight_attacks_enable	"Attacks cause ""Soulblight"" effect"	false
@@ -81,11 +87,9 @@ effects_description_stephen_effect_ability_enable_dark_reanimation_upgraded	"Abi
 effects_description_stephen_effect_ability_disable_dark_reanimation	"Replaces: ""Dark Reanimation"""	false
 effects_description_stephen_effect_ability_enable_eldritch_blast	Enable ability: 'Eldritch Blast' for Arkhan the Black	false
 effects_description_stephen_effect_unit_cap_xereus_tmb_mon_terrorgheist	Unit capacity: %+n\\nTerrorgheists	false
-effects_description_stephen_effect_unit_cap_xereus_tmb_mon_zombie_dragon	Unit capacity: %+n\\nZombie Dragons	false
+effects_description_stephen_cap_zombie_dragon	Unit capacity: %+n\\nZombie Dragons	false
 effects_description_stephen_effect_unit_cap_bundle_ghouls_bats_wolves	Unit capacity: %+n\\nCrypt Ghouls \\nDire Wolves \\nFell Bats	false
 effects_description_stephen_effect_unit_cap_xereus_tmb_mon_carrion_0	Unit capacity: %+n\\nCarrion	false
-effects_description_stephen_cap_cairn_crypt_horror_grave_guard_combo	Unit capacity: %+n\\nCairn Wraiths \\nCrypt Horrors \\nGrave Guard \\nGrave Guard (Great Weapons)	false
-effects_description_stephen_cap_crypt_horrors_grave_guard_combo	Unit capacity: %+n\\nCrypt Horrors \\nGrave Guard \\nGrave Guard (Great Weapons)	false
 effects_description_stephen_effect_ability_raise_dead_enable	"Spell: ""Raise Dead"""	false
 effects_description_stephen_ability_overcast_raise_dead	"Spell: ""Raise Dead Upgraded"""	false
 effects_description_stephen_ability_cooldown_raise_dead	"Cooldown: %+n% to ""Raise Dead"""	false

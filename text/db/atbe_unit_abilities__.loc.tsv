@@ -40,8 +40,6 @@ unit_abilities_tooltip_text_stephen_passive_construct_instability	Constructs are
 unit_abilities_tooltip_text_stephen_passive_construct_instability_ii	Now that the sorcery that holds this Construct together has failed, the Winds of Magic flow out of it, leaving naught but an empty, static husk behind.	false
 unit_abilities_tooltip_text_stephen_passive_spirit_conduit		false
 unit_abilities_onscreen_name_stephen_passive_spirit_conduit		false
-unit_abilities_onscreen_name_stephen_spell_bound_lesser_raise_dead	Lesser Raise Dead	false
-unit_abilities_tooltip_text_stephen_spell_bound_lesser_raise_dead	Necromancers can awaken mortal remains to reinforce their Undead legions.	false
 unit_abilities_onscreen_name_stephen_passive_ancient_desecrator	Ancient Desecrator	false
 unit_abilities_tooltip_text_stephen_passive_ancient_desecrator	The Great Necromancer’s will smothers all sorcery, stripping foes of their petty enchantments.	false
 unit_abilities_onscreen_name_stephen_army_ability_razkhar_the_abyssal_swarm	The Abyssal Swarm	false

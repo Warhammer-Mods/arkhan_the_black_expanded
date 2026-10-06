@@ -8,6 +8,9 @@ technologies_onscreen_name_stephen_tech_arkhan_4	Vampiric Sorcery	false
 technologies_onscreen_name_stephen_tech_arkhan_raise_dead_1	Endless Ranks I	false
 technologies_onscreen_name_stephen_tech_arkhan_raise_dead_2	Endless Ranks II	false
 technologies_onscreen_name_stephen_tech_arkhan_raise_dead_3	Endless Ranks III	false
+technologies_onscreen_name_stephen_tech_arkhan_raise_dead_4	Binding the Fallen	false
+technologies_onscreen_name_stephen_tech_arkhan_raise_dead_5	Mastery of Death	false
+technologies_onscreen_name_stephen_tech_arkhan_raise_dead_6	Defiance of Death	false
 technologies_onscreen_name_stephen_tech_arkhan_ghouls_1	Feral Might	false
 technologies_onscreen_name_stephen_tech_arkhan_ghouls_2	The Hunger	false
 technologies_onscreen_name_stephen_tech_arkhan_bats_wolves_1	Hunters of the Night	false
@@ -20,14 +23,21 @@ technologies_onscreen_name_stephen_tech_arkhan_terrors_1	Winged Harbingers	false
 technologies_onscreen_name_stephen_tech_arkhan_terrors_2	Undying Horrors	false
 technologies_onscreen_name_stephen_tech_arkhan_morghasts_1	Chosen of Nagash	false
 technologies_onscreen_name_stephen_tech_arkhan_morghasts_2	Harbingers of Ruin	false
+technologies_onscreen_name_stephen_tech_arkhan_mortis_engines_1	Engines of the Dead	false
+technologies_onscreen_name_stephen_tech_arkhan_mortis_engines_2	Unholy Engines	false
+technologies_onscreen_name_stephen_tech_arkhan_final_1	Legions of Nagash	false
+technologies_onscreen_name_stephen_tech_arkhan_final_2	The Mortarch's Dominion	false
 technologies_short_description_stephen_tech_arkhan_0	The secrets of undeath are recorded within Arkhan's accursed tome.	false
 technologies_short_description_stephen_tech_arkhan_1	The dead are given renewed strength, speed and resilience in service to their master.	false
-technologies_short_description_stephen_tech_arkhan_2	The Lore of Death is wielded with greater potency and efficiency.	false
+technologies_short_description_stephen_tech_arkhan_2	The mastery of death magic empowers all who serve Arkhan, granting greater spellcraft and strength to their blows.	false
 technologies_short_description_stephen_tech_arkhan_3	The Winds of Magic gather around the servants of Nagash.	false
 technologies_short_description_stephen_tech_arkhan_4	The dark arts of the Vampire Counts are brought under Arkhan's command.	false
 technologies_short_description_stephen_tech_arkhan_raise_dead_1	The fallen rise once more to replenish the ranks of the dead.	false
 technologies_short_description_stephen_tech_arkhan_raise_dead_2	The legions of the dead return to battle with ever greater resilience.	false
 technologies_short_description_stephen_tech_arkhan_raise_dead_3	Even the most grievously wounded dead are restored to the ranks.	false
+technologies_short_description_stephen_tech_arkhan_raise_dead_4	The dead are bound more tightly to Arkhan's will, leaving less room for the corrupting influence of the Vampires.	false
+technologies_short_description_stephen_tech_arkhan_raise_dead_5	Arkhan's mastery over the dead grows, allowing more fallen warriors to rise once more.	false
+technologies_short_description_stephen_tech_arkhan_raise_dead_6	Death itself is denied as Arkhan's legions refuse to remain among the slain.	false
 technologies_short_description_stephen_tech_arkhan_ghouls_1	Ghouls and Crypt Horrors strike with greater speed and ferocity.	false
 technologies_short_description_stephen_tech_arkhan_ghouls_2	The cursed hunger of the ghouls sustains them upon the battlefield.	false
 technologies_short_description_stephen_tech_arkhan_bats_wolves_1	Bats and wolves descend upon the enemy with unnatural speed.	false
@@ -40,6 +50,10 @@ technologies_short_description_stephen_tech_arkhan_terrors_1	Monstrous horrors d
 technologies_short_description_stephen_tech_arkhan_terrors_2	Even grievous wounds cannot halt the monstrous dead as they descend upon their prey.	false
 technologies_short_description_stephen_tech_arkhan_morghasts_1	Nagash's favoured servants advance with unnatural speed, their terrible weapons striking with greater force.	false
 technologies_short_description_stephen_tech_arkhan_morghasts_2	The chosen of Nagash emerge from the shadows, bringing death to those who stand in their path.	false
+technologies_short_description_stephen_tech_arkhan_mortis_engines_1	The ancient engines are reinforced with dark magic, shielding them from flame and the weapons of the living.	false
+technologies_short_description_stephen_tech_arkhan_mortis_engines_2	Bound ever more tightly to the winds of death, the engines resist mortal weapons and endure grievous wounds.	false
+technologies_short_description_stephen_tech_arkhan_final_1	The servants of Nagash march without fatigue, strengthened by the power of their immortal master.	false
+technologies_short_description_stephen_tech_arkhan_final_2	Arkhan's influence extends beyond the dead, forging alliances and strengthening the lands under his command.	false
 technologies_onscreen_name_stephen_tech_arkhan_unlock_1	Thutmocris the Death-Scribe	false
 technologies_onscreen_name_stephen_tech_arkhan_unlock_2	Talongore the Carrion King	false
 technologies_onscreen_name_stephen_tech_arkhan_unlock_3	Lahmian Sister Khestra	false

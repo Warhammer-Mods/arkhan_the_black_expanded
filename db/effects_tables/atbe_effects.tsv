@@ -1,5 +1,6 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/atbe_effects					
+stephen_unit_recruitment_duration_all	turns.png	130	turns.png	campaign	false
 stephen_army_ability_razkhar_the_abyssal_swarm_enable	general_ability.png	301	general_ability.png	battle	true
 stephen_battle_healing_cap_vampiric_units	health_character.png	101	health_character.png	battle	true
 stephen_speed_crypt_ghouls_crypt_horrors	battle_movement.png	421	battle_movement.png	battle	true
@@ -29,6 +30,11 @@ stephen_battle_healing_cap_morghasts	health_character.png	101	health_character.p
 stephen_melee_attack_morghasts	melee.png	431	melee.png	battle	true
 stephen_weapon_ap_crypt_ghouls	armour_piercing.png	100	armour_piercing.png	battle	true
 stephen_weapon_ap_crypt_horrors	armour_piercing.png	101	armour_piercing.png	battle	true
+stephen_armour_mortis_engines	armour.png	401	armour.png	battle	true
+stephen_fire_resistance_mortis_engines	resistance_fire.png	581	resistance_fire.png	battle	true
+stephen_missile_resistance_mortis_engines	resistance_missile.png	280	resistance_missile.png	both	true
+stephen_physical_resistance_mortis_engines	resistance_physical.png	581	resistance_physical.png	battle	true
+stephen_battle_healing_cap_mortis_engines	health_character.png	101	health_character.png	battle	true
 stephen_soulblight_attacks_enable	unit_contact_soulblight.png	61	unit_contact_soulblight.png	battle	true
 stephen_stat_attribute_enable_spell_mastery_necrarch	attribute_mastery_of_elemental_winds.png	620	attribute_mastery_of_elemental_winds.png	battle	true
 stephen_stat_attribute_enable_spell_mastery_arkhan	attribute_mastery_of_elemental_winds.png	620	attribute_mastery_of_elemental_winds.png	battle	true
