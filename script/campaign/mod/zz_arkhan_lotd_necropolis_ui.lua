@@ -9,14 +9,6 @@ local TOPBAR_PATH = "ui/campaign ui/arkhan_lotd_necropolis_topbar.twui.xml"
 local ENERGY_ID = "arkhan_lotd_necromantic_energy_topbar"
 local ENERGY_PATH = "ui/campaign ui/arkhan_lotd_necromantic_energy_topbar.twui.xml"
 local refresh_energy
-local logged = {}
-
-local function log_once(key, message)
-    if logged[key] then return end
-    logged[key] = true
-    out("[Arkhan Necropolis UI v10] " .. message)
-end
-
 local function local_arkhan()
     return cm:get_local_faction_name(true) == FACTION
 end
@@ -97,14 +89,12 @@ local function refresh_topbar(root)
         bar = find_uicomponent(root, "resources_bar")
     end
     if not bar then
-        log_once("missing_bar", "Resource bar not ready; retrying on the next UI refresh.")
         return
     end
 
     local existing = find_uicomponent(bar, TOPBAR_ID)
     local widget = existing or core:get_or_create_component(TOPBAR_ID, TOPBAR_PATH, bar)
     if not widget then
-        log_once("failed_bar", "Could not create the Necropolis counter component.")
         return
     end
     widget:SetVisible(true)
@@ -115,7 +105,6 @@ local function refresh_topbar(root)
         -- count, soft cap and devastation resources.
         widget:SetContextObject(cco("CcoCampaignFaction", FACTION))
         bar:Layout()
-        log_once("bar_created", "Necropolis counter and three-province progress display attached.")
     end
 end
 
@@ -156,8 +145,6 @@ refresh_energy = function(widget, region_key)
     if change and pending ~= nil then
         change:SetState(pending < 0 and "negative" or "positive")
         change:SetStateText((pending > 0 and "+" or "") .. tostring(pending), "")
-    elseif pending == nil then
-        log_once("income_" .. region_key, "Income context not ready for " .. region_key .. "; reserve remains visible.")
     end
     holder:Layout()
 end
@@ -178,15 +165,12 @@ local function refresh()
     if not local_arkhan() then return end
     local root = core:get_ui_root()
     if not root then return end
-    local ok, err = pcall(refresh_topbar, root)
-    if not ok then log_once("bar_error", "Counter display error: " .. tostring(err)) end
-    ok, err = pcall(hide_map_indicators, root)
-    if not ok then log_once("labels_error", "Settlement display error: " .. tostring(err)) end
+    pcall(refresh_topbar, root)
+    pcall(hide_map_indicators, root)
 end
 
 cm:add_first_tick_callback(function()
     if not local_arkhan() then return end
-    log_once("loaded", "Display extension loaded; using recovery-pack campaign mechanics.")
     core:remove_listener(PREFIX)
     core:add_listener(PREFIX, "RealTimeTrigger",
         function(context) return context.string == PREFIX end,

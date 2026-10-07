@@ -28,7 +28,6 @@ mod.last_over_cap = nil
 
 local function report(ok, message)
     mod.last_result = message
-    out("[Arkhan Land of the Dead] " .. message)
     return ok, message
 end
 
@@ -82,40 +81,6 @@ local function sorted_keys(map)
     for key in pairs(map) do keys[#keys + 1] = key end
     table.sort(keys)
     return keys
-end
-
-local function diagnostic_log(message)
-    local line = "[Arkhan devastation diagnosis] " .. message
-    if ModLog then ModLog(line) else out(line) end
-end
-
--- Read-only snapshots distinguish saved-state loss from a failed building
--- condition. ModLog also writes these when the full script log is disabled.
-function mod:log_devastation_state(stage)
-    diagnostic_log(stage .. ": saved provinces=" .. table.concat(sorted_keys(self.provinces), ","))
-    local faction = cm:get_faction(self.faction_key)
-    if not faction or faction:is_null_interface() then return end
-    local regions = faction:region_list()
-    local matched = 0
-    for i = 0, regions:num_items() - 1 do
-        local region = regions:item_at(i)
-        local region_key = region:name()
-        local saved = self.provinces[region:province():key()] == true
-        local marker = region:has_effect_bundle(self.effect_bundle_key)
-        local native_marker = region:has_effect_bundle("wh3_dlc29_land_of_the_dead_devastated")
-        local engine_state = devastation_manager and devastation_manager.persistent
-            and devastation_manager.persistent[region_key]
-        if saved or marker or native_marker or engine_state then
-            matched = matched + 1
-            diagnostic_log(stage .. ": region=" .. region_key ..
-                ", province=" .. region:province():key() ..
-                ", saved=" .. tostring(saved) .. ", arkhan_bundle=" .. tostring(marker) ..
-                ", native_bundle=" .. tostring(native_marker) ..
-                ", manager=" .. tostring(engine_state ~= nil and engine_state ~= false) ..
-                ", culture=" .. tostring(engine_state and engine_state.devastation_culture))
-        end
-    end
-    diagnostic_log(stage .. ": owned regions with devastation evidence=" .. matched)
 end
 
 -- Reusable console command: lua arkhan_lotd:devastate("REGION_KEY")
@@ -393,17 +358,14 @@ end
 cm:add_saving_game_callback(function(context)
     cm:save_named_value("ArkhanLandOfTheDeadDevastation", mod.provinces, context)
     cm:save_named_value("ArkhanLandOfTheDeadGroupRegions", mod.group_regions, context)
-    diagnostic_log("save: provinces=" .. table.concat(sorted_keys(mod.provinces), ","))
 end)
 
 cm:add_loading_game_callback(function(context)
     mod.provinces = cm:load_named_value("ArkhanLandOfTheDeadDevastation", {}, context)
     mod.group_regions = cm:load_named_value("ArkhanLandOfTheDeadGroupRegions", {}, context)
-    diagnostic_log("load: provinces=" .. table.concat(sorted_keys(mod.provinces), ","))
 end)
 
 cm:add_first_tick_callback(function()
-    mod:log_devastation_state("before load refresh")
     core:add_listener("ArkhanLandOfTheDeadOwnership", "WorldStartRound", true,
         function()
             mod:check_provinces()

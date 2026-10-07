@@ -17,10 +17,8 @@ local function queue_refresh(force_devastation_refresh)
         mod:sync_necropolises()
         if refresh_devastation then
             mod:restore_devastation_effects(true)
-            mod:log_devastation_state("after load refresh")
             refresh_devastation = false
         end
-        out("[Arkhan Necropolis refresh v8] Region coverage and capacity refreshed.")
     end, 0.1)
 end
 
