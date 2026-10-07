@@ -33,6 +33,13 @@ for root in (Path("db"), Path("text")):
                     errors.append(f"{path}:{line}: expected {len(header)} fields, got {len(row)}")
                 elif header == ["key", "text", "tooltip"] and row[2] not in ("true", "false"):
                     errors.append(f"{path}:{line}: invalid localisation tooltip flag")
+                elif metadata[0] == "#building_effect_context_expressions_tables":
+                    expression = row[header.index("expression")].strip()
+                    # RPFM's importer disables CSV quoting. A CSV-wrapped
+                    # expression becomes a literal string with doubled quotes,
+                    # rather than the intended boolean condition.
+                    if expression.startswith('"') and expression.endswith('"'):
+                        errors.append(f"{path}:{line}: CSV-quoted building condition; use raw quotes in RPFM TSV")
         except (UnicodeError, ValueError, csv.Error) as exc:
             errors.append(f"{path}: {exc}")
 

@@ -1,4 +1,4 @@
 expression	key	display_only_active_effects	always_show_display_text
 #building_effect_context_expressions_tables;2;db/building_effect_context_expressions_tables/atbe			
-"Owner.RecordKeyIsOneOf(""wh2_dlc09_tmb_followers_of_nagash"")"	IsFactionArkhan	true	false
-"(Region.IsEffectBundleActive(""wh3_dlc29_land_of_the_dead_devastated"") == true || Region.IsEffectBundleActive(""arkhan_lotd_land_of_the_dead_devastated"") == true) && Owner.RecordKeyIsOneOf(""wh2_dlc09_tmb_followers_of_nagash"")"	LandOfTheDeadDevastatedAndArkhan	false	true
+Owner.RecordKeyIsOneOf("wh2_dlc09_tmb_followers_of_nagash")	IsFactionArkhan	true	false
+(Region.IsEffectBundleActive("wh3_dlc29_land_of_the_dead_devastated") == true || Region.IsEffectBundleActive("arkhan_lotd_land_of_the_dead_devastated") == true) && Owner.RecordKeyIsOneOf("wh2_dlc09_tmb_followers_of_nagash")	LandOfTheDeadDevastatedAndArkhan	false	true
