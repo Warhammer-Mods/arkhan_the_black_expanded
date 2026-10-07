@@ -4,29 +4,26 @@ on:
     branches: [develop]
     paths:
       - 'submods/arkhan_black_arts/**'
-      - '.github/workflows/black-arts-build.yml'
+      - '.github/workflows/**'
+      - '.github/scripts/**'
+      - '.luacheckrc'
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: black-arts-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
-  validate:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@v7.0.1
-      - name: Check add-on tables
-        working-directory: submods/arkhan_black_arts
-        run: python3 ../../.github/scripts/check_tsv.py
-      - name: Check add-on Lua
-        run: |
-          sudo apt-get update
-          sudo apt-get install --yes lua-check
-          set +e
-          luacheck submods/arkhan_black_arts/script --config .luacheckrc
-          result=$?
-          if [ "$result" -eq 1 ]; then exit 0; fi
-          exit "$result"
+  db-check:
+    uses: ./.github/workflows/db-check.yml
+    with:
+      source_root: submods/arkhan_black_arts
+  lua-check:
+    uses: ./.github/workflows/lua-lint.yml
+    with:
+      source_root: submods/arkhan_black_arts
   build:
-    needs: validate
+    needs: [db-check, lua-check]
     uses: ./.github/workflows/packfile-build.yml
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}

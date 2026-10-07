@@ -1,37 +1,16 @@
 name: Lua lint
 
-on: 
-  push:
-    branches:
-      - main
-      - develop
-      - 'feature/**'
-      - 'hotfix/**'
-      - 'bugfix/**'
-      - 'support/**'
-      - 'update/**'
-    paths:
-      - 'script/**'
-      - '.luacheckrc'
-      - '.github/workflows/**'
-      - '.github/scripts/**'
-  pull_request:
-    branches:
-      - main
-      - develop
-      - 'feature/**'
-      - 'hotfix/**'
-      - 'bugfix/**'
-      - 'support/**'
-      - 'update/**'
+on:
+  workflow_call:
+    inputs:
+      source_root:
+        type: string
+        required: false
+        default: "."
   workflow_dispatch:
 
 permissions:
   contents: read
-
-concurrency:
-  group: lua-lint-${{ github.ref }}
-  cancel-in-progress: true
 
 jobs:
   check:
@@ -42,14 +21,18 @@ jobs:
       - name: Install Lua checker
         run: |
           sudo apt-get update
-          sudo apt-get install --yes lua-check
+          sudo apt-get install --yes lua5.1 liblua5.1-0-dev luarocks
+          sudo luarocks --lua-version=5.1 install luacheck 1.2.0-1
+          luacheck --version
       - name: Check campaign scripts
         shell: bash
+        env:
+          CHECK_SOURCE_ROOT: ${{ inputs.source_root || '.' }}
         run: |
           # Luacheck returns 1 for warnings and 2 for syntax errors.
           # Preserve the existing workflow's warning policy.
           set +e
-          luacheck script --config .luacheckrc --formatter plain --codes --ranges
+          luacheck "$CHECK_SOURCE_ROOT/script" --config .luacheckrc --formatter plain --codes --ranges
           result=$?
           if [ "$result" -eq 1 ]; then
             echo "::warning::Luacheck reported warnings; see the lint log."

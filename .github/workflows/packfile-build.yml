@@ -101,7 +101,7 @@ jobs:
         PACKFILE: ${{ inputs.pack_name || github.event.repository.name }}.pack
       run: python3 .github/scripts/build_pack_server.py
     - name: Upload packfile
-      uses: actions/upload-artifact@v7.0.1
+      uses: actions/upload-artifact@v7.0.2
       with:
         name: ${{ inputs.pack_name || github.event.repository.name }}
         path: ${{ inputs.source_root }}/${{ inputs.pack_name || github.event.repository.name }}.pack
@@ -116,7 +116,7 @@ jobs:
         docker rm --force "${RPFM_CONTAINER}" || true
     - name: Upload server log
       if: always()
-      uses: actions/upload-artifact@v7.0.1
+      uses: actions/upload-artifact@v7.0.2
       with:
         name: rpfm-server log
         path: rpfm-server.log

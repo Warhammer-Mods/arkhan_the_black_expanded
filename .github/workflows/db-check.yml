@@ -1,37 +1,16 @@
 name: DB check
 
-on: 
-  push:
-    branches:
-      - main
-      - develop
-      - 'feature/**'
-      - 'hotfix/**'
-      - 'bugfix/**'
-      - 'support/**'
-      - 'update/**'
-    paths:
-      - 'db/**'
-      - 'text/**'
-      - '.github/workflows/**'
-      - '.github/scripts/**'
-  pull_request:
-    branches:
-      - main
-      - develop
-      - 'feature/**'
-      - 'hotfix/**'
-      - 'bugfix/**'
-      - 'support/**'
-      - 'update/**'
+on:
+  workflow_call:
+    inputs:
+      source_root:
+        type: string
+        required: false
+        default: "."
   workflow_dispatch:
 
 permissions:
   contents: read
-
-concurrency:
-  group: db-check-${{ github.ref }}
-  cancel-in-progress: true
 
 jobs:
   check:
@@ -40,4 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v7.0.1
       - name: Validate database and localisation exports
-        run: python3 .github/scripts/check_tsv.py
+        env:
+          CHECK_SOURCE_ROOT: ${{ inputs.source_root || '.' }}
+        run: |
+          checker="$GITHUB_WORKSPACE/.github/scripts/check_tsv.py"
+          cd "$CHECK_SOURCE_ROOT"
+          python3 "$checker"
