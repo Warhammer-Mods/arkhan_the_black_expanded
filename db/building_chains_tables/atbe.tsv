@@ -3,3 +3,8 @@ key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	buil
 stephen_tmb_defence_major			military	false	wh2_dlc09_tmb_defence_major		9		true	false
 stephen_tmb_defence_minor			military	false	wh2_main_sch_defence_minor		9		true	false
 stephen_tmb_defence_norsca			military	false	wh2_main_sch_defence_norsca		0		true	false
+stephen_tmb_growth			money	false	wh2_main_sch_infrastructure1_farm		11		true	false
+stephen_tmb_income			money	false	wh2_main_sch_infrastructure2_industry		12		true	false
+stephen_tmb_estate			money	false	wh2_main_sch_infrastructure6_other		14		true	false
+stephen_tmb_necropolis			military	false	wh3_dlc29_nag_necropolis_upkeep		15		true	false
+stephen_tmb_titans			military	false	wh2_main_sch_support5_extra		4		true	false

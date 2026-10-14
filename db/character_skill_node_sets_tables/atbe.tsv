@@ -9,6 +9,8 @@ general	false		stephen_skill_node_tomb_king		false		stephen_tmb_tomb_king
 general	false		stephen_skill_node_master_liche_death		false		stephen_tmb_high_liche_priest_death
 general	false		stephen_skill_node_master_liche_undeath		false		stephen_tmb_high_liche_priest_undeath
 general	false		stephen_skill_node_master_liche_nehekhara		false		stephen_tmb_high_liche_priest_nehekhara
+general	false		stephen_skill_node_master_liche_vampire		false		stephen_tmb_high_liche_priest_vampire
+general	false		stephen_skill_node_master_liche_shadow		false		stephen_tmb_high_liche_priest_shadow
 general	false		stephen_skill_node_master_liche_light		false		stephen_tmb_high_liche_priest_light
 general	false		stephen_skill_node_lahmian		false		stephen_tmb_lahmian_vampire_lord
 general	false		stephen_skill_node_necrarch		false		stephen_tmb_necrarch_vampire_lord

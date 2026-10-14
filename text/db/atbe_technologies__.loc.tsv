@@ -27,9 +27,12 @@ technologies_onscreen_name_stephen_tech_arkhan_mortis_engines_1	Engines of the D
 technologies_onscreen_name_stephen_tech_arkhan_mortis_engines_2	Unholy Engines	false
 technologies_onscreen_name_stephen_tech_arkhan_final_1	Legions of Nagash	false
 technologies_onscreen_name_stephen_tech_arkhan_final_2	The Mortarch's Dominion	false
+technologies_onscreen_name_stephen_tech_arkhan_zombies_1	The Unending Tide	false
+technologies_onscreen_name_stephen_tech_arkhan_zombies_2	Undying Masses	false
+technologies_onscreen_name_stephen_tech_arkhan_zombies_0	Rotting Resilience	false
 technologies_short_description_stephen_tech_arkhan_0	The secrets of undeath are recorded within Arkhan's accursed tome.	false
 technologies_short_description_stephen_tech_arkhan_1	The dead are given renewed strength, speed and resilience in service to their master.	false
-technologies_short_description_stephen_tech_arkhan_2	The mastery of death magic empowers all who serve Arkhan, granting greater spellcraft and strength to their blows.	false
+technologies_short_description_stephen_tech_arkhan_2	Arkhan's Liche Priests master the arts of death magic, while the Tomb Kings' ancient protections turn aside incoming missiles.	false
 technologies_short_description_stephen_tech_arkhan_3	The Winds of Magic gather around the servants of Nagash.	false
 technologies_short_description_stephen_tech_arkhan_4	The dark arts of the Vampire Counts are brought under Arkhan's command.	false
 technologies_short_description_stephen_tech_arkhan_raise_dead_1	The fallen rise once more to replenish the ranks of the dead.	false
@@ -63,3 +66,6 @@ technologies_short_description_stephen_tech_arkhan_unlock_3	The Lahmian seductre
 technologies_long_description_stephen_tech_arkhan_unlock_1		false
 technologies_long_description_stephen_tech_arkhan_unlock_2		false
 technologies_long_description_stephen_tech_arkhan_unlock_3		false
+technologies_short_description_stephen_tech_arkhan_zombies_1	The shambling dead advance with unnatural speed, striking from concealed positions with armour-piercing blows.	false
+technologies_short_description_stephen_tech_arkhan_zombies_2	Swollen with necromantic energy, the dead endure terrible punishment, heedless of pain or fear.	false
+technologies_short_description_stephen_tech_arkhan_zombies_0	The dead are bound with dark magic, their decaying flesh and rusted armour granting greater protection in battle.	false

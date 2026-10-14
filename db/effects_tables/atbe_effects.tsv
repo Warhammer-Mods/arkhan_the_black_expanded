@@ -1,8 +1,10 @@
 effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/atbe_effects					
-stephen_unit_recruitment_duration_all	turns.png	130	turns.png	campaign	false
 stephen_army_ability_razkhar_the_abyssal_swarm_enable	general_ability.png	301	general_ability.png	battle	true
+stephen_undead_post_battle_unit_saving_chance	replenishment.png	101	replenishment.png	campaign	true
+stephen_physical_resistance_vampiric_units	resistance_physical.png	581	resistance_physical.png	battle	true
 stephen_battle_healing_cap_vampiric_units	health_character.png	101	health_character.png	battle	true
+stephen_vigour_loss_reduction_vampiric_units	vigour.png	20	vigour.png	battle	false
 stephen_speed_crypt_ghouls_crypt_horrors	battle_movement.png	421	battle_movement.png	battle	true
 stephen_weapon_strength_crypt_ghouls_crypt_horrors	weapon_damage.png	461	weapon_damage.png	battle	true
 stephen_the_hunger_crypt_ghouls_crypt_horrors	general_ability.png	8	general_ability.png	battle	true
@@ -38,10 +40,12 @@ stephen_battle_healing_cap_mortis_engines	health_character.png	101	health_charac
 stephen_soulblight_attacks_enable	unit_contact_soulblight.png	61	unit_contact_soulblight.png	battle	true
 stephen_stat_attribute_enable_spell_mastery_necrarch	attribute_mastery_of_elemental_winds.png	620	attribute_mastery_of_elemental_winds.png	battle	true
 stephen_stat_attribute_enable_spell_mastery_arkhan	attribute_mastery_of_elemental_winds.png	620	attribute_mastery_of_elemental_winds.png	battle	true
+stephen_spell_mastery_liche_priest	attribute_mastery_of_elemental_winds.png	620	attribute_mastery_of_elemental_winds.png	battle	true
+stephen_360_missile_block_tomb_king	block_character.png	55	block_character.png	battle	true
 wh2_dlc09_effect_book_vampire_units	corruption_vampiric.png	1	corruption_vampiric.png	campaign	true
 stephen_effect_liche_shadows_book_unlock	wizard.png	1	wizard.png	campaign	true
 stephen_necrarch_tmb_teleport_stance	teleport.png	999	teleport.png	campaign	true
-stephen_stat_dark_arrows_dummy	unit_contact_soulblight.png	61	unit_contact_soulblight.png	battle	true
+stephen_stat_dark_arrows_dummy	wh3_main_unit_contact_warpflame.png	100	general_ability.png	battle	true
 stephen_faction_effect_projectile_dark_arrow_skeleton_hidden	ammo_character.png	0	ammo_character.png	battle	true
 stephen_faction_effect_projectile_dark_arrow_skeleton_ror_hidden	ammo_character.png	0	ammo_character.png	battle	true
 stephen_faction_effect_projectile_dark_arrow_horse_hidden	ammo_character.png	0	ammo_character.png	battle	true
@@ -67,7 +71,18 @@ stephen_effect_title_necrarch		0		campaign	true
 stephen_effect_title_traitor_king		0		campaign	true
 stephen_effect_title_master_liche		0		campaign	true
 stephen_unit_stat_health_zombies	health_character.png	9	health_character.png	battle	true
-stephen_stat_melee_attack_nehekhara_zombies	melee.png	431	melee.png	battle	true
-stephen_necrarch_defence_zombies	defence.png	451	defence.png	battle	true
-stephen_stat_speed_nehekhara_zombies	battle_movement.png	421	battle_movement.png	battle	true
+stephen_melee_attack_zombies	melee.png	431	melee.png	battle	true
+stephen_melee_defence_zombies	defence.png	451	defence.png	battle	true
+stephen_speed_zombies	battle_movement.png	421	battle_movement.png	battle	true
 stephen_stat_enable_the_hunger_crypt_ghouls_crypt_horrors	general_ability.png	8	general_ability.png	battle	true
+stephen_armour_zombies	armour.png	401	armour.png	battle	true
+stephen_physical_resistance_zombies	resistance_physical.png	581	resistance_physical.png	battle	true
+stephen_weapon_ap_zombies	armour_piercing.png	101	armour_piercing.png	battle	true
+stephen_vanuguard_deployment_zombies	attribute_guerrilla_deploy.png	600	attribute_guerrilla_deploy.png	battle	true
+stephen_weapon_strength_zombies	weapon_damage.png	461	weapon_damage.png	battle	true
+stephen_leadership_zombies	morale.png	410	morale.png	battle	true
+stephen_technology_mutually_exclusiv_zombies_1	tech_exclude.png	9999	tech_exclude.png	campaign	false
+stephen_technology_mutually_exclusiv_zombies_2	tech_exclude.png	9999	tech_exclude.png	campaign	false
+stephen_army_ability_akararan_the_dark_riders_enable	general_ability.png	301	general_ability.png	battle	true
+stephen_army_ability_uses_abyssal_dark_riders	general_ability.png	705	general_ability.png	battle	true
+stephen_legendary_liche_dummy	trait_vampire_counts.png	1	trait_vampire_counts.png	campaign	true

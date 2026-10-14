@@ -1,7 +1,7 @@
 key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
 #technologies_tables;7;db/technologies_tables/atbe											
 stephen_tech_arkhan_0	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_0	false	false		33557929	false	false	true	false
-stephen_tech_arkhan_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_zombies_3b	false	false		33557930	false	false	true	false
+stephen_tech_arkhan_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_main_4	false	false		33557930	false	false	true	false
 stephen_tech_arkhan_2	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_2	false	false		33557931	false	false	true	false
 stephen_tech_arkhan_3	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_magic_4	false	false		33557932	false	false	true	false
 stephen_tech_arkhan_4	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_magic_3	false	false		33557933	false	false	true	false
@@ -30,3 +30,6 @@ stephen_tech_arkhan_final_2	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_nec
 stephen_tech_arkhan_unlock_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_4	false	false		33557956	false	false	true	false
 stephen_tech_arkhan_unlock_2	wh_main_chs_port_ruin	1	arkhan_wh_main_vmp_strigoi_legacy	false	false		33557957	false	false	true	false
 stephen_tech_arkhan_unlock_3	wh_main_chs_port_ruin	1	arkhan_wh3_dlc29_tech_nef_imentet_2	false	false		33557958	false	false	true	false
+stephen_tech_arkhan_zombies_1	wh_main_chs_port_ruin	1	arkhan_tech_cst_bonds_of_flesh	false	false		33557959	false	false	true	false
+stephen_tech_arkhan_zombies_2	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_zombies_3c	false	false		33557960	false	false	true	false
+stephen_tech_arkhan_zombies_0	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_zombies_3b	false	false		33557961	false	false	true	false

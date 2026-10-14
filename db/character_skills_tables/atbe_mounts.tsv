@@ -21,9 +21,11 @@ mount_casket_of_souls.png	stephen_skill_master_liche_nehekhara_mount_casket			0	
 mount_skeletal_steed_tmb.png	stephen_skill_master_liche_light_mount_steed			0	false	false	false	0.0	0
 mount_skeleton_chariot.png	stephen_skill_master_liche_light_mount_chariot			0	false	false	false	0.0	0
 mount_casket_of_souls.png	stephen_skill_master_liche_light_mount_casket			0	false	false	false	0.0	0
-mount_skeletal_steed_tmb.png	stephen_skill_master_liche_shadow_mount_steed			0	false	false	false	0.0	0
+mount_skeletal_steed_tmb.png	stephen_skill_master_liche_undeath_mount_steed			0	false	false	false	0.0	0
 mount_skeleton_chariot.png	stephen_skill_master_liche_shadow_mount_chariot			0	false	false	false	0.0	0
 mount_casket_of_souls.png	stephen_skill_master_liche_shadow_mount_casket			0	false	false	false	0.0	0
+mount_skeletal_steed_tmb.png	stephen_skill_master_liche_shadow_mount_steed			0	false	false	false	0.0	0
+mount_skeletal_steed_tmb.png	stephen_skill_master_liche_vampire_mount_steed			0	false	false	false	0.0	0
 mount_skeletal_steed_tmb.png	stephen_skill_necrarch_mount_steed			0	false	false	false	0.0	0
 mount_hellsteed.png	stephen_skill_necrarch_mount_hellsteed			0	false	false	false	0.0	0
 mount_zombie_dragon.png	stephen_skill_necrarch_mount_zombie_dragon			0	false	false	false	0.0	0

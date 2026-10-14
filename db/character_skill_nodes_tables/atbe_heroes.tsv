@@ -13,3 +13,4 @@ campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_o
 	stephen_skilll_dummy_agent_actions_liche_priest		8	stephen_skill_node_dread_hierophant_dummy_actions	0		1	0	false
 	stephen_skill_tomb_herald_skeletal_steed		0	stephen_tomb_herald_mount_skeletal_steed	0		0	0	true
 	stephen_skill_tomb_herald_skeleton_chariot		0	stephen_tomb_herald_mount_chariot	1		0	0	true
+	wh2_main_skill_all_hero_passive_spread_corruption_vmp		5	stephen_tomb_herald_campaign_2	1		0	0	true
