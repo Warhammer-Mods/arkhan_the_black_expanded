@@ -122,8 +122,8 @@ def main():
     base = os.environ["RPFM_URL"]
     with urllib.request.urlopen(base + "/version", timeout=10) as response:
         version = json.load(response)
-    if version["version"] != "5.1.1":
-        raise RuntimeError(f"Expected RPFM 5.1.1: {version}")
+    if version["version"] != "5.2.0":
+        raise RuntimeError(f"Expected RPFM 5.2.0: {version}")
     client = Client(base)
     initialized = client.request("initialize", {
         "protocolVersion": "2025-03-26", "capabilities": {},
@@ -170,7 +170,7 @@ def main():
         client.tool("decode_packed_file", {
             "pack_key": key, "path": path, "source": "PackFile"})
     client.tool("close_all_packs")
-    summary = (f"Built and reopened {output} with RPFM 5.1.1: "
+    summary = (f"Built and reopened {output} with RPFM 5.2.0: "
                f"{len(expected)} files, {len(tables)} DB/LOC exports decoded.")
     print(summary)
     with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as stream:

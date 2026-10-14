@@ -70,27 +70,27 @@ jobs:
     timeout-minutes: 60
     steps:
     - uses: actions/checkout@v7.0.1
-    - name: Checkout pinned RPFM 5.1.1 tooling
+    - name: Checkout pinned RPFM 5.2.0 tooling
       uses: actions/checkout@v7.0.1
       with:
         repository: Warhammer-Mods/rpfm-server-docker
-        ref: e8630d6b8ff34642867a58a8050d80369f6efaba
+        ref: 89a7cd33c083048499ca366f21807b7d913989d6
         path: .rpfm-action
     - uses: docker/setup-buildx-action@v4.4.1
-    - name: Build cached RPFM Server 5.1.1 image
+    - name: Build cached RPFM Server 5.2.0 image
       uses: docker/build-push-action@v7.4.0
       with:
         context: .rpfm-action/server
         load: true
         push: false
-        tags: local/rpfm-server:5.1.1
-        cache-from: type=gha,scope=rpfm-server-5.1.1
-        cache-to: type=gha,mode=max,scope=rpfm-server-5.1.1
-    - name: Start RPFM Server 5.1.1
+        tags: local/rpfm-server:5.2.0
+        cache-from: type=gha,scope=rpfm-server-5.2.0
+        cache-to: type=gha,mode=max,scope=rpfm-server-5.2.0
+    - name: Start RPFM Server 5.2.0
       id: rpfm
-      uses: Warhammer-Mods/rpfm-server-docker@e8630d6b8ff34642867a58a8050d80369f6efaba
+      uses: Warhammer-Mods/rpfm-server-docker@89a7cd33c083048499ca366f21807b7d913989d6
       with:
-        image: local/rpfm-server:5.1.1
+        image: local/rpfm-server:5.2.0
     - name: Build and verify packfile
       env:
         RPFM_URL: ${{ steps.rpfm.outputs.url }}
