@@ -31,6 +31,10 @@ jobs:
         run: |
           # Luacheck returns 1 for warnings and 2 for syntax errors.
           # Preserve the existing workflow's warning policy.
+          if [ ! -d "$CHECK_SOURCE_ROOT/script" ]; then
+            echo "No campaign script directory in $CHECK_SOURCE_ROOT; Lua check not applicable."
+            exit 0
+          fi
           set +e
           luacheck "$CHECK_SOURCE_ROOT/script" --config .luacheckrc --formatter plain --codes --ranges
           result=$?
@@ -39,3 +43,4 @@ jobs:
             exit 0
           fi
           exit "$result"
+
