@@ -49,4 +49,4 @@ Stephen and the Arkhan contributors; DgBagé for Path of the Daemon Prince;
 Creative Assembly for the original game assets. The Daemon Prince panel is
 preserved from the supplied mod; this patch combines the two UI implementations.
 
-Workshop artwork: generated from Arkhan’s existing card with violet necromancy and Chaos fire using the built-in image generator. Promotional artwork only; excluded from the submod pack.
+Workshop artwork: composite based on the two supplied original Steam Workshop covers, edited with the built-in image generator. Promotional artwork only; excluded from the submod pack.
