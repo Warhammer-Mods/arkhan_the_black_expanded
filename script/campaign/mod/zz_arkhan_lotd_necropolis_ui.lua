@@ -9,6 +9,9 @@ local TOPBAR_PATH = "ui/campaign ui/arkhan_lotd_necropolis_topbar.twui.xml"
 local ENERGY_ID = "arkhan_lotd_necromantic_energy_topbar"
 local ENERGY_PATH = "ui/campaign ui/arkhan_lotd_necromantic_energy_topbar.twui.xml"
 local refresh_energy
+local energy_context_component
+local energy_context_region
+local energy_context_error
 local function local_arkhan()
     return cm:get_local_faction_name(true) == FACTION
 end
@@ -111,7 +114,6 @@ end
 refresh_energy = function(widget, region_key)
     local holder = find_uicomponent(widget, "resource_holder")
     if not holder then return end
-    tooltip(holder, localised("arkhan_lotd_energy_tooltip_v8"))
     local mod = arkhan_lotd
     local system = cm:model():world():region_group_pooled_resource_managers_system()
     local manager = system:get_dynamic_manager_for_region_group_id(mod.region_group_key)
@@ -123,6 +125,38 @@ refresh_energy = function(widget, region_key)
     if not resource or resource:is_null_interface() then
         holder:SetVisible(false)
         return
+    end
+
+    -- Resolve the region-group resource itself. A settlement CCO on the
+    -- parent is insufficient when these hover targets have no resource CCO.
+    local resource_expression = 'SettlementForRegionKey("' .. region_key
+        .. '").FindPooledResourceFromSettlementRegionGroups("arkhan_lotd_necromantic_energy")'
+    local bound, binding_error = pcall(function()
+        local address = widget:Address()
+        if energy_context_component ~= address or energy_context_region ~= region_key then
+            -- The game returns the CCO userdata itself, not a construction ID.
+            -- Pass it straight to SetContextObject without tostring/cco().
+            local resource_context = common.get_context_value(resource_expression)
+            if type(resource_context) ~= "userdata" then
+                error("resource context query returned " .. type(resource_context))
+            end
+            widget:SetContextObject(resource_context)
+            for _, id in ipairs({"resource_holder", "icon", "dy_necrotic_power",
+                "dy_necrotic_power_change_holder", "dy_income_necromantic_power"}) do
+                local target = find_uicomponent(widget, id)
+                if target then target:SetContextObject(resource_context) end
+            end
+            energy_context_component = address
+            energy_context_region = region_key
+            energy_context_error = nil
+        end
+    end)
+    if not bound then
+        local message = tostring(binding_error)
+        if energy_context_error ~= message then
+            energy_context_error = message
+            out("Arkhan energy tooltip binding failed: " .. message)
+        end
     end
 
     local value = find_uicomponent(holder, "dy_necrotic_power")
