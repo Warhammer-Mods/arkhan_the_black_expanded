@@ -1,5 +1,7 @@
 # Arkhan / Path of the Daemon Prince UI compatibility
 
+![Workshop cover](workshop_preview.jpg)
+
 Version 1.0.0. The restored Daemon Prince panel has been confirmed working in game.
 
 Requires both [Arkhan the Black: Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610)
@@ -35,7 +37,7 @@ Daemon Prince save and open the province panel to check Desolation for the Gods.
 ## Workshop release
 
 Use `workshop_title.txt` and `workshop_description.txt` for the listing. Add both
-mods as Required Items on Workshop and supply a preview image when uploading.
+mods as Required Items on Workshop and use `workshop_preview.jpg` as the preview image when uploading.
 
 Other province-panel overrides may require another compatibility patch. Updates
 to either required mod may require this file to be merged again. Multiplayer has
@@ -46,3 +48,5 @@ not been tested. Disable this pack to remove its UI override.
 Stephen and the Arkhan contributors; DgBagé for Path of the Daemon Prince;
 Creative Assembly for the original game assets. The Daemon Prince panel is
 preserved from the supplied mod; this patch combines the two UI implementations.
+
+Workshop artwork: generated from Arkhan’s existing card with violet necromancy and Chaos fire using the built-in image generator. Promotional artwork only; excluded from the submod pack.
