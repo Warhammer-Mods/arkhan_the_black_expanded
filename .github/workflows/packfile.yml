@@ -83,6 +83,7 @@ jobs:
     needs: [db-check, lua-check]
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
         include:
           - source_root: .
