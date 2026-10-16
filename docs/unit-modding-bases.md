@@ -6,7 +6,7 @@ Zombies already exist in the main mod. Reuse their existing records rather than 
 | --- | --- | --- |
 | Main/land unit | `xereus_tmb_inf_zombie` | `xereus_tmb_veh_black_coach` |
 | Unit set | `xereus_tmb_inf_zombie` | `xereus_tmb_veh_black_coach` |
-| Unit card | `xereus_tmb_inf_zmb` | `wh_main_vmp_black_coach` (vanilla) |
+| Unit card | `xereus_tmb_inf_zmb` | `xereus_tmb_veh_black_coach` |
 | Model variant | `xereus_tmb_inf_zombie` | `wh_vmp_ghost_hexwraith` (vanilla crew) |
 | Campaign recruitment | Existing Arkhan settlement chains | Not assigned yet |
 | Capacity effect | Existing Zombies have no unit cap | `stephen_cap_black_coach` |
@@ -15,7 +15,7 @@ Zombies already exist in the main mod. Reuse their existing records rather than 
 
 The new records live in `db/*_tables/arkhan_black_coach.tsv`; localisation is in `text/db/arkhan_black_coach.loc.tsv`. No vanilla unit records are overridden.
 
-Battle stats and all six ability junctions are copied from the vanilla Black Coach. The model, articulated vehicle, mount, weapons, attributes, porthole scene and unit card reference the existing game assets. No purple shader or custom artwork is included in this base.
+Battle stats and all six ability junctions are copied from the vanilla Black Coach. The model, articulated vehicle, mount, weapons, attributes, porthole scene reference the existing game assets. The unit has an Arkhan-themed purple card at `ui/units/icons/xereus_tmb_veh_black_coach.png` (60×130, opaque edges) and an infopic of the same name (120×260), using the existing Mortis Engine infopic’s edge mask. The card was made with the built-in image-generation tool using the original Black Coach design and the mod’s Mortis Engine palette as references. This changes UI artwork only; no battle shader recolour is included.
 
 The main-unit record follows Tomb Kings economics: zero recruitment cost, zero upkeep and a starting campaign capacity of zero. Its custom-battle price remains 1,100. Military access is assigned to `wh2_dlc09_tomb_kings_arkhan`, and the custom-battle permission follows the existing Mortis Engine record, including its campaign-exclusive flag. This does not add a new selectable custom-battle entry.
 
