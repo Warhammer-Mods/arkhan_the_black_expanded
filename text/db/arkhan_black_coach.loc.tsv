@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_black_coach.loc	
+land_units_onscreen_name_xereus_tmb_veh_black_coach	Black Coach	false
+land_units_concealed_name_xereus_tmb_veh_black_coach		false
+effects_description_stephen_cap_black_coach	Unit capacity: %+n Black Coaches	false
