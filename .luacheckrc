@@ -122,3 +122,20 @@ globals = {
 	"unpack",
 	"wh_faction_is_horde"
 }
+
+-- WH3 APIs supplied by the campaign/UI runtime.
+read_globals = {
+	"cco",
+	"devastation_manager",
+	"model_pairs"
+}
+
+-- This module exports its AI controller for other scripts and diagnostics.
+files["script/campaign/mod/zz_arkhan_lotd_ai.lua"] = {
+	globals = { "arkhan_lotd_ai" }
+}
+
+-- Optional Nagash integration tables are guarded before use and updated in place.
+files["submods/arkhan_keep_ai_independent/script/campaign/mod/zz_arkhan_independent_option.lua"] = {
+	globals = { "nag_mortarchs_config", "episode_nagash_endgame" }
+}
