@@ -58,6 +58,8 @@ jobs:
             pack_name: '!arkhan_daemon_prince_ui_compat'
           - source_root: submods/arkhan_keep_ai_independent
             pack_name: arkhan_keep_ai_independent
+          - source_root: submods/arkhan_radious
+            pack_name: '!!arkhan_the_black_radious_submod_sandy'
     uses: ./.github/workflows/db-check.yml
     with:
       source_root: ${{ matrix.source_root }}
@@ -75,6 +77,8 @@ jobs:
             pack_name: '!arkhan_daemon_prince_ui_compat'
           - source_root: submods/arkhan_keep_ai_independent
             pack_name: arkhan_keep_ai_independent
+          - source_root: submods/arkhan_radious
+            pack_name: '!!arkhan_the_black_radious_submod_sandy'
     uses: ./.github/workflows/lua-lint.yml
     with:
       source_root: ${{ matrix.source_root }}
@@ -94,6 +98,8 @@ jobs:
             pack_name: '!arkhan_daemon_prince_ui_compat'
           - source_root: submods/arkhan_keep_ai_independent
             pack_name: arkhan_keep_ai_independent
+          - source_root: submods/arkhan_radious
+            pack_name: '!!arkhan_the_black_radious_submod_sandy'
     uses: ./.github/workflows/packfile-build.yml
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,385 @@
+{
+  "small_size": [
+    60,
+    130
+  ],
+  "large_size": [
+    120,
+    260
+  ],
+  "distinct_artworks": 83,
+  "card_filenames": 92,
+  "character_cards": 30,
+  "cards": [
+    {
+      "card": "arkhan_lahmian_vampire_lord",
+      "artwork": "arkhan_lahmian_vampire_lord"
+    },
+    {
+      "card": "stephen_lahmian_vampire_lord",
+      "artwork": "arkhan_lahmian_vampire_lord"
+    },
+    {
+      "card": "arkhan_liche_high_priest_death",
+      "artwork": "arkhan_liche_high_priest_death"
+    },
+    {
+      "card": "stephen_liche_high_priest_death",
+      "artwork": "arkhan_liche_high_priest_death"
+    },
+    {
+      "card": "arkhan_liche_high_priest_light",
+      "artwork": "arkhan_liche_high_priest_light"
+    },
+    {
+      "card": "stephen_liche_high_priest_light",
+      "artwork": "arkhan_liche_high_priest_light"
+    },
+    {
+      "card": "arkhan_liche_high_priest_nehekhara",
+      "artwork": "arkhan_liche_high_priest_nehekhara"
+    },
+    {
+      "card": "stephen_liche_high_priest_nehekhara",
+      "artwork": "arkhan_liche_high_priest_nehekhara"
+    },
+    {
+      "card": "arkhan_liche_high_priest_undeath",
+      "artwork": "arkhan_liche_high_priest_undeath"
+    },
+    {
+      "card": "stephen_liche_high_priest_undeath",
+      "artwork": "arkhan_liche_high_priest_undeath"
+    },
+    {
+      "card": "arkhan_necrarch_vampire_lord",
+      "artwork": "arkhan_necrarch_vampire_lord"
+    },
+    {
+      "card": "stephen_necrarch_vampire_lord",
+      "artwork": "arkhan_necrarch_vampire_lord"
+    },
+    {
+      "card": "arkhan_the_black",
+      "artwork": "arkhan_the_black"
+    },
+    {
+      "card": "arkhan_tomb_herald_variant_2",
+      "artwork": "arkhan_tomb_herald_variant_2"
+    },
+    {
+      "card": "stephen_tmb_cha_tomb_herald_2",
+      "artwork": "arkhan_tomb_herald_variant_2"
+    },
+    {
+      "card": "arkhan_tomb_herald_variant_3",
+      "artwork": "arkhan_tomb_herald_variant_3"
+    },
+    {
+      "card": "stephen_tmb_cha_tomb_herald_3",
+      "artwork": "arkhan_tomb_herald_variant_3"
+    },
+    {
+      "card": "stephen_ch_ghoul_king_campaign_01",
+      "artwork": "stephen_ch_ghoul_king_campaign_01"
+    },
+    {
+      "card": "stephen_ch_tomb_king_campaign_01_0",
+      "artwork": "stephen_ch_tomb_king_campaign_01_0"
+    },
+    {
+      "card": "stephen_ch_tomb_king_campaign_02_0",
+      "artwork": "stephen_ch_tomb_king_campaign_02_0"
+    },
+    {
+      "card": "stephen_ch_tomb_king_campaign_03_0",
+      "artwork": "stephen_ch_tomb_king_campaign_03_0"
+    },
+    {
+      "card": "stephen_ch_tomb_king_campaign_04_0",
+      "artwork": "stephen_ch_tomb_king_campaign_04_0"
+    },
+    {
+      "card": "stephen_ch_tomb_king_campaign_05_0",
+      "artwork": "stephen_ch_tomb_king_campaign_05_0"
+    },
+    {
+      "card": "stephen_tmb_cha_tomb_herald",
+      "artwork": "stephen_tmb_cha_tomb_herald"
+    },
+    {
+      "card": "stephen_tmb_cha_tomb_herald_1",
+      "artwork": "stephen_tmb_cha_tomb_herald"
+    },
+    {
+      "card": "tmb_cha_liche_priest_vampire_1",
+      "artwork": "tmb_cha_liche_priest_vampire_1"
+    },
+    {
+      "card": "tmb_cha_liche_priest_vampire_2",
+      "artwork": "tmb_cha_liche_priest_vampire_2"
+    },
+    {
+      "card": "tmb_cha_liche_priest_vampire_3",
+      "artwork": "tmb_cha_liche_priest_vampire_3"
+    },
+    {
+      "card": "tmb_cha_liche_priest_vampire_4",
+      "artwork": "tmb_cha_liche_priest_vampire_4"
+    },
+    {
+      "card": "tmb_cha_liche_priest_vampire_5",
+      "artwork": "tmb_cha_liche_priest_vampire_5"
+    },
+    {
+      "card": "tmb_cha_necrotect_1",
+      "artwork": "tmb_cha_necrotect_1"
+    },
+    {
+      "card": "tmb_cha_necrotect_2",
+      "artwork": "tmb_cha_necrotect_2"
+    },
+    {
+      "card": "tmb_cha_necrotect_3",
+      "artwork": "tmb_cha_necrotect_3"
+    },
+    {
+      "card": "tmb_cha_necrotect_4",
+      "artwork": "tmb_cha_necrotect_4"
+    },
+    {
+      "card": "tmb_cha_tomb_prince_1",
+      "artwork": "tmb_cha_tomb_prince_1"
+    },
+    {
+      "card": "tmb_cha_tomb_prince_2",
+      "artwork": "tmb_cha_tomb_prince_2"
+    },
+    {
+      "card": "tmb_cha_tomb_prince_3",
+      "artwork": "tmb_cha_tomb_prince_3"
+    },
+    {
+      "card": "tmb_cha_tomb_prince_4",
+      "artwork": "tmb_cha_tomb_prince_4"
+    },
+    {
+      "card": "tmb_cha_tomb_prince_5",
+      "artwork": "tmb_cha_tomb_prince_5"
+    },
+    {
+      "card": "wh2_dlc09_tmb_cav_hexwraiths",
+      "artwork": "wh2_dlc09_tmb_cav_hexwraiths"
+    },
+    {
+      "card": "wh2_dlc09_tmb_crypt_ghouls",
+      "artwork": "wh2_dlc09_tmb_crypt_ghouls"
+    },
+    {
+      "card": "wh2_dlc09_tmb_dire_wolves",
+      "artwork": "wh2_dlc09_tmb_dire_wolves"
+    },
+    {
+      "card": "wh2_dlc09_tmb_fell_bats",
+      "artwork": "wh2_dlc09_tmb_fell_bats"
+    },
+    {
+      "card": "wh2_dlc09_tmb_inf_cairn_wraiths",
+      "artwork": "wh2_dlc09_tmb_inf_cairn_wraiths"
+    },
+    {
+      "card": "wh2_dlc09_tmb_inf_spirit_host",
+      "artwork": "wh2_dlc09_tmb_inf_spirit_host"
+    },
+    {
+      "card": "wh2_dlc09_tmb_mon_crypt_horrors",
+      "artwork": "wh2_dlc09_tmb_mon_crypt_horrors"
+    },
+    {
+      "card": "wh2_dlc09_tmb_mon_morghast_archai",
+      "artwork": "wh2_dlc09_tmb_mon_morghast_archai"
+    },
+    {
+      "card": "wh2_dlc09_tmb_mon_morghast_harbingers",
+      "artwork": "wh2_dlc09_tmb_mon_morghast_harbingers"
+    },
+    {
+      "card": "xereus_tmb_art_screaming_skull_catapult",
+      "artwork": "xereus_tmb_art_screaming_skull_catapult"
+    },
+    {
+      "card": "xereus_tmb_carrion",
+      "artwork": "xereus_tmb_carrion"
+    },
+    {
+      "card": "xereus_tmb_carrion_ror",
+      "artwork": "xereus_tmb_carrion_ror"
+    },
+    {
+      "card": "xereus_tmb_casket_souls",
+      "artwork": "xereus_tmb_casket_souls"
+    },
+    {
+      "card": "xereus_tmb_cav_necropolis_knights_1",
+      "artwork": "xereus_tmb_cav_necropolis_knights_1"
+    },
+    {
+      "card": "xereus_tmb_cav_necropolis_knights_1_ror",
+      "artwork": "xereus_tmb_cav_necropolis_knights_1_ror"
+    },
+    {
+      "card": "xereus_tmb_cav_necropolis_knights_2",
+      "artwork": "xereus_tmb_cav_necropolis_knights_2"
+    },
+    {
+      "card": "xereus_tmb_cav_nehekhara_horsemen",
+      "artwork": "xereus_tmb_cav_nehekhara_horsemen"
+    },
+    {
+      "card": "xereus_tmb_cav_skeleton_horsemen_0",
+      "artwork": "xereus_tmb_cav_skeleton_horsemen_0"
+    },
+    {
+      "card": "xereus_tmb_cav_skeleton_horsemen_archers",
+      "artwork": "xereus_tmb_cav_skeleton_horsemen_archers"
+    },
+    {
+      "card": "xereus_tmb_inf_grave_guard",
+      "artwork": "xereus_tmb_inf_grave_guard"
+    },
+    {
+      "card": "xereus_tmb_inf_grave_guard_great",
+      "artwork": "xereus_tmb_inf_grave_guard_great"
+    },
+    {
+      "card": "xereus_tmb_inf_nagashizzar_guard",
+      "artwork": "xereus_tmb_inf_nagashizzar_guard"
+    },
+    {
+      "card": "xereus_tmb_inf_nehekhara_warriors",
+      "artwork": "xereus_tmb_inf_nehekhara_warriors"
+    },
+    {
+      "card": "xereus_tmb_inf_nehekhara_warriors_ror",
+      "artwork": "xereus_tmb_inf_nehekhara_warriors_ror"
+    },
+    {
+      "card": "xereus_tmb_inf_skeleton_archers",
+      "artwork": "xereus_tmb_inf_skeleton_archers"
+    },
+    {
+      "card": "xereus_tmb_inf_skeleton_archers_ror",
+      "artwork": "xereus_tmb_inf_skeleton_archers_ror"
+    },
+    {
+      "card": "xereus_tmb_inf_skeleton_spearmen",
+      "artwork": "xereus_tmb_inf_skeleton_spearmen"
+    },
+    {
+      "card": "xereus_tmb_inf_skeleton_spearmen_ror",
+      "artwork": "xereus_tmb_inf_skeleton_spearmen_ror"
+    },
+    {
+      "card": "xereus_tmb_inf_skeleton_warriors",
+      "artwork": "xereus_tmb_inf_skeleton_warriors"
+    },
+    {
+      "card": "xereus_tmb_inf_stonewrath_guard",
+      "artwork": "xereus_tmb_inf_stonewrath_guard"
+    },
+    {
+      "card": "xereus_tmb_inf_tomb_guard",
+      "artwork": "xereus_tmb_inf_tomb_guard"
+    },
+    {
+      "card": "xereus_tmb_inf_tomb_guard_halberd",
+      "artwork": "xereus_tmb_inf_tomb_guard_halberd"
+    },
+    {
+      "card": "xereus_tmb_inf_zmb",
+      "artwork": "xereus_tmb_inf_zmb"
+    },
+    {
+      "card": "xereus_tmb_mon_bone_giant",
+      "artwork": "xereus_tmb_mon_bone_giant"
+    },
+    {
+      "card": "xereus_tmb_mon_heirotitan",
+      "artwork": "xereus_tmb_mon_heirotitan"
+    },
+    {
+      "card": "xereus_tmb_mon_khemrian_warsphinx",
+      "artwork": "xereus_tmb_mon_khemrian_warsphinx"
+    },
+    {
+      "card": "xereus_tmb_mon_khemric_titan",
+      "artwork": "xereus_tmb_mon_khemric_titan"
+    },
+    {
+      "card": "xereus_tmb_mon_khemric_titan_ror",
+      "artwork": "xereus_tmb_mon_khemric_titan_ror"
+    },
+    {
+      "card": "xereus_tmb_mon_necrosphinx",
+      "artwork": "xereus_tmb_mon_necrosphinx"
+    },
+    {
+      "card": "xereus_tmb_mon_necrosphinx_ror",
+      "artwork": "xereus_tmb_mon_necrosphinx_ror"
+    },
+    {
+      "card": "xereus_tmb_mon_sepulchral_stalkers",
+      "artwork": "xereus_tmb_mon_sepulchral_stalkers"
+    },
+    {
+      "card": "xereus_tmb_mon_terrorgheist",
+      "artwork": "xereus_tmb_mon_terrorgheist"
+    },
+    {
+      "card": "xereus_tmb_mon_tomb_scorpion",
+      "artwork": "xereus_tmb_mon_tomb_scorpion"
+    },
+    {
+      "card": "xereus_tmb_mon_ushabti",
+      "artwork": "xereus_tmb_mon_ushabti"
+    },
+    {
+      "card": "xereus_tmb_mon_ushabti_great",
+      "artwork": "xereus_tmb_mon_ushabti_great"
+    },
+    {
+      "card": "xereus_tmb_mon_ushabti_great_ror",
+      "artwork": "xereus_tmb_mon_ushabti_great_ror"
+    },
+    {
+      "card": "xereus_tmb_mon_ushabti_ror",
+      "artwork": "xereus_tmb_mon_ushabti_ror"
+    },
+    {
+      "card": "xereus_tmb_mon_zombie_dragon",
+      "artwork": "xereus_tmb_mon_zombie_dragon"
+    },
+    {
+      "card": "xereus_tmb_skeleton_chariot",
+      "artwork": "xereus_tmb_skeleton_chariot"
+    },
+    {
+      "card": "xereus_tmb_skeleton_chariot_archers",
+      "artwork": "xereus_tmb_skeleton_chariot_archers"
+    },
+    {
+      "card": "xereus_tmb_skeleton_horsemen",
+      "artwork": "xereus_tmb_skeleton_horsemen"
+    },
+    {
+      "card": "xereus_tmb_tomb_guard_ror",
+      "artwork": "xereus_tmb_tomb_guard_ror"
+    },
+    {
+      "card": "xereus_tmb_veh_mortis_engine",
+      "artwork": "xereus_tmb_veh_mortis_engine"
+    }
+  ],
+  "test_pack_sha256": "6a28ee919804c97c55e65d79c2ba6e200d532c0a0c2f41cea44463c60aea9ef0",
+  "validation": "PFH5 reopened; DB decoded; unique land_unit keys; supplied nonvisual balance preserved; sizes and alpha verified. Not tested in game."
+}

@@ -1,0 +1,24 @@
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
+#technologies_tables;7;db/technologies_tables/!!atbe_submod
+stephen_tech_arkhan_1	wh_main_chs_port_ruin	1	wh_main_vmp_binding	false	false		33557930	false	false	true	true
+stephen_tech_arkhan_2	wh_main_chs_port_ruin	1	wh_main_vmp_bones	false	false		33557931	false	false	true	true
+stephen_tech_arkhan_3	wh_main_chs_port_ruin	1	wh_main_vmp_beasts	false	false		33557932	false	false	true	true
+stephen_tech_arkhan_4	wh_main_chs_port_ruin	1	wh_main_vmp_nightmarish_reaping	false	false		33557933	false	false	true	true
+stephen_tech_arkhan_5	wh_main_chs_port_ruin	1	wh_main_vmp_spirit_shackles	false	false		33557934	false	false	true	true
+stephen_tech_arkhan_6	wh_main_chs_port_ruin	1	wh_main_vmp_risen_standard_bearers	false	false		33557935	false	false	true	true
+stephen_tech_arkhan_7	wh_main_chs_port_ruin	1	wh_main_vmp_cannibalistic_rituals	false	false		33557936	false	false	true	true
+stephen_tech_arkhan_8	wh_main_chs_port_ruin	1	wh_main_vmp_leader_of_the_pack	false	false		33557937	false	false	true	true
+stephen_tech_arkhan_9	wh_main_chs_port_ruin	1	wh_main_vmp_hexxenacht_sacrifices	false	false		33557938	false	false	true	true
+stephen_tech_arkhan_10	wh_main_chs_port_ruin	1	wh_main_vmp_risen_champions	false	false		33557939	false	false	true	true
+stephen_tech_arkhan_11	wh_main_chs_port_ruin	1	wh_main_vmp_master_of_the_swarm	false	false		33557940	false	false	true	true
+stephen_tech_arkhan_12	wh_main_chs_port_ruin	1	wh_main_vmp_fuelled_by_fear	false	false		33557941	false	false	true	true
+stephen_tech_arkhan_13	wh_main_chs_port_ruin	1	wh_main_vmp_descipher_nehekhara_manuscripts	false	false		33557942	false	false	true	true
+stephen_tech_arkhan_14	wh_main_chs_port_ruin	1	wh_main_vmp_raise_newly_dead	false	false		33557943	false	false	true	true
+stephen_tech_arkhan_special_1	wh_main_chs_port_ruin	1	wh_main_vmp_unearth_cursed_wightblades	false	false		33557944	false	false	true	true
+stephen_tech_arkhan_special_2	wh_main_chs_port_ruin	1	wh_main_vmp_infuse_the_tireless_horde	false	false		33557945	false	false	true	true
+stephen_tech_arkhan_special_3	wh_main_chs_port_ruin	1	wh_main_vmp_serve_in_life_and_death	false	false		33557946	false	false	true	true
+stephen_tech_arkhan_special_4	wh_main_chs_port_ruin	1	wh_main_vmp_incantations_of_nagash	false	false		33557947	false	false	true	true
+stephen_tech_arkhan_unlock_1	wh_main_chs_port_ruin	1	wh_main_vmp_invocation_of_usthoran	false	false		33557948	false	false	true	true
+stephen_tech_arkhan_unlock_2	wh_main_chs_port_ruin	1	wh_main_vmp_strigoi_legacy	false	false		33557949	false	false	true	true
+stephen_tech_arkhan_unlock_3	wh_main_chs_port_ruin	1	wh_main_vmp_spread_vampire_covens	false	false		33557950	false	false	true	true
+stephen_tech_arkhan_unlock_4	wh_main_chs_port_ruin	1	tech_cst_admirals_01	false	false		33557951	false	false	true	true

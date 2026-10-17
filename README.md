@@ -78,3 +78,5 @@ Separate [2× unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are avail
 
 [Black Arts](submods/arkhan_black_arts/README.md) adds energy-funded research and a recurring rite. Its separate test pack is built by the **Build main mod and submods** workflow. Technology layout, regional research costs, TKE compatibility and multiplayer require in-game testing.
 
+
+[Radious sandy cards](submods/arkhan_radious/README.md) provides a replacement Radious compatibility submod with sandy unit and character cards in both sizes. Its pack is built by the same queued workflow; the main mod and Radious remain required.
