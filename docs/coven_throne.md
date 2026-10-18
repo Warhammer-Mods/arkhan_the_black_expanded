@@ -13,9 +13,11 @@ The standalone Coven Throne uses `xereus_tmb_veh_coven_throne`. It is a recruita
 
 ## Assets and combat
 
-Combat values, all seven native abilities, the vanilla card, engine and all seventeen crew/personality attachments come from the supplied vanilla standalone Coven Throne exports. Its seventeen-entity setup is preserved; it is not converted into a one-man character mount. Native engine, animation, weapon, personality and card records are referenced rather than copied or globally overridden.
+Combat values, all seven native abilities, engine and all seventeen crew/personality attachments come from the supplied vanilla standalone Coven Throne exports. Its seventeen-entity setup is preserved; it is not converted into a one-man character mount. Native engine, animation, weapon, personality and card records are referenced rather than copied or globally overridden.
 
-The existing Lahmian mount and Black Coach foundation are unchanged. No model or card recolour is included. Radious-specific balancing is not added here.
+The unit uses a dedicated purple card in the main mod and a sandy card when the Radious submod is enabled. Both have opaque 60×130 small cards and feathered 120×260 infopics using the roster's existing alpha mask. The vanilla 3D model is unchanged.
+
+The existing Lahmian mount and Black Coach foundation are unchanged. Radious-specific combat balancing is not added here.
 
 ## Validation and testing
 

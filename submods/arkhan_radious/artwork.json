@@ -7,8 +7,8 @@
     120,
     260
   ],
-  "distinct_artworks": 83,
-  "card_filenames": 92,
+  "distinct_artworks": 84,
+  "card_filenames": 93,
   "character_cards": 30,
   "cards": [
     {
@@ -378,6 +378,10 @@
     {
       "card": "xereus_tmb_veh_mortis_engine",
       "artwork": "xereus_tmb_veh_mortis_engine"
+    },
+    {
+      "card": "xereus_tmb_veh_coven_throne",
+      "artwork": "xereus_tmb_veh_coven_throne"
     }
   ],
   "test_pack_sha256": "6a28ee919804c97c55e65d79c2ba6e200d532c0a0c2f41cea44463c60aea9ef0",

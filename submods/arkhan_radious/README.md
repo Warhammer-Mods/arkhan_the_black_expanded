@@ -10,7 +10,7 @@ Download the pack from the **Artifacts** section of a successful [Build main mod
 
 ## Cards
 
-- 92 card filenames, based on 83 distinct artworks, including current character variants and RoRs.
+- 93 card filenames, based on 84 distinct artworks, including current character variants and RoRs.
 - Small cards: **60×130**, with opaque edges.
 - Infopics: **120×260**, with the same feathered alpha mask as the main mod's skeleton-warrior infopic.
 - 30 matching character unit cards under `ui/portraits/units/no_culture`, at their original 60×130 size.
@@ -25,7 +25,7 @@ All 15 DB fragments from the supplied Radious compatibility pack are retained as
 
 The original 82 land-unit rows retain their authored stat values, armour, weapons and abilities. Matching model, animation and mount references use the latest supplied main build. Old rows remain for compatibility. The resulting submod contains 99 land-unit rows.
 
-Genuinely new units without an existing Radious counterpart retain main-mod values. See [balance_coverage.csv](balance_coverage.csv) for the current roster's coverage. The main mod supplies other unit definitions, models, localisation and campaign mechanics.
+New units without an existing Radious counterpart retain main-mod values. The Coven Throne uses a matching sandy card and infopic; its combat balance comes from the main mod. See [balance_coverage.csv](balance_coverage.csv) for the current roster's coverage. The main mod supplies other unit definitions, models, localisation and campaign mechanics.
 
 ## Validation
 
