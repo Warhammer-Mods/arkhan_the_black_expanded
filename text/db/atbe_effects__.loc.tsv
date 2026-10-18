@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc;1;text/db/atbe_effects__.loc		
-effects_description_stephen_technology_mutually_exclusiv_zombies_1	{{tr:technology_mutual_exclusivity_effect_prefix}}\\n[[img:bullet_point_white]] {{tr:technologies_onscreen_name_stephen_tech_arkhan_zombies_2}}	false
-effects_description_stephen_technology_mutually_exclusiv_zombies_2	{{tr:technology_mutual_exclusivity_effect_prefix}}\\n[[img:bullet_point_white]] {{tr:technologies_onscreen_name_stephen_tech_arkhan_zombies_1}}	false
+effects_description_stephen_technology_mutually_exclusiv_zombies_1	{{tr:technology_mutual_exclusivity_effect_prefix}}\n[[img:bullet_point_white]] {{tr:technologies_onscreen_name_stephen_tech_arkhan_zombies_2}}	false
+effects_description_stephen_technology_mutually_exclusiv_zombies_2	{{tr:technology_mutual_exclusivity_effect_prefix}}\n[[img:bullet_point_white]] {{tr:technologies_onscreen_name_stephen_tech_arkhan_zombies_1}}	false
 effects_description_stephen_battle_healing_cap_vampiric_units	Battle healing cap: %+n% for Vampire Count units	false
 effects_description_stephen_undead_post_battle_unit_saving_chance	The Dead Rise Again: %+n% chance for destroyed Vampire Count units to be restored after battle	false
 effects_description_stephen_physical_resistance_vampiric_units	Physical resistance: %+n for Vampire Count units	false
@@ -68,7 +68,7 @@ effects_description_stephen_faction_effect_unstable_sand_disable	Hidden effect t
 effects_description_stephen_faction_effect_unstable_mark_ii_sand_disable	Hidden effect that disables the vanilla undead attribute [HIDDEN]	false
 effects_description_stephen_faction_effect_crumbling_disable	Hidden effect that disables the vanilla undead attribute [HIDDEN]	false
 effects_description_stephen_faction_effect_disintigrating_disable	Hidden effect that disables the vanilla undead attribute [HIDDEN]	false
-effects_description_stephen_cap_grave_guard_combo	Unit capacity: %+n \\nGrave Guard \\nGrave Guard (Great Weapons)	false
+effects_description_stephen_cap_grave_guard_combo	Unit capacity: %+n \nGrave Guard \nGrave Guard (Great Weapons)	false
 effects_description_stephen_cap_mortis_engine	Unit capacity: %+n Mortis Engines	false
 effects_description_stephen_cap_hexwraiths	Unit capacity: %+n Hexwraiths	false
 effects_description_stephen_cap_grave_guard	Unit capacity: %+nGrave Guard	false
@@ -100,7 +100,7 @@ effects_description_stephen_effect_ability_disable_dark_reanimation	Replaces: ""
 effects_description_stephen_effect_ability_enable_eldritch_blast	Enable ability: 'Eldritch Blast' for Arkhan the Black	false
 effects_description_stephen_cap_terrorgheist	Unit capacity: %+n Terrorgheists	false
 effects_description_stephen_cap_zombie_dragon	Unit capacity: %+n Zombie Dragons	false
-effects_description_stephen_effect_unit_cap_bundle_ghouls_bats_wolves	Unit capacity: %+n\\nCrypt Ghouls \\nDire Wolves \\nFell Bats	false
+effects_description_stephen_effect_unit_cap_bundle_ghouls_bats_wolves	Unit capacity: %+n\nCrypt Ghouls \nDire Wolves \nFell Bats	false
 effects_description_stephen_effect_unit_cap_xereus_tmb_mon_carrion_0	Unit capacity: %+n Carrion	false
 effects_description_stephen_effect_ability_raise_dead_enable	Spell: "Raise Dead"	false
 effects_description_stephen_ability_overcast_raise_dead	Spell: "Raise Dead Upgraded"	false
@@ -115,7 +115,7 @@ effects_description_stephen_effect_tomb_king_unlock_3		false
 effects_description_stephen_effect_tomb_king_unlock_4	Adds the Lahmian Sister [[col:yellow]]Khestra[[/col]] to your faction's [[img:icon_general]][[/img]]Lord pool	false
 effects_description_stephen_stat_magical_resistance_ethereal	Magic resistance: %n% for Cairn Wraith, Hexwraith and Mortis Engine units	false
 effects_description_stephen_effect_ability_number_uses_raise_dead_strigoi	Spell number of uses: %+n for "Command of the Unliving" & "Command of the Unliving Upgraded"	false
-effects_description_stephen_cap_grave_guard_both	Unit capacity: %+n\\nGrave Guard \\nGrave Guard (Great Weapons)	false
+effects_description_stephen_cap_grave_guard_both	Unit capacity: %+n\nGrave Guard \nGrave Guard (Great Weapons)	false
 effects_description_stephen_army_ability_akararan_the_dark_riders_enable	Army ability: "The Dark Riders"	false
 effects_description_stephen_army_ability_uses_abyssal_dark_riders	Army ability number of uses: %+n for "Abyssal Swarm" & "The Dark Riders"	false
 effects_description_stephen_legendary_liche_dummy	Faction Leader: [[b]]Legendary Liche King [[/b]]	false
