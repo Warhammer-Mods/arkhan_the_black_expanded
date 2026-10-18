@@ -38,6 +38,10 @@ local function refresh_technology(root)
     if not panel or not panel:Visible() then return end
     local holder = find_uicomponent(panel, "info_holder_parent", "info_holder")
     if not holder then return end
+    -- Arkhan research uses pooled resources; omit the native Treasury display.
+    local treasury = find_uicomponent(holder, "dy_treasury")
+    if treasury then treasury:SetVisible(false) end
+
     local widget = find_uicomponent(holder, WIDGET)
         or core:get_or_create_component(WIDGET, TEMPLATE, holder)
     if not widget then return end
