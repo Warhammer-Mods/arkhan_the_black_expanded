@@ -2,9 +2,9 @@ campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	rese
 #technology_nodes_tables;0;db/technology_nodes_tables/atbe														
 	wh2_dlc09_tmb_followers_of_nagash	9	stephen_tech_arkhan_0	stephen_tech_arkhan_0	tmb_mil	17	100	0	0			0	0	0
 	wh2_dlc09_tmb_followers_of_nagash	6	stephen_tech_arkhan_1	stephen_tech_arkhan_1	tmb_mil	17	300	0	0			0	0	0
-	wh2_dlc09_tmb_followers_of_nagash	4	stephen_tech_arkhan_2	stephen_tech_arkhan_2	tmb_mil	17	300	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
-	wh2_dlc09_tmb_followers_of_nagash	2	stephen_tech_arkhan_3	stephen_tech_arkhan_3	tmb_mil	17	400	0	0		wh2_dlc09_tmb_tech_agent_unlock	0	0	0
-	wh2_dlc09_tmb_followers_of_nagash	0	stephen_tech_arkhan_4	stephen_tech_arkhan_4	tmb_mil	17	400	0	0		wh2_dlc09_tmb_tech_tomb_king_unlock	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	stephen_tech_arkhan_2	stephen_tech_arkhan_2	tmb_mil	17	300	0	0		stephen_arkhan_tech_unlock_necromantic_energy_250	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	2	stephen_tech_arkhan_3	stephen_tech_arkhan_3	tmb_mil	17	400	0	0		stephen_arkhan_tech_unlock_necromantic_energy_250	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	0	stephen_tech_arkhan_4	stephen_tech_arkhan_4	tmb_mil	17	400	0	0		stephen_arkhan_tech_unlock_necromantic_energy_500	0	0	0
 	wh2_dlc09_tmb_followers_of_nagash	7	stephen_tech_arkhan_raise_dead_1	stephen_tech_arkhan_raise_dead_1	tmb_mil	18	300	0	0			0	0	0
 	wh2_dlc09_tmb_followers_of_nagash	6	stephen_tech_arkhan_raise_dead_2	stephen_tech_arkhan_raise_dead_2	tmb_mil	18	300	0	0			0	0	0
 	wh2_dlc09_tmb_followers_of_nagash	5	stephen_tech_arkhan_raise_dead_3	stephen_tech_arkhan_raise_dead_3	tmb_mil	18	300	0	0			0	0	0

@@ -12,12 +12,12 @@ stephen_tmb_growth_3	stephen_tmb_growth	2	3	1000	0		false	false			true	stephen_t
 stephen_tmb_income_1	stephen_tmb_income	0	1	250	0		false	false			true	stephen_tmb_income	false	0.0	0	true	1		true	0	0		0		-1	false
 stephen_tmb_income_2	stephen_tmb_income	1	2	500	0		false	false			true	stephen_tmb_income	false	0.0	0	true	2		true	0	0		0		-1	false
 stephen_tmb_income_3	stephen_tmb_income	2	3	1000	0		false	false			true	stephen_tmb_income	false	0.0	0	true	3		true	0	0		0		-1	false
-stephen_tmb_estate_1	stephen_tmb_estate	0	3	1500	0		false	false			true	stephen_tmb_estate	false	0.0	0	true	2		true	0	0		0		-1	false
-stephen_tmb_estate_2	stephen_tmb_estate	1	4	3000	0		false	false			true	stephen_tmb_estate	false	0.0	0	true	3		true	0	0		0		-1	false
-stephen_tmb_estate_3	stephen_tmb_estate	2	5	6000	0		false	false			true	stephen_tmb_estate	false	0.0	0	true	4		true	0	0		0		-1	false
-stephen_tmb_necropolis_1	stephen_tmb_necropolis	0	4	3000	0		false	false			true	stephen_tmb_necropolis	false	0.0	0	true	3		true	0	0		0		-1	false
-stephen_tmb_necropolis_2	stephen_tmb_necropolis	1	5	6000	0		false	false			true	stephen_tmb_necropolis	false	0.0	0	true	4		true	0	0		0		-1	false
-stephen_tmb_necropolis_3	stephen_tmb_necropolis	2	7	8000	0		false	false			true	stephen_tmb_necropolis	false	0.0	0	true	5		true	0	0		0		-1	false
+stephen_tmb_estate_1	stephen_tmb_estate	0	2	500	0		false	false			true	stephen_tmb_estate	false	0.0	0	true	1		true	0	0		0		-1	false
+stephen_tmb_estate_2	stephen_tmb_estate	1	3	1000	0		false	false			true	stephen_tmb_estate	false	0.0	0	true	2		true	0	0		0		-1	false
+stephen_tmb_estate_3	stephen_tmb_estate	2	4	2000	0		false	false			true	stephen_tmb_estate	false	0.0	0	true	3		true	0	0		0		-1	false
+stephen_tmb_necropolis_1	stephen_tmb_necropolis	0	4	3000	0		false	false			true	stephen_tmb_necropolis	false	0.0	0	true	2		true	0	0	necromantic_energy_building_100_arkhan	0		-1	false
+stephen_tmb_necropolis_2	stephen_tmb_necropolis	1	5	6000	0		false	false			true	stephen_tmb_necropolis	false	0.0	0	true	3		true	0	0	necromantic_energy_building_200_arkhan	0		-1	false
+stephen_tmb_necropolis_3	stephen_tmb_necropolis	2	7	8000	0		false	false			true	stephen_tmb_necropolis	false	0.0	0	true	5		true	0	0	necromantic_energy_building_300_arkhan	0		-1	false
 stephen_tmb_titans_1	stephen_tmb_titans	0	4	2000	0		false	false			true	stephen_tmb_titans	false	0.0	0	true	2		true	0	0		0		-1	false
 stephen_tmb_titans_2	stephen_tmb_titans	1	5	3000	0		false	false			true	stephen_tmb_titans	false	0.0	0	true	3		true	0	0		0		-1	false
 stephen_tmb_titans_3	stephen_tmb_titans	2	7	8000	0		false	false			true	stephen_tmb_titans	false	0.0	0	true	5		true	0	0		0		-1	false

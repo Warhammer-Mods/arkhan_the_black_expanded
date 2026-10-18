@@ -4,6 +4,8 @@ The standalone Coven Throne uses `xereus_tmb_veh_coven_throne`. It is a recruita
 
 ## Campaign setup
 
+The latest supplied pack sets the Coven Throne's `building_units_allowed.enabled` flag to `false`; this value is retained. The recruitment link and technology capacity remain defined below, but their in-game availability needs to be checked with this pack.
+
 - Research `stephen_tech_arkhan_unlock_3`, the technology that adds the Lahmian Sister, to gain **one Coven Throne capacity**.
 - Recruit from `stephen_tmb_estate_3`, the same estate tier that recruits Mortis Engines.
 - Recruitment takes two turns, with no gold recruitment cost or upkeep.

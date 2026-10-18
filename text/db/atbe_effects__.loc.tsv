@@ -75,7 +75,7 @@ effects_description_stephen_cap_grave_guard	Unit capacity: %+nGrave Guard	false
 effects_description_stephen_cap_grave_guard_great	Unit capacity: %+nGrave Guard (Great Weapons)	false
 effects_description_stephen_effect_army_ability_enable_purple_sun_xereus	Army ability: "The Purple Sun of Xereus"	false
 effects_description_stephen_army_ability_razkhar_the_abyssal_swarm_enable	Army ability: "Abyssal Swarm"	false
-effects_description_stephen_faction_effect_rush_construction_cost	Rush Construction Jar cost: %+n%	false
+effects_description_stephen_faction_effect_rush_construction_cost	Rush Necromantic Energy Construction cost: %+n%	false
 effects_description_stephen_effect_agent_enable_recruitment_liche_priest_hidden	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Dread Hierophant (Vampires)	false
 effects_description_wh2_dlc10_effect_skill_rank_increase_fell_bats_crypt_ghoul_dire_wolves_hexwraiths	Recruit rank: %+n for Arkhan's Vampiric units	false
 effects_description_stephen_stat_enable_the_hunger_crypt_ghouls_crypt_horrors	Passive ability: The Hunger for Crypt Ghoul and Crypt Horror units	false

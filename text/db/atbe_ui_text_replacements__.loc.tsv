@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc;1;text/db/atbe_ui_text_replacements__.loc		
+ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_arkhan_lotd_necromantic_energy	In order to research this technology, this amount will be deducted from your total supply of [[img:icon_jars]][[/img]]Necromantic Energy.	false
