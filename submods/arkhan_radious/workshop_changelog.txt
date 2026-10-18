@@ -1,0 +1,7 @@
+Updated the Radious compatibility submod for the current Arkhan the Black: Expanded roster.
+
+- Added sandy unit cards and larger infopics for regular units and Regiments of Renown.
+- Updated Lord and Hero cards to match the sandy palette.
+- Carried the existing Radious balance across the renamed Necrarch Lords, Liche High Priests and Cairn Wraiths.
+- Refreshed matching model, animation and mount references from the current main mod.
+- Kept the existing stat values; newer units without a previous Radious counterpart continue to use main-mod values.

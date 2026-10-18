@@ -38,3 +38,7 @@ The workflow checks this folder alongside the other packs, then builds packfiles
 ## Credits
 
 Arkhan the Black: Expanded and the supplied compatibility tables remain credited to their original authors. Radious is required separately. Original Total War imagery and assets belong to Creative Assembly.
+
+## Workshop upload
+
+[Upload instructions and prepared page text](UPLOAD.md) target the existing [Radious Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=2865162727). This folder includes the title, description, change notes, preview and uploader thumbnail. Rename the downloaded `_sandy` build to the pack basename in the instructions when updating the existing item.

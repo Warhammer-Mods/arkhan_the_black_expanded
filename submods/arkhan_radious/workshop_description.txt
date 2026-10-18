@@ -1,0 +1,34 @@
+[h1]Arkhan the Black for Radious[/h1]
+
+This is the Radious submod for Arkhan the Black: Expanded. It includes the existing Radious compatibility changes, updated for the current Arkhan roster, and a full set of sandy unit cards to match the other Tomb Kings units in Radious.
+
+[h1]What's included[/h1]
+
+[list]
+[*]Sandy artwork for Arkhan's units, Regiments of Renown, Lords and Heroes.
+[*]Small army cards and larger information cards, with soft edges on the larger artwork.
+[*]Updated character cards so the different Lord and Hero appearances share the same style.
+[*]The existing Radious unit and building changes, with balance carried across to the renamed Necrarch Lords, Liche High Priests and Cairn Wraiths.
+[/list]
+
+[img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/submods/arkhan_radious/workshop_units.png[/img]
+
+[h1]Required mods[/h1]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610]Arkhan the Black: Expanded[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2791750313]Radious Total War Mod - Part 1[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2791750896]Radious Total War Mod - Part 2[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2791750075]Radious Total War Mod - Part 3[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2813892035]Radious Total War Mod - Part 4 - Assets[/url]
+
+Enable all of the required mods and this submod. Give this submod higher priority than Arkhan the Black: Expanded and Radious. If you have a separate older copy of the Arkhan Radious patch, disable it to avoid loading both versions.
+
+[h1]Balance and compatibility[/h1]
+
+The existing Radious stat values have been kept. Newer units without a counterpart in the older Radious patch still use their main-mod values and may need further balancing.
+
+Arkhan's campaign features come from the main mod. This submod requires both Arkhan the Black: Expanded and Radious.
+
+Please report bugs [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2865162727]on this Workshop page[/url]. Include your active mods, whether you started a new campaign or loaded a save, and whether the issue occurs in single-player or multiplayer.
+
+Thanks to the creators of Arkhan the Black: Expanded and Radious, and everyone who has helped with the mod. Original Total War images and assets belong to Creative Assembly.
