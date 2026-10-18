@@ -22,6 +22,8 @@ Arkhan starts with a custom Tomb Herald. Updated cards, a purple technology tab 
 
 [img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/additional-unit-cards.png[/img]
 
+Black Coach and Coven Throne.
+
 [h1]Lords and Heroes[/h1]
 
 Tomb Kings, Strigoi Ghoul King, Necrarch and Lahmian Vampire Lords, Liche High Priests, Liche Priests, Tomb Princes, Necrotects and the custom Tomb Herald.

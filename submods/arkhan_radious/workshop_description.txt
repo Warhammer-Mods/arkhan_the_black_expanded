@@ -13,6 +13,10 @@ This is the Radious submod for Arkhan the Black: Expanded. It includes the exist
 
 [img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/submods/arkhan_radious/workshop_units.png[/img]
 
+The Coven Throne also has a sandy card and matching infopic.
+
+[img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/submods/arkhan_radious/workshop_coven_throne.png[/img]
+
 [h1]Required mods[/h1]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610]Arkhan the Black: Expanded[/url]
