@@ -1,0 +1,9 @@
+exclude	unit_caste	unit_category	unit_class	unit_record	unit_set
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/arkhan_coven_throne					
+false				xereus_tmb_veh_coven_throne	xereus_tmb_veh_coven_throne
+false				xereus_tmb_veh_coven_throne	wh2_dlc09_tmb_arkhan_vampiric_units
+false				xereus_tmb_veh_coven_throne	undead_units
+false				xereus_tmb_veh_coven_throne	undead_units_tier3
+false				xereus_tmb_veh_coven_throne	war_machines
+false				xereus_tmb_veh_coven_throne	mp_cap_group_rare_single_entities
+false				xereus_tmb_veh_coven_throne	mp_cap_unit_vmp_veh_coven_throne
