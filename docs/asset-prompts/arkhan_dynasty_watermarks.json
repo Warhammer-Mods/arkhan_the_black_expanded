@@ -8,7 +8,9 @@
     "height": 617,
     "format": "PNG RGBA",
     "resampling": "Lanczos3",
-    "alignment": "Uniform scaling and centering to the source alpha >= 128 bounds. Existing native texture filenames are retained; these are shared Tomb Kings watermark replacements."
+    "alignment": "Uniform scaling and centering to the source alpha >= 128 bounds. Existing native texture filenames are retained; these are shared Tomb Kings watermark replacements.",
+    "material_color": "#343036",
+    "alpha_cleanup": "Dark engraved marks become transparent cut-outs. Uneven material opacity and texture are removed; transparent exterior and antialiased edges are retained. Every nontransparent pixel uses RGB (52, 48, 54)."
   },
   "images": [
     {
