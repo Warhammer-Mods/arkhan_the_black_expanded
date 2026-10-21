@@ -1,11 +1,11 @@
 key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
 #technologies_tables;7;db/technologies_tables/atbe											
-stephen_tech_arkhan_0	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_0	false	false		33557929	false	false	true	false
-stephen_tech_arkhan_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_main_4	false	false		33557930	false	false	true	false
-stephen_tech_arkhan_2	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_2	false	false		33557931	false	false	true	false
-stephen_tech_arkhan_3	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_magic_4	false	false		33557932	false	false	true	false
-stephen_tech_arkhan_4	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_vampires_magic_3	false	false		33557933	false	false	true	false
-stephen_tech_arkhan_raise_dead_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_deadrise_1a	false	false		33557934	false	false	true	false
+stephen_tech_arkhan_0	wh_main_chs_port_ruin	1	arkhan_tech_dark_legions	false	false		33557929	false	false	true	false
+stephen_tech_arkhan_1	wh_main_chs_port_ruin	1	arkhan_tech_undying_host	false	false		33557930	false	false	true	false
+stephen_tech_arkhan_2	wh_main_chs_port_ruin	1	arkhan_tech_liche_priest_mastery	false	false		33557931	false	false	true	false
+stephen_tech_arkhan_3	wh_main_chs_port_ruin	1	arkhan_tech_lore_of_death	false	false		33557932	false	false	true	false
+stephen_tech_arkhan_4	wh_main_chs_port_ruin	1	arkhan_tech_lore_of_vampires	false	false		33557933	false	false	true	false
+stephen_tech_arkhan_raise_dead_1	wh_main_chs_port_ruin	1	arkhan_tech_necromantic_restoration	false	false		33557934	false	false	true	false
 stephen_tech_arkhan_raise_dead_2	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_deadrise_2a	false	false		33557935	false	false	true	false
 stephen_tech_arkhan_raise_dead_3	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_deadrise_3a	false	false		33557936	false	false	true	false
 stephen_tech_arkhan_raise_dead_4	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_deadrise_1b	false	false		33557937	false	false	true	false
@@ -25,8 +25,8 @@ stephen_tech_arkhan_morghasts_1	wh_main_chs_port_ruin	1	arkhan_tech_morghast_har
 stephen_tech_arkhan_morghasts_2	wh_main_chs_port_ruin	1	arkhan_tech_morghast_archai	false	false		33557951	false	false	true	false
 stephen_tech_arkhan_mortis_engines_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_coach_engine_2	false	false		33557952	false	false	true	false
 stephen_tech_arkhan_mortis_engines_2	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_units_coach_engine_3	false	false		33557953	false	false	true	false
-stephen_tech_arkhan_final_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_1	false	false		33557954	false	false	true	false
-stephen_tech_arkhan_final_2	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_3	false	false		33557955	false	false	true	false
+stephen_tech_arkhan_final_1	wh_main_chs_port_ruin	1	arkhan_tech_eternal_dominion	false	false		33557954	false	false	true	false
+stephen_tech_arkhan_final_2	wh_main_chs_port_ruin	1	arkhan_tech_mortarchs_command	false	false		33557955	false	false	true	false
 stephen_tech_arkhan_unlock_1	wh_main_chs_port_ruin	1	arkhan_wh3_main_tech_vmp_necromancers_final_4	false	false		33557956	false	false	true	false
 stephen_tech_arkhan_unlock_2	wh_main_chs_port_ruin	1	arkhan_wh_main_vmp_strigoi_legacy	false	false		33557957	false	false	true	false
 stephen_tech_arkhan_unlock_3	wh_main_chs_port_ruin	1	arkhan_wh3_dlc29_tech_nef_imentet_2	false	false		33557958	false	false	true	false
