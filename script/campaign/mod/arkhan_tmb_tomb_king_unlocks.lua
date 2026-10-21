@@ -1,7 +1,19 @@
 local stephen_tmb_tomb_king_unlocks_techs = {
-    ["stephen_tech_arkhan_unlock_1"] = {forename = "names_name_159753854", surname = "", subtype = "stephen_tmb_necrarch_vampire_lord"},              -- Thutmocris
-    ["stephen_tech_arkhan_unlock_2"] = {forename = "names_name_159753853", surname = "", subtype = "stephen_tmb_strigoi_ghoul_king"},             -- Talongore
-    ["stephen_tech_arkhan_unlock_3"] = {forename = "names_name_159753857", surname = "", subtype = "stephen_tmb_lahmian_vampire_lord"}             -- Khestra     
+    ["stephen_tech_arkhan_unlock_1"] = { -- Thutmocris
+        forename = "names_name_159753854",
+        surname = "",
+        subtype = "stephen_tmb_necrarch_vampire_lord"
+    },
+    ["stephen_tech_arkhan_unlock_2"] = { -- Talongore
+        forename = "names_name_159753853",
+        surname = "",
+        subtype = "stephen_tmb_strigoi_ghoul_king"
+    },
+    ["stephen_tech_arkhan_unlock_3"] = { -- Khestra
+        forename = "names_name_159753857",
+        surname = "",
+        subtype = "stephen_tmb_lahmian_vampire_lord"
+    }
 };
 
 function STEPHEN_add_dynasty_tree_listeners()
@@ -47,7 +59,10 @@ end
 
 function create_tomb_king(faction_key, tomb_king)
     out("### Spawning Tomb King for Faction: " .. faction_key);
-    cm:spawn_character_to_pool(faction_key, tomb_king.forename, tomb_king.surname, "", "", 18, true, "general", tomb_king.subtype, true, "");
+    cm:spawn_character_to_pool(
+        faction_key, tomb_king.forename, tomb_king.surname,
+        "", "", 18, true, "general", tomb_king.subtype, true, ""
+    );
     out("### Tomb King Spawn Attempt Completed ###");
 end
 
