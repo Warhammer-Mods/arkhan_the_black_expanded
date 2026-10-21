@@ -6,7 +6,8 @@
     "width": 72,
     "height": 72,
     "format": "PNG RGBA",
-    "resampling": "Lanczos3"
+    "resampling": "Lanczos3",
+    "alignment": "Uniformly scaled from high-resolution masters to the corresponding original alpha >= 128 footprint, centered on the original visible bounds; no palette changes."
   },
   "icons": [
     {
