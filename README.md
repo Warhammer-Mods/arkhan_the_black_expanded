@@ -1,6 +1,7 @@
 # Arkhan the Black: Expanded
 
 Version: **4.0.5** · [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610)
+
 [![Build main mod and submods](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml/badge.svg)](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml)
 
 This is the vanilla version of Arkhan the Black: Expanded for Total War: Warhammer III.
