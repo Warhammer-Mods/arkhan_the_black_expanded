@@ -1,4 +1,4 @@
-Version: 4.0.1
+Version: 4.0.5
 
 This is the vanilla version of Arkhan the Black: Expanded for Total War: Warhammer III.
 

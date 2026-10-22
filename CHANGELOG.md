@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [4.0.5] - 2026-10-22
 
 ### Added
 
@@ -18,6 +18,15 @@
 - Recognise Arkhan's custom devastation effect bundle in the building context condition.
 - Remove superseded 2022 table and asset fragments so they do not duplicate the current definitions.
 - Use non-numeric endings for the added DB fragment names and retain localisation calls and escaped tooltip text.
+
+### Fixed
+
+- Allow technology costs to use Arkhan's regional Necromantic Energy through a synchronised faction research resource.
+- Restore the Necromantic Energy technology cost tooltip text.
+
+### Source baseline
+
+- Adopt the supplied October 22 pack, preserving its additions and removals, with the research-energy and tooltip fixes applied.
 
 ### Validation
 
