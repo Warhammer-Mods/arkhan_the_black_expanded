@@ -22,3 +22,7 @@ The existing regional reserve remains authoritative. It is never initialised fro
 - The corrected pack is reopened and compared by inventory and payload hash: two original entries changed, five support entries added, and the other 747 original entries retained byte for byte. The original ZIP and pack are preserved separately.
 
 This is not an in-game or multiplayer test. Load an existing Arkhan save, verify the displayed balance, start Deathly Incantations, and check that the real reserve falls by 250 once. Also test insufficient energy, a 500-energy research, switching/resuming research, save/reload, and construction/ritual spending. Verify that Jars costs and Nagash's reserve are unaffected. If the new faction resource is missing in a particular old save, capture that save and script logs rather than granting free research or copying funds from Nagash.
+
+## Technology cost tooltip correction
+
+The native technology cost tooltip also resolves `ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_arkhan_lotd_research_energy`. This entry is supplied in `text/db/arkhan_research.loc`, alongside the resource name and description. The correction changes only that native LOC payload; all other 753 pack entries and the complete inventory remain unchanged. The LOC was decoded after encoding and the rebuilt pack reopened for payload comparison. In-game tooltip rendering still requires confirmation.
