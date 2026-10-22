@@ -1,6 +1,7 @@
 -- Local presentation only: never create, credit, debit or mirror a resource pool.
 local FACTION = "wh2_dlc09_tmb_followers_of_nagash"
 local ENERGY = "arkhan_lotd_necromantic_energy"
+local RESEARCH_ENERGY = "arkhan_lotd_research_energy"
 local LEGACY_ENERGY = "wh3_dlc29_nag_necromantic_energy"
 local WARNING = LEGACY_ENERGY .. "_post_battle_not_gained"
 local WIDGET = "arkhan_lotd_technology_energy"
@@ -54,7 +55,9 @@ local function refresh_technology(root)
         for i = 0, list:ChildCount() - 1 do
             local entry = UIComponent(list:Find(i))
             local key = native_resource_key(entry)
-            if key == ENERGY or key == LEGACY_ENERGY then entry:SetVisible(false) end
+            if key == ENERGY or key == LEGACY_ENERGY or key == RESEARCH_ENERGY then
+                entry:SetVisible(false)
+            end
         end
         list:Layout()
     end

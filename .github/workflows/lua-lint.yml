@@ -44,3 +44,7 @@ jobs:
           fi
           exit "$result"
 
+
+      - name: Check Arkhan research energy payments
+        if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
+        run: lua5.1 .github/tests/arkhan_research_energy.lua

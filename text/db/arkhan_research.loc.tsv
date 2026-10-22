@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/arkhan_research.loc		
+pooled_resources_display_name_arkhan_lotd_research_energy	Necromantic Energy	false
+pooled_resources_description_arkhan_lotd_research_energy	Research draws on Arkhan's Necromantic Energy network.	false
+campaign_localised_strings_string_resource_not_available_arkhan_lotd_research_energy	Not enough Necromantic Energy.	false
