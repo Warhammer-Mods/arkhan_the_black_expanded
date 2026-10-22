@@ -16,6 +16,10 @@ campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_o
 	stephen_skill_tmb_lord_reanimation_upgraded		4	wh2_dlc09_skill_tmb_arkhan_army_12	12		0	1	true
 	stephen_skill_tmb_lord_reanimation		4	wh2_dlc09_skill_tmb_arkhan_army_7	7		0	6	true
 	stephen_skill_eternal_veil	wh2_dlc09_tmb_followers_of_nagash	2	stephen_skill_node_eternal_veil	25		0	0	true
+	wh3_main_skill_tmb_king_general_0		1	stephen_skill_tomb_king_1	0		0	0	true
+	wh3_main_skill_tmb_king_general_1		1	stephen_skill_tomb_king_2	1		0	0	true
+	wh3_main_skill_tmb_king_general_2		1	stephen_skill_tomb_king_3	2		0	0	true
+	wh3_main_skill_tmb_king_general_3		1	stephen_skill_tomb_king_4	3		0	0	true
 	stephen_skill_dynasty_innate_trait_1		6	stephen_skill_dynasty_innate_trait_1	0		0	0	false
 	stephen_skill_dynasty_innate_trait_2		6	stephen_skill_dynasty_innate_trait_2	0		0	0	false
 	stephen_skill_dynasty_innate_trait_3		6	stephen_skill_dynasty_innate_trait_3	0		0	0	false

@@ -1,6 +1,0 @@
-key	text	tooltip
-#Loc;1;text/db/atbe_building_effect_context_expressions.loc		
-building_effect_context_expressions_display_text_IsFactionArkhan		false
-building_effect_context_expressions_display_text_ArkhanLandOfTheDeadDevastated	When Devastated by the Ritual of Undeath:	false
-building_effect_context_expressions_display_text_HasGarrisonUpgrades	When [[img:icon_tech]][[/img]]technology "Wisdom of the First Dynasty" researched:	false
-building_effect_context_expressions_display_text_HasGarrisonUpgrades1	When [[img:icon_tech]][[/img]]technology "Wisdom of the Sixth Dynasty" researched:	false

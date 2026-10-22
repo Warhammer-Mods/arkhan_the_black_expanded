@@ -390,7 +390,6 @@ false				xereus_tmb_inf_grave_guard_great	xereus_tmb_inf_grave_guard_great
 false				xereus_tmb_inf_grave_guard_great	mp_cap_unit_tmb_inf_tomb_guard_0
 false				xereus_tmb_inf_grave_guard_great	wh2_dlc09_tmb_arkhan_vampiric_units
 false				xereus_tmb_mon_terrorgheist	xereus_tmb_mon_terrorgheist
-false				xereus_tmb_mon_terrorgheist	wh2_dlc09_tmb_arkhan_vampiric_units
 false				wh2_dlc09_tmb_inf_skeleton_archers_0	xereus_catapult_skeleton_ushabti
 false				wh2_dlc09_tmb_cav_skeleton_horsemen_archers_0	xereus_catapult_skeleton_ushabti
 false				wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	xereus_catapult_skeleton_ushabti
@@ -401,7 +400,6 @@ false				xereus_tmb_inf_stonewrath_guard	xereus_grave_guard_zombies
 false				xereus_tmb_inf_zombie	xereus_grave_guard_zombies
 false				xereus_tmb_inf_grave_guard	xereus_grave_guard_zombies
 false				xereus_tmb_inf_grave_guard_great	xereus_grave_guard_zombies
-false				xereus_tmb_mon_terrorgheist	xereus_terrorgheist_zombie_dragon
 false				xereus_tmb_mon_zombie_dragon	xereus_terrorgheist_zombie_dragon
 false				xereus_tmb_inf_nagashizzar_guard	xereus_grave_guard
 false				xereus_tmb_inf_stonewrath_guard	xereus_grave_guard
@@ -470,8 +468,6 @@ false				wh2_dlc09_tmb_mon_fell_bats	xereus_bats_wolves
 false				wh2_dlc09_tmb_mon_morghast_archai	xereus_morghasts
 false				wh2_dlc09_tmb_mon_morghast_harbingers	xereus_morghasts
 false				wh2_dlc09_tmb_inf_spirit_host	undead_units_tier1
-false				xereus_tmb_inf_skeleton_warriors	undead_units_tier1
-false				xereus_tmb_inf_skeleton_spearmen	undead_units_tier1
 false				xereus_tmb_inf_zombie	undead_units_tier1
 false				wh2_dlc09_tmb_mon_fell_bats	undead_units_tier1
 false				wh2_dlc09_tmb_inf_cairn_wraiths	undead_units_tier2
@@ -483,7 +479,6 @@ false				wh2_dlc09_tmb_mon_dire_wolves	undead_units_tier2
 false				xereus_tmb_veh_mortis_engine	undead_units_tier3
 false				wh2_dlc09_tmb_cav_hexwraiths	undead_units_tier3
 false				xereus_tmb_mon_zombie_dragon	undead_units_tier5
-false				xereus_tmb_mon_terrorgheist	undead_units_tier5
 false				wh2_dlc09_tmb_mon_morghast_archai	undead_units_tier5
 false				wh2_dlc09_tmb_mon_morghast_harbingers	undead_units_tier5
 false				wh2_dlc09_tmb_mon_morghast_harbingers	wh2_dlc09_tmb_arkhan_vampiric_units

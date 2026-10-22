@@ -171,3 +171,6 @@ stephen_skill_node_master_liche_shadow_magic_11	0	stephen_skill_node_master_lich
 stephen_skill_node_master_liche_shadow_magic_11	0	stephen_skill_node_master_liche_shadow_magic_08	1	1	0.0	0.0	SUBSET_REQUIRED
 stephen_skill_node_master_liche_shadow_magic_11	0	stephen_skill_node_master_liche_shadow_magic_09	1	1	0.0	0.0	SUBSET_REQUIRED
 stephen_skill_node_master_liche_shadow_magic_11	0	stephen_skill_node_master_liche_shadow_magic_10	1	1	0.0	0.0	SUBSET_REQUIRED
+stephen_skill_tomb_king_2	0	stephen_skill_tomb_king_1	0	0	0.0	0.0	REQUIRED
+stephen_skill_tomb_king_3	0	stephen_skill_tomb_king_2	0	0	0.0	0.0	REQUIRED
+stephen_skill_tomb_king_4	0	stephen_skill_tomb_king_3	0	0	0.0	0.0	REQUIRED

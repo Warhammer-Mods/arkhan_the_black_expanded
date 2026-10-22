@@ -25,3 +25,7 @@ jobs:
           checker="$GITHUB_WORKSPACE/.github/scripts/check_tsv.py"
           cd "$CHECK_SOURCE_ROOT"
           python3 "$checker"
+
+      - name: Verify approved main-pack inventory
+        if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
+        run: python3 .github/scripts/check_main_inventory.py

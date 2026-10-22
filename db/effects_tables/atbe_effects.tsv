@@ -87,3 +87,7 @@ stephen_army_ability_akararan_the_dark_riders_enable	general_ability.png	301	gen
 stephen_army_ability_uses_abyssal_dark_riders	general_ability.png	705	general_ability.png	battle	true
 stephen_legendary_liche_dummy	trait_tomb_kings.png	1	trait_tomb_kings.png	campaign	true
 arkhan_lotd_ritual_effects	climate_undead.png	1	climate_undead.png	campaign	true
+stephen_wayfarer_bats_wolves	general_ability.png	121	charge.png	battle	true
+stephen_frenzy_crypt_ghouls_crypt_horrors	general_ability.png	311	general_ability.png	battle	true
+stephen_ward_save_zombies	resistance_ward_save.png	581	resistance_ward_save.png	battle	true
+stephen_physical_resistance_crypt_ghouls_crypt_horrors	resistance_physical.png	581	resistance_physical.png	battle	true
