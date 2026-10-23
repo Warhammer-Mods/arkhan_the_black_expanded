@@ -29,3 +29,7 @@ jobs:
       - name: Verify approved main-pack inventory
         if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
         run: python3 .github/scripts/check_main_inventory.py
+
+      - name: Verify research cost tooltip registrations
+        if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
+        run: python3 .github/scripts/check_research_tooltip.py
