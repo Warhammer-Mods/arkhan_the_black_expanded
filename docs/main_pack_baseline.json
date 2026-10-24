@@ -4,7 +4,7 @@
   "input_sha256": "2cf48507769cbc750095495ae488c69289555da2cff31e5785a015256c60f0fd",
   "patched_sha256": "d5a3efa06653f64320a2440ee60b3789027683667ec400b9aaf0051b884b18e8",
   "input_game_files": 746,
-  "approved_game_files": 753,
+  "approved_game_files": 754,
   "authorised_overlay": "Research energy compatibility fix fef4fc46668b5a9a3faa93d577a317b2eb0b3a75; no older game entries restored.",
   "editor_metadata_excluded": [
     "dependencies_manager_v2.rpfm_reserved",
@@ -3187,6 +3187,14 @@
       "format": "raw",
       "source_path": "ui/battle ui/ability_icons/stephen_passive_realm_of_souls_tier_3.png",
       "source_sha256": "8c27f194c1468cd19f2505700c02ed12ad397f0cd5ee764c31479db714b0ebbc"
+    },
+    {
+      "internal_path": "ui/buildings/icons/wh3_dlc29_nag_melee_military.png",
+      "sha256": "703da32aad342b6609a6811141a91bab282c5cccb4cf0c696b740fe7eb5f0604",
+      "bytes": 4304,
+      "format": "raw",
+      "source_path": "ui/buildings/icons/wh3_dlc29_nag_melee_military.png",
+      "source_sha256": "703da32aad342b6609a6811141a91bab282c5cccb4cf0c696b740fe7eb5f0604"
     },
     {
       "internal_path": "ui/campaign ui/arkhan_lotd_necromantic_energy_topbar.twui.xml",
@@ -6556,6 +6564,13 @@
       "paths": [
         "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
         "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "reason": "User requested a colour-only override of the first red creature building icon to match advanced military blue. The second supplied image is a colour reference only.",
+      "paths": [
+        "ui/buildings/icons/wh3_dlc29_nag_melee_military.png"
       ]
     }
   ]
