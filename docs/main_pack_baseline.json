@@ -4,7 +4,7 @@
   "input_sha256": "2cf48507769cbc750095495ae488c69289555da2cff31e5785a015256c60f0fd",
   "patched_sha256": "d5a3efa06653f64320a2440ee60b3789027683667ec400b9aaf0051b884b18e8",
   "input_game_files": 746,
-  "approved_game_files": 754,
+  "approved_game_files": 755,
   "authorised_overlay": "Research energy compatibility fix fef4fc46668b5a9a3faa93d577a317b2eb0b3a75; no older game entries restored.",
   "editor_metadata_excluded": [
     "dependencies_manager_v2.rpfm_reserved",
@@ -3195,6 +3195,14 @@
       "format": "raw",
       "source_path": "ui/buildings/icons/wh3_dlc29_nag_melee_military.png",
       "source_sha256": "703da32aad342b6609a6811141a91bab282c5cccb4cf0c696b740fe7eb5f0604"
+    },
+    {
+      "internal_path": "ui/buildings/icons/wh3_dlc29_nag_support.png",
+      "sha256": "badc50c4d969dfbfa3662dd554fb76d543dec0ee0fb2cd180549e10adbabe8c8",
+      "bytes": 3453,
+      "format": "raw",
+      "source_path": "ui/buildings/icons/wh3_dlc29_nag_support.png",
+      "source_sha256": "badc50c4d969dfbfa3662dd554fb76d543dec0ee0fb2cd180549e10adbabe8c8"
     },
     {
       "internal_path": "ui/campaign ui/arkhan_lotd_necromantic_energy_topbar.twui.xml",
@@ -6571,6 +6579,13 @@
       "reason": "User requested a colour-only override of the first red creature building icon to match advanced military blue. The second supplied image is a colour reference only.",
       "paths": [
         "ui/buildings/icons/wh3_dlc29_nag_melee_military.png"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "reason": "User requested recolouring nag_support to match the supplied nah_crucible colour reference; colour only.",
+      "paths": [
+        "ui/buildings/icons/wh3_dlc29_nag_support.png"
       ]
     }
   ]
