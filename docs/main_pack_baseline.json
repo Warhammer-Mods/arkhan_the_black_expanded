@@ -3678,19 +3678,19 @@
     },
     {
       "internal_path": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
-      "sha256": "bcd4f6ed0c9d57e9aacce774e2d068dd418294596779f05e0b7af9dacab7883b",
-      "bytes": 6864,
+      "sha256": "2471ec72658c37a455ce0a7150c3c6b8f738b487f5e6f08e7235a6e0a83f792e",
+      "bytes": 10518,
       "format": "raw",
       "source_path": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
-      "source_sha256": "bcd4f6ed0c9d57e9aacce774e2d068dd418294596779f05e0b7af9dacab7883b"
+      "source_sha256": "2471ec72658c37a455ce0a7150c3c6b8f738b487f5e6f08e7235a6e0a83f792e"
     },
     {
       "internal_path": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
-      "sha256": "bd44bb9cb83ed68cc953a1422d6c9ba9408158969a355556422e2205220c00e8",
-      "bytes": 6424,
+      "sha256": "6a9beaa42abfdfab68268986f4cde62a3a5ad7bde18d5e84e40878f6421b757b",
+      "bytes": 10605,
       "format": "raw",
       "source_path": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
-      "source_sha256": "bd44bb9cb83ed68cc953a1422d6c9ba9408158969a355556422e2205220c00e8"
+      "source_sha256": "6a9beaa42abfdfab68268986f4cde62a3a5ad7bde18d5e84e40878f6421b757b"
     },
     {
       "internal_path": "ui/campaign ui/technologies/wh2_dlc09_item_abilities_staff_of_nagash.png",
