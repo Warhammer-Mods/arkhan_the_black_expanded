@@ -1,26 +1,31 @@
 {
   "tool": "built-in image_gen",
   "date": "2026-10-24",
-  "purpose": "Two necromantic building technology icons with fan blades and pointed ornaments removed. Exported assets are available for technology assignment.",
+  "purpose": "Borderless necromantic building technology icons, matching existing cut-out game technology artwork. Circular rims and filled disc backgrounds removed; no fan blades or pointed ornaments.",
   "game_export": {
     "width": 72,
     "height": 72,
     "format": "PNG RGBA",
     "resampling": "Lanczos3",
-    "outer_background": "transparent"
+    "outer_background": "fully transparent around the cut-out building; no circular rim or filled backdrop"
   },
   "icons": [
     {
       "icon": "necro_tech_crypt_no_spikes",
       "file": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
-      "sha256": "cf15bb68837c6e5f31c2a0b973d46498810fffd42be38948700bfd8d75623147",
-      "prompt": "Precise-object-edit. Edit this EXISTING technology icon with minimal changes. Keep the same crypt, closed rounded doorway with skull carving, low wide fa\u00e7ade, stairs, plum stone, bone trim, circular bronze rim, dark purple interior, lighting, scale and composition. REMOVE the pointed diamond finial at the very top centre completely; replace that small region with a smooth low rounded stone cap. REMOVE the two triangular/pyramid finials on the far left and right posts; make those posts terminate in plain flat horizontal stone caps. Smooth the two upward-pointing tips at the ends of the curved pediment into softly rounded ends. Retain the broad curved pediment as a gentle continuous curve. No pointed roof decorations, spikes, pyramids or diamonds anywhere on the building. Replace the tiny lower diamond decoration on the door with a small round recessed stone detail, retaining the skull relief above it. Everything else stays as close to this exact image as possible: do not redesign into a different temple or change the palette or circle. Transparent exterior preserved. Fully opaque interior. ONE icon."
+      "sha256": "bcd4f6ed0c9d57e9aacce774e2d068dd418294596779f05e0b7af9dacab7883b",
+      "prompt": "Precise-object-edit. IMAGE 1 is the crypt building technology icon to edit; IMAGE 2 is ONLY a sample of how existing game technology icons use a freestanding subject and sparse purple accents. Remove the ENTIRE enclosing GOLD CIRCULAR BORDER from image 1. Remove the ENTIRE filled purple circular disc and all its background texture. Replace everything outside the actual crypt building with genuine transparency, including the sky above its rounded roof and the empty areas around the foundation. Retain the same low-wide crypt building itself, rounded smooth roof/pediment, plain flat-capped side posts, closed arched door with skull relief and round lower decoration, curved side buttresses, short steps, dark wine-plum stone and bone architectural edge highlights. Keep the CURRENT building design with NO SPIKES and NO POINTED FINIALS, no roof jewel. Do not turn it into a different temple. Match the hand-painted miniature strategy-game technology icon treatment of image 2: crisp dark contour, selective pale bone highlights, faint violet edge light around the lower masonry only. Keep purple accents restrained and closely hugging the building; no circular halo or solid background, no large smoke cloud, no rays, no gold ring anywhere. The subject must be a single borderless transparent-background CUTOUT BUILDING, suitable for placement into the game's existing technology node frame, not a standalone badge. Centre it on a square transparent canvas with a small margin; the building should fill most of the usable width and remain legible when exported at 72x72 pixels. No labels, typography, added objects or skulls outside the existing building. One icon only."
     },
     {
       "icon": "necro_tech_ritual_dais_no_spikes",
       "file": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
-      "sha256": "15ade134c5c78133f988ec3d5c0dcd98c6c015776a21b46e48f3b921dfbd2c38",
-      "prompt": "Precise-object-edit. Edit THIS EXISTING circular technology icon with one main correction: REMOVE ALL FIVE LONG RADIATING BACKDROP BLADES / RAYS COMPLETELY. Fill the entire area where the blades stood with the same quiet dark plum background already surrounding them. No replacement objects: NO fan, NO rays, NO spikes, NO spikes hidden behind the skulls, NO tall slabs, NO pointed roof, NO crown, NO sharp finials, NO extra architecture. Keep the three existing skull-topped square stone columns exactly as round skulls on plain flat caps, including the taller rear central skull column. Preserve the open ritual dais, offering bowl, broad steps, low foundation, two side skull columns, colour palette, bone trim, circular bronze border, original scale and hand-painted lighting. The tallest point of the BUILDING must be the smooth rounded top of the CENTRAL SKULL, with plain dark background above it. Keep the centre skull column solid and low enough to read as a ritual altar, not a tall monument. Also replace the small sharp diamond emblem on the altar front with a simple circular recessed stone disc. Preserve the existing round icon framing and positions of the main masonry masses; only remove the fan and pointed ornamental shapes. Subtle violet light remains in the bowl. Exterior transparency preserved, circle interior opaque. One icon only."
+      "sha256": "bd44bb9cb83ed68cc953a1422d6c9ba9408158969a355556422e2205220c00e8",
+      "prompt": "Precise-object-edit. Image 1 is the EXISTING ritual dais technology icon to edit. Image 2 is only a style example of an existing freestanding game technology icon. Remove the ENTIRE GOLD CIRCULAR BORDER from image 1, remove the ENTIRE filled round purple background, replace the complete exterior of the actual masonry subject with genuine transparency. Preserve the actual open ritual building: broad stepped platform, short wide staircase, low central altar table with round recessed front detail and a little offering bowl, two square side columns each capped with a small ivory skull, and the slightly taller central rear skull column. Keep every CURRENT no-spikes design choice: NO backdrop fan, NO rays, NO blades, NO spires, NO sharp ornaments, NO new pointed objects. Background above and around the three skulls must be fully transparent, including open gaps between the columns. Retain the dark wine-plum stone and warm bone edge highlights. Match the cutout miniature game icon appearance of image 2 with clean painterly outlines, strong readable material planes, faint violet accents close to the altar bowl and bottom stone edges. No large smoke cloud, no circular glow, no gold frame, no disc. This must be a borderless BUILDING SUBJECT for the game's existing research-node framing, not a new medallion. Skull tops and all original stone walls stay opaque. Centre the entire intact subject on a square transparent canvas, fill most of the usable width with small safe margins, read clearly after export to 72x72. Keep the building low and broad, no enlargement into a different temple. No text, no extra objects, no hands or characters from the style sample. ONE icon only."
     }
+  ],
+  "style_references": [
+    "ui/campaign ui/technologies/arkhan_wh3_main_tech_vmp_necromancers_0.png",
+    "ui/campaign ui/technologies/arkhan_wh3_main_tech_vmp_necromancers_deadrise_1a.png",
+    "ui/campaign ui/technologies/arkhan_tech_morghast_archai.png"
   ]
 }
