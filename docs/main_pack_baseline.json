@@ -4,7 +4,7 @@
   "input_sha256": "2cf48507769cbc750095495ae488c69289555da2cff31e5785a015256c60f0fd",
   "patched_sha256": "d5a3efa06653f64320a2440ee60b3789027683667ec400b9aaf0051b884b18e8",
   "input_game_files": 746,
-  "approved_game_files": 751,
+  "approved_game_files": 753,
   "authorised_overlay": "Research energy compatibility fix fef4fc46668b5a9a3faa93d577a317b2eb0b3a75; no older game entries restored.",
   "editor_metadata_excluded": [
     "dependencies_manager_v2.rpfm_reserved",
@@ -3677,6 +3677,22 @@
       "source_sha256": "b09117aa08af2617e87326156610fb4790182c6743eba285397af0ecd36cd6ee"
     },
     {
+      "internal_path": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
+      "sha256": "cf15bb68837c6e5f31c2a0b973d46498810fffd42be38948700bfd8d75623147",
+      "bytes": 11031,
+      "format": "raw",
+      "source_path": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
+      "source_sha256": "cf15bb68837c6e5f31c2a0b973d46498810fffd42be38948700bfd8d75623147"
+    },
+    {
+      "internal_path": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
+      "sha256": "15ade134c5c78133f988ec3d5c0dcd98c6c015776a21b46e48f3b921dfbd2c38",
+      "bytes": 10814,
+      "format": "raw",
+      "source_path": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
+      "source_sha256": "15ade134c5c78133f988ec3d5c0dcd98c6c015776a21b46e48f3b921dfbd2c38"
+    },
+    {
       "internal_path": "ui/campaign ui/technologies/wh2_dlc09_item_abilities_staff_of_nagash.png",
       "sha256": "421dc983584ef86c544bddc75d88b3dc55db3782b99c1f558dc06bc757d38926",
       "bytes": 13418,
@@ -6531,6 +6547,16 @@
       "format": "raw",
       "source_path": "vfx/wh_main_vampires_gaze_of_nagash_trail_arkhan.xml",
       "source_sha256": "870cb68bf75c74cacdff58a95e4430e932eef5c12a9e1ffdbd82c365e95bb89b"
+    }
+  ],
+  "authorised_additions": [
+    {
+      "date": "2026-10-24",
+      "reason": "User requested adding and pushing the final necromantic building technology icons without spikes.",
+      "paths": [
+        "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
+        "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png"
+      ]
     }
   ]
 }

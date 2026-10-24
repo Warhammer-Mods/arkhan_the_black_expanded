@@ -1,0 +1,26 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-24",
+  "purpose": "Two necromantic building technology icons with fan blades and pointed ornaments removed. Exported assets are available for technology assignment.",
+  "game_export": {
+    "width": 72,
+    "height": 72,
+    "format": "PNG RGBA",
+    "resampling": "Lanczos3",
+    "outer_background": "transparent"
+  },
+  "icons": [
+    {
+      "icon": "necro_tech_crypt_no_spikes",
+      "file": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
+      "sha256": "cf15bb68837c6e5f31c2a0b973d46498810fffd42be38948700bfd8d75623147",
+      "prompt": "Precise-object-edit. Edit this EXISTING technology icon with minimal changes. Keep the same crypt, closed rounded doorway with skull carving, low wide fa\u00e7ade, stairs, plum stone, bone trim, circular bronze rim, dark purple interior, lighting, scale and composition. REMOVE the pointed diamond finial at the very top centre completely; replace that small region with a smooth low rounded stone cap. REMOVE the two triangular/pyramid finials on the far left and right posts; make those posts terminate in plain flat horizontal stone caps. Smooth the two upward-pointing tips at the ends of the curved pediment into softly rounded ends. Retain the broad curved pediment as a gentle continuous curve. No pointed roof decorations, spikes, pyramids or diamonds anywhere on the building. Replace the tiny lower diamond decoration on the door with a small round recessed stone detail, retaining the skull relief above it. Everything else stays as close to this exact image as possible: do not redesign into a different temple or change the palette or circle. Transparent exterior preserved. Fully opaque interior. ONE icon."
+    },
+    {
+      "icon": "necro_tech_ritual_dais_no_spikes",
+      "file": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
+      "sha256": "15ade134c5c78133f988ec3d5c0dcd98c6c015776a21b46e48f3b921dfbd2c38",
+      "prompt": "Precise-object-edit. Edit THIS EXISTING circular technology icon with one main correction: REMOVE ALL FIVE LONG RADIATING BACKDROP BLADES / RAYS COMPLETELY. Fill the entire area where the blades stood with the same quiet dark plum background already surrounding them. No replacement objects: NO fan, NO rays, NO spikes, NO spikes hidden behind the skulls, NO tall slabs, NO pointed roof, NO crown, NO sharp finials, NO extra architecture. Keep the three existing skull-topped square stone columns exactly as round skulls on plain flat caps, including the taller rear central skull column. Preserve the open ritual dais, offering bowl, broad steps, low foundation, two side skull columns, colour palette, bone trim, circular bronze border, original scale and hand-painted lighting. The tallest point of the BUILDING must be the smooth rounded top of the CENTRAL SKULL, with plain dark background above it. Keep the centre skull column solid and low enough to read as a ritual altar, not a tall monument. Also replace the small sharp diamond emblem on the altar front with a simple circular recessed stone disc. Preserve the existing round icon framing and positions of the main masonry masses; only remove the fan and pointed ornamental shapes. Subtle violet light remains in the bowl. Exterior transparency preserved, circle interior opaque. One icon only."
+    }
+  ]
+}
