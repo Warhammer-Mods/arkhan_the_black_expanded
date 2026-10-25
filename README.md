@@ -70,6 +70,8 @@ The current building, unit, skill, animation, model and visual-effect sources fr
 
 Import the source with RPFM configured for Total War: Warhammer III. Download automated builds from the **Artifacts** section of a successful [Build Packfile run](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml).
 
+CI uses [RPFM Server 5.3.1](https://github.com/Frodo45127/rpfm/releases/tag/v5.3.1) with its matching pinned Docker action and schema. The pack builder uses server API v2, waits for schema-loading jobs, and reopens the saved pack to verify its complete paginated inventory and decode every DB/LOC file, including native binaries. Run the client regression checks with `python3 -m unittest discover -s .github/tests -p "test_build_pack_server.py"`.
+
 Local validation covers pack integrity, source-table round trips, resource/cost links, UI XML, Lua syntax, separate-pool migration and save-load refresh. The starting-hero replacement has been confirmed in game; the level-one adjustment and multiplayer behaviour still need an in-game check. Campaign changes do not depend on local UI/player state, but multiplayer desynchronisation safety is not yet confirmed.
 
 The complete, ready-to-paste Steam Workshop description (including Khemric Titan and Spirit Hosts, with small feathered unit cards and a Lords and Heroes gallery) is maintained in [docs/steam-workshop-description.txt](docs/steam-workshop-description.txt).

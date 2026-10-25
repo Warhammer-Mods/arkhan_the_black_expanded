@@ -24,7 +24,6 @@ on:
       game:
         required: true
         type: string
-        default: warhammer_3
         description: |
           Game used for packfile building.
           Can be one of the following:
@@ -61,6 +60,7 @@ permissions:
   contents: read
 
 env:
+  RPFM_VERSION: "5.3.1"
   DEBUG_ENABLED: ${{ secrets.ACTIONS_STEP_DEBUG == 'true' || inputs.debug_enabled }}
   GH_TOKEN: ${{ secrets.token }}
 
@@ -70,27 +70,29 @@ jobs:
     timeout-minutes: 60
     steps:
     - uses: actions/checkout@v7.0.1
-    - name: Checkout pinned RPFM 5.2.0 tooling
+    - name: Check RPFM API v2 client
+      run: python3 -m unittest discover -s .github/tests -p "test_build_pack_server.py"
+    - name: Checkout pinned RPFM tooling
       uses: actions/checkout@v7.0.1
       with:
         repository: Warhammer-Mods/rpfm-server-docker
-        ref: 89a7cd33c083048499ca366f21807b7d913989d6
+        ref: cb1f6a30c6edb0fa6e0f5155c9f993651fb9202a # v5.3.1-server.1
         path: .rpfm-action
     - uses: docker/setup-buildx-action@v4.4.1
-    - name: Build cached RPFM Server 5.2.0 image
+    - name: Build cached RPFM Server image
       uses: docker/build-push-action@v7.4.0
       with:
         context: .rpfm-action/server
         load: true
         push: false
-        tags: local/rpfm-server:5.2.0
-        cache-from: type=gha,scope=rpfm-server-5.2.0
-        cache-to: type=gha,mode=max,scope=rpfm-server-5.2.0
-    - name: Start RPFM Server 5.2.0
+        tags: local/rpfm-server:${{ env.RPFM_VERSION }}
+        cache-from: type=gha,scope=rpfm-server-${{ env.RPFM_VERSION }}
+        cache-to: type=gha,mode=max,scope=rpfm-server-${{ env.RPFM_VERSION }}
+    - name: Start RPFM Server
       id: rpfm
-      uses: Warhammer-Mods/rpfm-server-docker@89a7cd33c083048499ca366f21807b7d913989d6
+      uses: Warhammer-Mods/rpfm-server-docker@cb1f6a30c6edb0fa6e0f5155c9f993651fb9202a # v5.3.1-server.1
       with:
-        image: local/rpfm-server:5.2.0
+        image: local/rpfm-server:${{ env.RPFM_VERSION }}
     - name: Build and verify packfile
       env:
         RPFM_URL: ${{ steps.rpfm.outputs.url }}
