@@ -60,7 +60,7 @@ permissions:
   contents: read
 
 env:
-  RPFM_VERSION: "5.3.1"
+  RPFM_VERSION: "5.3.2"
   DEBUG_ENABLED: ${{ secrets.ACTIONS_STEP_DEBUG == 'true' || inputs.debug_enabled }}
   GH_TOKEN: ${{ secrets.token }}
 
@@ -72,27 +72,9 @@ jobs:
     - uses: actions/checkout@v7.0.1
     - name: Check RPFM API v2 client
       run: python3 -m unittest discover -s .github/tests -p "test_build_pack_server.py"
-    - name: Checkout pinned RPFM tooling
-      uses: actions/checkout@v7.0.1
-      with:
-        repository: Warhammer-Mods/rpfm-server-docker
-        ref: cb1f6a30c6edb0fa6e0f5155c9f993651fb9202a # v5.3.1-server.1
-        path: .rpfm-action
-    - uses: docker/setup-buildx-action@v4.4.1
-    - name: Build cached RPFM Server image
-      uses: docker/build-push-action@v7.4.0
-      with:
-        context: .rpfm-action/server
-        load: true
-        push: false
-        tags: local/rpfm-server:${{ env.RPFM_VERSION }}
-        cache-from: type=gha,scope=rpfm-server-${{ env.RPFM_VERSION }}
-        cache-to: type=gha,mode=max,scope=rpfm-server-${{ env.RPFM_VERSION }}
-    - name: Start RPFM Server
+    - name: Download verified RPFM Server from GHCR
       id: rpfm
-      uses: Warhammer-Mods/rpfm-server-docker@cb1f6a30c6edb0fa6e0f5155c9f993651fb9202a # v5.3.1-server.1
-      with:
-        image: local/rpfm-server:${{ env.RPFM_VERSION }}
+      uses: Warhammer-Mods/rpfm-server-docker@313149b4134d8f093651bb5629c31f522c7c1ed2 # v5.3.2-server.1
     - name: Build and verify packfile
       env:
         RPFM_URL: ${{ steps.rpfm.outputs.url }}
