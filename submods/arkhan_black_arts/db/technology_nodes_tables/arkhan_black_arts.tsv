@@ -1,0 +1,15 @@
+campaign_key	faction_key	indent	key	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
+#technology_nodes_tables;0;db/technology_nodes_tables/arkhan_black_arts														
+	wh2_dlc09_tmb_followers_of_nagash	1	arkhan_black_arts_servants	arkhan_black_arts_servants	tmb_mil	21	200	0	0		arkhan_black_arts_servants_cost	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	1	arkhan_black_arts_wights	arkhan_black_arts_wights	tmb_mil	22	300	0	0		arkhan_black_arts_wights_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	1	arkhan_black_arts_mending	arkhan_black_arts_mending	tmb_mil	23	400	0	0		arkhan_black_arts_mending_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	1	arkhan_black_arts_endurance	arkhan_black_arts_endurance	tmb_mil	24	500	0	0		arkhan_black_arts_endurance_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	arkhan_black_arts_spirits	arkhan_black_arts_spirits	tmb_mil	21	200	0	0		arkhan_black_arts_spirits_cost	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	arkhan_black_arts_ward	arkhan_black_arts_ward	tmb_mil	22	300	0	0		arkhan_black_arts_ward_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	arkhan_black_arts_reservoir	arkhan_black_arts_reservoir	tmb_mil	23	400	0	0		arkhan_black_arts_reservoir_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	arkhan_black_arts_sorcery	arkhan_black_arts_sorcery	tmb_mil	24	500	0	0		arkhan_black_arts_sorcery_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	arkhan_black_arts_terrors	arkhan_black_arts_terrors	tmb_mil	21	200	0	0		arkhan_black_arts_terrors_cost	0	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	arkhan_black_arts_predators	arkhan_black_arts_predators	tmb_mil	22	300	0	0		arkhan_black_arts_predators_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	arkhan_black_arts_morghasts	arkhan_black_arts_morghasts	tmb_mil	23	400	0	0		arkhan_black_arts_morghasts_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	7	arkhan_black_arts_dragon	arkhan_black_arts_dragon	tmb_mil	24	500	0	0		arkhan_black_arts_dragon_cost	1	0	0
+	wh2_dlc09_tmb_followers_of_nagash	4	arkhan_black_arts_great_rite	arkhan_black_arts_great_rite	tmb_mil	25	500	0	0		arkhan_black_arts_great_rite_cost	3	0	0

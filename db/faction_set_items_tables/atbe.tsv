@@ -1,0 +1,4 @@
+culture	faction	remove	set	subculture	id
+#faction_set_items_tables;1;db/faction_set_items_tables/atbe					
+	wh2_dlc09_tmb_followers_of_nagash	false	FavouredCorruptionVampiric		1
+	wh2_dlc09_tmb_followers_of_nagash	true	FavouredCorruptionNone		2

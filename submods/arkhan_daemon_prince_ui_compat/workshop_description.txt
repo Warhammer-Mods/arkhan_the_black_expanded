@@ -1,0 +1,25 @@
+A compatibility patch for Arkhan the Black: Expanded and Path of the Daemon Prince: Daemons of Chaos Remake.
+
+Both mods edit the province information panel. When Arkhan’s version takes priority, the Daemon Prince’s Desolation for the Gods section disappears. This patch combines the two panels so each faction keeps its own interface.
+
+[h1]Requirements[/h1]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610]Arkhan the Black: Expanded[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3818631088]Path of the Daemon Prince: Daemons of Chaos Remake[/url]
+[/list]
+Enable both required mods and this patch. Give this patch higher priority than both in your mod manager.
+
+[h1]What it changes[/h1]
+[list]
+[*]Restores the Daemon Prince’s Desolation for the Gods province panel, including its resource display and Rite of Desolation controls.
+[*]Preserves Arkhan’s Land of the Dead panel and separate Necromantic Energy bindings.
+[/list]
+The patch contains one UI file. It adds no campaign scripts or balance changes. The restored Daemon Prince panel has been confirmed working in game.
+
+[h1]Installation[/h1]
+If you used the earlier TEST pack, disable or remove it before enabling this release. You can test the panel by loading your existing campaign save.
+
+Other mods that replace the province information panel may need a separate compatibility patch. Updates to either required mod may also require this patch to be updated.
+
+[h1]Credits[/h1]
+Stephen and the Arkhan the Black: Expanded contributors for Arkhan’s mod, and DgBagé for Path of the Daemon Prince: Daemons of Chaos Remake. This patch merges their province UI changes. Original game assets belong to Creative Assembly.

@@ -1,0 +1,22 @@
+unit_record	height_offset	campaign_height_offset
+#unit_banner_unit_height_offsets_tables;2;db/unit_banner_unit_height_offsets_tables/atbe		
+stephen_tmb_cha_strigoi_ghoul_king_2	3.0	0.0
+stephen_tmb_cha_necrarch_vampire_lord_2	0.5	0.0
+stephen_tmb_cha_necrarch_vampire_lord_3	0.5	0.0
+stephen_tmb_cha_necrarch_vampire_lord_4	0.5	0.0
+stephen_tmb_cha_tomb_king_2	1.0	0.0
+stephen_tmb_cha_tomb_king_3	1.0	0.0
+xereus_tmb_mon_carrion_0	2.0	0.0
+xereus_tmb_mon_heirotitan	3.0	0.0
+xereus_tmb_mon_necrosphinx	1.0	0.0
+xereus_tmb_mon_zombie_dragon	3.0	0.0
+xereus_tmb_veh_skeleton_archer_chariot_0	1.0	0.0
+xereus_tmb_veh_skeleton_chariot_0	1.0	0.0
+stephen_tmb_cha_necrotect_2	1.0	0.0
+stephen_tmb_cha_tomb_prince_2	1.0	0.0
+stephen_tmb_cha_high_liche_priest_death_3	1.0	0.0
+stephen_tmb_cha_high_liche_priest_undeath_3	1.0	0.0
+stephen_tmb_cha_high_liche_priest_nehekhara_3	1.0	0.0
+stephen_tmb_cha_high_liche_priest_light_3	1.0	0.0
+xereus_tmb_mon_terrorgheist	2.0	0.0
+stephen_tmb_cha_lahmian_vampire_lord_2	0.0	-4.0

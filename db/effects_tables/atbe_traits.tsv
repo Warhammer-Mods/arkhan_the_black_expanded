@@ -1,0 +1,8 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/atbe_traits					
+stephen_effect_tomb_king_unlock_1	army.png	1	army.png	campaign	true
+stephen_effect_tomb_king_unlock_2	army.png	1	army.png	campaign	true
+stephen_effect_tomb_king_unlock_3	army.png	1	army.png	campaign	true
+stephen_effect_tomb_king_unlock_4	army.png	1	army.png	campaign	true
+stephen_effect_tomb_king_unlock_5	army.png	1	army.png	campaign	true
+stephen_effect_tomb_king_unlock_6	army.png	1	army.png	campaign	true

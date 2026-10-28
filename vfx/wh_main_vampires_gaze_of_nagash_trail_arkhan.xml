@@ -1,0 +1,25 @@
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx revision="2" construction_type="2" enable_in_ted="false" camera_following="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+	<vfx inst_name="main_35m/s" vfx_ref="wh3_main_lib_tzeentch_trail" notes="" scale_min="1.00" scale_max="1.00" pos_x="0.40" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true" simulation_speed_multiplier="1.00">
+		<emitter name="pink_glow_trail" enable="true" tint_min_r="0.90" tint_min_g="0.00" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="0.70" tint_max_g="0.10" tint_max_b="0.10" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="blue_tzeentch_teeth_trail" enable="true" tint_min_r="0.90" tint_min_g="0.00" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="0.70" tint_max_g="0.10" tint_max_b="0.10" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="blue_fire_embers" enable="true" tint_min_r="0.90" tint_min_g="0.00" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="0.70" tint_max_g="0.10" tint_max_b="0.10" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="blue_fire_trail" enable="true" tint_min_r="0.90" tint_min_g="0.00" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="0.70" tint_max_g="0.10" tint_max_b="0.10" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="blue_fire_sphere_impact" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="blue_fire_impact_spikes" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="pink_glow_impact" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="impact_sphere" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="tze_siege_trail" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="fire_particles_trail" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+	</vfx>
+</vfx_references><!-- EDITOR DATA--><editor_data>
+	<effect_components>
+		<component id="main_35m/s"/>
+	</effect_components>
+</editor_data>

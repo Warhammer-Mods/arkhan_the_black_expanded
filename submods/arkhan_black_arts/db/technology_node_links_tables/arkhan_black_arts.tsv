@@ -1,0 +1,14 @@
+child_key	initial_descent_tiers	parent_key	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	visible_in_ui
+#technology_node_links_tables;0;db/technology_node_links_tables/arkhan_black_arts							
+arkhan_black_arts_wights	0	arkhan_black_arts_servants	1	3	0.0	0.0	true
+arkhan_black_arts_mending	0	arkhan_black_arts_wights	1	3	0.0	0.0	true
+arkhan_black_arts_endurance	0	arkhan_black_arts_mending	1	3	0.0	0.0	true
+arkhan_black_arts_ward	0	arkhan_black_arts_spirits	1	3	0.0	0.0	true
+arkhan_black_arts_reservoir	0	arkhan_black_arts_ward	1	3	0.0	0.0	true
+arkhan_black_arts_sorcery	0	arkhan_black_arts_reservoir	1	3	0.0	0.0	true
+arkhan_black_arts_predators	0	arkhan_black_arts_terrors	1	3	0.0	0.0	true
+arkhan_black_arts_morghasts	0	arkhan_black_arts_predators	1	3	0.0	0.0	true
+arkhan_black_arts_dragon	0	arkhan_black_arts_morghasts	1	3	0.0	0.0	true
+arkhan_black_arts_great_rite	0	arkhan_black_arts_endurance	1	3	0.0	0.0	true
+arkhan_black_arts_great_rite	0	arkhan_black_arts_sorcery	1	3	0.0	0.0	true
+arkhan_black_arts_great_rite	0	arkhan_black_arts_dragon	1	3	0.0	0.0	true

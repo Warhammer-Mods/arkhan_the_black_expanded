@@ -1,0 +1,3 @@
+stance	effect_bundle	culture	subculture	faction	force_type	resource_cost
+#campaign_stance_effects_junctions_tables;1;db/campaign_stance_effects_junctions_tables/atbe						
+MILITARY_FORCE_ACTIVE_STANCE_TYPE_TUNNELING	wh2_dlc09_bundle_stance_necrarch_teleport	wh2_dlc09_tmb_tomb_kings				wh3_main_tunnel_tze_winds_of_magic

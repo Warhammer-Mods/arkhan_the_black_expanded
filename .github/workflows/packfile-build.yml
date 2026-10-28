@@ -1,0 +1,109 @@
+name: Build Packfile
+
+on: 
+  workflow_call:
+    inputs:
+      paths:
+        required: false
+        type: string
+        default: |
+          *
+          !.git/**
+          !.vscode/**
+          !**/.*
+          !**/*.rockspec
+          !matchers/*
+        description: |
+          A list of glob patterns to include in the packfile.
+      paths_separator:
+        required: false
+        type: string
+        default: "\n"
+        description: |
+          Separator used to split the paths input.
+      game:
+        required: true
+        type: string
+        description: |
+          Game used for packfile building.
+          Can be one of the following:
+            arena
+            attila
+            empire
+            napoleon
+            rome_2
+            shogun_2
+            three_kingdoms
+            thrones_of_britannia
+            troy
+            warhammer
+            warhammer_2
+            warhammer_3
+      source_root:
+        required: false
+        type: string
+        default: "."
+      pack_name:
+        required: false
+        type: string
+        default: ""
+      debug_enabled:
+        required: false
+        type: boolean
+        default: false
+        description: Enable debug logging
+    secrets:
+      token:
+        required: true
+
+permissions:
+  contents: read
+
+env:
+  RPFM_VERSION: "5.3.2"
+  DEBUG_ENABLED: ${{ secrets.ACTIONS_STEP_DEBUG == 'true' || inputs.debug_enabled }}
+  GH_TOKEN: ${{ secrets.token }}
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+    - uses: actions/checkout@v7.0.1
+    - name: Check RPFM API v2 client
+      run: python3 -m unittest discover -s .github/tests -p "test_build_pack_server.py"
+    - name: Download verified RPFM Server from GHCR
+      id: rpfm
+      uses: Warhammer-Mods/rpfm-server-docker@313149b4134d8f093651bb5629c31f522c7c1ed2 # v5.3.2-server.1
+    - name: Build and verify packfile
+      env:
+        RPFM_URL: ${{ steps.rpfm.outputs.url }}
+        PACK_PATHS: ${{ inputs.paths }}
+        PACK_SEPARATOR: ${{ inputs.paths_separator }}
+        PACK_GAME: ${{ inputs.game }}
+        PACK_SOURCE_ROOT: ${{ inputs.source_root }}
+        PACKFILE: ${{ inputs.pack_name || github.event.repository.name }}.pack
+      run: python3 .github/scripts/build_pack_server.py
+    - name: Upload packfile
+      uses: actions/upload-artifact@v7.0.2
+      with:
+        name: ${{ inputs.pack_name || github.event.repository.name }}
+        path: ${{ inputs.source_root }}/${{ inputs.pack_name || github.event.repository.name }}.pack
+        retention-days: 90
+        if-no-files-found: error
+    - name: Collect server logs and stop container
+      if: always() && steps.rpfm.outputs.container != ''
+      env:
+        RPFM_CONTAINER: ${{ steps.rpfm.outputs.container }}
+      run: |
+        docker logs "${RPFM_CONTAINER}" > rpfm-server.log 2>&1 || true
+        docker rm --force "${RPFM_CONTAINER}" || true
+    - name: Upload server log
+      if: always()
+      uses: actions/upload-artifact@v7.0.2
+      with:
+        name: ${{ inputs.pack_name || github.event.repository.name }}-rpfm-server-log
+        path: rpfm-server.log
+        retention-days: 90
+        if-no-files-found: ignore
+

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layout version="142" comment="" precache_condition="">
+	<hierarchy>
+		<root this="D528A929-1A7F-52B9-A937-E89F3A4AD4B9">
+			<arkhan_lotd_necropolis_indicator this="5C0B8B1B-6A5D-5E4F-9E80-78758CC81500">
+				<necropolis_holder this="C04BE549-87FE-5BE7-804B-C0C9A851F701">
+					<resource_holder this="7D1AC085-9E83-584C-9BC6-266D6760D63A">
+						<icon this="53B8D710-982A-5FAC-B8AE-2C50EF281DDF"/>
+						<dy_necrotic_power this="BC3928C7-CB6A-5D9C-BAA0-8BFC3EBB327D"/>
+						<dy_necrotic_power_change_holder this="AC375060-F243-5070-B9DE-7C3111421204">
+							<tx_open_parenthesis this="DAE2523E-FEE3-5B9A-BC31-4A47DD625D1C"/>
+							<dy_income_necromantic_power this="2F2FB92D-94D7-5E1A-B3C9-CAB7EF159776"/>
+							<tx_close_parenthesis this="22DD835F-372F-546F-B137-D94B060A275C"/>
+						</dy_necrotic_power_change_holder>
+						</resource_holder>
+				</necropolis_holder>
+			</arkhan_lotd_necropolis_indicator>
+		</root>
+	</hierarchy>
+	<components>
+		<arkhan_lotd_necropolis_indicator this="5C0B8B1B-6A5D-5E4F-9E80-78758CC81500" id="arkhan_lotd_necropolis_indicator" offset="0.00,-4.00" allowhorizontalresize="false" allowverticalresize="false" docking="Top Center" component_anchor_point="0.50,1.00" tooltipslocalised="true" uniqueguid="5C0B8B1B-6A5D-5E4F-9E80-78758CC81500" currentstate="4627B280-B7B7-518F-A949-910AA2E28F06" defaultstate="4627B280-B7B7-518F-A949-910AA2E28F06" dock_offset="0.00,-4.00" priority="60">
+			<callbackwithcontextlist>
+				</callbackwithcontextlist>
+			<states>
+				<newstate this="4627B280-B7B7-518F-A949-910AA2E28F06" name="NewState" width="136" height="111" uniqueguid="4627B280-B7B7-518F-A949-910AA2E28F06"/>
+			</states>
+		</arkhan_lotd_necropolis_indicator>
+		<dy_income_necromantic_power this="2F2FB92D-94D7-5E1A-B3C9-CAB7EF159776" id="dy_income_necromantic_power" offset="5.00,1.00" allowverticalresize="false" dock_offset="0.00,1.00" priority="1" component_level_text="0" text_label="ComponentText_ccc1ea35" uniqueguid="2F2FB92D-94D7-5E1A-B3C9-CAB7EF159776" currentstate="48B2B43C-829B-5BA3-8F4D-DBFC3EA38309" defaultstate="48B2B43C-829B-5BA3-8F4D-DBFC3EA38309">
+			<states>
+				<negative this="4031C669-6D58-5226-8DF5-F4EB1A0F9C3F" name="negative" width="45" height="18" disabled="true" uniqueguid="4031C669-6D58-5226-8DF5-F4EB1A0F9C3F">
+					<component_text texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" text_shader_name="drop_shadow_t0" textshadervars="-1.00,-1.00,1.00,0.00" text="0"/>
+				</negative>
+				<positive this="48B2B43C-829B-5BA3-8F4D-DBFC3EA38309" name="positive" width="45" height="18" disabled="true" uniqueguid="48B2B43C-829B-5BA3-8F4D-DBFC3EA38309">
+					<component_text texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="green" text_shader_name="drop_shadow_t0" textshadervars="-1.00,-1.00,1.00,0.00" text="0"/>
+				</positive>
+			</states>
+		</dy_income_necromantic_power>
+		<dy_necrotic_power this="BC3928C7-CB6A-5D9C-BAA0-8BFC3EBB327D" id="dy_necrotic_power" offset="26.00,5.00" priority="1" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_6525b9f1" uniqueguid="BC3928C7-CB6A-5D9C-BAA0-8BFC3EBB327D" currentstate="053220C2-B7F1-5056-B560-1F979D659057" defaultstate="053220C2-B7F1-5056-B560-1F979D659057" component_level_text="0">
+			<states>
+				<negative this="EEACFCF1-971F-5139-9546-D6E1C36AF720" name="negative" width="42" height="16" uniqueguid="EEACFCF1-971F-5139-9546-D6E1C36AF720">
+					<component_text text="0" textxoffset="0.00,6.00" texthbehaviour="Resize" textlabel="StateText_47dd1864" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" text_shader_name="drop_shadow_t0" textshadervars="0.00,-1.00,2.00,0.00"/>
+				</negative>
+				<positive this="053220C2-B7F1-5056-B560-1F979D659057" name="positive" width="42" height="16" interactive="true" disabled="true" uniqueguid="053220C2-B7F1-5056-B560-1F979D659057">
+					<component_text text="0" textxoffset="0.00,6.00" texthbehaviour="Resize" textlabel="StateText_56b3aa9d" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,-1.00,2.00,0.00"/>
+				</positive>
+			</states>
+			<animations>
+				<flash_update id="flash_update" propagate="true">
+					<frames>
+						<frame interpolationtime="0" interpolationpropertymask="3" targetmetrics_m_height="37" targetmetrics_m_width="64" is_movement_absolute="true"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFFF00FF" targetmetrics_m_height="37" targetmetrics_m_width="64" targetmetrics_m_offset="0.00,-4.00" is_movement_absolute="true"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFF8D7FF" targetmetrics_m_height="37" targetmetrics_m_width="64" is_movement_absolute="true"/>
+					</frames>
+				</flash_update>
+			</animations>
+		</dy_necrotic_power>
+		<dy_necrotic_power_change_holder this="AC375060-F243-5070-B9DE-7C3111421204" id="dy_necrotic_power_change_holder" offset="68.00,4.00" priority="1" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_5719d943" uniqueguid="AC375060-F243-5070-B9DE-7C3111421204" currentstate="FCB471CF-3554-5C36-B3E9-68786F4F55B0" defaultstate="FCB471CF-3554-5C36-B3E9-68786F4F55B0">
+			<states>
+				<default this="FCB471CF-3554-5C36-B3E9-68786F4F55B0" name="default" width="55" height="19" interactive="true" disabled="true" uniqueguid="FCB471CF-3554-5C36-B3E9-68786F4F55B0"/>
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true"/>
+		</dy_necrotic_power_change_holder>
+		<icon this="53B8D710-982A-5FAC-B8AE-2C50EF281DDF" id="icon" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="53B8D710-982A-5FAC-B8AE-2C50EF281DDF" currentstate="C970230D-CD37-5DFD-A4F5-D3F761D63E4C" defaultstate="C970230D-CD37-5DFD-A4F5-D3F761D63E4C">
+			<componentimages>
+				<component_image this="A5CB7155-23E1-5439-9967-C2975AA6AF09" uniqueguid="A5CB7155-23E1-5439-9967-C2975AA6AF09" imagepath="ui/skins/default/wh3_dlc29_pooled_resource_necromantic_power.png"/>
+			</componentimages>
+			<states>
+				<negative this="03951111-C2F7-535A-B249-33431861770B" name="negative" width="26" height="26" uniqueguid="03951111-C2F7-535A-B249-33431861770B">
+					<imagemetrics>
+						<image this="7856EE0F-6193-5892-9D75-1BE717D741DF" uniqueguid="7856EE0F-6193-5892-9D75-1BE717D741DF" componentimage="A5CB7155-23E1-5439-9967-C2975AA6AF09" offset="-1.00,0.00" width="26" height="26"/>
+					</imagemetrics>
+				</negative>
+				<positive this="C970230D-CD37-5DFD-A4F5-D3F761D63E4C" name="positive" width="26" height="26" uniqueguid="C970230D-CD37-5DFD-A4F5-D3F761D63E4C">
+					<imagemetrics>
+						<image this="E81257B9-3EEF-547C-9DB8-DC3D6BFC6240" uniqueguid="E81257B9-3EEF-547C-9DB8-DC3D6BFC6240" componentimage="A5CB7155-23E1-5439-9967-C2975AA6AF09" offset="-1.00,0.00" width="26" height="26"/>
+					</imagemetrics>
+				</positive>
+			</states>
+		</icon>
+		<necropolis_holder this="C04BE549-87FE-5BE7-804B-C0C9A851F701" id="necropolis_holder" allowhorizontalresize="false" allowverticalresize="false" docking="Bottom Center" component_anchor_point="0.50,1.00" tooltipslocalised="true" uniqueguid="C04BE549-87FE-5BE7-804B-C0C9A851F701" currentstate="D9D028DF-73B3-557A-B5AD-8DA30F2B2E49" defaultstate="D9D028DF-73B3-557A-B5AD-8DA30F2B2E49">
+			<componentimages>
+				<component_image this="E64A9684-D433-5976-B005-FA4E31F5E885" uniqueguid="E64A9684-D433-5976-B005-FA4E31F5E885" imagepath="ui/skins/default/dlc29_nag_necrotic_power/necropolis_city_indicator.png"/>
+			</componentimages>
+			<states>
+				<newstate this="D9D028DF-73B3-557A-B5AD-8DA30F2B2E49" name="NewState" width="136" height="111" disabled="true" uniqueguid="D9D028DF-73B3-557A-B5AD-8DA30F2B2E49">
+					<imagemetrics>
+						<image this="5BB76897-182A-56FC-A38A-D9A4E46BA800" uniqueguid="5BB76897-182A-56FC-A38A-D9A4E46BA800" componentimage="E64A9684-D433-5976-B005-FA4E31F5E885" offset="-13.00,13.00" width="162" height="90" dockpoint="Bottom Center" dock_offset="0.00,-8.00"/>
+					</imagemetrics>
+				</newstate>
+			</states>
+		</necropolis_holder>
+		<resource_holder this="7D1AC085-9E83-584C-9BC6-266D6760D63A" id="resource_holder" offset="6.00,73.00" visible="true" docking="Bottom Center" dock_offset="0.00,-12.00" component_anchor_point="0.50,1.00" uniqueguid="7D1AC085-9E83-584C-9BC6-266D6760D63A" currentstate="F5422909-95B7-5D44-BF51-D6A2761998AA" defaultstate="F5422909-95B7-5D44-BF51-D6A2761998AA">
+			<componentimages>
+				<component_image this="542DBE63-EB79-598F-99CB-A011A0522BCA" uniqueguid="542DBE63-EB79-598F-99CB-A011A0522BCA"/>
+			</componentimages>
+			<states>
+				<default this="F5422909-95B7-5D44-BF51-D6A2761998AA" name="default" width="123" height="26" interactive="true" disabled="true" uniqueguid="F5422909-95B7-5D44-BF51-D6A2761998AA">
+					<imagemetrics>
+						<image this="364437AF-1EC3-5D4A-BD68-B6C93B1A75D0" uniqueguid="364437AF-1EC3-5D4A-BD68-B6C93B1A75D0" componentimage="542DBE63-EB79-598F-99CB-A011A0522BCA" offset="11.00,0.00" width="123" height="24" colour="#111111C8"/>
+					</imagemetrics>
+				</default>
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" vertical_alignment="Center"/>
+		<callbackwithcontextlist/></resource_holder>
+		<root this="D528A929-1A7F-52B9-A937-E89F3A4AD4B9" id="root" tooltipslocalised="true" uniqueguid="D528A929-1A7F-52B9-A937-E89F3A4AD4B9" currentstate="014A30E1-9BCB-5495-BDBB-C90A9FB7B0CA" defaultstate="014A30E1-9BCB-5495-BDBB-C90A9FB7B0CA">
+			<componentimages>
+				<component_image this="8FB7CD57-005D-55A1-9736-7BA7B7A1C9C8" uniqueguid="8FB7CD57-005D-55A1-9736-7BA7B7A1C9C8"/>
+			</componentimages>
+			<states>
+				<newstate this="014A30E1-9BCB-5495-BDBB-C90A9FB7B0CA" name="NewState" width="1600" height="900" interactive="true" uniqueguid="014A30E1-9BCB-5495-BDBB-C90A9FB7B0CA">
+					<imagemetrics>
+						<image this="2F71541A-89E6-5D21-B56D-F8425AB62753" uniqueguid="2F71541A-89E6-5D21-B56D-F8425AB62753" componentimage="8FB7CD57-005D-55A1-9736-7BA7B7A1C9C8" width="1600" height="900" colour="#7F7F7FFF"/>
+					</imagemetrics>
+				</newstate>
+			</states>
+		</root>
+		<tx_close_parenthesis this="22DD835F-372F-546F-B137-D94B060A275C" id="tx_close_parenthesis" offset="50.00,0.00" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="22DD835F-372F-546F-B137-D94B060A275C" currentstate="C5C6B20E-0529-52F2-BD6B-BBD2BBD580ED" defaultstate="C5C6B20E-0529-52F2-BD6B-BBD2BBD580ED">
+			<states>
+				<newstate this="C5C6B20E-0529-52F2-BD6B-BBD2BBD580ED" name="NewState" width="5" height="18" disabled="true" uniqueguid="C5C6B20E-0529-52F2-BD6B-BBD2BBD580ED">
+					<component_text text=")" texthbehaviour="Never split" textlabel="StateText_ac0f30d" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,1.00,2.00,0.00"/>
+				</newstate>
+			</states>
+		</tx_close_parenthesis>
+		<tx_open_parenthesis this="DAE2523E-FEE3-5B9A-BC31-4A47DD625D1C" id="tx_open_parenthesis" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="DAE2523E-FEE3-5B9A-BC31-4A47DD625D1C" currentstate="EB0E4507-2FEF-5E89-BCE7-F6447F09EC4E" defaultstate="EB0E4507-2FEF-5E89-BCE7-F6447F09EC4E">
+			<states>
+				<newstate this="EB0E4507-2FEF-5E89-BCE7-F6447F09EC4E" name="NewState" width="5" height="18" disabled="true" uniqueguid="EB0E4507-2FEF-5E89-BCE7-F6447F09EC4E">
+					<component_text text="(" texthbehaviour="Never split" textlabel="StateText_9cbfd341" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,1.00,2.00,0.00"/>
+				</newstate>
+			</states>
+		</tx_open_parenthesis>
+	</components>
+</layout>

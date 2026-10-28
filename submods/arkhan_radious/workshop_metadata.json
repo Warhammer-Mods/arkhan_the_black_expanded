@@ -1,0 +1,32 @@
+{
+  "app_id": 1142710,
+  "published_file_id": "2865162727",
+  "title": "Arkhan the Black: Expanded - Radious Submod",
+  "pack_file": "!!arkhan_the_black_radious_submod.pack",
+  "launcher_thumbnail": "!!arkhan_the_black_radious_submod.png",
+  "full_size_preview": "workshop_preview.jpg",
+  "required_items": [
+    {
+      "id": "2852724610",
+      "title": "Arkhan the Black: Expanded"
+    },
+    {
+      "id": "2791750313",
+      "title": "Radious Total War Mod - Part 1"
+    },
+    {
+      "id": "2791750896",
+      "title": "Radious Total War Mod - Part 2"
+    },
+    {
+      "id": "2791750075",
+      "title": "Radious Total War Mod - Part 3"
+    },
+    {
+      "id": "2813892035",
+      "title": "Radious Total War Mod - Part 4 - Assets"
+    }
+  ],
+  "pack_sha256": "6a28ee919804c97c55e65d79c2ba6e200d532c0a0c2f41cea44463c60aea9ef0",
+  "gameplay_test_status": "Structural checks and CI passed; in-game and multiplayer tests not yet confirmed."
+}

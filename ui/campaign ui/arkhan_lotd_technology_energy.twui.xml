@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layout version="142" comment="Arkhan-only technology energy counter; native technology header geometry" precache_condition="">
+	<hierarchy>
+		<root this="83DD74D4-6AA6-51E3-B78A-93657FC47E81">
+			<arkhan_lotd_technology_energy this="CE1AB8FD-61DD-440C-BD2B9AEF4AA87443">
+				<dy_label this="40DAB77F-418D-43B9-A8B80EE4FA04ABA7">
+					<icon this="96178CC1-4F8E-423B-93BAE6943A98797E"/>
+				</dy_label>
+			</arkhan_lotd_technology_energy>
+		</root>
+	</hierarchy>
+	<components>
+		<root this="83DD74D4-6AA6-51E3-B78A-93657FC47E81" id="root" tooltipslocalised="true" uniqueguid="83DD74D4-6AA6-51E3-B78A-93657FC47E81" currentstate="0EF9E102-3FBA-5CF5-A951-E03EC9D7E2BC" defaultstate="0EF9E102-3FBA-5CF5-A951-E03EC9D7E2BC">
+			<componentimages>
+				<component_image this="1BB72DC1-6FFB-5972-8D82-0A81CF70AAA0" uniqueguid="1BB72DC1-6FFB-5972-8D82-0A81CF70AAA0"/>
+			</componentimages>
+			<states>
+				<default this="0EF9E102-3FBA-5CF5-A951-E03EC9D7E2BC" name="default" width="1600" height="900" uniqueguid="0EF9E102-3FBA-5CF5-A951-E03EC9D7E2BC">
+					<imagemetrics>
+						<image this="9492F6D1-843A-531A-9D83-E8DBA7B1969C" uniqueguid="9492F6D1-843A-531A-9D83-E8DBA7B1969C" componentimage="1BB72DC1-6FFB-5972-8D82-0A81CF70AAA0" width="256" height="80" colour="#1C1C1CFF"/>
+					</imagemetrics>
+				</default>
+			</states>
+		</root>
+		<arkhan_lotd_technology_energy this="CE1AB8FD-61DD-440C-BD2B9AEF4AA87443" id="arkhan_lotd_technology_energy" allowhorizontalresize="false" allowverticalresize="false" priority="50" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="dy_canopic_jars_Tooltip_7e002a" uniqueguid="CE1AB8FD-61DD-440C-BD2B9AEF4AA87443" currentstate="AB0816A8-8B4F-43D0-A5F575D6A92F19A0" defaultstate="AB0816A8-8B4F-43D0-A5F575D6A92F19A0">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextCustomTooltipStore" context_object_id="CcoCampaignPooledResource"/>
+			</callbackwithcontextlist>
+			<states>
+				<newstate this="AB0816A8-8B4F-43D0-A5F575D6A92F19A0" name="NewState" width="90" height="34" interactive="true" uniqueguid="AB0816A8-8B4F-43D0-A5F575D6A92F19A0">
+					<component_text textvalign="Center" textxoffset="28.00,4.00" textyoffset="16.00,0.00" texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,-1.00,2.00,0.00"/>
+				</newstate>
+			</states>
+			<animations>
+				<flash_update id="flash_update" propagate="true">
+					<frames>
+						<frame interpolationtime="0" interpolationpropertymask="3" targetmetrics_m_height="37" targetmetrics_m_width="64"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFFF00FF" targetmetrics_m_height="37" targetmetrics_m_width="64" targetmetrics_m_offset="0.00,-4.00"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFF8D7FF" targetmetrics_m_height="37" targetmetrics_m_width="64" targetmetrics_m_offset="0.00,4.00"/>
+					</frames>
+				</flash_update>
+			</animations>
+		</arkhan_lotd_technology_energy>
+		<dy_label this="40DAB77F-418D-43B9-A8B80EE4FA04ABA7" id="dy_label" allowverticalresize="false" docking="Center Left" component_anchor_point="0.00,0.50" priority="50" tooltipslocalised="true" uniqueguid="40DAB77F-418D-43B9-A8B80EE4FA04ABA7" currentstate="86FA791B-3637-4925-B9F2F6ABED70AC00" defaultstate="86FA791B-3637-4925-B9F2F6ABED70AC00">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPooledResource" context_function_id="Total"/>
+			</callbackwithcontextlist>
+			<userproperties>
+				<property name="update_constant" value=""/>
+			</userproperties>
+			<componentimages>
+				<component_image this="83CF1A11-6441-49CC-994C2D52B880712E" uniqueguid="83CF1A11-6441-49CC-994C2D52B880712E" imagepath="ui/skins/default/icon_banner.png"/>
+			</componentimages>
+			<states>
+				<default this="86FA791B-3637-4925-B9F2F6ABED70AC00" name="default" width="92" height="34" uniqueguid="86FA791B-3637-4925-B9F2F6ABED70AC00">
+					<imagemetrics>
+						<image this="6A6FEE90-ECD8-4EAA-A4517BD305F6F1FF" uniqueguid="6A6FEE90-ECD8-4EAA-A4517BD305F6F1FF" componentimage="83CF1A11-6441-49CC-994C2D52B880712E" offset="10.00,-1.00" width="82" height="34" tile="true" dockpoint="Center Right" dock_offset="0.00,-1.00" margin="0.00,40.00,0.00,10.00"/>
+					</imagemetrics>
+					<component_text text="0" textvalign="Center" textxoffset="26.00,30.00" textyoffset="10.00,0.00" texthbehaviour="Resize" textlabel="dy_treasury_NewState_Text_5" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" textshadervars="0.00,1.00,2.00,0.00"/>
+				</default>
+			</states>
+			<animations>
+				<flash_update id="flash_update" propagate="true">
+					<frames>
+						<frame interpolationtime="0" interpolationpropertymask="3" targetmetrics_m_height="37" targetmetrics_m_width="64"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFFF00FF" targetmetrics_m_height="37" targetmetrics_m_width="64" targetmetrics_m_offset="0.00,-4.00"/>
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFF8D7FF" targetmetrics_m_height="37" targetmetrics_m_width="64" targetmetrics_m_offset="0.00,4.00"/>
+					</frames>
+				</flash_update>
+			</animations>
+		</dy_label>
+		<icon this="96178CC1-4F8E-423B-93BAE6943A98797E" id="icon" offset="0.00,4.00" docking="Center Left" component_anchor_point="0.00,0.50" priority="50" tooltipslocalised="true" uniqueguid="96178CC1-4F8E-423B-93BAE6943A98797E" currentstate="1E8C03CF-2DD4-42F8-A2BBCD548DE13FEC" defaultstate="1E8C03CF-2DD4-42F8-A2BBCD548DE13FEC">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextImageSetter" context_object_id="CcoCampaignPooledResource" context_function_id="IconPath">
+					<child_m_user_properties>
+						<property name="resize_image" value=""/>
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image this="6148C7F7-E344-4690-940CB4B0DA424301" uniqueguid="6148C7F7-E344-4690-940CB4B0DA424301" imagepath="ui/skins/default/wh3_dlc29_pooled_resource_necromantic_power.png"/>
+			</componentimages>
+			<states>
+				<negative this="4B1E1886-B9A3-4C74-889DF7BB81319D23" name="negative" width="26" height="26" uniqueguid="4B1E1886-B9A3-4C74-889DF7BB81319D23">
+					<imagemetrics>
+						<image this="7E1EB643-08B5-43C0-81702E13B41AC600" uniqueguid="7E1EB643-08B5-43C0-81702E13B41AC600" componentimage="6148C7F7-E344-4690-940CB4B0DA424301" width="26" height="26" dockpoint="Center Right"/>
+					</imagemetrics>
+				</negative>
+				<positive this="1E8C03CF-2DD4-42F8-A2BBCD548DE13FEC" name="positive" width="26" height="26" uniqueguid="1E8C03CF-2DD4-42F8-A2BBCD548DE13FEC">
+					<imagemetrics>
+						<image this="7B2BDD07-8BCE-4947-830A733326BFE9AD" uniqueguid="7B2BDD07-8BCE-4947-830A733326BFE9AD" componentimage="6148C7F7-E344-4690-940CB4B0DA424301" width="26" height="26" dockpoint="Center Right"/>
+					</imagemetrics>
+				</positive>
+			</states>
+		</icon>
+	</components>
+</layout>

@@ -1,0 +1,87 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-24",
+  "purpose": "Necromantic building technology icons with properly circular violet backgrounds, matching the game node footprint, with no metallic borders, fan blades or pointed ornaments.",
+  "game_export": {
+    "width": 72,
+    "height": 72,
+    "format": "PNG RGBA",
+    "resampling": "Lanczos3",
+    "outer_background": "opaque plum/violet circular backdrop with an antialiased edge and fully transparent exterior",
+    "artwork_fit": "Generated round discs normalised to 64x64, centered in 72x72, clipped to a shared antialiased circular export mask.",
+    "visible_size_checks": [
+      {
+        "label": "Coffin",
+        "visibleBounds": [
+          6,
+          5,
+          62,
+          63
+        ]
+      },
+      {
+        "label": "Hand",
+        "visibleBounds": [
+          6,
+          3,
+          60,
+          64
+        ]
+      },
+      {
+        "label": "Morghast",
+        "visibleBounds": [
+          4,
+          4,
+          64,
+          63
+        ]
+      },
+      {
+        "label": "Crypt",
+        "visibleBounds": [
+          5,
+          5,
+          62,
+          62
+        ]
+      },
+      {
+        "label": "Ritual dais",
+        "visibleBounds": [
+          5,
+          5,
+          62,
+          62
+        ]
+      }
+    ],
+    "circle_center": [
+      36,
+      36
+    ],
+    "circle_radius": 31,
+    "circle_diameter": 62,
+    "validation": "Both alpha>=128 bounds are [5,5,62,62]; all pixels beyond radius 31.8 are transparent; inner radius 29 contains no transparent holes."
+  },
+  "icons": [
+    {
+      "icon": "necro_tech_crypt_no_spikes",
+      "file": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
+      "sha256": "e05a75c00d1237aa4bca81aa8cd432b0ac86fd1b35cf72386685e58d34ce29cd",
+      "prompt": "Precise-object-edit. Correct ONLY the background shape and framing of this existing crypt technology icon. Keep the SAME low crypt building, smooth rounded roof, flat caps, closed skull door, stairs, stone colours and violet lighting. Change the existing irregular purple smoke blob into a geometrically REGULAR PERFECT CIRCLE: equal width and height, no bulges or lobes, no oval, no irregular flame silhouette. The purple background must reach a clean softly antialiased circular perimeter with a very narrow 1-pixel feather at final 72px size. Everything OUTSIDE that circle must be fully transparent, no wisps or haze escaping the circle. Fill the circle interior in dark plum with the existing violet clouds and restrained illumination behind the building; interior fully opaque without holes. This is the game's round icon background, NOT a metallic badge: NO gold rim, NO silver outline, NO ornamental border or ring. No new frames. Building should fit completely inside the circle, slightly reduce the building if necessary so its side posts and steps are safely inside the round boundary. Keep original building proportions, no stretching and no redesign. Retain NO SPIKES and NO FAN BLADES. The full icon is centred on square canvas with equal transparent margins, the round background eventually occupying a 62-pixel diameter inside a 72x72 sprite. Use a TRUE CIRCLE, no flat bottom to the background. No text or extra objects. One icon."
+    },
+    {
+      "icon": "necro_tech_ritual_dais_no_spikes",
+      "file": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
+      "sha256": "2404f0768bc7b1f1d47858c9c5717952ae01a824397243c404216725c7d70103",
+      "prompt": "Precise-object-edit. Image 1 is the EXISTING ritual dais technology icon; preserve this exact open stone building, three rounded skull-capped posts, flat caps, offering bowl, altar with circular front detail, broad stairs, colours and lighting. Change ONLY its irregular smoky background outline into a PERFECT GEOMETRIC CIRCLE matching the round background silhouette and framing in image 2. Equal width and height, no oval, no cloud lobes, no flat bottom, no escaping wisps. The circle perimeter should be clean with softly antialiased edges only, a narrow 1-pixel feather at final icon size. Interior fully opaque dark plum and violet clouds, using the existing purple atmosphere. Exterior completely transparent. Image 2 is ONLY the exact ROUND BACKGROUND SHAPE and scale reference, do not copy its crypt building. Do NOT add a metallic gold border, outline ring, decorative frame or rim. Fit the existing dais fully inside the circle with small breathing room for the widest foundation stones; shrink its overall building slightly if required, preserving building proportions. No fan blades, no rays, no spikes or sharp finials: the smooth top of the central skull stays the tallest point of the building. The intended export is a centered 62-pixel-diameter circular background inside a 72x72 sprite, with equal transparent outer margins. One square icon only, no text or extra objects."
+    }
+  ],
+  "style_references": [
+    "ui/campaign ui/technologies/arkhan_wh3_main_tech_vmp_necromancers_0.png",
+    "ui/campaign ui/technologies/arkhan_wh3_main_tech_vmp_necromancers_deadrise_1a.png",
+    "ui/campaign ui/technologies/arkhan_tech_morghast_archai.png",
+    "ui/campaign ui/technologies/arkhan_wh3_main_tech_vmp_necromancers_deadrise_2b.png"
+  ]
+}

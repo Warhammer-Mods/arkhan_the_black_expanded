@@ -1,34 +1,35 @@
 name: DB check
 
-on: 
-  push:
-    branches:
-      - main
-      - develop
-      - 'feature/**'
-      - 'hotfix/**'
-      - 'bugfix/**'
-      - 'support/**'
-      - 'update/**'
-    paths:
-      - 'db/**'
-      - 'text/**'
-  pull_request:
-    branches:
-      - main
-      - develop
-      - 'feature/**'
-      - 'hotfix/**'
-      - 'bugfix/**'
-      - 'support/**'
-      - 'update/**'
+on:
+  workflow_call:
+    inputs:
+      source_root:
+        type: string
+        required: false
+        default: "."
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  db-check:
-    uses: Warhammer-Mods/workflows/.github/workflows/db-check.yml@main
-    with:
-      paths: db
-      pr_enabled: true
-    secrets:
-      token: ${{ github.token }}
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Validate database and localisation exports
+        env:
+          CHECK_SOURCE_ROOT: ${{ inputs.source_root || '.' }}
+        run: |
+          checker="$GITHUB_WORKSPACE/.github/scripts/check_tsv.py"
+          cd "$CHECK_SOURCE_ROOT"
+          python3 "$checker"
+
+      - name: Verify approved main-pack inventory
+        if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
+        run: python3 .github/scripts/check_main_inventory.py
+
+      - name: Verify research cost tooltip registrations
+        if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
+        run: python3 .github/scripts/check_research_tooltip.py

@@ -1,0 +1,3 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/arkhan_black_coach					
+stephen_cap_black_coach	unit_capacity.png	1	unit_capacity.png	campaign	true

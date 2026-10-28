@@ -1,0 +1,62 @@
+{
+  "tool": "Built-in image_gen",
+  "date": "2026-10-21",
+  "purpose": "Eight user-supplied Tomb Kings icons adapted for Arkhan's existing research. Only icon_name fields change; gameplay and localisation are retained.",
+  "game_export": {
+    "width": 72,
+    "height": 72,
+    "format": "PNG RGBA",
+    "resampling": "Lanczos3",
+    "alignment": "Uniformly scaled from high-resolution masters to the corresponding original alpha >= 128 footprint, centered on the original visible bounds; no palette changes."
+  },
+  "icons": [
+    {
+      "attachment": 1,
+      "technology": "stephen_tech_arkhan_0",
+      "icon": "arkhan_tech_dark_legions",
+      "prompt": "Edit the attached Total War: Warhammer III Tomb Kings UI emblem for Arkhan the Black. This is icon 1 of a cohesive eight-icon set. Preserve the exact original silhouette, central staff, gold skull/crown sun crest, dangling ornaments, proportions, framing and intricate hand-painted Total War game art. A faithful palette conversion, not a redesign: replace cyan/ice-blue magical light and blue shield/background with rich dark violet, amethyst and muted purple necromantic light. Retain aged gold metal, bone ivory details and sharp dark outlines. Avoid pink/magenta, excessive bloom, new objects, extra skulls, text, labels or additional borders. Keep the icon centered at the same relative scale with the entire original silhouette visible. Preserve transparent background outside the original emblem, no baked checkerboard, no opaque rectangle. Deliver one icon only, square canvas, crisp readable small UI asset."
+    },
+    {
+      "attachment": 2,
+      "technology": "stephen_tech_arkhan_1",
+      "icon": "arkhan_tech_undying_host",
+      "prompt": "Edit target: the attached tiny Total War Warhammer III Tomb Kings UI icon. Make a faithful Arkhan the Black palette variant, preserving the original recognizable symbol, silhouette, proportions, framing and compact hand-painted game UI style. Preserve the rounded turquoise-and-gold crown crest with its small bone skull studs around the upper edge, central gold face/skull, staff and narrow hanging ivory ribbons. Replace cyan and ice blue magic/shield/background with deep violet, muted amethyst and dark purple necromantic light. Keep aged gold, ivory and fine dark outlines. Match a coherent dark-purple-and-antique-gold set. No pink, no magenta, no extra objects, no additional borders, no text, no labels, no cropping. Do not turn this into a different emblem. Entire icon centered on a square transparent canvas, preserve transparent exterior. One icon only. Keep enough dark shading for legibility at 72x72 pixels. Output genuinely transparent PNG."
+    },
+    {
+      "attachment": 3,
+      "technology": "stephen_tech_arkhan_raise_dead_1",
+      "icon": "arkhan_tech_necromantic_restoration",
+      "prompt": "Edit target: the attached tiny Total War Warhammer III Tomb Kings UI icon. Make a faithful Arkhan the Black palette variant, preserving the original recognizable symbol, silhouette, proportions, framing and compact hand-painted game UI style. Preserve the tall triangular golden pyramid crown, single central skull, symmetrical winged gold bands, staff and narrow hanging ivory ribbons. Replace cyan and ice blue magic/shield/background with deep violet, muted amethyst and dark purple necromantic light. Keep aged gold, ivory and fine dark outlines. Match a coherent dark-purple-and-antique-gold set. No pink, no magenta, no extra objects, no additional borders, no text, no labels, no cropping. Do not turn this into a different emblem. Entire icon centered on a square transparent canvas, preserve transparent exterior. One icon only. Keep enough dark shading for legibility at 72x72 pixels. Output genuinely transparent PNG."
+    },
+    {
+      "attachment": 4,
+      "technology": "stephen_tech_arkhan_3",
+      "icon": "arkhan_tech_lore_of_death",
+      "prompt": "Edit target: the attached tiny Total War Warhammer III Tomb Kings UI icon. Make a faithful Arkhan the Black palette variant, preserving the original recognizable symbol, silhouette, proportions, framing and compact hand-painted game UI style. Preserve the broad golden semicircular spoked sun-wheel crown, central circular gold ornament, staff and hanging ivory ribbons. Replace cyan and ice blue magic/shield/background with deep violet, muted amethyst and dark purple necromantic light. Keep aged gold, ivory and fine dark outlines. Match a coherent dark-purple-and-antique-gold set. No pink, no magenta, no extra objects, no additional borders, no text, no labels, no cropping. Do not turn this into a different emblem. Entire icon centered on a square transparent canvas, preserve transparent exterior. One icon only. Keep enough dark shading for legibility at 72x72 pixels. Output genuinely transparent PNG."
+    },
+    {
+      "attachment": 5,
+      "technology": "stephen_tech_arkhan_4",
+      "icon": "arkhan_tech_lore_of_vampires",
+      "prompt": "Edit target: the attached tiny Total War Warhammer III Tomb Kings UI icon. Make a faithful Arkhan the Black palette variant, preserving the original recognizable symbol, silhouette, proportions, framing and compact hand-painted game UI style. Preserve the tall gold angular crown framing the silver/ivory helmeted face, staff and broad hanging ivory ornaments. Replace cyan and ice blue magic/shield/background with deep violet, muted amethyst and dark purple necromantic light. Keep aged gold, ivory and fine dark outlines. Match a coherent dark-purple-and-antique-gold set. No pink, no magenta, no extra objects, no additional borders, no text, no labels, no cropping. Do not turn this into a different emblem. Entire icon centered on a square transparent canvas, preserve transparent exterior. One icon only. Keep enough dark shading for legibility at 72x72 pixels. Output genuinely transparent PNG."
+    },
+    {
+      "attachment": 6,
+      "technology": "stephen_tech_arkhan_final_1",
+      "icon": "arkhan_tech_eternal_dominion",
+      "prompt": "Edit target: the attached tiny Total War Warhammer III Tomb Kings UI icon. Make a faithful Arkhan the Black palette variant, preserving the original recognizable symbol, silhouette, proportions, framing and compact hand-painted game UI style. Preserve the broad golden semicircular crown containing the prominent green scarab motif, staff and narrow hanging ivory ribbons. Recolour the scarab jewels to deep amethyst while preserving scarab anatomy. Replace cyan and ice blue magic/shield/background with deep violet, muted amethyst and dark purple necromantic light. Keep aged gold, ivory and fine dark outlines. Match a coherent dark-purple-and-antique-gold set. No pink, no magenta, no extra objects, no additional borders, no text, no labels, no cropping. Do not turn this into a different emblem. Entire icon centered on a square transparent canvas, preserve transparent exterior. One icon only. Keep enough dark shading for legibility at 72x72 pixels. Output genuinely transparent PNG."
+    },
+    {
+      "attachment": 7,
+      "technology": "stephen_tech_arkhan_final_2",
+      "icon": "arkhan_tech_mortarchs_command",
+      "prompt": "Edit target: the attached tiny Total War Warhammer III Tomb Kings UI icon. Make a faithful Arkhan the Black palette variant, preserving the original recognizable symbol, silhouette, proportions, framing and compact hand-painted game UI style. Preserve the gold wing-shaped angular crest with pointed lateral tips, central gold face/skull, staff and narrow hanging ivory ribbons. Replace cyan and ice blue magic/shield/background with deep violet, muted amethyst and dark purple necromantic light. Keep aged gold, ivory and fine dark outlines. Match a coherent dark-purple-and-antique-gold set. No pink, no magenta, no extra objects, no additional borders, no text, no labels, no cropping. Do not turn this into a different emblem. Entire icon centered on a square transparent canvas, preserve transparent exterior. One icon only. Keep enough dark shading for legibility at 72x72 pixels. Output genuinely transparent PNG."
+    },
+    {
+      "attachment": 8,
+      "technology": "stephen_tech_arkhan_2",
+      "icon": "arkhan_tech_liche_priest_mastery",
+      "prompt": "Edit target: the attached tiny Total War Warhammer III Tomb Kings UI icon. Make a faithful Arkhan the Black palette variant, preserving the original recognizable symbol, silhouette, proportions, framing and compact hand-painted game UI style. Preserve the slender crooked ivory staff with small gold sun-wheel crest and narrow hanging blue ribbons, leaning diagonally in front of a soft circular magical halo. Recolour halo and ribbons to muted violet and amethyst, retain ivory staff. Replace cyan and ice blue magic/shield/background with deep violet, muted amethyst and dark purple necromantic light. Keep aged gold, ivory and fine dark outlines. Match a coherent dark-purple-and-antique-gold set. No pink, no magenta, no extra objects, no additional borders, no text, no labels, no cropping. Do not turn this into a different emblem. Entire icon centered on a square transparent canvas, preserve transparent exterior. One icon only. Keep enough dark shading for legibility at 72x72 pixels. Output genuinely transparent PNG."
+    }
+  ]
+}

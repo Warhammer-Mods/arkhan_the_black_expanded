@@ -1,0 +1,17 @@
+Keep AI-controlled Arkhan the Black independent from Nagash.
+
+This optional companion to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610]Arkhan the Black: Expanded[/url] blocks Nagash from acquiring AI Arkhan through diplomatic confederation, Mortarch subjugation or the Nagash endgame acquisition path.
+
+Player-controlled Arkhan is unaffected. The restriction applies whether Nagash is controlled by a player or the AI. Other Mortarchs are unchanged.
+
+[h1]Installation[/h1]
+Enable this pack alongside the main mod. The pack itself is the option: there is no in-game checkbox. Disable or remove the earlier TEST version before enabling this release.
+
+Works by applying protection when the campaign loads and refreshing it on Arkhan’s and Nagash’s faction turns. It does not restore Arkhan if he has already been confederated.
+
+[h1]Notes[/h1]
+The tested script is unchanged for release. This is a script-only submod, with no vanilla script replacements or DB changes. In-game testing has been confirmed; multiplayer has not been verified.
+
+Removing the pack stops its protection script. Restrictions already stored in a campaign save may remain; use a save from before enabling it if you want to restore the previous campaign state.
+
+Credits to Stephen and the Arkhan the Black: Expanded contributors, and Creative Assembly for the original game and artwork.

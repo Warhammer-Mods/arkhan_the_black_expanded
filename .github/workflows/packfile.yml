@@ -1,0 +1,112 @@
+name: Build main mod and submods
+
+on: 
+  push:
+    branches:
+      - main
+      - develop
+      - 'feature/**'
+      - 'hotfix/**'
+      - 'bugfix/**'
+      - 'support/**'
+      - 'update/**'
+  
+  pull_request:
+    branches:
+      - main
+      - develop
+      - 'feature/**'
+      - 'hotfix/**'
+      - 'bugfix/**'
+      - 'support/**'
+      - 'update/**'
+  
+  workflow_dispatch:
+    inputs:
+      paths:
+        required: false
+        type: string
+        default: |
+          animations/** db/** script/** text/** ui/** variantmeshes/** vfx/**
+        description: |
+          Space-delimited game-file patterns for the main pack; submods use their own game folders.
+      debug_enabled:
+        description: Enable debug logging
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: packfile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  db-check:
+    name: DB / ${{ matrix.pack_name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - source_root: .
+            pack_name: arkhan_the_black_expanded
+          - source_root: submods/arkhan_black_arts
+            pack_name: arkhan_black_arts_TEST
+          - source_root: submods/arkhan_daemon_prince_ui_compat
+            pack_name: '!arkhan_daemon_prince_ui_compat'
+          - source_root: submods/arkhan_keep_ai_independent
+            pack_name: arkhan_keep_ai_independent
+          - source_root: submods/arkhan_radious
+            pack_name: '!!arkhan_the_black_radious_submod_sandy'
+    uses: ./.github/workflows/db-check.yml
+    with:
+      source_root: ${{ matrix.source_root }}
+  lua-check:
+    name: Lua / ${{ matrix.pack_name }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - source_root: .
+            pack_name: arkhan_the_black_expanded
+          - source_root: submods/arkhan_black_arts
+            pack_name: arkhan_black_arts_TEST
+          - source_root: submods/arkhan_daemon_prince_ui_compat
+            pack_name: '!arkhan_daemon_prince_ui_compat'
+          - source_root: submods/arkhan_keep_ai_independent
+            pack_name: arkhan_keep_ai_independent
+          - source_root: submods/arkhan_radious
+            pack_name: '!!arkhan_the_black_radious_submod_sandy'
+    uses: ./.github/workflows/lua-lint.yml
+    with:
+      source_root: ${{ matrix.source_root }}
+  build-packfiles:
+    name: Pack / ${{ matrix.pack_name }}
+    needs: [db-check, lua-check]
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - source_root: .
+            pack_name: arkhan_the_black_expanded
+          - source_root: submods/arkhan_black_arts
+            pack_name: arkhan_black_arts_TEST
+          - source_root: submods/arkhan_daemon_prince_ui_compat
+            pack_name: '!arkhan_daemon_prince_ui_compat'
+          - source_root: submods/arkhan_keep_ai_independent
+            pack_name: arkhan_keep_ai_independent
+          - source_root: submods/arkhan_radious
+            pack_name: '!!arkhan_the_black_radious_submod_sandy'
+    uses: ./.github/workflows/packfile-build.yml
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+    with:
+      source_root: ${{ matrix.source_root }}
+      pack_name: ${{ matrix.pack_name }}
+      paths: ${{ matrix.source_root == '.' && github.event_name == 'workflow_dispatch' && inputs.paths || 'animations/** db/** script/** text/** ui/** variantmeshes/** vfx/**' }}
+      paths_separator: ' '
+      game: warhammer_3
+      debug_enabled: ${{ inputs.debug_enabled || false }}

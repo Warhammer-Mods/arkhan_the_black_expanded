@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_prince/legs/tmb_tomb_prince_legs_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_prince/legs/tmb_tomb_prince_legs_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_prince/legs/tmb_tomb_prince_legs_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_necrotect/legs/tmb_necrotect_legs_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_necrotect/legs/tmb_necrotect_legs_02.wsmodel" />
+	</SLOT>
+</VARIANT_MESH>

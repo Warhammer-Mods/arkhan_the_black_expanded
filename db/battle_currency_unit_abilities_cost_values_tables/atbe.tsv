@@ -1,0 +1,5 @@
+cost_value	currency_type	item_type
+#battle_currency_unit_abilities_cost_values_tables;0;db/battle_currency_unit_abilities_cost_values_tables/atbe		
+150.0	army_ability_bar_fill	stephen_passive_realm_of_souls_tier_1
+300.0	army_ability_bar_fill	stephen_passive_realm_of_souls_tier_2
+500.0	army_ability_bar_fill	stephen_passive_realm_of_souls_tier_3

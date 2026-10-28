@@ -1,0 +1,6 @@
+hide_description	order	ability	collection
+#ability_to_ui_collection_junctions_tables;0;db/ability_to_ui_collection_junctions_tables/atbe			
+true	1	stephen_passive_unstable_i	wh_ability_collection_undead
+true	2	stephen_passive_unstable_ii	wh_ability_collection_undead
+true	1	stephen_passive_construct_instability	wh_ability_collection_construct
+true	2	stephen_passive_construct_instability_ii	wh_ability_collection_construct

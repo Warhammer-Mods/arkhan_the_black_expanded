@@ -1,0 +1,18 @@
+{
+  "tool": "Built-in image generation",
+  "source": "User-supplied ui.zip, Coven Throne infopic",
+  "purple_prompt": "Use case: style-transfer. Asset type: Total War Warhammer III tall narrow Coven Throne unit card for Arkhan the Black. Image 1 is the exact edit target: the vanilla Coven Throne, a gothic floating throne carrying vampire handmaidens above spectral ghost steeds, with a tall ornate carved spire. Image 2 is ONLY the palette/style reference, an existing Arkhan Mortis Engine unit card. Recolour and carefully enhance Image 1 in the style of Image 2. Preserve the Coven Throne identity, its exact distinctive spire silhouette, throne platform, vampire crew, hanging details and spectral steeds; do not turn it into the Mortis Engine or replace the riders with skeletons. Dark royal purple, violet ethereal light and restrained pale lavender highlights; weathered bronze/gold and bone details; no green or turquoise magic. Maintain original tall 6:13 portrait composition and subject position, full spire and ghost horses within frame, strong legible silhouette at 60x130. Painterly game asset, natural brush texture, crisp focal details, no glossy AI-render appearance. Fill the entire rectangular image with a dark purple atmospheric background, no feathered edges or border at this master stage. No text, labels or watermark.",
+  "sandy_prompt": "Use case: style-transfer. Asset type: Total War Warhammer III tall narrow Coven Throne unit card for Radious Arkhan submod. Image 1 is the exact edit target, the approved purple Coven Throne. Image 2 is ONLY a sandy Radious colour reference. Change only the colour and lighting palette of Image 1 to match Image 2: warm sand, antique gold, weathered bronze, ivory spectral magic and sepia shadows. Remove purple/violet magic completely. Keep the entire exact composition, ornate gothic spire silhouette, three vampire women, gold bowl-like throne, spectral steeds and skeleton riders, all facial features, pose, objects and drawing details. Preserve vampire women as vampires; do not mummify or skeletonize them. Match Image 2's sunlit dusty ancient Nehekharan mood with pale golden ethereal wisps. Keep the same 6:13 tall portrait framing, entire spire visible, strong readable silhouette. Painterly game unit card with restrained warm highlights and dark brown shadow contrast, no glossy 3D AI appearance. Fill rectangular canvas, no transparent edges or border at master stage. No text or labels or watermark.",
+  "exports": {
+    "small": [
+      60,
+      130
+    ],
+    "infopic": [
+      120,
+      260
+    ],
+    "alpha_reference": "ui/units/infopics/xereus_tmb_inf_skeleton_warriors.png"
+  },
+  "card": "xereus_tmb_veh_coven_throne"
+}

@@ -1,0 +1,3 @@
+faction	resource_cost_per_turn	scope
+#building_instant_constructions_tables;0;db/building_instant_constructions_tables/atbe		
+wh2_dlc09_tmb_followers_of_nagash	necromantic_energy_construction_cost	FACTION

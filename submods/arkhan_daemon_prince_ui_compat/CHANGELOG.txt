@@ -1,0 +1,3 @@
+1.0.0 — 15 October 2026
+Initial release. Combines the two province panels to restore Desolation for the Gods while preserving Arkhan’s Land of the Dead UI.
+Same pack contents as the confirmed TEST build.

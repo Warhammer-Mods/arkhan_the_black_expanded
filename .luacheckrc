@@ -4,6 +4,9 @@ allow_defined = true
 allow_defined_top = true
 
 globals = {
+	"CUS",
+	"common",
+	"real_timer",
 	"ACTIVE_RITUAL_SCRIPT_INTERFACE",
 	"BATTLE_MANAGER",
 	"BATTLE_SIDE",
@@ -118,4 +121,24 @@ globals = {
 	"uicomponent_to_str",
 	"unpack",
 	"wh_faction_is_horde"
+}
+
+-- WH3 APIs supplied by the campaign/UI runtime.
+read_globals = {
+	"cco",
+	"devastation_manager",
+	"model_pairs"
+}
+
+-- This module exports its AI controller for other scripts and diagnostics.
+files["script/campaign/mod/zz_arkhan_lotd_ai.lua"] = {
+	globals = { "arkhan_lotd_ai" },
+	-- Public export is consumed outside this file; methods use colon syntax.
+	ignore = { "131/arkhan_lotd_ai" },
+	self = false
+}
+
+-- Optional Nagash integration tables are guarded before use and updated in place.
+files["submods/arkhan_keep_ai_independent/script/campaign/mod/zz_arkhan_independent_option.lua"] = {
+	globals = { "nag_mortarchs_config", "episode_nagash_endgame" }
 }

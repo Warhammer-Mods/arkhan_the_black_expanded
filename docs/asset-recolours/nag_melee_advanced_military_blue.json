@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "file": "ui/buildings/icons/wh3_dlc29_nag_melee_military.png",
+  "operation": "Exact RGB replacement only, explicitly requested by the user; original image pixels used, no generative redraw.",
+  "dimensions": [
+    74,
+    74
+  ],
+  "source_rgb": [
+    82,
+    20,
+    20
+  ],
+  "target_rgb": [
+    46,
+    33,
+    73
+  ],
+  "target_hex": "#2E2149",
+  "source_sha256": "ff58d801cc9f4bbe7a1927c61d7b56c05e9e08f1ea8372d3f8a3b5247b0c87b8",
+  "colour_reference": "Native ui/buildings/icons/wh3_dlc29_nag_magic_chariots.png, matching the second uploaded image. Reference unchanged and not added to the mod.",
+  "reference_sha256": "21398f4a01fb75c51c0c710bb04824db2087cbd273468d95035669afb4eab3f2",
+  "output_sha256": "703da32aad342b6609a6811141a91bab282c5cccb4cf0c696b740fe7eb5f0604",
+  "validation": {
+    "alpha_pixel_changes": 0,
+    "transparent_pixel_changes": 0,
+    "visible_colour_errors": 0,
+    "original_dimensions_preserved": true,
+    "alpha_matches_native_original": true
+  }
+}

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layout version="142" comment="" precache_condition="">
+	<hierarchy>
+		<root this="7DDD98B0-580F-59F1-A2A3-4418D020C7CA">
+			<arkhan_lotd_necromantic_energy_topbar this="C7C3E31C-28A9-58F1-B89E-B1DCE52F5547">
+				<resource_holder this="E242126A-23E7-5FB3-B8B9-38FC0AE2A793">
+					<icon this="7DB3E5D6-37BD-5D66-B6F6-D0F24B4328A5" />
+					<dy_necrotic_power this="AAB43F51-FFD8-5799-9B25-56C851B44C3E" />
+					<dy_necrotic_power_change_holder this="2B15D906-683A-5B72-BE99-99C63B3DBE25">
+						<tx_open_parenthesis this="C01F76AA-38C6-5022-B713-768332670C35" />
+						<dy_income_necromantic_power this="20C2933C-B255-5DB0-86AA-8D7CCB681361" />
+						<tx_close_parenthesis this="95686FD8-0066-53B7-A471-144F6C80EC10" />
+					</dy_necrotic_power_change_holder>
+				</resource_holder>
+			</arkhan_lotd_necromantic_energy_topbar>
+		</root>
+	</hierarchy>
+	<components>
+		<root this="7DDD98B0-580F-59F1-A2A3-4418D020C7CA" id="root" tooltipslocalised="true" uniqueguid="7DDD98B0-580F-59F1-A2A3-4418D020C7CA" currentstate="1887C1BC-923A-5B3D-B718-7CAB79B43828" defaultstate="1887C1BC-923A-5B3D-B718-7CAB79B43828">
+			<componentimages>
+				<component_image this="A652E679-C475-5968-A497-227838B0975A" uniqueguid="A652E679-C475-5968-A497-227838B0975A" />
+			</componentimages>
+			<states>
+				<default this="1887C1BC-923A-5B3D-B718-7CAB79B43828" name="default" width="1600" height="900" uniqueguid="1887C1BC-923A-5B3D-B718-7CAB79B43828">
+					<imagemetrics>
+						<image this="E60C8508-9FFA-55BB-AFD5-673360D64FDE" uniqueguid="E60C8508-9FFA-55BB-AFD5-673360D64FDE" componentimage="A652E679-C475-5968-A497-227838B0975A" width="256" height="80" colour="#1C1C1CFF" />
+					</imagemetrics>
+				</default>
+			</states>
+		</root>
+		<arkhan_lotd_necromantic_energy_topbar this="C7C3E31C-28A9-58F1-B89E-B1DCE52F5547" id="arkhan_lotd_necromantic_energy_topbar" offset="0.00,4.00" tooltipslocalised="true" uniqueguid="C7C3E31C-28A9-58F1-B89E-B1DCE52F5547" currentstate="7F701499-EFEF-58E0-B1C0-2C634EFC55C2" defaultstate="7F701499-EFEF-58E0-B1C0-2C634EFC55C2" allowverticalresize="false">
+			<callbackwithcontextlist>
+				</callbackwithcontextlist>
+			<states>
+				<default this="7F701499-EFEF-58E0-B1C0-2C634EFC55C2" name="default" width="150" height="43" uniqueguid="7F701499-EFEF-58E0-B1C0-2C634EFC55C2" />
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" vertical_alignment="Center" margins="8.00,8.00" />
+		</arkhan_lotd_necromantic_energy_topbar>
+		<resource_holder this="E242126A-23E7-5FB3-B8B9-38FC0AE2A793" id="resource_holder" offset="0.00,0.00" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_c6e59c10" uniqueguid="E242126A-23E7-5FB3-B8B9-38FC0AE2A793" currentstate="87ABF718-E18F-5F90-A56B-3BA3524E0092" defaultstate="87ABF718-E18F-5F90-A56B-3BA3524E0092">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextCustomTooltipStore" context_object_id="CcoCampaignPooledResource" />
+			</callbackwithcontextlist>
+			<states>
+				<default this="87ABF718-E18F-5F90-A56B-3BA3524E0092" name="default" width="114" height="26" interactive="true" disabled="true" uniqueguid="87ABF718-E18F-5F90-A56B-3BA3524E0092" />
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" vertical_alignment="Center" />
+		</resource_holder>
+		<icon this="7DB3E5D6-37BD-5D66-B6F6-D0F24B4328A5" id="icon" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="7DB3E5D6-37BD-5D66-B6F6-D0F24B4328A5" currentstate="5C1E61A2-5964-5EFA-BB82-6D540C513A40" defaultstate="5C1E61A2-5964-5EFA-BB82-6D540C513A40">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextImageSetter" context_object_id="CcoCampaignPooledResource" context_function_id="IconPath" />
+			</callbackwithcontextlist>
+			<componentimages>
+				<component_image this="5BA85E2B-9187-59CC-849E-4732ECA27BB6" uniqueguid="5BA85E2B-9187-59CC-849E-4732ECA27BB6" imagepath="ui/skins/default/wh3_dlc29_pooled_resource_necromantic_power.png" />
+			</componentimages>
+			<states>
+				<negative this="8A1E55ED-4164-5D51-8E5E-F64F16D6F699" name="negative" width="26" height="26" uniqueguid="8A1E55ED-4164-5D51-8E5E-F64F16D6F699">
+					<imagemetrics>
+						<image this="6E3209CC-3E02-5650-A131-818A506A38F5" uniqueguid="6E3209CC-3E02-5650-A131-818A506A38F5" componentimage="5BA85E2B-9187-59CC-849E-4732ECA27BB6" offset="-1.00,0.00" width="26" height="26" />
+					</imagemetrics>
+				</negative>
+				<positive this="5C1E61A2-5964-5EFA-BB82-6D540C513A40" name="positive" width="26" height="26" uniqueguid="5C1E61A2-5964-5EFA-BB82-6D540C513A40">
+					<imagemetrics>
+						<image this="C3911809-7F79-563D-95B6-FBA62A0134DD" uniqueguid="C3911809-7F79-563D-95B6-FBA62A0134DD" componentimage="5BA85E2B-9187-59CC-849E-4732ECA27BB6" offset="-1.00,0.00" width="26" height="26" />
+					</imagemetrics>
+				</positive>
+			</states>
+		</icon>
+		<dy_necrotic_power this="AAB43F51-FFD8-5799-9B25-56C851B44C3E" id="dy_necrotic_power" offset="26.00,5.00" priority="1" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_19dca904" uniqueguid="AAB43F51-FFD8-5799-9B25-56C851B44C3E" currentstate="A53EB120-F260-58A0-A244-BC7880A9297E" defaultstate="A53EB120-F260-58A0-A244-BC7880A9297E">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPooledResource" context_function_id="Total">
+					<child_m_user_properties>
+						<property name="event0" value="PooledResourceTransaction" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<negative this="1287E0D9-7AA2-5911-A89D-9AF4F2DB2577" name="negative" width="42" height="16" uniqueguid="1287E0D9-7AA2-5911-A89D-9AF4F2DB2577">
+					<component_text text="5000" textxoffset="0.00,6.00" texthbehaviour="Resize" textlabel="StateText_62623e3a" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" text_shader_name="drop_shadow_t0" textshadervars="0.00,-1.00,2.00,0.00" />
+				</negative>
+				<positive this="A53EB120-F260-58A0-A244-BC7880A9297E" name="positive" width="42" height="16" interactive="true" disabled="true" uniqueguid="A53EB120-F260-58A0-A244-BC7880A9297E">
+					<component_text text="5000" textxoffset="0.00,6.00" texthbehaviour="Resize" textlabel="StateText_afb36adf" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,-1.00,2.00,0.00" />
+				</positive>
+			</states>
+			<animations>
+				<flash_update id="flash_update" propagate="true">
+					<frames>
+						<frame interpolationtime="0" interpolationpropertymask="3" targetmetrics_m_height="37" targetmetrics_m_width="64" is_movement_absolute="true" />
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFFF00FF" targetmetrics_m_height="37" targetmetrics_m_width="64" targetmetrics_m_offset="0.00,-4.00" is_movement_absolute="true" />
+						<frame interpolationtime="200" interpolationpropertymask="3" targetmetrics_m_colour="#FFF8D7FF" targetmetrics_m_height="37" targetmetrics_m_width="64" is_movement_absolute="true" />
+					</frames>
+				</flash_update>
+			</animations>
+		</dy_necrotic_power>
+		<dy_necrotic_power_change_holder this="2B15D906-683A-5B72-BE99-99C63B3DBE25" id="dy_necrotic_power_change_holder" offset="68.00,4.00" priority="1" componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}" tooltiplabel="ComponentTooltip_bb93dde5" uniqueguid="2B15D906-683A-5B72-BE99-99C63B3DBE25" currentstate="00DE4914-76BA-5697-B946-478C432B5F73" defaultstate="00DE4914-76BA-5697-B946-478C432B5F73">
+			<states>
+				<default this="00DE4914-76BA-5697-B946-478C432B5F73" name="default" width="46" height="19" disabled="true" uniqueguid="00DE4914-76BA-5697-B946-478C432B5F73" />
+			</states>
+			<LayoutEngine type="HorizontalList" sizetocontent="true" />
+		</dy_necrotic_power_change_holder>
+		<tx_open_parenthesis this="C01F76AA-38C6-5022-B713-768332670C35" id="tx_open_parenthesis" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="C01F76AA-38C6-5022-B713-768332670C35" currentstate="98536658-CEB4-58E3-84B8-54451551C55D" defaultstate="98536658-CEB4-58E3-84B8-54451551C55D">
+			<states>
+				<newstate this="98536658-CEB4-58E3-84B8-54451551C55D" name="NewState" width="5" height="18" disabled="true" uniqueguid="98536658-CEB4-58E3-84B8-54451551C55D">
+					<component_text text="(" texthbehaviour="Never split" textlabel="StateText_7a6d6000" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,1.00,2.00,0.00" />
+				</newstate>
+			</states>
+		</tx_open_parenthesis>
+		<dy_income_necromantic_power this="20C2933C-B255-5DB0-86AA-8D7CCB681361" id="dy_income_necromantic_power" offset="5.00,1.00" allowverticalresize="false" dock_offset="0.00,1.00" priority="1" component_level_text="5000" text_label="ComponentText_ea722281" uniqueguid="20C2933C-B255-5DB0-86AA-8D7CCB681361" currentstate="73D28A52-8CB0-5B90-9D50-55C041EB52DD" defaultstate="73D28A52-8CB0-5B90-9D50-55C041EB52DD">
+			<callbackwithcontextlist>
+				<callback_with_context callback_id="ContextTextLabel" context_object_id="CcoCampaignPooledResource" context_function_id="(total = PendingFactorTotal) =&gt; {&#10;  GetIf(total &gt; 0, &quot;+&quot;) + total&#10;}" />
+				<callback_with_context callback_id="ContextStateSetterConditional" context_object_id="CcoCampaignPooledResource">
+					<child_m_user_properties>
+						<property name="fallback_state" value="negative" />
+						<property name="positive" value="PendingFactorTotal &gt;= 0" />
+						<property name="skip_empty_object" value="" />
+					</child_m_user_properties>
+				</callback_with_context>
+			</callbackwithcontextlist>
+			<states>
+				<negative this="DF14BEF0-BB5B-58CF-9A73-098263AB25B9" name="negative" width="36" height="18" disabled="true" uniqueguid="DF14BEF0-BB5B-58CF-9A73-098263AB25B9">
+					<component_text texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="red" text_shader_name="drop_shadow_t0" textshadervars="-1.00,-1.00,1.00,0.00" />
+				</negative>
+				<positive this="73D28A52-8CB0-5B90-9D50-55C041EB52DD" name="positive" width="36" height="18" disabled="true" uniqueguid="73D28A52-8CB0-5B90-9D50-55C041EB52DD">
+					<component_text texthbehaviour="Resize" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" font_colour_override_preset_key="green" text_shader_name="drop_shadow_t0" textshadervars="-1.00,-1.00,1.00,0.00" />
+				</positive>
+			</states>
+		</dy_income_necromantic_power>
+		<tx_close_parenthesis this="95686FD8-0066-53B7-A471-144F6C80EC10" id="tx_close_parenthesis" offset="41.00,0.00" allowhorizontalresize="false" allowverticalresize="false" priority="1" tooltipslocalised="true" uniqueguid="95686FD8-0066-53B7-A471-144F6C80EC10" currentstate="3D99FF6C-08C0-57FC-A727-4ADB1A05B029" defaultstate="3D99FF6C-08C0-57FC-A727-4ADB1A05B029">
+			<states>
+				<newstate this="3D99FF6C-08C0-57FC-A727-4ADB1A05B029" name="NewState" width="5" height="18" disabled="true" uniqueguid="3D99FF6C-08C0-57FC-A727-4ADB1A05B029">
+					<component_text text=")" texthbehaviour="Never split" textlabel="StateText_1ad371fa" font_m_size="12" font_m_colour="#FFF8D7FF" font_m_leading="3" fontcat_name="body_12" text_shader_name="drop_shadow_t0" textshadervars="0.00,1.00,2.00,0.00" />
+				</newstate>
+			</states>
+		</tx_close_parenthesis>
+	</components>
+</layout>

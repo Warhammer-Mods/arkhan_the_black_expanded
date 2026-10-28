@@ -1,0 +1,10 @@
+key	precursor	default_projectile	audio_type	use_secondary_ammo_pool	hide_secondary_range_ammo_statistics_ui
+#missile_weapons_tables;12;db/missile_weapons_tables/atbe					
+stephen_tmb_bow_skeleton	false	stephen_tmb_arrow_skeleton	bow	false	false
+stephen_tmb_bow_skeleton_ror	false	stephen_tmb_arrow_skeleton_ror	bow	false	false
+stephen_tmb_bow_ushabti	false	stephen_tmb_arrow_ushabti	bow_large	false	false
+stephen_tmb_bow_ushabti_ror	false	stephen_tmb_arrow_ushabti_ror	bow_large	false	false
+stephen_tmb_bow_horse	false	stephen_tmb_arrow_horse	bow	false	false
+stephen_tmb_casket_of_souls	false	stephen_tmb_magic_casket_of_souls		false	false
+stephen_tmb_bow_chariot	false	stephen_tmb_arrow_mounted	bow	false	false
+stephen_tmb_bow_warsphinx	false	stephen_tmb_warsphinx_arrow	bow	false	false

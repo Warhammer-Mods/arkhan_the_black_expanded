@@ -1,0 +1,50 @@
+Version: 4.0.5
+
+This is the vanilla version of Arkhan the Black: Expanded for Total War: Warhammer III.
+
+This mod adds new technologies, skills and abilities to Lords and Heroes. Arkhan also has his own variants of the vanilla Tomb Kings units, with unique unit cards and a mirrored Realm of Souls ability with a different visual effect. New buildings allow recruitment of additional units not found among the other Tomb Kings factions.
+
+[h1]Land of the Dead[/h1]
+
+[list]
+[*]Arkhan can now spread the Land of the Dead by building Necropolises and using the Ritual of Undeath to devastate provinces.
+[*]Necropolises give their province and neighbouring provinces access to Necromantic Energy. Arkhan earns it from buildings and battles, and has his own supply, separate from Nagash's.
+[*]The Ritual of Undeath costs 500 Necromantic Energy. Arkhan uses Wizard Caliph's Palace instead of the Black Pyramid to begin spreading the Land of the Dead.
+[*]You can keep track of your energy and Necropolis limit in the top bar, and see energy in the province panel. These displays also update when you load a save.
+[*]You start with a limit of one Necropolis and gain another for every three devastated provinces, plus any bonuses. You can build above the limit, but each extra Necropolis cuts energy income by 10%, up to 100%.
+[/list]
+
+Arkhan starts with a custom Tomb Herald. Updated cards, a purple technology tab and Arkhan-specific tooltips are included.
+
+[h1]Units[/h1]
+
+[img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_skeleton_warriors.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_skeleton_spearmen.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_skeleton_archers.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_nehekhara_warriors.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_tomb_guard.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_tomb_guard_halberd.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_art_screaming_skull_catapult.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_ushabti.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_ushabti_great.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_cav_necropolis_knights_1.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_cav_necropolis_knights_2.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_tomb_scorpion.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_necrosphinx.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_heirotitan.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_khemrian_warsphinx.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_grave_guard.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_grave_guard_great.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_nagashizzar_guard.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_stonewrath_guard.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_mon_morghast_archai.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_mon_morghast_harbingers.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_inf_cairn_wraiths.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_cav_hexwraiths.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_veh_mortis_engine.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_crypt_ghouls.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_mon_crypt_horrors.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_dire_wolves.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_fell_bats.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_terrorgheist.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_zombie_dragon.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_khemric_titan.png[/img][img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_inf_spirit_host.png[/img]
+
+[img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/additional-unit-cards.png[/img]
+
+Black Coach and Coven Throne.
+
+[h1]Lords and Heroes[/h1]
+
+Tomb Kings, Strigoi Ghoul King, Necrarch and Lahmian Vampire Lords, Liche High Priests, Liche Priests, Tomb Princes, Necrotects and the custom Tomb Herald.
+
+[img]https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/lords-and-heroes.png[/img]
+
+[h1]Submods[/h1]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2854667379]Lore of Vampires[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3810060868]Lore of Undeath[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2862052342]Tomb Kings: Extended[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2924973449]SFO[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2865162727]Radious Submod[/url]
+
+The starting-hero replacement works in game. Its starting level and multiplayer compatibility still need testing.
+
+Please report bugs [url=https://steamcommunity.com/workshop/filedetails/discussion/2852724610/3427822455473508703/]here.[/url] Include active mods, new campaign or existing save, and single-player or multiplayer.
+
+I could not have made this mod without the help of the amazing modders from C&C Modding Den! Come join me and chat with other modders. [url=https://discord.gg/jgVFtUJ]C&C Modding Den[/url]
+
+I'd also like to say a big thank you to everyone who has helped me over the years, especially [url=https://steamcommunity.com/id/im_mortal/myworkshopfiles/]im_mortal[/url] and [url=https://steamcommunity.com/profiles/76561198084410558/myworkshopfiles/?appid=1142710]All is Dust[/url].
+
+All images and assets used on this page are the property of Creative Assembly.
+

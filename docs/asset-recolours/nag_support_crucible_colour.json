@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "file": "ui/buildings/icons/wh3_dlc29_nag_support.png",
+  "operation": "Exact RGB replacement only; no generation, filtering, resizing or geometry edits",
+  "dimensions": [
+    74,
+    74
+  ],
+  "source_rgb": [
+    26,
+    42,
+    27
+  ],
+  "target_rgb": [
+    27,
+    82,
+    61
+  ],
+  "target_hex": "#1B523D",
+  "source_sha256": "9e56673af2bbaea9bdd151fd57cdb6d52c0ab07215b9faa99cd86398b3de05ac",
+  "colour_reference": "User-supplied nah_crucible image, reference only; unchanged.",
+  "reference_sha256": "934b9badc76b9bef773ee2026c7417ec6de500a7dd867c9d09ddf5f89832354a",
+  "output_sha256": "badc50c4d969dfbfa3662dd554fb76d543dec0ee0fb2cd180549e10adbabe8c8",
+  "validation": {
+    "alpha_pixel_changes": 0,
+    "transparent_pixel_changes": 0,
+    "visible_colour_errors": 0,
+    "original_dimensions_preserved": true,
+    "alpha_matches_native_original": true
+  }
+}

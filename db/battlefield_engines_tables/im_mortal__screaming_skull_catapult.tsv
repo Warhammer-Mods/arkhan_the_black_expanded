@@ -1,0 +1,3 @@
+destroyed_model	destruction_animation	engine_type	gun_animation_table	key	missile_weapon	model	battle_entity	asset_folder	variant	draught_attachment_point	tech_folder	rider_attachment_point	destruct_model	destruct_anim	destruct_meta	audio_armour_type	riders_shoot_behaviour	scale	crew_reserve_distance_offset
+#battlefield_engines_tables;24;db/battlefield_engines_tables/im_mortal__screaming_skull_catapult																			
+warmachines\engines\tmb_skull_catapult/tmb_screaming_skull_catapult_01_destroyed.wsmodel	tmb_skull_catapult_destruct	Generic_3_Crew	wm_catapult01	im_mortal__tmb_art_screaming_skull_catapult	im_mortal__tmb_screaming_skull	tmb_skull_catapult	wh2_dlc09_tmb_art_screaming_skull_catapult										all_riders_shooting	1.0	0.0

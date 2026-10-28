@@ -1,0 +1,8 @@
+key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter	remove_on_skill_reset
+#character_traits_tables;3;db/character_traits_tables/atbe							
+stephen_tmb_tomb_king_dummy_trait_1	1	false	1	tomb_kings	1		false
+stephen_tmb_tomb_king_dummy_trait_2	1	false	1	tomb_kings	1		false
+stephen_tmb_tomb_king_dummy_trait_3	1	false	1	tomb_kings	1		false
+stephen_tmb_tomb_king_dummy_trait_4	1	false	1	tomb_kings	1		false
+stephen_tmb_tomb_king_dummy_trait_5	1	false	1	tomb_kings	1		false
+stephen_tmb_tomb_king_dummy_trait_6	1	false	1	tomb_kings	1		false

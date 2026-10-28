@@ -1,0 +1,3 @@
+group	stance	composite_scene	composite_movement_start	composite_movement_stop
+#campaign_stances_composite_scenes_tables;0;db/campaign_stances_composite_scenes_tables/atbe				
+wh2_dlc09_stance_csc_tomb_kings	MILITARY_FORCE_ACTIVE_STANCE_TYPE_TUNNELING		wh3_main_tze_teleporting_start	wh3_main_tze_teleporting_stop

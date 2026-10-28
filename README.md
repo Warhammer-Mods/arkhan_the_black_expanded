@@ -1,71 +1,86 @@
-# Mod Title
+# Arkhan the Black: Expanded
 
-![Mod Title](assets/steam_workshop_logo.png)
+Version: **4.0.5** · [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610)
 
-## Quickstart
+[![Build main mod and submods](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml/badge.svg)](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml)
 
-This Total War mod template assumes you've installed and familiarized yourself with [RPFM](https://github.com/Frodo45127/rpfm), and know the basics of [Git](https://guides.github.com/introduction/git-handbook/).
+This is the vanilla version of Arkhan the Black: Expanded for Total War: Warhammer III.
 
-- Use the template to fork this repository. Provided you want to name your mod Packfile `my_awesome_mod.pack`, use `my_awesome_mod`, as a repo name, without the ".pack".
-- Make sure you've [set MyMod folder](https://im-mortal.github.io/rpfm/chapter_2.html) in RPFM.
-- In RPFM, create a new mod using *MyMod* -> *New MyMod* and name it `my_awesome_mod`. [**Save**](https://im-mortal.github.io/rpfm/chapter_3_1_1.html) the Packfile.
-- Clone the repo into your game's *MyMod* folder (say, `Documents/twmodding/warhammer_2/`).
-- Use *MyMod* -> *Import* to import this template's mod settings. At first, it may also import all the auxiliary files, so feel free to remove them from RPFM by invoking context menu on your Packfile in the left-hand pane, and clicking *Delete* (see [this page](https://frodo45127.github.io/rpfm/chapter_3_2_0.html) for more info). Subsequent *MyMod Imports* will import only relevant files into your Packfile.
-- Start modding! You can create or import files from game files, parent mods in case you're making a submod, or just drag and drop files into your MyMod folder with your favourite file explorer (use *MyMod* -> *Import* when done). [Here's more](https://frodo45127.github.io/rpfm/chapter_3_1_2.html) about the MyMod feature.
+This mod adds new technologies, skills and abilities to Lords and Heroes. Arkhan also has his own variants of the vanilla Tomb Kings units, with unique unit cards and a mirrored Realm of Souls ability with a different visual effect. New buildings allow recruitment of additional units not found among the other Tomb Kings factions.
 
-### GitHub Workflow
+## Land of the Dead
 
-This template also includes some additional GitHub Workflows that make it easier to discover issues with your scripts, tables, and loc files. To utilize them, consider these steps:
+- Arkhan can now spread the Land of the Dead by building Necropolises and using the Ritual of Undeath to devastate provinces.
+- Necropolises give their province and neighbouring provinces access to Necromantic Energy. Arkhan earns it from buildings and battles, and has his own supply, separate from Nagash's.
+- The Ritual of Undeath costs 500 Necromantic Energy. Arkhan uses Wizard Caliph's Palace instead of the Black Pyramid to begin spreading the Land of the Dead.
+- You can keep track of your energy and Necropolis limit in the top bar, and see energy in the province panel. These displays also update when you load a save.
+- You start with a limit of one Necropolis and gain another for every three devastated provinces, plus any bonuses. You can build above the limit, but each extra Necropolis cuts energy income by 10%, up to 100%.
 
-- When you've made a change in RPFM, you can use *MyMod* -> *Export* menu to export your packed files back to the git repo. Keep track of your progress and make it easier to revert changes by staging and then committing files with git. You can push the changes to GitHub to keep them safe.
-- With git, maintain at least two branches, e.g.: `main` for stable mod versions and `develop` for development and testing.
-- Keep a [changelog](CHANGELOG.md).
-- Tag milestone commits using [Semantic Versioning](https://semver.org) pattern prefixed with `v`, e.g.: `v1.0.0`, `v2.3.5-beta`, `v0.0.8-dev`.
-- Upon tagging, you may [draft a release](../releases/new) using the newly created tag, outlining the changes in the release description. Attach the pack file to binaries list. If you haven't used Packfile compression in RPFM, consider compressing it with `zip` or `7z`.
+## Other additions
 
-### Adapting to your needs
+- Arkhan starts new campaigns with the custom Tomb Herald in place of the original hero. The replacement requests level one; existing campaigns keep their heroes.
+- Updated Arkhan-themed unit cards, a purple technology tab and tooltips written for Arkhan give the interface a consistent look. The icons retain their original in-game size.
+- The custom Necromantic Energy overlay is hidden on settlement map labels, matching Nagash.
 
-As with any git repo, you're encouraged to make any changes to your liking if you know what you're doing. Also, as this is stil a work in progress, you may be interested to periodically pull updates from this repo every once in a while. Finally, if you think anything could've been done or worded better, please propore your changes.
+## Units
 
-Finally, when editing this readme file, feel free to remove this quickstart section.
+<img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_skeleton_warriors.png" alt="Skeleton Warriors" title="Skeleton Warriors" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_skeleton_spearmen.png" alt="Skeleton Spearmen" title="Skeleton Spearmen" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_skeleton_archers.png" alt="Skeleton Archers" title="Skeleton Archers" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_nehekhara_warriors.png" alt="Nehekhara Warriors" title="Nehekhara Warriors" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_tomb_guard.png" alt="Tomb Guard" title="Tomb Guard" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_tomb_guard_halberd.png" alt="Tomb Guard (Halberds)" title="Tomb Guard (Halberds)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_art_screaming_skull_catapult.png" alt="Screaming Skull Catapult" title="Screaming Skull Catapult" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_ushabti.png" alt="Ushabti" title="Ushabti" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_ushabti_great.png" alt="Ushabti (Great Bows)" title="Ushabti (Great Bows)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_cav_necropolis_knights_1.png" alt="Necropolis Knights" title="Necropolis Knights" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_cav_necropolis_knights_2.png" alt="Necropolis Knights (Halberds)" title="Necropolis Knights (Halberds)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_tomb_scorpion.png" alt="Tomb Scorpion" title="Tomb Scorpion" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_necrosphinx.png" alt="Necrosphinx" title="Necrosphinx" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_heirotitan.png" alt="Hierotitan" title="Hierotitan" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_khemrian_warsphinx.png" alt="Khemrian Warsphinx" title="Khemrian Warsphinx" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_grave_guard.png" alt="Grave Guard" title="Grave Guard" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_grave_guard_great.png" alt="Grave Guard (Great Weapons)" title="Grave Guard (Great Weapons)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_nagashizzar_guard.png" alt="Nagashizzar Guard" title="Nagashizzar Guard" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_inf_cairn_wraiths.png" alt="Cairn Wraiths" title="Cairn Wraiths" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_cav_hexwraiths.png" alt="Hexwraiths" title="Hexwraiths" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_veh_mortis_engine.png" alt="Mortis Engine" title="Mortis Engine" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_crypt_ghouls.png" alt="Crypt Ghouls" title="Crypt Ghouls" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_mon_crypt_horrors.png" alt="Crypt Horrors" title="Crypt Horrors" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_dire_wolves.png" alt="Dire Wolves" title="Dire Wolves" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_fell_bats.png" alt="Fell Bats" title="Fell Bats" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_terrorgheist.png" alt="Terrorgheist" title="Terrorgheist" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_zombie_dragon.png" alt="Zombie Dragon" title="Zombie Dragon" />
 
-## Description
+## Expanded unit gallery
 
-Mod description. Detailed, but not too elaborate.
+Additional cards from the current mod include Spirit Hosts, Morghast Archai, Morghast Harbingers, Carrion, Casket of Souls, Nehekhara Horsemen, Skeleton Horse Archers, Wights of Stonewrath Tarn (Grave Guard), Zombies, Bone Giant, Khemric Titan, Sepulchral Stalkers, Skeleton Chariots, Skeleton Archer Chariots, Skeleton Horsemen, Black Coach and Coven Throne. Some cards are for summoned units; recruitment and access follow their in-game requirements.
 
-## Features
+<img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_inf_spirit_host.png" alt="Spirit Hosts" title="Spirit Hosts" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_mon_morghast_archai.png" alt="Morghast Archai" title="Morghast Archai" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/wh2_dlc09_tmb_mon_morghast_harbingers.png" alt="Morghast Harbingers" title="Morghast Harbingers" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_carrion.png" alt="Carrion" title="Carrion" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_casket_souls.png" alt="Casket of Souls" title="Casket of Souls" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_cav_nehekhara_horsemen.png" alt="Nehekhara Horsemen" title="Nehekhara Horsemen" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_cav_skeleton_horsemen_archers.png" alt="Skeleton Horse Archers" title="Skeleton Horse Archers" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_stonewrath_guard.png" alt="Wights of Stonewrath Tarn (Grave Guard)" title="Wights of Stonewrath Tarn (Grave Guard)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_inf_zmb.png" alt="Zombies" title="Zombies" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_bone_giant.png" alt="Bone Giant" title="Bone Giant" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_khemric_titan.png" alt="Khemric Titan" title="Khemric Titan" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_mon_sepulchral_stalkers.png" alt="Sepulchral Stalkers" title="Sepulchral Stalkers" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_skeleton_chariot.png" alt="Skeleton Chariots" title="Skeleton Chariots" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_skeleton_chariot_archers.png" alt="Skeleton Archer Chariots" title="Skeleton Archer Chariots" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_skeleton_horsemen.png" alt="Skeleton Horsemen" title="Skeleton Horsemen" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_veh_black_coach.png" alt="Black Coach" title="Black Coach" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/units/xereus_tmb_veh_coven_throne.png" alt="Coven Throne" title="Coven Throne" />
 
-**Highlight** main *features* of the mod:
+## Lords and Heroes
 
-- Each distinctive *feature* should have its own **point**.
-  - Or even a **subpoint**.
-- In case there are too many of them, a full list of the changes should be in a **separate file**.
+The current character gallery includes Tomb Kings, a Strigoi Ghoul King, Necrarch and Lahmian Vampire Lords, Liche High Priests, Liche Priests, Tomb Princes, Necrotects and the custom Tomb Herald.
+
+<img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/stephen_ch_ghoul_king_campaign_01.png" alt="Strigoi Ghoul King" title="Strigoi Ghoul King" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/stephen_ch_tomb_king_campaign_01_0.png" alt="Tomb King" title="Tomb King" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/stephen_ch_tomb_king_campaign_02_0.png" alt="Tomb King" title="Tomb King" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/stephen_ch_tomb_king_campaign_03_0.png" alt="Tomb King" title="Tomb King" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/stephen_ch_tomb_king_campaign_04_0.png" alt="Tomb King" title="Tomb King" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/stephen_ch_tomb_king_campaign_05_0.png" alt="Tomb King" title="Tomb King" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/stephen_tmb_cha_tomb_herald.png" alt="Tomb Herald" title="Tomb Herald" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_liche_priest_vampire_1.png" alt="Liche Priest (Vampires)" title="Liche Priest (Vampires)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_liche_priest_vampire_2.png" alt="Liche Priest (Vampires)" title="Liche Priest (Vampires)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_liche_priest_vampire_3.png" alt="Liche Priest (Vampires)" title="Liche Priest (Vampires)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_liche_priest_vampire_4.png" alt="Liche Priest (Vampires)" title="Liche Priest (Vampires)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_liche_priest_vampire_5.png" alt="Liche Priest (Vampires)" title="Liche Priest (Vampires)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_necrotect_1.png" alt="Necrotect" title="Necrotect" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_necrotect_2.png" alt="Necrotect" title="Necrotect" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_necrotect_3.png" alt="Necrotect" title="Necrotect" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_necrotect_4.png" alt="Necrotect" title="Necrotect" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_tomb_prince_1.png" alt="Tomb Prince" title="Tomb Prince" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_tomb_prince_2.png" alt="Tomb Prince" title="Tomb Prince" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_tomb_prince_3.png" alt="Tomb Prince" title="Tomb Prince" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_tomb_prince_4.png" alt="Tomb Prince" title="Tomb Prince" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/tmb_cha_tomb_prince_5.png" alt="Tomb Prince" title="Tomb Prince" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_necrarch_vampire_lord.png" alt="Necrarch Vampire Lord" title="Necrarch Vampire Lord" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_lahmian_vampire_lord.png" alt="Lahmian Vampire Lord" title="Lahmian Vampire Lord" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_liche_high_priest_death.png" alt="Liche High Priest (Death)" title="Liche High Priest (Death)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_liche_high_priest_undeath.png" alt="Liche High Priest (Undeath)" title="Liche High Priest (Undeath)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_liche_high_priest_nehekhara.png" alt="Liche High Priest (Nehekhara)" title="Liche High Priest (Nehekhara)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_liche_high_priest_light.png" alt="Liche High Priest (Light)" title="Liche High Priest (Light)" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_tomb_herald_variant_2.png" alt="Tomb Herald" title="Tomb Herald" /><img src="https://raw.githubusercontent.com/Warhammer-Mods/arkhan_the_black_expanded/develop/docs/images/characters/arkhan_tomb_herald_variant_3.png" alt="Tomb Herald" title="Tomb Herald" />
+
+Additional Tomb Herald cards are included as alternative artwork; the existing in-game card assignment is retained.
+
+## Submods
+
+- [Lore of Vampires](https://steamcommunity.com/sharedfiles/filedetails/?id=2854667379)
+- [Lore of Undeath](https://steamcommunity.com/sharedfiles/filedetails/?id=3810060868)
+- [Tomb Kings: Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2862052342)
+- [SFO](https://steamcommunity.com/sharedfiles/filedetails/?id=2924973449)
+- [Radious Submod](https://steamcommunity.com/sharedfiles/filedetails/?id=2865162727)
+
+## Bug reports and credits
+
+Please report bugs [here](https://steamcommunity.com/workshop/filedetails/discussion/2852724610/3427822455473508703/). Include your active mods, whether you are using a new campaign or an existing save, and whether the issue occurs in single-player or multiplayer.
+
+I could not have made this mod without the help of the amazing modders from C&C Modding Den! Come join me and chat with other modders: [C&C Modding Den](https://discord.gg/jgVFtUJ).
+
+I'd also like to say a big thank you to everyone who has helped me over the years, especially [im_mortal](https://steamcommunity.com/id/im_mortal/myworkshopfiles/) and [All is Dust](https://steamcommunity.com/profiles/76561198084410558/myworkshopfiles/?appid=1142710).
+
+All images and assets used on this page are the property of Creative Assembly.
+
+## Source, maintenance and validation
+
+The current building, unit, skill, animation, model and visual-effect sources from the supplied mod pack are merged with the Land of the Dead additions. Superseded 2022 tables and assets were removed to avoid duplicate definitions.
+
+- Arkhan's building income, battle rewards, campaign groups and ritual spending use his separate resource. Save migration separates the old campaign-group link without modifying Nagash's reserve.
+- Building context conditions recognise Arkhan's custom devastation effect bundle. Necropolis data refreshes after construction, demolition, faction turns and save loading. Dedicated localisation retains the localisation calls and escaped tooltip line breaks.
+- Added DB fragment names do not end in numbers. Tables use RPFM TSV exports; the faction-colour compatibility table and four custom localisation files retain native binary data to preserve their values and escaped text.
+- GitHub workflows are maintained within this repository and use current Node 24 actions, read-only permissions, timeouts and cancellation of superseded runs.
+- CI validates database and localisation exports, checks campaign Lua scripts, and builds a downloadable pack containing only game asset folders. Lua warnings are reported but remain nonblocking; lint errors fail the check.
+
+Import the source with RPFM configured for Total War: Warhammer III. Download automated builds from the **Artifacts** section of a successful [Build Packfile run](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml).
+
+CI uses [RPFM Server 5.3.2](https://github.com/Frodo45127/rpfm/releases/tag/v5.3.2) with its matching pinned Docker action and schema. The action downloads the verified public GHCR image by its immutable digest using the release metadata; consumer jobs no longer compile the server or require registry login. The pack builder uses server API v2, waits for schema-loading jobs, and reopens the saved pack to verify its complete paginated inventory and decode every DB/LOC file, including native binaries. Run the client regression checks with `python3 -m unittest discover -s .github/tests -p "test_build_pack_server.py"`.
+
+Local validation covers pack integrity, source-table round trips, resource/cost links, UI XML, Lua syntax, separate-pool migration and save-load refresh. The starting-hero replacement has been confirmed in game; the level-one adjustment and multiplayer behaviour still need an in-game check. Campaign changes do not depend on local UI/player state, but multiplayer desynchronisation safety is not yet confirmed.
+
+The complete, ready-to-paste Steam Workshop description (including Khemric Titan and Spirit Hosts, with small feathered unit cards and a Lords and Heroes gallery) is maintained in [docs/steam-workshop-description.txt](docs/steam-workshop-description.txt).
+
+Separate [2× unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are available at 120×260, with the transparent edges from the supplied reference. The larger cards are also included under `ui/units/infopics`, using matching unit filenames. The files in `ui/units/icons` keep their current size and edges.
+
+## Optional test add-ons
+
+[Black Arts](submods/arkhan_black_arts/README.md) adds energy-funded research and a recurring rite. Its separate test pack is built by the **Build main mod and submods** workflow. Technology layout, regional research costs, TKE compatibility and multiplayer require in-game testing.
 
 
-## Compatibility
-
-- Specify relevant compatibility details with other major mods.
-- Known incompatibilities also listed here.
-
-
-## FAQ
-
-Frequently asked questions go here.
-
-### Question
-
-Answer.
-
-### Another question
-
-And yet another answer.
-
-## Credits
-
-- Kudos go here.
-
----
-
-## See also
-
-Any noteworthy links or references.
+[Radious sandy cards](submods/arkhan_radious/README.md) provides a replacement Radious compatibility submod with sandy unit and character cards in both sizes. Its pack is built by the same queued workflow; the main mod and Radious remain required.

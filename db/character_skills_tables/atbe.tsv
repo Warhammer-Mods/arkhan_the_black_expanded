@@ -1,0 +1,53 @@
+image_path	key	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/atbe									
+battle_magic.png	wh2_dlc09_skill_tmb_arkhan_unique_0_new			0	false	false	false	0.0	0
+wh3_dlc29_lore_passive_raise_the_dead.png	wh2_dlc09_skill_tmb_arkhan_unique_1_new			0	false	false	false	0.0	0
+battle_armour.png	wh2_dlc09_skill_tmb_arkhan_unique_2_new			0	false	false	false	0.0	0
+wh2_dlc11_cynosure.png	wh2_dlc09_skill_tmb_arkhan_unique_3_new			0	false	false	false	0.0	0
+battle_experience.png	wh2_dlc09_skill_tmb_arkhan_unique_4_new			0	false	false	false	0.0	0
+character_necromantic_energy.png	wh2_dlc09_skill_tmb_arkhan_unique_5_new			0	false	false	false	0.0	0
+character_mystic_sigils.png	stephen_skill_eternal_veil			0	false	false	false	0.0	0
+character_health.png	stephen_skill_rise_of_nagash_skilldump			0	false	false	false	0.0	0
+character_replenishment.png	stephen_skill_liche_priest_unique_1			0	false	false	false	0.0	0
+wh2_dlc09_reanimate.png	stephen_skill_tmb_lord_reanimation			0	false	false	false	0.0	0
+wh2_dlc09_reanimate_upgraded.png	stephen_skill_tmb_lord_reanimation_upgraded			0	false	false	false	0.0	0
+battle_attack.png	stephen_skilll_dummy_agent_actions_liche_priest		Actions [HIDDEN]	0	false	false	false	0.0	0
+character_general_ability.png	stephen_skill_strigoi_ghoul_king_title		King Title [HIDDEN]	0	false	false	false	0.0	0
+character_general_ability.png	stephen_skill_tmb_necrarch_title		Liche Title [HIDDEN]	0	false	false	false	0.0	0
+character_general_ability.png	stephen_skill_tmb_lahmian_title		Liche Title [HIDDEN]	0	false	false	false	0.0	0
+character_general_ability.png	stephen_skill_tmb_traitor_king_title		King Title [HIDDEN]	0	false	false	false	0.0	0
+character_general_ability.png	stephen_skill_tmb_master_liche_title		Master Liche Title [HIDDEN]	0	false	false	false	0.0	0
+character_mystic_sigils.png	stephen_skill_tmb_nagash_blessing_0_arkhan			0	false	false	false	0.0	0
+wh_main_spell_vampires_raise_dead.png	stephen_skill_magic_vampires_05_raise_dead_arkhan			0	false	false	false	0.0	0
+wh_main_spell_vampires_raise_dead.png	stephen_skill_magic_vampires_05_raise_dead_arkhan_lord			0	false	false	false	0.0	0
+wh2_dlc09_usurian.png	stephen_skill_bloodline_necrarch_unique_1			0	false	false	false	0.0	0
+wh_main_lore_passive_life_leeching.png	stephen_skill_bloodline_necrarch_unique_2			0	false	false	false	0.0	0
+wh_dlc03_lore_passive_wild_heart.png	stephen_skill_bloodline_necrarch_unique_3			0	false	false	false	0.0	0
+wh2_dlc11_nehekharas_noble_blood.png	stephen_skill_bloodline_necrarch_unique_4			0	false	false	false	0.0	0
+wh_main_character_passive_master_of_the_dead.png	stephen_skill_bloodline_necrarch_unique_5			0	false	false	false	0.0	0
+character_magic.png	stephen_skill_bloodline_necrarch_unique_6			0	false	false	false	0.0	0
+character_cooldown.png	stephen_skill_bloodline_necrarch_unique_7			0	false	false	false	0.0	0
+battle_health.png	stephen_skill_bloodline_necrarch_unique_8			0	false	false	false	0.0	0
+character_replenishment.png	stephen_skill_bloodline_necrarch_unique_9			0	false	false	false	0.0	0
+character_magic.png	stephen_skill_bloodline_necrarch_unique_10			0	false	false	false	0.0	0
+wh2_dlc11_cynosure.png	stephen_skill_bloodline_necrarch_unique_11			0	false	false	false	0.0	0
+wh_main_spell_vampires_raise_dead.png	stephen_skill_bloodline_necrarch_magic_raise_dead			0	false	false	false	0.0	0
+battle_attack.png	stephen_skill_magic_necrarch_dummy_invocation_of_nehek_incantation_of_cursed_blades		Invocation of Nehek [HIDDEN]	0	false	false	false	0.0	0
+wh2_dlc11_lord_abilities_ghoul_king_of_ushoran.png	stephen_bloodline_strigoi_unique_ghoul_king_of_ushoran	Ushoran's legacy is in safe hands.	Ghoul King of Ushoran	0	false	false	false	0.0	0
+wh2_dlc11_bestial_monstrosity.png	stephen_bloodline_strigoi_unique_bestial_monstrosity	The savage beast knows only rage and fury.	Bestial Monstrosity	0	false	false	false	0.0	0
+stalk.png	stephen_bloodline_strigoi_unique_grave_eaters	Feed on the rotting flesh of the buried dead and grow strong.	Grave Eaters	9	false	false	false	0.0	0
+wh2_dlc11_lord_abilities_claws_of_mourkain.png	stephen_bloodline_strigoi_unique_claws_of_mourkain	Some races don't take annihilation lying down, and may take centuries to avenge the slight.	Claws of Mourkain	0	false	false	false	0.0	0
+wh2_dlc11_curse_of_vorag.png	stephen_bloodline_strigoi_unique_curse_of_vorag	Vorag Bloodytooth swore to rebuild Strigos and avenge himself on its destroyers.	Curse of Vorag	9	false	false	false	0.0	0
+wh2_dlc11_infinite_hatred.png	stephen_bloodline_strigoi_unique_infinite_hatred	It never ends.	Infinite Hatred	9	false	false	false	0.0	0
+wh3_dlc29_lord_passive_arcane_leech.png	stephen_necrarch_lord_special_arcane_leech	{{tr:unit_abilities_tooltip_text_wh3_dlc29_lord_passive_arcane_leech}}	{{tr:unit_abilities_onscreen_name_wh3_dlc29_lord_passive_arcane_leech}}	0	false	false	false	0.0	0
+wh3_dlc29_lord_passive_dark_protection.png	stephen_necrarch_lord_special_dark_protection	{{tr:unit_abilities_tooltip_text_wh3_dlc29_lord_passive_dark_protection}}	{{tr:unit_abilities_onscreen_name_wh3_dlc29_lord_passive_dark_protection}}	0	false	false	false	0.0	0
+character_general_ability.png	stephen_necrarch_lord_special_the_awakening	{{tr:unit_abilities_tooltip_text_wh3_dlc29_lord_abilities_the_awakening}}	{{tr:unit_abilities_onscreen_name_wh3_dlc29_lord_abilities_the_awakening}}	0	false	false	false	0.0	0
+character_general_ability.png	stephen_necrarch_lord_special_hellish_vigour	{{tr:unit_abilities_tooltip_text_wh3_dlc29_lord_abilities_hellish_vigour}}	{{tr:unit_abilities_onscreen_name_wh3_dlc29_lord_abilities_hellish_vigour}}	0	false	false	false	0.0	0
+wh2_dlc11_grave_sentinels.png	stephen_bloodline_necrarch_unique_grave_sentinels	Brought back from death to guard their Unliving masters.	Grave Sentinels	9	false	false	false	0.0	0
+wh2_dlc11_nehekharas_noble_blood.png	stephen_bloodline_necrarch_unique_nehekharas_noble_blood	The dark secrets of Necromantic lore can be found in the cursed scrolls hidden within the lairs of the oldest Vampire Lords of the Necrarch family.	Nehekhara's Noble Blood	0	false	false	false	0.0	0
+character_agent.png	stephen_skill_lahmian_unique_queen_bee	"""Who's queen? That's right… Now, prostrate yourself before me, worm!"""	Queen Bee	0	false	false	false	0.0	0
+character_unit_capacity.png	stephen_skill_lahmian_vampire_first_to_the_kill	"""Give them a taste of what awaits! And do treat yourself to a taste, too."""	Eager for Blood	0	false	false	false	0.0	0
+wh3_dlc29_hero_passive_seduction.png	stephen_skill_bloodline_bewilderment	{{tr:unit_abilities_tooltip_text_wh3_dlc29_hero_passive_seduction}}	{{tr:unit_abilities_onscreen_name_wh3_dlc29_hero_passive_seduction}}	0	false	false	false	0.0	0
+wh2_dlc11_innocence_lost.png	stephen_skill_lahmian_unique_innocence_lost	These deceptive creatures look so inoffensive and vulnerable that the enemy lowers his own defence, which is when they strike…	Innocence Lost	0	false	false	false	0.0	0
+character_public_order.png	stephen_skill_lahmian_vampire_bound_servitude	The Undead display the best type of loyalty, which endures unendingly and without question.	Exquisite Servitude	0	false	false	false	0.0	0
+wh3_dlc29_lord_abilities_mist_form.png	stephen_skill_lahmian_vampire_mist_form	{{tr:unit_abilities_tooltip_text_wh3_dlc29_lord_abilities_mist_form}}	{{tr:unit_abilities_onscreen_name_wh3_dlc29_lord_abilities_mist_form}}	0	false	false	false	0.0	0
