@@ -4,7 +4,7 @@
   "input_sha256": "2cf48507769cbc750095495ae488c69289555da2cff31e5785a015256c60f0fd",
   "patched_sha256": "d5a3efa06653f64320a2440ee60b3789027683667ec400b9aaf0051b884b18e8",
   "input_game_files": 746,
-  "approved_game_files": 755,
+  "approved_game_files": 757,
   "authorised_overlay": "Research energy compatibility fix fef4fc46668b5a9a3faa93d577a317b2eb0b3a75; no older game entries restored.",
   "editor_metadata_excluded": [
     "dependencies_manager_v2.rpfm_reserved",
@@ -6563,6 +6563,22 @@
       "format": "raw",
       "source_path": "src/vfx/wh_main_vampires_gaze_of_nagash_trail_arkhan.xml",
       "source_sha256": "870cb68bf75c74cacdff58a95e4430e932eef5c12a9e1ffdbd82c365e95bb89b"
+    },
+    {
+      "internal_path": "ui/battle ui/ability_icons/wh2_dlc09_army_abilities_realm_of_souls_ushabti.png",
+      "sha256": "dd21bef676c247a80e10f073ac4c8011f90417fb42265601a3548c0cc7d979c9",
+      "bytes": 9493,
+      "format": "raw",
+      "source_path": "src/ui/battle ui/ability_icons/wh2_dlc09_army_abilities_realm_of_souls_ushabti.png",
+      "source_sha256": "dd21bef676c247a80e10f073ac4c8011f90417fb42265601a3548c0cc7d979c9"
+    },
+    {
+      "internal_path": "ui/skins/warhammer2/realm_of_souls_ability.png",
+      "sha256": "43c82303fb3f6dfcc53686b2f668906d8fb402fd693976f3d9c7ccbaf636daed",
+      "bytes": 6037,
+      "format": "raw",
+      "source_path": "src/ui/skins/warhammer2/realm_of_souls_ability.png",
+      "source_sha256": "43c82303fb3f6dfcc53686b2f668906d8fb402fd693976f3d9c7ccbaf636daed"
     }
   ],
   "authorised_additions": [

@@ -1,0 +1,38 @@
+{
+  "method": "Deterministic gold-to-violet hue replacement (275 degrees), original value and saturation, no resizing or redraw.",
+  "scope": "Shared native Tomb Kings summon icons; campaign skin and ability icon.",
+  "files": [
+    {
+      "internal_path": "ui/battle ui/ability_icons/wh2_dlc09_army_abilities_realm_of_souls_ushabti.png",
+      "source_path": "src/ui/battle ui/ability_icons/wh2_dlc09_army_abilities_realm_of_souls_ushabti.png",
+      "source_pack": "ui.pack",
+      "original_sha256": "e4cb7c09a38b16ba066846d185f5be0b392b104e61296618f2e8d2de863ca0c5",
+      "sha256": "dd21bef676c247a80e10f073ac4c8011f90417fb42265601a3548c0cc7d979c9",
+      "source_sha256": "dd21bef676c247a80e10f073ac4c8011f90417fb42265601a3548c0cc7d979c9",
+      "bytes": 9493,
+      "format": "raw",
+      "dimensions": [
+        59,
+        59
+      ],
+      "changed_pixels": 2377,
+      "alpha_changes": 0
+    },
+    {
+      "internal_path": "ui/skins/warhammer2/realm_of_souls_ability.png",
+      "source_path": "src/ui/skins/warhammer2/realm_of_souls_ability.png",
+      "source_pack": "ui.pack",
+      "original_sha256": "18362e329cb2b14b644ef0b00b6455ccf459eebee827669e420436b686dcefb0",
+      "sha256": "43c82303fb3f6dfcc53686b2f668906d8fb402fd693976f3d9c7ccbaf636daed",
+      "source_sha256": "43c82303fb3f6dfcc53686b2f668906d8fb402fd693976f3d9c7ccbaf636daed",
+      "bytes": 6037,
+      "format": "raw",
+      "dimensions": [
+        46,
+        46
+      ],
+      "changed_pixels": 1444,
+      "alpha_changes": 0
+    }
+  ]
+}
