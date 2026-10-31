@@ -1,6 +1,5 @@
 local stephen_tmb_tomb_king_unlocks_techs = {
-    ["stephen_tech_arkhan_unlock_1"] = {forename = "names_name_159753854", surname = "", subtype = "stephen_tmb_necrarch_vampire_lord"},              -- Thutmocris
-    ["stephen_tech_arkhan_unlock_2"] = {forename = "names_name_159753853", surname = "", subtype = "stephen_tmb_strigoi_ghoul_king"},             -- Talongore
+    ["stephen_tech_arkhan_unlock_1"] = {forename = "names_name_159753854", surname = "", subtype = "stephen_tmb_necrarch_vampire_lord"},              -- Thutmocris            -- Talongore
     ["stephen_tech_arkhan_unlock_3"] = {forename = "names_name_159753857", surname = "", subtype = "stephen_tmb_lahmian_vampire_lord"}             -- Khestra     
 };
 

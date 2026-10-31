@@ -70,6 +70,7 @@ stephen_faction_effect_resources_dummy	construction.png	1	construction.png	campa
 stephen_effect_title_necrarch		0		campaign	true
 stephen_effect_title_traitor_king		0		campaign	true
 stephen_effect_title_master_liche		0		campaign	true
+stephen_strigoi_ghoul_king_title		0		campaign	true
 stephen_unit_stat_health_zombies	health_character.png	9	health_character.png	battle	true
 stephen_melee_attack_zombies	melee.png	431	melee.png	battle	true
 stephen_melee_defence_zombies	defence.png	451	defence.png	battle	true
@@ -91,3 +92,4 @@ stephen_wayfarer_bats_wolves	general_ability.png	121	charge.png	battle	true
 stephen_frenzy_crypt_ghouls_crypt_horrors	general_ability.png	311	general_ability.png	battle	true
 stephen_ward_save_zombies	resistance_ward_save.png	581	resistance_ward_save.png	battle	true
 stephen_physical_resistance_crypt_ghouls_crypt_horrors	resistance_physical.png	581	resistance_physical.png	battle	true
+stephen_mass_vampiric_cav_beasts	mass.png	430	mass.png	battle	true

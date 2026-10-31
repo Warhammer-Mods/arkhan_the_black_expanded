@@ -5,6 +5,7 @@ campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_o
 	stephen_skill_liche_priest_undeath_mount_steed		0	stephen_liche_priest_undeath_mount_skeletal_steed	0		0	0	true
 	stephen_skill_liche_priest_light_mount_steed		0	stephen_liche_priest_light_mount_skeletal_steed	0		0	0	true
 	stephen_skill_liche_priest_nehekhara_mount_steed		0	stephen_liche_priest_nehekhara_mount_skeletal_steed	0		0	0	true
+	stephen_skill_liche_priest_vampire_mount_steed		0	stephen_liche_priest_vampire_mount_skeletal_steed	0		0	0	true
 	stephen_skill_tomb_prince_mount_steed		0	stephen_skill_node_tomb_prince_mount_1	0		0	0	true
 	stephen_skill_tomb_prince_mount_chariot		0	stephen_skill_node_tomb_prince_mount_2	1		0	0	true
 	stephen_skill_necrotect_mount_chariot		0	stephen_skill_node_necrotect_mount_chariot	0		0	0	true
@@ -14,3 +15,15 @@ campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_o
 	stephen_skill_tomb_herald_skeletal_steed		0	stephen_tomb_herald_mount_skeletal_steed	0		0	0	true
 	stephen_skill_tomb_herald_skeleton_chariot		0	stephen_tomb_herald_mount_chariot	1		0	0	true
 	wh2_main_skill_all_hero_passive_spread_corruption_vmp		5	stephen_tomb_herald_campaign_2	1		0	0	true
+	wh_main_skill_vmp_magic_vampires_01_invocation_of_nehek		3	stephen_skill_node_liche_vampire_magic_01	0		0	0	true
+	wh_main_skill_vmp_magic_vampires_03_the_curse_of_undeath		3	stephen_skill_node_liche_vampire_magic_02	1		0	0	true
+	wh_main_skill_vmp_magic_vampires_02_vanhels_danse_macabre		3	stephen_skill_node_liche_vampire_magic_03	2		0	0	true
+	wh_main_skill_vmp_magic_vampires_04_gaze_of_nagash		3	stephen_skill_node_liche_vampire_magic_04	3		0	0	true
+	stephen_skill_magic_vampires_05_raise_dead_arkhan		3	stephen_skill_node_liche_vampire_magic_05	4		0	0	true
+	wh_main_skill_all_magic_all_06_evasion		3	stephen_skill_node_liche_vampire_magic_06	5		0	4	true
+	wh_main_skill_all_magic_all_07_earthing		3	stephen_skill_node_liche_vampire_magic_07	8		0	0	true
+	wh_main_skill_all_magic_all_08_power_drain		3	stephen_skill_node_liche_vampire_magic_08	9		0	0	true
+	wh_main_skill_vmp_magic_vampires_09_curse_of_years		3	stephen_skill_node_liche_vampire_magic_09	6		0	0	true
+	wh_main_skill_vmp_magic_vampires_10_wind_of_death		3	stephen_skill_node_liche_vampire_magic_10	7		0	0	true
+	wh_main_skill_all_magic_all_11_arcane_conduit		3	stephen_skill_node_liche_vampire_magic_11	10		0	4	true
+	wh2_main_skill_vmp_magic_vampires_dummy_invocation_of_nehek_danse_macabre		8	stephen_skill_noder_liche_vampire_magic_dummy	11		1	0	false

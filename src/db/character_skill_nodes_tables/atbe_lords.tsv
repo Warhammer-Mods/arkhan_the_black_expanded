@@ -41,6 +41,7 @@ campaign_key	character_skill_key	faction_key	indent	key	tier	subculture	points_o
 	stephen_skill_tomb_king_mount_warsphinx		0	stephen_skill_tomb_king_mount_warsphinx	2		0	0	true
 	wh2_dlc09_skill_tmb_dummy_immortality		8	stephen_tomb_king_immortality	0		1	0	false
 	stephen_skill_tmb_traitor_king_title		8	stephen_tomb_king_hidden_title	1		1	0	false
+	stephen_skill_strigoi_title		8	stephen_strigoi_title	1		1	0	false
 	stephen_skill_tmb_master_liche_title		8	stephen_master_liche_title	1		1	0	false
 	stephen_skill_master_liche_death_mount_steed		0	stephen_skill_node_master_liche_death_mount_steed	0		0	0	true
 	stephen_skill_master_liche_death_mount_chariot		0	stephen_skill_node_master_liche_death_mount_chariot	1		0	0	true

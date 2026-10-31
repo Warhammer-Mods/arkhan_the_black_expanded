@@ -1,4 +1,5 @@
 """Verify main-pack source paths against the current user-approved baseline."""
+import csv
 import json
 from pathlib import Path
 import sys
@@ -27,6 +28,14 @@ for path in sorted(expected - actual.keys()):
     errors.append(f"Missing approved game file: {path}")
 for path in sorted(actual.keys() - expected):
     errors.append(f"Unexpected game file outside the approved baseline: {path}")
+# Guard against restoring the removed units as rows in shared DB fragments.
+removed_units = set(manifest.get("removed_unit_keys", []))
+for path in sorted((source_root / "db").rglob("*.tsv")):
+    rows = csv.reader(path.read_text(encoding="utf-8-sig").splitlines(),
+                      delimiter="\t", quoting=csv.QUOTE_NONE)
+    for line, row in enumerate(rows, 1):
+        if line > 2 and removed_units.intersection(row):
+            errors.append(f"{path}:{line}: removed standalone unit reference")
 for error in errors:
     print(f"::error::{error}")
 print(f"Main pack inventory: {len(actual)} paths; expected {len(expected)}; {len(errors)} errors.")

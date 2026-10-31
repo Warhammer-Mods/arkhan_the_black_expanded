@@ -8,6 +8,7 @@ campaign_key	faction_key	image_path	level	skill_key	subculture_key	unlocked_at_r
 		x	1	stephen_skill_liche_priest_undeath_mount_steed		6
 		x	1	stephen_skill_liche_priest_light_mount_steed		6
 		x	1	stephen_skill_liche_priest_nehekhara_mount_steed		6
+		x	1	stephen_skill_liche_priest_vampire_mount_steed		6
 		x	1	stephen_skill_strigoi_ghoul_king_mount_terrorgheist		19
 		x	1	stephen_skill_arkhan_mount_dread_abyssal		17
 		x	1	stephen_skill_tomb_king_mount_steed		3

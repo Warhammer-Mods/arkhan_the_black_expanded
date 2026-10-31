@@ -8,3 +8,4 @@ stephen_tmb_income			money	false	stephen_tmb_income		12		true	false
 stephen_tmb_estate			money	false	stephen_tmb_estate		14		true	false
 stephen_tmb_necropolis			military	false	stephen_tmb_necropolis		15		true	false
 stephen_tmb_titans			military	false	stephen_tmb_titans		4		true	false
+stephen_tmb_spirits			military	false	stephen_tmb_spirits		0		true	false

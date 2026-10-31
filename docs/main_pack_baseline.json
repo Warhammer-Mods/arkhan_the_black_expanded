@@ -1,11 +1,12 @@
 {
-  "date": "2026-10-22",
-  "baseline_file": "arkhan_the_black_expanded.pack",
-  "input_sha256": "2cf48507769cbc750095495ae488c69289555da2cff31e5785a015256c60f0fd",
-  "patched_sha256": "d5a3efa06653f64320a2440ee60b3789027683667ec400b9aaf0051b884b18e8",
-  "input_game_files": 746,
-  "approved_game_files": 757,
-  "authorised_overlay": "Research energy compatibility fix fef4fc46668b5a9a3faa93d577a317b2eb0b3a75; no older game entries restored.",
+  "date": "2026-10-31",
+  "baseline_file": "Discord attachment 1566187714234032188/arkhan_the_black_expanded.zip",
+  "archive_sha256": "c088e877d506b879d6e1a225516372af9a947a9c7ce4f3a66939481ea3d4e264",
+  "input_sha256": "8b5ef9b20b4153ed417c895e86b273d456126a51d4c2b064c9315ce6ca16982e",
+  "patched_sha256": "d4a98e364bb77d9da3ddec640e23a255b44713144c5c4f304ab1e776dc6e413b",
+  "input_game_files": 724,
+  "approved_game_files": 724,
+  "authorised_overlay": "Retain the already-requested Old World starting-centre fix in script/campaign/mod/arkhan_land_of_the_dead.lua. No missing game entries or DB rows restored.",
   "editor_metadata_excluded": [
     "dependencies_manager_v2.rpfm_reserved",
     "notes.rpfm_reserved",
@@ -526,7 +527,7 @@
     },
     {
       "internal_path": "db/ability_to_ui_collection_junctions_tables/atbe",
-      "sha256": "0186c69a54e043a3a5051a037ef626dc67930e8b42b1805e917d0d70a09a26f9",
+      "sha256": "6b1b8a6ebe7498abf2e706cd5a83d712684f54529b11137a49c084ddae17abb7",
       "bytes": 367,
       "format": "TSV",
       "version": 0,
@@ -536,27 +537,27 @@
     },
     {
       "internal_path": "db/agent_recruitment_categories_tables/atbe",
-      "sha256": "1200a3cf074207ca4c372a80309fddd49d460281fc2861cbb309a86b858e880c",
-      "bytes": 360,
+      "sha256": "3ab90492871a804d523cf442a17228af4efc03759b924371f3ff8c8dee926fa0",
+      "bytes": 446,
       "format": "TSV",
       "version": 2,
-      "rows": 3,
+      "rows": 4,
       "source_path": "src/db/agent_recruitment_categories_tables/atbe.tsv",
-      "source_sha256": "10c6b033704472d284c6b9a91a59ce3c389eec87fdf058a46ccb721651051c8c"
+      "source_sha256": "1be9dfb97615b97f806e61401c6a57df3cfc9335af3694e625a90523c768e59b"
     },
     {
       "internal_path": "db/agent_subtypes_tables/atbe",
-      "sha256": "e3eab84402f7f57bba5dfb99087389e996f690304b683e7ce9e41b1232ccc6dc",
-      "bytes": 4272,
+      "sha256": "010eea6291e413c3f31c8df658ef1104f218ac8fe2b3b3df85230ec957ffb330",
+      "bytes": 4488,
       "format": "TSV",
       "version": 3,
-      "rows": 18,
+      "rows": 19,
       "source_path": "src/db/agent_subtypes_tables/atbe.tsv",
-      "source_sha256": "426b266b370ef19a4bf40e81daf7bc24739bac2df08179696d8f00d11188dad7"
+      "source_sha256": "3194d8968f0e56cc56fba21e38d8b00f9ca5c6d1bc4be2e3672c840e88afd132"
     },
     {
       "internal_path": "db/agent_uniforms_tables/atbe",
-      "sha256": "fdf154ce806f0e70e65bedec2ed20d0fb8da3e1f3819e5bb61862fdc0be2094f",
+      "sha256": "26f1e047413da074495d5d44f17992fe479998735d98e8451b808b7604de2201",
       "bytes": 8812,
       "format": "TSV",
       "version": 10,
@@ -566,7 +567,7 @@
     },
     {
       "internal_path": "db/allied_recruitment_unit_permissions_tables/atbe",
-      "sha256": "2bbec327d94f18490b98d302e5d54c08c0aa4ba70e79aed4e32aa579b368bded",
+      "sha256": "8b0dbaf7de1d3a8244d97958fc8d0fdc0002dbe16550f1ce2d38aff503e90d68",
       "bytes": 615,
       "format": "TSV",
       "version": 0,
@@ -576,87 +577,87 @@
     },
     {
       "internal_path": "db/ancillaries_included_agent_subtypes_tables/atbe",
-      "sha256": "3090f65d2dd4dd5aab2b43bef8162fb081f6bc88c6a84d4cb3e001256a7c8c58",
-      "bytes": 2150,
+      "sha256": "200ce1ff6fdebbd0cbe447af08d8621e8a6f6c83d07f4430cfbda960da35df13",
+      "bytes": 2230,
       "format": "TSV",
       "version": 0,
-      "rows": 28,
+      "rows": 29,
       "source_path": "src/db/ancillaries_included_agent_subtypes_tables/atbe.tsv",
-      "source_sha256": "3a3835511e85f132970b974f347918c3588210fec72b06df01718f0c2a12f3a1"
+      "source_sha256": "bdc10ef4ced933828002d79c501b77e8252312988aa00a2a706bcd9cf00394f5"
     },
     {
       "internal_path": "db/ancillaries_required_skills_tables/atbe",
-      "sha256": "b726c343caff07e674a86e78ffbe6b8f79f54e54b9b63eb01fb18423fe8461f9",
-      "bytes": 2596,
+      "sha256": "76e636909b2e0547efce7698025a2b3169db35a7edcc703dde116023f96213ea",
+      "bytes": 2694,
       "format": "TSV",
       "version": 0,
-      "rows": 28,
+      "rows": 29,
       "source_path": "src/db/ancillaries_required_skills_tables/atbe.tsv",
-      "source_sha256": "8c38e550ba365f9daa08acf8977d7d15166af472ab18d2aff11521fff46785a9"
+      "source_sha256": "a10d50e3faae69ccea0f0cfdd91f51262b1b766b86ac89065502ef8b2e0b4fa7"
     },
     {
       "internal_path": "db/ancillaries_tables/atbe",
-      "sha256": "b9ff285df7624584cdfd47a3b4fe0dab492426e338fad74905455296ba925199",
-      "bytes": 5275,
+      "sha256": "0da0604185565548878314c0c4846818839e973b026c171e8529dd1863907ef5",
+      "bytes": 5467,
       "format": "TSV",
       "version": 0,
-      "rows": 28,
+      "rows": 29,
       "source_path": "src/db/ancillaries_tables/atbe.tsv",
-      "source_sha256": "60980f133e48d30e0fb14ad5c2c23155377020999492ece54be80bc2288b9efb"
+      "source_sha256": "d8aed10e3fba8f4c0b7ee7dfd36e7d403b54bfae7c11372eb7cff019f67de5d3"
     },
     {
       "internal_path": "db/ancillary_info_tables/atbe",
-      "sha256": "9b00d437c805391e294f0b41cc660260b2cbd12b7ce4908d508b5287be4bb9db",
-      "bytes": 1265,
+      "sha256": "33b237561b605ea557a9ac09fe6f486e75059c0734a1755b155338de46e41367",
+      "bytes": 1311,
       "format": "TSV",
       "version": 0,
-      "rows": 28,
+      "rows": 29,
       "source_path": "src/db/ancillary_info_tables/atbe.tsv",
-      "source_sha256": "ea6c73fce6a9be83a25ec7e0b49b8445cf73dc46271237c4b42a31e3d26b1bd1"
+      "source_sha256": "2eb151e1eb9d55d21a5f97dfa686f817b0d3b59a0b846e058d073b119532e81b"
     },
     {
       "internal_path": "db/ancillary_to_included_agents_tables/atbe",
-      "sha256": "953da695f27ca46ae7668998b8aaa69defbff3c67d3cd5e3e0af124f70e52930",
-      "bytes": 1519,
+      "sha256": "e20063baf07596b537871b67b8a50400dd082b5818bdf29cb8ecdd194e7e4c70",
+      "bytes": 1573,
       "format": "TSV",
       "version": 0,
-      "rows": 28,
+      "rows": 29,
       "source_path": "src/db/ancillary_to_included_agents_tables/atbe.tsv",
-      "source_sha256": "920dfc0dc109f65a547a194d584d7f852379233d9dcd49bdbfdd948f551fe557"
+      "source_sha256": "f39ad6ce45e47ecebac00d7ec9d807d7cc469c9b684360096dd920ed5c198b43"
     },
     {
       "internal_path": "db/ancillary_types_tables/atbe",
-      "sha256": "2dda7630261f4efc33c16fbf48083f62bddde6b41b2db39b14710ef4c05a7e74",
-      "bytes": 2399,
+      "sha256": "1a1f0e27e47bed07766955f083e8ff26f02dbbce587acfc8f093cb4cd8e2822f",
+      "bytes": 2493,
       "format": "TSV",
       "version": 0,
-      "rows": 26,
+      "rows": 27,
       "source_path": "src/db/ancillary_types_tables/atbe.tsv",
-      "source_sha256": "b20b264fb53d46c03f636d65d1a919e982da0f3a75f65c791deb84849bc98456"
+      "source_sha256": "398470e7841194ec39bbe1653869075f278e021663ba2737b31931740f669710"
     },
     {
       "internal_path": "db/armed_citizenry_unit_groups_tables/atbe",
-      "sha256": "9eb22143f70db4c1f31634f35f5a8e3383a34123ddcd248cd4cec03a590787ed",
-      "bytes": 149,
+      "sha256": "d13ac0a8628a926ead4abfb400046a35fe285cf66183736a6c50db14b8d42690",
+      "bytes": 254,
       "format": "TSV",
       "version": 0,
-      "rows": 3,
+      "rows": 6,
       "source_path": "src/db/armed_citizenry_unit_groups_tables/atbe.tsv",
-      "source_sha256": "c499a2175ac679175c266eae7ec44cad77b75f1f00170bc019636bfbd14f85b2"
+      "source_sha256": "c8a7ab11fe99272cfa8ca734a8ce9fdeae34a6e920684e3f44f0eefd6c611cca"
     },
     {
       "internal_path": "db/armed_citizenry_units_to_unit_groups_junctions_tables/atbe",
-      "sha256": "7cb3882ba84843f4a1028416797e0baaf0d1fc3eacbd3c710705197b5c0ef554",
-      "bytes": 853,
+      "sha256": "15e502758789d14667f2a6799fa2b34cdf98d4139424c2d4be5afaa8a15e702f",
+      "bytes": 2192,
       "format": "TSV",
       "version": 0,
-      "rows": 12,
+      "rows": 29,
       "source_path": "src/db/armed_citizenry_units_to_unit_groups_junctions_tables/atbe.tsv",
-      "source_sha256": "451a1288ca2007a58c74e3b7879cce634823f187d5d48e444a207cc50798225d"
+      "source_sha256": "adc170e5f91ef57e79191f85fc3abfc515969e1047429b56c7ceaa88d65e2fdb"
     },
     {
       "internal_path": "db/army_special_abilities_for_faction_junctions_tables/atbe",
-      "sha256": "1f31bc50048b6f62e40eec2cb593199559d76416a1dd0e4a6ed61238d19ac204",
+      "sha256": "cbbed0e00aa140cca67f18b92915be0c73412e6b971ca4802a3d235013e9d493",
       "bytes": 258,
       "format": "TSV",
       "version": 1,
@@ -666,7 +667,7 @@
     },
     {
       "internal_path": "db/army_special_abilities_tables/atbe",
-      "sha256": "c8887e5222c0b54eb7b5b694d6573a148408f7e23b7539dba1d69a06b3f5e312",
+      "sha256": "e9638fa89551e246bb8fae8282597c499d8d096b4e9b62f20bd187202860849b",
       "bytes": 299,
       "format": "TSV",
       "version": 2,
@@ -676,7 +677,7 @@
     },
     {
       "internal_path": "db/audio_technologies_tables/atbe",
-      "sha256": "feb6fbd51877f55d33a53f7da63c40fdbfd6bbd05e3ad30db444e74d7bb3999f",
+      "sha256": "d7549494a6b538ed018f0cdba9526163e9b3d52d0054008fa3744e92feb6ac84",
       "bytes": 2525,
       "format": "TSV",
       "version": 0,
@@ -686,7 +687,7 @@
     },
     {
       "internal_path": "db/battle_animations_table_tables/atbe",
-      "sha256": "85e189e513217eee97a067a2262de9b1473bca25d0d68a45ba2353273f438f9e",
+      "sha256": "737e4f6c861bb6b68c4af8bc1f83b12b0396b065868a5c4e89ff0437c3294e6a",
       "bytes": 833,
       "format": "TSV",
       "version": 0,
@@ -696,7 +697,7 @@
     },
     {
       "internal_path": "db/battle_currency_unit_abilities_cost_values_tables/atbe",
-      "sha256": "8f115f15b31657ebdc621ea8e85c531bb20bced0bdea2458fddc4ab53ea13432",
+      "sha256": "5cb825177055240e66a321769686d72a67846cd09c8d77451c1bfbf4ef16be02",
       "bytes": 281,
       "format": "TSV",
       "version": 0,
@@ -706,17 +707,17 @@
     },
     {
       "internal_path": "db/battle_entities_tables/atbe",
-      "sha256": "79a805596a24573b3c0f9931abe04f82a303e441d66617b7d1fc8d4cdacdf4f4",
-      "bytes": 4862,
+      "sha256": "d64c19eea711bdf12a986726095dffd7accea2275b759c636bc976548518f0b0",
+      "bytes": 5185,
       "format": "TSV",
       "version": 39,
-      "rows": 15,
+      "rows": 16,
       "source_path": "src/db/battle_entities_tables/atbe.tsv",
-      "source_sha256": "18f1e2bf1fb8cfaee52fb909cadfc471fe55520d61d5247b47dd0445ae4ed8d4"
+      "source_sha256": "4a21132c65b7ec79444500c9c2303b9c2249b5b77ff44927745bfe4589c91bcd"
     },
     {
       "internal_path": "db/battle_entity_stats_tables/atbe",
-      "sha256": "b58ee88e4abdf71f59c90bf628115ed194e8ddf8fcac7be57f18e9f760d7730b",
+      "sha256": "7ae18f1cd955a2aabcf01ea091ef8c0d4f4159e04accbcac69754e3ef37e5573",
       "bytes": 141,
       "format": "TSV",
       "version": 2,
@@ -726,7 +727,7 @@
     },
     {
       "internal_path": "db/battle_personalities_tables/atbe",
-      "sha256": "10b7192bb330a1f2d1d4451fa9199885009d51d336aef6ba062b0add5da4b0f7",
+      "sha256": "9ecd63ac53653fefdf6b6b85f40504a20611b169092374c40b5f3f9a66aa2025",
       "bytes": 6624,
       "format": "TSV",
       "version": 12,
@@ -736,7 +737,7 @@
     },
     {
       "internal_path": "db/battle_vortexs_tables/atbe",
-      "sha256": "b772a7090a88312351be9be8b455e4b45a3220b3bd24e2009a5ab8a38fe549fa",
+      "sha256": "6246ebc7f9f6539c6306b417409266432445c4eb523a2a45819eee9f3f8af007",
       "bytes": 357,
       "format": "TSV",
       "version": 20,
@@ -746,7 +747,7 @@
     },
     {
       "internal_path": "db/battlefield_engines_tables/im_mortal__screaming_skull_catapult",
-      "sha256": "f9d926563ea2a88807d45e4348522902f77602b4fc84ec9b91788620dfe62a82",
+      "sha256": "209d7b212c4e801345236c40c82b2083df2439f89ffae96c1509d9a80600090a",
       "bytes": 423,
       "format": "TSV",
       "version": 24,
@@ -756,47 +757,47 @@
     },
     {
       "internal_path": "db/building_chain_availability_sets_tables/atbe",
-      "sha256": "e8c361c3287b8f786fa4e06e44dc9998005bcab4ea30309824b78b8a35381790",
-      "bytes": 502,
-      "format": "TSV",
-      "version": 0,
-      "rows": 9,
-      "source_path": "src/db/building_chain_availability_sets_tables/atbe.tsv",
-      "source_sha256": "95feb7a39b37c184d046618ed0660874d7b72fc17469162af0099c8a8645ae0c"
-    },
-    {
-      "internal_path": "db/building_chain_set_items_tables/atbe",
-      "sha256": "d3960261a28f8a084a3b5bc54bb4bb4bca45014aacfbec524b683272762fe2ff",
-      "bytes": 776,
+      "sha256": "214da9f95bc5366f88cfe88afe540b2d3821206c6228b6286e23d57caf301d2d",
+      "bytes": 542,
       "format": "TSV",
       "version": 0,
       "rows": 10,
+      "source_path": "src/db/building_chain_availability_sets_tables/atbe.tsv",
+      "source_sha256": "d3eaa6c5534c94f42f39755b0492a6c912e5ff4aaf519eba7ed213dda6ce8b78"
+    },
+    {
+      "internal_path": "db/building_chain_set_items_tables/atbe",
+      "sha256": "3bc2eb1b9edcd8e7dd14b9afafe64a0c7d3ee1b8119edd0e0ce02d7a7d36a96a",
+      "bytes": 839,
+      "format": "TSV",
+      "version": 0,
+      "rows": 11,
       "source_path": "src/db/building_chain_set_items_tables/atbe.tsv",
-      "source_sha256": "44acf0f8aecd1f922c2ed8ab67928250fe1bdf67fb9949ce7a9f307d3bb6b2f6"
+      "source_sha256": "23d7a4d12c1033c2ee4f8a99b9dd452fea30c33c4eaeb7553af9af7500b0e481"
     },
     {
       "internal_path": "db/building_chains_tables/atbe",
-      "sha256": "d62eede946ce1efa42d7314988d74d30cac945e3a6e9ba8d309f331558bb1bcc",
-      "bytes": 630,
+      "sha256": "12fa7c39b3d3b493e64e88d34f3ddade2fa0b39a92e9fc7d5d41440afc71f3ba",
+      "bytes": 694,
       "format": "TSV",
       "version": 10,
-      "rows": 8,
+      "rows": 9,
       "source_path": "src/db/building_chains_tables/atbe.tsv",
-      "source_sha256": "eddce1a2292510a06bad79168043126bec5ccb28744b142b1c36ab16ed1b0e02"
+      "source_sha256": "301f1b36b0afe7871e4721dc1b785c45402e30428df91b45b5ce47653da717d0"
     },
     {
       "internal_path": "db/building_culture_variants_tables/atbe",
-      "sha256": "55f4c1803e13ccb1a54c43ba09cf5ff9837ace5f77e0e2e918376d5a604a6337",
-      "bytes": 9174,
+      "sha256": "8884d96c6055d2824cbcc5800fda5748846cdb987eebf59f97291958e0a7ee5f",
+      "bytes": 9257,
       "format": "TSV",
       "version": 5,
-      "rows": 63,
+      "rows": 64,
       "source_path": "src/db/building_culture_variants_tables/atbe.tsv",
-      "source_sha256": "4c4640c77ff4d8e69777bd788751dc5c5223fe7e13feb4e1b13e808e8edbff71"
+      "source_sha256": "38d609eb395ca33bb47915c38eeef002bf52eaecd49cb5fc48c7894bed096d03"
     },
     {
       "internal_path": "db/building_effect_context_expressions_tables/atbe",
-      "sha256": "acdfb398c7eeef0f1f0111be46532ddf246794baad34cee4ceed2ca72b1942fa",
+      "sha256": "193d2315869556a867d3e0e21d09b991d26bbf25917ee9cc14d877cbd3463e62",
       "bytes": 921,
       "format": "TSV",
       "version": 2,
@@ -806,37 +807,37 @@
     },
     {
       "internal_path": "db/building_effects_junction_tables/atb_effects",
-      "sha256": "cee9ac0d6a2a2eb89d7c08ba8fcdb9b05b0cb4bbf7b3ed1882bc74e32c7bf11a",
-      "bytes": 19894,
+      "sha256": "e8d1da0ebbc06aba7fca5c5142af43e38cef2e6302f0fa3aabffe7cc20db92be",
+      "bytes": 16362,
       "format": "TSV",
       "version": 0,
-      "rows": 159,
+      "rows": 130,
       "source_path": "src/db/building_effects_junction_tables/atb_effects.tsv",
-      "source_sha256": "482989a4742b9607854fc50698b45bb4ef212ffc92479a9189b803b6c5d39091"
+      "source_sha256": "d36b4a4f72401165915e673880386d47d03d6065d9b08a0641c8291ead1167dc"
     },
     {
       "internal_path": "db/building_effects_junction_tables/atb_landmarks",
-      "sha256": "9c0f76574c6874f843f4022d185ce3f5e65caa3cc7625dff1dde6b3c871e687f",
-      "bytes": 208,
+      "sha256": "26f5fe2ae50a7fd411256ae44453dbce3bbbcee5549d6c6b46635910632d4d0b",
+      "bytes": 351,
       "format": "TSV",
       "version": 0,
-      "rows": 1,
+      "rows": 2,
       "source_path": "src/db/building_effects_junction_tables/atb_landmarks.tsv",
-      "source_sha256": "83afc8a7b99d42b5cc483c059b846d2a49dda32d184b6e8f819fc3c251bad581"
+      "source_sha256": "55aef491c9e5924c1f652c1df6930568d92abeffcc3e3a4f0a5c8c83d5c1b20b"
     },
     {
       "internal_path": "db/building_instances_tables/atbe",
-      "sha256": "9cff07d2e20d3e5141b52c767201cbde3e09e15dd86283953ff8ebee3facdc3e",
-      "bytes": 238,
+      "sha256": "e687670c294e97519ab20c50776561123bc467682198b7ed2f29b2b5013158fe",
+      "bytes": 263,
       "format": "TSV",
       "version": 0,
-      "rows": 6,
+      "rows": 7,
       "source_path": "src/db/building_instances_tables/atbe.tsv",
-      "source_sha256": "494c7039c0fd31b313e2989af2e3ea70729cde455f580ac5126681b8a25f6f35"
+      "source_sha256": "fa44514bdd259208ff0a1209ab7366e82b4b069b113b0cd96813751c839451d9"
     },
     {
       "internal_path": "db/building_instant_constructions_tables/atbe",
-      "sha256": "a486eb20642f9bbb643d33295ea6a71fa33d7c957539fa5c5394ce16d0b20b24",
+      "sha256": "affec2ebd2e5a94d39c6d903b434038115b174bfcccc316bcdc88aac58167688",
       "bytes": 165,
       "format": "TSV",
       "version": 0,
@@ -846,17 +847,17 @@
     },
     {
       "internal_path": "db/building_level_armed_citizenry_junctions_tables/atbe",
-      "sha256": "150ce3e521088e79b52b6e2c4894458a478711d49da910eef2e0310a4fc3cbc8",
-      "bytes": 500,
+      "sha256": "05f6057fe4b371a7941aaf07c4155dcebdfeaba4263521d40c7fb42100abf542",
+      "bytes": 548,
       "format": "TSV",
       "version": 1,
-      "rows": 6,
+      "rows": 7,
       "source_path": "src/db/building_level_armed_citizenry_junctions_tables/atbe.tsv",
-      "source_sha256": "e326c2c9a7984e8cf29d9984c236a65006bee98c682df4e394a139036759d9b8"
+      "source_sha256": "e89d59cd5fc760d01ca87d832126978d17029294d42b7dc02c38923cd6baeab8"
     },
     {
       "internal_path": "db/building_levels_campaign_bmd_layer_group_junctions_tables/atbe",
-      "sha256": "29e4dbfc3688fea6ac15b9362a5e7e85318b1c31fb17ab5289c950081672e27f",
+      "sha256": "b8c74232e4b5018aac165398da5ccac4eaff3744bacd1cf1d011774c0d9d1cb9",
       "bytes": 251,
       "format": "TSV",
       "version": 0,
@@ -866,47 +867,47 @@
     },
     {
       "internal_path": "db/building_levels_tables/atbe",
-      "sha256": "c2b8add28e86560b8607fa1f06ee38650a96172466d6245e2f6fd9e715182877",
-      "bytes": 2484,
+      "sha256": "7785deb96328428fa5e8b59a8ab842285f18164d3a12e9217a9d5370f749afce",
+      "bytes": 2976,
       "format": "TSV",
       "version": 3,
-      "rows": 19,
+      "rows": 23,
       "source_path": "src/db/building_levels_tables/atbe.tsv",
-      "source_sha256": "d02026420ee05b19f4b009dfcfa08d26d0f286a25884a09f4343e00e1f7b34fd"
+      "source_sha256": "685300b7c9c3e9bd3bc2a87ee233e9dca3d885cd34cf93bd05de426b2434a8f2"
     },
     {
       "internal_path": "db/building_set_to_building_junctions_tables/atbe",
-      "sha256": "4b957cac71e2e2a0efd89460a2939b8467810e5f6b1b8004e1e7f12638ac35b4",
-      "bytes": 2285,
+      "sha256": "fb176c2f2dca18045d23ae27b26fde1506058e3f2e151b52eb297698cf7aa606",
+      "bytes": 2670,
       "format": "TSV",
       "version": 0,
-      "rows": 35,
+      "rows": 41,
       "source_path": "src/db/building_set_to_building_junctions_tables/atbe.tsv",
-      "source_sha256": "50042a9aa4b3c03749bf28cb4541d92a2d4b33782abdc18e56dc94758d1ebad7"
+      "source_sha256": "6f828639dc9060b9019c3c919bfbeac6005b47515e6ec081c4a726639d00ef78"
     },
     {
       "internal_path": "db/building_superchains_tables/atbe",
-      "sha256": "658eacbefb40d6d383dfdef110a9daae8986fe0dca25ead393bc2f6d6f0c37ca",
-      "bytes": 269,
+      "sha256": "ba9c198ba10050d3c5ea9fdc570f157a1af5598c2918ceda956f4dc84bfed9f5",
+      "bytes": 290,
       "format": "TSV",
       "version": 0,
-      "rows": 8,
+      "rows": 9,
       "source_path": "src/db/building_superchains_tables/atbe.tsv",
-      "source_sha256": "aeb7be07207c5631c7a530bd3c4170f78e2454f7daa7039b14c6e2cf36155442"
+      "source_sha256": "1eab65d3fa09194755ef5993427382789b132f11aeda9f8dc4cd60c4de539797"
     },
     {
       "internal_path": "db/building_units_allowed_tables/atbe",
-      "sha256": "828dc63364ba885cc99033ddc2eb84991cf245fa44a7fae19c8a54f2f9403a8d",
-      "bytes": 14567,
+      "sha256": "11a6fd3880f96a54b557457b8b0c458135f25d8601d28b365fbeec30646e2c15",
+      "bytes": 16119,
       "format": "TSV",
       "version": 4,
-      "rows": 127,
+      "rows": 141,
       "source_path": "src/db/building_units_allowed_tables/atbe.tsv",
-      "source_sha256": "da334582daa1be70939032be1977c2db9fd802c6bc3e24d8e2e701e6a6e36bee"
+      "source_sha256": "0b053915e8d64c6cb3cda4936b6a4e15cc48bbe4f9ac8b2c1a98a3981e46238e"
     },
     {
       "internal_path": "db/building_units_allowed_tables/tk_units",
-      "sha256": "5ab3327b028fa5738a95eb738781bf044adf25990f233de5ef28237d857f7af8",
+      "sha256": "56215b780e33187e2c6fccfaf40d35443b4efe43e092306b43aaa88f5266ae9e",
       "bytes": 86869,
       "format": "TSV",
       "version": 4,
@@ -916,7 +917,7 @@
     },
     {
       "internal_path": "db/building_units_allowed_tables/zzzz_extra_lccp",
-      "sha256": "c9725b200652110d6a80e9615886123d95b7d7b0fb556fcc236bd44f3f2d26d9",
+      "sha256": "8ee426c924a835ddf19c553a74526d5719234989a1de8872b335eee66e2ff806",
       "bytes": 10191,
       "format": "TSV",
       "version": 4,
@@ -926,7 +927,7 @@
     },
     {
       "internal_path": "db/building_units_allowed_tables/zzzz_extra_ovn",
-      "sha256": "c737f746e8b1e2dfe3f0d2c92406a3a8b61cd8a9a42e81e492afab3189743822",
+      "sha256": "0d950cc5c575016f5aef63656610e72d1200389f5675ca10932fde1bf47926c7",
       "bytes": 1803,
       "format": "TSV",
       "version": 4,
@@ -936,37 +937,37 @@
     },
     {
       "internal_path": "db/building_upgrades_junction_tables/atbe",
-      "sha256": "3ad10ff14c0bebf6a0c023deb182bbb756f836b25bd2cdaa82910291112fe3d8",
-      "bytes": 609,
+      "sha256": "af11af51c15be7b5c367928a1555cc32f523f13970182182f9332674c07cfc57",
+      "bytes": 747,
       "format": "TSV",
       "version": 0,
-      "rows": 11,
+      "rows": 14,
       "source_path": "src/db/building_upgrades_junction_tables/atbe.tsv",
-      "source_sha256": "a029af39c25cc4e47d3d54ab7222e5ad5a55240fe186474975c681cd5105f28f"
+      "source_sha256": "a22cd7b637cf34c7a0788ef42db6e7523848a7fe248ce4a58a1ae956ad23f5ba"
     },
     {
       "internal_path": "db/cai_construction_system_building_values_tables/atbe",
-      "sha256": "b54a3fd196b30a81b7cedbf0ee0c83bcf0ec184af0020f0370f84968aca81722",
-      "bytes": 1351,
+      "sha256": "2c09ee5f69f72ab48e8be5d3361d5d2b626dfa145a5a870d35df20351dde7f47",
+      "bytes": 1474,
       "format": "TSV",
       "version": 0,
-      "rows": 10,
+      "rows": 11,
       "source_path": "src/db/cai_construction_system_building_values_tables/atbe.tsv",
-      "source_sha256": "6c4557a2e4b19150b2d9af660b8a7adc78017d306a8f572b52e1bca3afd74c2c"
+      "source_sha256": "b01d11860994ced3dd73911e7766647e7d159742bfb75eb09b012453dbd0f25e"
     },
     {
       "internal_path": "db/cai_construction_system_synergies_tables/atbe",
-      "sha256": "50ffaab521101413be4e2acb96765f92054581aa8308563c45f5e27c570da606",
-      "bytes": 803,
+      "sha256": "2db85871c9df9538e079a747d27d34da6c0baf48df74f116c9c9f44c1662fe2c",
+      "bytes": 1429,
       "format": "TSV",
       "version": 1,
-      "rows": 2,
+      "rows": 4,
       "source_path": "src/db/cai_construction_system_synergies_tables/atbe.tsv",
-      "source_sha256": "77827efab5dd8f6c35b659ecfbd2f0c7fe31c04f3f90dd52c0a7b1dc58b49749"
+      "source_sha256": "289ee4552fa86dba7202daaa8d17769e7b735fd399457914da050b9317ada5d7"
     },
     {
       "internal_path": "db/cai_construction_system_unblocking_buildings_tables/atbe",
-      "sha256": "7df2315191558774e0103aa727569f5c99ec856f59868dd963c5cbc2498947f9",
+      "sha256": "fac0bcb96c89309235f17fa4bbf8f14263ce662623f2683f2108c4e8877effa1",
       "bytes": 182,
       "format": "TSV",
       "version": 0,
@@ -976,7 +977,7 @@
     },
     {
       "internal_path": "db/cai_personalities_technology_research_path_junctions_tables/atbe",
-      "sha256": "b2fc60837416bbcd4304ac827f9d9bb71d037977c4a59d1b2b9c7c664929e565",
+      "sha256": "509b22231d1906be97d07947047084de6777830ca52db145254c35075463ca17",
       "bytes": 138,
       "format": "TSV",
       "version": 0,
@@ -986,47 +987,57 @@
     },
     {
       "internal_path": "db/campaign_agent_subtype_factorial_effect_junctions_tables/atbe",
-      "sha256": "e652156592be19a610fcc344f5deb7bfd1020be3928d6fe160f9be1437c05708",
-      "bytes": 827,
+      "sha256": "74a155a9c30609064de4e344c6c3471caaf60802e2fd6f763bdfff04ce13220c",
+      "bytes": 924,
       "format": "TSV",
       "version": 0,
-      "rows": 8,
+      "rows": 9,
       "source_path": "src/db/campaign_agent_subtype_factorial_effect_junctions_tables/atbe.tsv",
-      "source_sha256": "6d1a23c000a36e29dc0ee92f3e90aba479cd33e15ccf35e40082079f213ea530"
+      "source_sha256": "c9808cdcbfd0cdf652263925af1df932135c634e10321defec3f24890d44e6c8"
     },
     {
       "internal_path": "db/campaign_ai_technology_path_junctions_tables/atbe",
-      "sha256": "e2deeb8cc0a7ca8e6e69a725fd61ca72832e62b15180cd168939e0f5c03ace8f",
+      "sha256": "c824427a5595e0f4fbf53a4b0c6dd0f8648b8eba22d6da90beb20d6b948683e6",
       "bytes": 2134,
       "format": "TSV",
       "version": 0,
       "rows": 33,
       "source_path": "src/db/campaign_ai_technology_path_junctions_tables/atbe.tsv",
-      "source_sha256": "d75f3420a50ce4a1e60c25bf76dafca561e716d7db9ddfde893c00fb6e619e5f"
+      "source_sha256": "7b5c13c4328ae425b36f83099a6eab546c4c0990e3990b7fd1a3db88f43ee60c"
+    },
+    {
+      "internal_path": "db/campaign_building_level_factorial_effect_junctions_tables/atbe",
+      "sha256": "bf1f7941e976686fdcfbbd51c3d6c36c135580e00c443387b8cb105b7ef7aa51",
+      "bytes": 606,
+      "format": "TSV",
+      "version": 2,
+      "rows": 5,
+      "source_path": "src/db/campaign_building_level_factorial_effect_junctions_tables/atbe.tsv",
+      "source_sha256": "ba53e2ffcf0bf659f9db719ae930ede8d31e949c691e595ad26b5d286146eaef"
     },
     {
       "internal_path": "db/campaign_character_art_sets_tables/atbe",
-      "sha256": "3abba29280ec04c04047f2e222bf5ca77ccc24954ef637eb106cc6d731e811e1",
-      "bytes": 6815,
+      "sha256": "2f0545add722f5ed92dd00837677c83e1dd491112837a4a366faab406715c4a5",
+      "bytes": 7320,
       "format": "TSV",
       "version": 7,
-      "rows": 69,
+      "rows": 74,
       "source_path": "src/db/campaign_character_art_sets_tables/atbe.tsv",
-      "source_sha256": "34d7e165cb02dbf7b83ac3d25221fe671b7c2cfaf7bf6c1a181c160d4c5343ff"
+      "source_sha256": "73d908bea7ab2ca326d7f64318644aaefde96877ae6882ac53cbcca0f5665dc9"
     },
     {
       "internal_path": "db/campaign_character_arts_tables/atbe",
-      "sha256": "27d89330dc75780f06187cab8602f78ca0d9eb8f4f458a54f82728257fb3729a",
-      "bytes": 18297,
+      "sha256": "6640e558e7b2d78c8dc52272a25bde7a42a530c0ae4528e857bd6d240be4f37d",
+      "bytes": 19591,
       "format": "TSV",
       "version": 0,
-      "rows": 69,
+      "rows": 74,
       "source_path": "src/db/campaign_character_arts_tables/atbe.tsv",
-      "source_sha256": "fcb923d6b383476f45d3c3fb4018447c32cdde147c44272aa96d9fdac6b88410"
+      "source_sha256": "9d70574577b1758dd5d8234df4ecfe79eb2fa8e6603b6349b87159308f0955c4"
     },
     {
       "internal_path": "db/campaign_features_tables/atbe",
-      "sha256": "5c31f5c70ad2b535dbe63668b2e02da1c3507b30f6c57dcd4372bef63289136f",
+      "sha256": "e8f22dae697cc2d9eb01aee8c8b0c6460e21ab44b38a570b04ed9bbb780dc663",
       "bytes": 154,
       "format": "TSV",
       "version": 0,
@@ -1036,7 +1047,7 @@
     },
     {
       "internal_path": "db/campaign_group_crafting_infos_tables/atbe",
-      "sha256": "4b2925b44e668842690d62dffaf99b4d29fe9b4a127d6d9ca86343a5d811dc90",
+      "sha256": "6170fed526b7f2237d194ae20f50915d9e1d7c290a21f69a73ca4ffdcf283368",
       "bytes": 140,
       "format": "TSV",
       "version": 0,
@@ -1046,7 +1057,7 @@
     },
     {
       "internal_path": "db/campaign_group_member_criteria_factions_tables/atbe",
-      "sha256": "3388106e8f67561e81c0df2daa7467dcaa667e0bf4c89e65be00bf22270cdd6f",
+      "sha256": "43b1ee0e9c32976d8cf51dec04ea0c6f07fb949851ba8984e2efd2634cbc3a72",
       "bytes": 172,
       "format": "TSV",
       "version": 1,
@@ -1056,7 +1067,7 @@
     },
     {
       "internal_path": "db/campaign_group_members_tables/atbe",
-      "sha256": "a16c805e18f5cf323a807a22b509d0c787a6b86b19c9fda03fb31bdfc08659da",
+      "sha256": "1540bafec052bfaaec3e2c721ab6150b9ba13beefd355ca1d676b88c74311b37",
       "bytes": 1353,
       "format": "TSV",
       "version": 1,
@@ -1066,7 +1077,7 @@
     },
     {
       "internal_path": "db/campaign_group_pooled_resources_tables/arkhan_energy",
-      "sha256": "f5e2697b3167392608a860078e05e017904cb4df0355591ac3ed00268f5eadd3",
+      "sha256": "b7b8617e579fe42167b39aedb4e13b45fca2019c6879e6444cea4a03e3a00742",
       "bytes": 166,
       "format": "TSV",
       "version": 1,
@@ -1076,7 +1087,7 @@
     },
     {
       "internal_path": "db/campaign_group_pooled_resources_tables/arkhan_lotd",
-      "sha256": "bc5f26b2074394694ae4582d0da3d76cf9e9b988fa0560958fc723e4d337a676",
+      "sha256": "ff9b1ff95e2f30db987ea11494cffb2e4fe6048a8710ab688657aa0504377663",
       "bytes": 324,
       "format": "TSV",
       "version": 1,
@@ -1086,7 +1097,7 @@
     },
     {
       "internal_path": "db/campaign_group_pooled_resources_tables/arkhan_research",
-      "sha256": "ddd7c2914fec9b6d1454c6ac7a67c5c1c1a1e6caf54a62096375ab55b7dcc260",
+      "sha256": "7ad36e956f94ab584568b73cc0866cfd01cef67c870c3fe3c46277513dba32dc",
       "bytes": 163,
       "format": "TSV",
       "version": 1,
@@ -1096,7 +1107,7 @@
     },
     {
       "internal_path": "db/campaign_group_post_battle_looted_pooled_resources_tables/arkhan_lotd",
-      "sha256": "ce1e09dfd5dd2cf38dc72794a3d93799f899da70fc37e2475f7bd9d3d5e87a4a",
+      "sha256": "c5265d1ff7281595af7f46cf1606421026702e4f4beca2dc39070455d2a0e4c3",
       "bytes": 204,
       "format": "TSV",
       "version": 0,
@@ -1106,7 +1117,7 @@
     },
     {
       "internal_path": "db/campaign_group_rituals_tables/atbe",
-      "sha256": "9007b4fbde9e08e4bfc47bee4aa19d5a4303312b3c64a9ad0dba58c3e5e79570",
+      "sha256": "1f0087a1b9c19be14acf8baf2b0601bd50e4bf338c6d632f20d75d8925efc508",
       "bytes": 175,
       "format": "TSV",
       "version": 1,
@@ -1116,7 +1127,7 @@
     },
     {
       "internal_path": "db/campaign_groups_tables/atbe",
-      "sha256": "09d8378b659bc27fa7eaedc080c281eb7ab413f71f43ca6c9ef5541292714da2",
+      "sha256": "8a8c1a4f532325264160b345b33181c813d9b8acf350bcc457c930b9cdab023e",
       "bytes": 122,
       "format": "TSV",
       "version": 0,
@@ -1126,7 +1137,7 @@
     },
     {
       "internal_path": "db/campaign_map_attrition_unit_immunities_tables/atbe",
-      "sha256": "a223e8baf98c2b590a8eb106a0f5bfeab8af55ab06802900642905185c2007f0",
+      "sha256": "d7477d2ae9681adb3cea1cb19819c075c1183684a76369ca733cf0d41ebdf9d5",
       "bytes": 11609,
       "format": "TSV",
       "version": 0,
@@ -1136,17 +1147,17 @@
     },
     {
       "internal_path": "db/campaign_mount_animation_set_overrides_tables/atbe",
-      "sha256": "778359bcede5b5a8e77b71aa8467081b3bdacad317670c2608d846a9f7ae44bc",
-      "bytes": 3336,
+      "sha256": "fffcf49c2fb0b49f7ad74cbc3dd6ed8fc9a54760c1d03a74f465ec4b602e201b",
+      "bytes": 3430,
       "format": "TSV",
       "version": 2,
-      "rows": 27,
+      "rows": 28,
       "source_path": "src/db/campaign_mount_animation_set_overrides_tables/atbe.tsv",
-      "source_sha256": "bed278251bbd6134b1aa32b63d1c47f2e4b141f0d464e071562a6606955bf58c"
+      "source_sha256": "579d483b179f9495b1da02cd31f18fd9a1241bcc523c05def4479275d98dfdce"
     },
     {
       "internal_path": "db/campaign_mounts_tables/atbe",
-      "sha256": "335f6db4fbec868d9ce3cea98c4fca9da00b22b941d17b0d136ee90b9e5723c0",
+      "sha256": "73bf5eb3cd35008c6830b1c39aeda41ab7118802aca749dac226735d302c190b",
       "bytes": 396,
       "format": "TSV",
       "version": 9,
@@ -1156,7 +1167,7 @@
     },
     {
       "internal_path": "db/campaign_stance_effects_junctions_tables/atbe",
-      "sha256": "c1d12c9b1459c7200047bc5275fc9bae3f7611cb05b7aa049da9d983d6cab9cc",
+      "sha256": "b8ebd22a706586bc271e8cc92f4d552fe98b89eaf98a405c916469a551d22c8f",
       "bytes": 246,
       "format": "TSV",
       "version": 1,
@@ -1166,7 +1177,7 @@
     },
     {
       "internal_path": "db/campaign_stances_composite_scenes_tables/atbe",
-      "sha256": "50967cc38cb1798198e05e5821df81fe98b239d6f3a28d770478ed32236059d8",
+      "sha256": "4d2892dae08727913e3ca055bd7a16d1cd0d6a4050f77245d9c590b84bac13a0",
       "bytes": 227,
       "format": "TSV",
       "version": 0,
@@ -1176,7 +1187,7 @@
     },
     {
       "internal_path": "db/cdir_military_generator_unit_qualities_tables/atbe",
-      "sha256": "fc3fb74582946bc3219b74b6c68e7187bb2559a5b218c9c1a6854e2e78b176d5",
+      "sha256": "b73574c17267e5bd0ffca60b683c66f90fac293fd2f420947a9c3d87cbf8d4b3",
       "bytes": 6511,
       "format": "TSV",
       "version": 2,
@@ -1186,27 +1197,27 @@
     },
     {
       "internal_path": "db/character_skill_level_details_tables/atbe",
-      "sha256": "80bdda344af9db4254b076335837864d4a9bcc5ac3c605460802e24abef25533",
-      "bytes": 3439,
+      "sha256": "6a75b50bdea0151e7d49f5b162d4a4e39cbfd8d1240a1d6fe7373f49c9009774",
+      "bytes": 3501,
       "format": "TSV",
       "version": 1,
-      "rows": 57,
+      "rows": 58,
       "source_path": "src/db/character_skill_level_details_tables/atbe.tsv",
-      "source_sha256": "2c7fc4f08c55a86363e847935dc460eb715e49feee4c528bd2dcac9718690f6f"
+      "source_sha256": "40299413215e500481e6995f54a692707b373036d502a0bb3f67d0e575540bc8"
     },
     {
       "internal_path": "db/character_skill_level_to_ancillaries_junctions_tables/atbe",
-      "sha256": "6fec58547c4b16725cec4a758dcc26e3ca3f15b23d7425a335a44c7a35cbb3ca",
-      "bytes": 2604,
+      "sha256": "90d1fd9b9b21a6bd277037903c90174b19465da7d9716ba6b4a7481dae67afeb",
+      "bytes": 2702,
       "format": "TSV",
       "version": 1,
-      "rows": 28,
+      "rows": 29,
       "source_path": "src/db/character_skill_level_to_ancillaries_junctions_tables/atbe.tsv",
-      "source_sha256": "8973e5905caec33799f079ced92f2c95e3e8427ca2a225961155045a66f0654d"
+      "source_sha256": "0bcaca70bdc183ad6090d1e26decc6f8e43e662f2f460816b64503fee098b7d0"
     },
     {
       "internal_path": "db/character_skill_level_to_effects_junctions_tables/atbe_bloodlines",
-      "sha256": "cfeaf4b08e08d42cd43c948c275d854bf46cfb2dcf2ddaa457371f9f78c830ba",
+      "sha256": "259d2c0cc740c785e3d17e38f76772be258d29fafb69e758d6aee09ba9b48b87",
       "bytes": 7275,
       "format": "TSV",
       "version": 1,
@@ -1216,7 +1227,7 @@
     },
     {
       "internal_path": "db/character_skill_level_to_effects_junctions_tables/atbe_dump",
-      "sha256": "13d6e9892b5e6140e608de7bf68ccddb6dcda9e3d9c409d1eb152907c8915fd6",
+      "sha256": "4989bcb58e3a09e40b27265a2e8733e8ea09cf68cb8b6ec9d12bc8f2dd49922c",
       "bytes": 3066,
       "format": "TSV",
       "version": 1,
@@ -1226,7 +1237,7 @@
     },
     {
       "internal_path": "db/character_skill_level_to_effects_junctions_tables/atbe_heroes",
-      "sha256": "ee385cb9626a2a928b274b8d66526ec06ee180741922e2bbd9a0fdff7e6ce2d6",
+      "sha256": "e2e9fc9d40e5afcffe6a63001800fe1f369abcd7b5fd4667d44eb7ae8c00c7d3",
       "bytes": 2951,
       "format": "TSV",
       "version": 1,
@@ -1236,77 +1247,77 @@
     },
     {
       "internal_path": "db/character_skill_level_to_effects_junctions_tables/atbe_mounts",
-      "sha256": "a55804193106e4330a4e794dea7d591c899edd545d9bfdec16132fe44f2d4f24",
-      "bytes": 4803,
+      "sha256": "72c7c9031586572445a9ab9acb8e94f8086b17e949120a2a8c254bbba53d98a9",
+      "bytes": 4931,
       "format": "TSV",
       "version": 1,
-      "rows": 37,
+      "rows": 38,
       "source_path": "src/db/character_skill_level_to_effects_junctions_tables/atbe_mounts.tsv",
-      "source_sha256": "bcedc679b40adcdde2815554c66db5ae66424624898a18f2bc912378b1f579a3"
+      "source_sha256": "491767d3340e116fd5b1af50b5beb75d45719383870ea15aea82c11643bb3ba8"
     },
     {
       "internal_path": "db/character_skill_level_to_effects_junctions_tables/atbe_skills",
-      "sha256": "0eafd51bd948183994cfd12164a4e6a0c211160064c5fae3ef9ba0aca09ad496",
-      "bytes": 3078,
+      "sha256": "f66104d8ec51e5526cf485523013a9da7f5c5993c79e02b542e121b80b93416a",
+      "bytes": 3002,
       "format": "TSV",
       "version": 1,
-      "rows": 24,
+      "rows": 23,
       "source_path": "src/db/character_skill_level_to_effects_junctions_tables/atbe_skills.tsv",
-      "source_sha256": "1507b2f7e5d19531c3adfa2edf4b26b10b906b411659d34deececc902579e77a"
+      "source_sha256": "b7f6bf5a52dd66312454107f99abf676330cb6577d93821198aaf3c4d5dab52a"
     },
     {
       "internal_path": "db/character_skill_level_to_effects_junctions_tables/atbe_traits",
-      "sha256": "20cdbcd113cdc8fbe43029dd876a69569f05dca44cf3afaddd3a2794e9b4a123",
-      "bytes": 3258,
+      "sha256": "7319daddceb4671d2c235526625333fbe6b8d3e43bab94e27cfbf00cbfbfec7f",
+      "bytes": 3462,
       "format": "TSV",
       "version": 1,
-      "rows": 28,
+      "rows": 30,
       "source_path": "src/db/character_skill_level_to_effects_junctions_tables/atbe_traits.tsv",
-      "source_sha256": "ce996b5e6941ec4b91d011ea7f0f3f315209f1be77b3551bc564ad734fcbd622"
+      "source_sha256": "07076bcc0c75f0d959f0962cd95b3ff04f7dd62695bee9202093843d78474a22"
     },
     {
       "internal_path": "db/character_skill_node_links_tables/atbe",
-      "sha256": "ffdce3249caa4db987fea2216386844274503e3d9939e95f9077cd86a541b745",
-      "bytes": 20820,
+      "sha256": "081fbab77c9c0d43cd067c8ab5842c9a4cee771b7ef9a8046c8656f276a85172",
+      "bytes": 22732,
       "format": "TSV",
       "version": 3,
-      "rows": 174,
+      "rows": 190,
       "source_path": "src/db/character_skill_node_links_tables/atbe.tsv",
-      "source_sha256": "9164af032bfe2d9183f50915df05a4839695bba1fb36cb98ee7d309d9202f267"
+      "source_sha256": "c7616a47632823f5dff6a08f89c1b388119d4c539ae099bc9a194d70ac1f5994"
     },
     {
       "internal_path": "db/character_skill_node_set_items_tables/atbe",
-      "sha256": "472640e0af81561c5f9cf22cdf2d79b1a3874c19b8187d508065be02221aabac",
-      "bytes": 71170,
+      "sha256": "19a462f9e1c0a9fbc03866777b3a57c761c738ffe380c70cd858361e465cf5ac",
+      "bytes": 73860,
       "format": "TSV",
       "version": 0,
-      "rows": 838,
+      "rows": 868,
       "source_path": "src/db/character_skill_node_set_items_tables/atbe.tsv",
-      "source_sha256": "53e7d86e0291a54103554d419d37e3d1fc79f226a84530a9971bbf1c55dab2a5"
+      "source_sha256": "165643ec51b8d0be5c10ae035cedfb1f118707782ac21fa446ec02ffd63a4668"
     },
     {
       "internal_path": "db/character_skill_node_set_items_tables/atbe_innates",
-      "sha256": "826d7bec7e93d9e4c6b29e96b0e4b18eda31ba41625ac19cf1ee969ada5a6dac",
-      "bytes": 15389,
+      "sha256": "93591db0755948aaedbcbd476c91834e247a995571cbedbcef364632c205e743",
+      "bytes": 17966,
       "format": "TSV",
       "version": 0,
-      "rows": 168,
+      "rows": 194,
       "source_path": "src/db/character_skill_node_set_items_tables/atbe_innates.tsv",
-      "source_sha256": "2431d2c5dac854cdeb3dfd2369a7b37704a367709b5d256496357b40f4670651"
+      "source_sha256": "1ff14a14747ec9cf99f4ef78182f5a5e893d245694f2b42fa71fd6478248d07d"
     },
     {
       "internal_path": "db/character_skill_node_sets_tables/atbe",
-      "sha256": "172de4005029d645cc034bcd799116d50353b7064122ea0007d583a5332a3508",
-      "bytes": 1638,
+      "sha256": "407b86d1185ef7c174cb4b15cec8fec1f4c0283d348c7495b0fedad36c503b3a",
+      "bytes": 1728,
       "format": "TSV",
       "version": 0,
-      "rows": 18,
+      "rows": 19,
       "source_path": "src/db/character_skill_node_sets_tables/atbe.tsv",
-      "source_sha256": "e0598222943868a3178b47e3619a886292cbdf9e2047162edd337f99ad75f1c8"
+      "source_sha256": "ffdf0078eeae5899c9d3727c73cc416d8b5908aa809ca96f9385fcc74d8d0e70"
     },
     {
       "internal_path": "db/character_skill_nodes_skill_locks_tables/atbe",
-      "sha256": "7823893bf6b16f6a89028a71779831ec9131097269defc44fe1cf7ebc2fbc843",
+      "sha256": "1c35a5add7ef023198b592f861973f342a13343cb7a2eccb373ac1057ce411d6",
       "bytes": 687,
       "format": "TSV",
       "version": 0,
@@ -1316,7 +1327,7 @@
     },
     {
       "internal_path": "db/character_skill_nodes_tables/atbe_bloodlines",
-      "sha256": "f68479071db5096f571a801ffe7ea53570bfbe35c29829499d44f0a2bc5a8115",
+      "sha256": "ecd3d4ff36125d503bb397fbce6f114166cde6d0a4e52f426660822cb91ea4f8",
       "bytes": 6153,
       "format": "TSV",
       "version": 6,
@@ -1326,27 +1337,27 @@
     },
     {
       "internal_path": "db/character_skill_nodes_tables/atbe_heroes",
-      "sha256": "243366117bee45c2547b6cdc841677329eded8eff7b8aeb9eb33a51dd21891c0",
-      "bytes": 1638,
+      "sha256": "6484c1e8f687b2350b483242565c75f200e133f9fc89b389deb425246e597835",
+      "bytes": 3144,
       "format": "TSV",
       "version": 6,
-      "rows": 14,
+      "rows": 27,
       "source_path": "src/db/character_skill_nodes_tables/atbe_heroes.tsv",
-      "source_sha256": "e4adf1ecacb314cb8231989235a12633fe66851d50ff7f40ebf96ebb220198aa"
+      "source_sha256": "7c36e2ae5ef1126e44a98d0628bba7e05067b461180ce3af528ca776c1ea8677"
     },
     {
       "internal_path": "db/character_skill_nodes_tables/atbe_lords",
-      "sha256": "8a4ee162bf5a6f540a5331e386c788490df3683874d1552475f96cae2bdaeb2f",
-      "bytes": 14585,
+      "sha256": "e92f6ebae3a4dbcced18f1cd25400d41b4133807858de1d5f810260f7668a184",
+      "bytes": 14657,
       "format": "TSV",
       "version": 6,
-      "rows": 128,
+      "rows": 129,
       "source_path": "src/db/character_skill_nodes_tables/atbe_lords.tsv",
-      "source_sha256": "ffe130ec10a7248fde3b335c865d105715e404782efcdf463559583a0b109345"
+      "source_sha256": "68f489982c7e60d22ec2b9c33e531d49e2500ecde1b0fdba71f40bd7de0efa89"
     },
     {
       "internal_path": "db/character_skill_nodes_tables/atbe_skill_dump",
-      "sha256": "c71fedd4f03e13dbfb803f47251954280f42622f049bc87caf996bea84a73e86",
+      "sha256": "5295b66fc26c4202f806fbc6d2ff26acc182d0f7aaa797a066daea915405a29b",
       "bytes": 189,
       "format": "TSV",
       "version": 6,
@@ -1356,7 +1367,7 @@
     },
     {
       "internal_path": "db/character_skill_utilization_hints_junctions_tables/atbe",
-      "sha256": "35e65bde8a19092b1445843322f42869247e85854c1f638cad1fc493f633645e",
+      "sha256": "f9e68a6e445650c1f5a312c1142641b7af99912e062a475a4f3d58c9f41a12f9",
       "bytes": 2453,
       "format": "TSV",
       "version": 0,
@@ -1366,27 +1377,27 @@
     },
     {
       "internal_path": "db/character_skills_tables/atbe",
-      "sha256": "1befae89cba88d82377780d85d325ac6789753bdefe2e05da88d534827ba5e38",
-      "bytes": 7017,
+      "sha256": "bbb2c6048e752ba48d0d71901a4cfc44117b25d845ed0750b50ac04733edf758",
+      "bytes": 7123,
       "format": "TSV",
       "version": 5,
-      "rows": 51,
+      "rows": 52,
       "source_path": "src/db/character_skills_tables/atbe.tsv",
-      "source_sha256": "44ba84ffbd488bd87c5dcc6e91ef2c3ef7a0d2e7952add5fcba1970f3f7f735d"
+      "source_sha256": "17e4e4075b52d9e7edf3a9c75e7325d8833366005db23ad511ff561811e7d9b7"
     },
     {
       "internal_path": "db/character_skills_tables/atbe_mounts",
-      "sha256": "e1288712ed81f732fd96e36d2b55b55b6e8d1de2a20d281682dab7f0bfae6637",
-      "bytes": 4485,
+      "sha256": "c120570d0de09e019ab12bb3018651babebd190a0b226bba25f7bce564979c1c",
+      "bytes": 4582,
       "format": "TSV",
       "version": 5,
-      "rows": 37,
+      "rows": 38,
       "source_path": "src/db/character_skills_tables/atbe_mounts.tsv",
-      "source_sha256": "eb1ffe89b4f33d7bd055e91c8e470b7f6b0019acdcc7cd861f1d49e52ef389ce"
+      "source_sha256": "d0986bebb2b5593a7fa88fe2fa1a01ab734907fa082d5173ad9327bb0c835de9"
     },
     {
       "internal_path": "db/character_skills_tables/atbe_traits",
-      "sha256": "1317d28b7f0e3fb6402ebe2d24700c48101e6039ded9988f769d3d7fb7e0ba39",
+      "sha256": "1448b708b66dd3cd7cf5ba5a24a55fe3e8ab8c1acea38f0b23930c6055400144",
       "bytes": 407,
       "format": "TSV",
       "version": 5,
@@ -1396,17 +1407,17 @@
     },
     {
       "internal_path": "db/character_skills_to_level_reached_criterias_tables/atbe",
-      "sha256": "2f966b36e5a57a33cb53c7825b89321ee917cf50213a273af0d332b95eb18619",
-      "bytes": 1805,
+      "sha256": "b1006b2d04251d2972e4aeb6ea5a9e45d8d5f96588305678f1a18767695f0802",
+      "bytes": 1861,
       "format": "TSV",
       "version": 0,
-      "rows": 33,
+      "rows": 34,
       "source_path": "src/db/character_skills_to_level_reached_criterias_tables/atbe.tsv",
-      "source_sha256": "f7215094905a183491eec53c4dc7f09240b5b9172c5eefb2165a2827bb860a30"
+      "source_sha256": "c8072d52f7286eb495bac88d93035b28de472456583d493551f79752767109c0"
     },
     {
       "internal_path": "db/character_trait_levels_tables/atbe",
-      "sha256": "47301652473ab68c6712e6611e3312f9e4516a73f67df26f684f074621c9ffc0",
+      "sha256": "1b8a8056cc9d9181c25321696fc321aefd87cc0fa534f6596765d181fa8c0af7",
       "bytes": 575,
       "format": "TSV",
       "version": 0,
@@ -1416,7 +1427,7 @@
     },
     {
       "internal_path": "db/character_traits_tables/atbe",
-      "sha256": "a97e999e0ab3bafc5beb6e9e74e8f30a911aa902c09df3e1b55ab4132d17f302",
+      "sha256": "bc79cca16b23d6536f7789ac93457e54bb4c25bceb7b981a97bd1dba7f7345d6",
       "bytes": 475,
       "format": "TSV",
       "version": 3,
@@ -1426,7 +1437,7 @@
     },
     {
       "internal_path": "db/culture_to_battle_animation_tables_tables/atbe",
-      "sha256": "b90c368a3f257374162c05e43339d13e4a570e399576e589ce910a93bad630f8",
+      "sha256": "9fc0c66e403542657d86473074553c8dd3a426f458438dfb53d8b2639c730612",
       "bytes": 1036,
       "format": "TSV",
       "version": 0,
@@ -1436,7 +1447,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_agent_junction_tables/atbe",
-      "sha256": "34c346ec4a9a40336df3e5f6ad6ec5749b9c19d99f595295b2188f0bbb0d34b6",
+      "sha256": "00ec45afe7e1aeceb5ee9b9cbe81ebc4cbcb306f1ea6bbf598a8a4fe5ee6f4d6",
       "bytes": 166,
       "format": "TSV",
       "version": 0,
@@ -1446,17 +1457,17 @@
     },
     {
       "internal_path": "db/effect_bonus_value_agent_subtype_junctions_tables/atbe",
-      "sha256": "5d0fe5f8e49d0019cbf3c3496d7dfafb84e0846719822377ac7b9bab98fe22c9",
-      "bytes": 914,
+      "sha256": "40c1e53d693f180bb3ce2010fadebeb5aedc62151ef4bfde078a0c609eefb7fd",
+      "bytes": 1023,
       "format": "TSV",
       "version": 0,
-      "rows": 8,
+      "rows": 9,
       "source_path": "src/db/effect_bonus_value_agent_subtype_junctions_tables/atbe.tsv",
-      "source_sha256": "518deccab912ff3a517cb086ef1ca3e551a1a6fe11320ab024ff7a2a95bd46f9"
+      "source_sha256": "1810462383a0a74cd769b074f1173d08527237ec9dde1786f701be1026134754"
     },
     {
       "internal_path": "db/effect_bonus_value_basic_junction_tables/atbe",
-      "sha256": "18e4b46ce51d53956ab35dfdea15dec36c02879d3e082e6f51b95d4dc6aeac93",
+      "sha256": "97dc491d99aa421b67c97f171f9784f11b42c946bdb7ebd5c329cfc85f815bfa",
       "bytes": 181,
       "format": "TSV",
       "version": 0,
@@ -1465,48 +1476,28 @@
       "source_sha256": "e1d9f85395145a5eba22f9c8e6841cbbdaeadb22fd5e301ff4b6255f6b1e6bbb"
     },
     {
-      "internal_path": "db/effect_bonus_value_ids_unit_sets_tables/arkhan_black_coach",
-      "sha256": "86c6baa082420019feae6d57453a19e99236b0b5d748a75f03bf850f5f0a7eec",
-      "bytes": 265,
-      "format": "TSV",
-      "version": 0,
-      "rows": 2,
-      "source_path": "src/db/effect_bonus_value_ids_unit_sets_tables/arkhan_black_coach.tsv",
-      "source_sha256": "7ea570faf34881d8a3d88e016a0640388c9c467eaec5c643b77cc543f8e65afa"
-    },
-    {
-      "internal_path": "db/effect_bonus_value_ids_unit_sets_tables/arkhan_coven_throne",
-      "sha256": "162c48afb10f5bf15a411b48e67588e75531866cc25cb09517ad7fe05f28a5ba",
-      "bytes": 268,
-      "format": "TSV",
-      "version": 0,
-      "rows": 2,
-      "source_path": "src/db/effect_bonus_value_ids_unit_sets_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "63a0f138bfe5c5e3b507f25be6548fc8054109a3985c61fe544575b1a8cffb9c"
-    },
-    {
       "internal_path": "db/effect_bonus_value_ids_unit_sets_tables/atbe",
-      "sha256": "2d949f088482abf54562b701ad1f75e4ceb6241d1247c02697934cc43c844b61",
-      "bytes": 6010,
+      "sha256": "ac21c2d4ad41465df04ffb9fe960d156a01e866ea8ea2c1362ec588e1ef47418",
+      "bytes": 5739,
       "format": "TSV",
       "version": 0,
-      "rows": 62,
+      "rows": 60,
       "source_path": "src/db/effect_bonus_value_ids_unit_sets_tables/atbe.tsv",
-      "source_sha256": "4c513e18b84f2e62e345c1d3cc385ac6e5c38a55afe02d1db9f043bc99d0768b"
+      "source_sha256": "00977ae97af24389c87ac2b05a6a5ca6afa6e18c5963af8e70b7c5e799cd37a0"
     },
     {
       "internal_path": "db/effect_bonus_value_ids_unit_sets_tables/atbe_caps",
-      "sha256": "ea7798452142796e1ed773f20dbb111ab2ff6d7281ec714733decaf35db6c834",
-      "bytes": 1754,
+      "sha256": "105d86a2413380af4bcaafa4818e95c3fdeae5d670bd65ca149410018f9e84c7",
+      "bytes": 1898,
       "format": "TSV",
       "version": 0,
-      "rows": 22,
+      "rows": 24,
       "source_path": "src/db/effect_bonus_value_ids_unit_sets_tables/atbe_caps.tsv",
-      "source_sha256": "1cb1fd6f879326431e5e620a08f95ceacbb6a5e217f88417a35a413a2e9705be"
+      "source_sha256": "1a75625804e7ea50f71cccf9a1fcefa62391d98e82f7a9c88a3e0b236f4aeb81"
     },
     {
       "internal_path": "db/effect_bonus_value_ids_unit_sets_tables/atbe_vanilla_skills_sets",
-      "sha256": "4130522f7da1d80313df5e7d685a5262ee20d65c3b9fc894fa2322e378f41bb8",
+      "sha256": "9f8aa07b8d098f7c667375f93cbd431e2265cac136a6bbbae55115002920a9b9",
       "bytes": 177,
       "format": "TSV",
       "version": 0,
@@ -1516,7 +1507,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_military_force_ability_junctions_tables/atbe",
-      "sha256": "adb9c7ae4e853578f6a0c0629b5b5852ba58bd97ac769d2290cada886084e3e6",
+      "sha256": "d8508be703cafd451126214a8ca1d1115dfb82fe01c84e79c3c7ad8434da5f6c",
       "bytes": 512,
       "format": "TSV",
       "version": 0,
@@ -1526,7 +1517,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_missile_weapon_junctions_tables/atbe",
-      "sha256": "a9cbfacb77a1537a63afe3ee214fcb1dd88b92f6fa5ac70648f29d65071a4c9d",
+      "sha256": "e005e0a7af564072dc0c636a25fd538dfefcb31b08619684043afe49a3e57542",
       "bytes": 888,
       "format": "TSV",
       "version": 0,
@@ -1536,17 +1527,17 @@
     },
     {
       "internal_path": "db/effect_bonus_value_name_record_junctions_tables/atbe",
-      "sha256": "b93f6da6939630a85b6177dad9304252efa20bd160456a6e4794364aa097baa4",
-      "bytes": 311,
+      "sha256": "56e6abd19bfdc5211a05b0b196b8ca3299bd67968866faa470211128d3c7a0c8",
+      "bytes": 419,
       "format": "TSV",
       "version": 1,
-      "rows": 4,
+      "rows": 6,
       "source_path": "src/db/effect_bonus_value_name_record_junctions_tables/atbe.tsv",
-      "source_sha256": "89e7cd0df3cebfa1cb69f99b491d8c14cb02d7cc1fd51d971678ca640be20ab8"
+      "source_sha256": "f61b15e835127e26c22ec2d360026f184194ecd33359865052dd48cf42ba525d"
     },
     {
       "internal_path": "db/effect_bonus_value_pooled_resource_factor_junctions_tables/arkhan_energy",
-      "sha256": "60891cc722bd916403d0efcca9831662881539d1b8ffd65cc85321880a87cf93",
+      "sha256": "184546bb6861d31cd44733090c56d4d7eced8970fa0f71f8921e1912bdb0b069",
       "bytes": 436,
       "format": "TSV",
       "version": 0,
@@ -1556,7 +1547,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_special_ability_phase_record_junctions_tables/atbe",
-      "sha256": "55ca2bc9294ef92b5ffbca90222c15e042f14c476b97a815e59c10cbdcde12ca",
+      "sha256": "4a501ebae44b6af29701dc043b8922c4695aedc00a0a0efac38beec670ed7ac2",
       "bytes": 161,
       "format": "TSV",
       "version": 0,
@@ -1566,7 +1557,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_stance_junctions_tables/atbe",
-      "sha256": "932307176d2e94138229a8311f8ce0e88600ad1e1108accfb7e60bd1df50f3df",
+      "sha256": "3667739580fe008a98cdc3d54a7bb0d66a28672f4f5053d9608e83d464af456e",
       "bytes": 177,
       "format": "TSV",
       "version": 0,
@@ -1576,7 +1567,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_unit_ability_junctions_tables/atbe",
-      "sha256": "44d3a68fcef1dd92702528d274c712d406bae5f5806f2fa21881312baead4484",
+      "sha256": "9b392ec301324930f6af83d4fa663982a7de286ad977ab0278fe30f87fe57d66",
       "bytes": 1847,
       "format": "TSV",
       "version": 0,
@@ -1586,7 +1577,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_unit_record_junctions_tables/atbe",
-      "sha256": "a1244cd3918da8ca63da4353d289a69741679193fe41168a6293e0f65610f9ff",
+      "sha256": "32bcf25428f9593543a1fa652ac99622e4bd5d2bc21c1fb4b03e5098ed76119a",
       "bytes": 3582,
       "format": "TSV",
       "version": 0,
@@ -1596,7 +1587,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_unit_set_unit_ability_junctions_tables/atbe",
-      "sha256": "1d93a8401f132c761176eb5aa693d3b98b4610a193505bae8b2ed60b7ae4b0c6",
+      "sha256": "73a5bcd5e8e1def1a0614a7e4d5706ac36b846ae58c0a9a4a250b8fe7dfa4a85",
       "bytes": 1854,
       "format": "TSV",
       "version": 0,
@@ -1606,7 +1597,7 @@
     },
     {
       "internal_path": "db/effect_bonus_value_unit_set_unit_attribute_junctions_tables/atbe",
-      "sha256": "22a57b340baaf22ea0900e96a338d8c5605bcef8b90e7ee2048a07204d99989d",
+      "sha256": "e763bfe5d866bee4b6845054c3317d422ffa09744c39880db53337cd5786c39d",
       "bytes": 717,
       "format": "TSV",
       "version": 0,
@@ -1616,7 +1607,7 @@
     },
     {
       "internal_path": "db/effect_bundles_tables/arkhan_lotd",
-      "sha256": "99f152426bd5e8aa72aa98d303fa3bd07fd6e0431adc8627af858a058d9fcf49",
+      "sha256": "51c71d0245410f7ea28d3e21c404d401542c40372f5a6b7dc19c957e103b37f1",
       "bytes": 498,
       "format": "TSV",
       "version": 4,
@@ -1626,7 +1617,7 @@
     },
     {
       "internal_path": "db/effect_bundles_tables/atbe",
-      "sha256": "a672245b1ca41680dac1f55729acc8c6cd37dedfeb7413e38ca2c7910295eb95",
+      "sha256": "22684a96defb4d7bc966ab07821d15f3aded513f2671f8e07f64167b83e81367",
       "bytes": 182,
       "format": "TSV",
       "version": 4,
@@ -1636,7 +1627,7 @@
     },
     {
       "internal_path": "db/effect_bundles_to_effects_junctions_tables/arkhan_lotd",
-      "sha256": "1930b152383602247a9d791fb4ae8b9a993bea591343b5f2db762d7fbe304c27",
+      "sha256": "b385c7d9055aba44abcf66beed8c3a4ac9988a5c5d913dfc45459651c42dc91c",
       "bytes": 952,
       "format": "TSV",
       "version": 3,
@@ -1646,7 +1637,7 @@
     },
     {
       "internal_path": "db/effect_bundles_to_effects_junctions_tables/atbe",
-      "sha256": "5c3946d292cd9fada6bea952f56e16cda981404d226af83d3a45330c9d03b439",
+      "sha256": "6f1cc271a198b0cdc6d5c91a66006dd4d781ec7cdd28974633eb7748651657a2",
       "bytes": 2674,
       "format": "TSV",
       "version": 3,
@@ -1656,7 +1647,7 @@
     },
     {
       "internal_path": "db/effects_additional_tooltip_details_tables/atbe",
-      "sha256": "b155d7f18cd26efe26a3cd6ee8ca41bba1f44833a5762c1d5a5d03a5d64ef42c",
+      "sha256": "b4d2aa3f442229d9270976273553911773d7c2351cec6e7b16b2e9be79d22cfa",
       "bytes": 179,
       "format": "TSV",
       "version": 1,
@@ -1666,7 +1657,7 @@
     },
     {
       "internal_path": "db/effects_tables/arkhan_black_coach",
-      "sha256": "bed73a59690d758cf41ad1aca0aabea4655ee9b1eaf848a8f13b65ce6826e543",
+      "sha256": "bedb4a1432516a4e36d7cbbcc5f120ccf64df5a75a2fa22787ad9733a57b25b3",
       "bytes": 163,
       "format": "TSV",
       "version": 0,
@@ -1676,7 +1667,7 @@
     },
     {
       "internal_path": "db/effects_tables/arkhan_coven_throne",
-      "sha256": "2ab169f17fe418b2c83f291219dfd3f8a41bc5c5f7016a72d71062213c2b45e6",
+      "sha256": "8477f648a93132588dae1b08d7ec18b7799c859d4f76a363c29fe9504f97771f",
       "bytes": 164,
       "format": "TSV",
       "version": 0,
@@ -1686,7 +1677,7 @@
     },
     {
       "internal_path": "db/effects_tables/arkhan_energy",
-      "sha256": "6929a5a53315b698057decc5709ca77b42e9c589cb4c56a50c114e78527d07f7",
+      "sha256": "b4f8f7dbb47616b224b887edc98381d687cd603f0c4b8fe97e85ad78f48c589b",
       "bytes": 450,
       "format": "TSV",
       "version": 0,
@@ -1696,7 +1687,7 @@
     },
     {
       "internal_path": "db/effects_tables/arkhan_lotd",
-      "sha256": "0f96ad632b79c0b707f79f8d23cedbb4ce6353f52c7ba4be80f79cd6bcb47c6d",
+      "sha256": "0e42c937b395c7d6e3139ec7795649b93f186d6287f2e2ed16445004448a52d7",
       "bytes": 310,
       "format": "TSV",
       "version": 0,
@@ -1706,37 +1697,37 @@
     },
     {
       "internal_path": "db/effects_tables/atbe_abilities",
-      "sha256": "146116814f96856ce2ea8825992a766bdaf20d66f9aa5095ba4a23089f8da530",
-      "bytes": 2102,
+      "sha256": "5e5f076d62db899e7186c95e80a4c8b3dc7aef6622217ca19d73fde4b6df8891",
+      "bytes": 1489,
       "format": "TSV",
       "version": 0,
-      "rows": 20,
+      "rows": 14,
       "source_path": "src/db/effects_tables/atbe_abilities.tsv",
-      "source_sha256": "2b547b4ce5f4c73bc0374d5ad09a35d819c078424c66abb9fda482ad64feb3e7"
+      "source_sha256": "227b6ce6122e0307ddc8c05483c35df151cd283bfbf0cc7fa41990a9dc008068"
     },
     {
       "internal_path": "db/effects_tables/atbe_caps",
-      "sha256": "d84dc3fa6d3dc8acbf7e0992d9cd5eac63993b63fee98e71b2f4366188ffae93",
-      "bytes": 1124,
+      "sha256": "7510623e1c0ff716896ffa25306643cdd5790c7b1797e62d5f5fdb344e2b073b",
+      "bytes": 1210,
       "format": "TSV",
       "version": 0,
-      "rows": 12,
+      "rows": 13,
       "source_path": "src/db/effects_tables/atbe_caps.tsv",
-      "source_sha256": "5937b3f1155e6a1db352942c4f4c0e3481ffe6de258f756926fd11404ec1d7f4"
+      "source_sha256": "9337c0bc697f9ca439d68ba35e477ddbc3060f8aebf1238f6f561efc697003f9"
     },
     {
       "internal_path": "db/effects_tables/atbe_effects",
-      "sha256": "4d36c65228f0203ac2c84698cf0244ea10f91e98613361ba6f44afd16a20cdb9",
-      "bytes": 8488,
+      "sha256": "5a251156cc8ed7678b7d019ee7e1343be86eeeba32346a1b2ae09adacd4d4f09",
+      "bytes": 8608,
       "format": "TSV",
       "version": 0,
-      "rows": 91,
+      "rows": 93,
       "source_path": "src/db/effects_tables/atbe_effects.tsv",
-      "source_sha256": "58c682266524f5f69e05deadb04f2e5cb560dae7ccecec7ccbd5c6c970e32e0b"
+      "source_sha256": "368fffd1732e8db91e0e01dadd1cc2fdb321094de7575233124f82ad8ab2568d"
     },
     {
       "internal_path": "db/effects_tables/atbe_traits",
-      "sha256": "ba49509ec6567598340b6e6bdc7695e1f8af00e3be1d9dc890a958dcf84d6bf0",
+      "sha256": "dda48b4988cc9c4ff55d8bcdb98f739bd451f83d7f4a7dae742ce5be11c8eef7",
       "bytes": 515,
       "format": "TSV",
       "version": 0,
@@ -1746,17 +1737,17 @@
     },
     {
       "internal_path": "db/faction_agent_permitted_subtypes_tables/atbe",
-      "sha256": "5f6e137b8fde1865fad8635599550e7c01a10b43e7b3d7e01558cc8ad8937ee7",
-      "bytes": 2528,
+      "sha256": "59e41b66158ddd0b926d17fc522dfb0279e8942f16a645541c1b1d9257c0248a",
+      "bytes": 2606,
       "format": "TSV",
       "version": 1,
-      "rows": 31,
+      "rows": 32,
       "source_path": "src/db/faction_agent_permitted_subtypes_tables/atbe.tsv",
-      "source_sha256": "1608cbc564fcd003123e09aa23596351db40c1243986e2a49bba663e7c2eb8ef"
+      "source_sha256": "48ac6f61b3011517968d2fa22d816c5d1101a1080e582c243b96698a1c44a6d9"
     },
     {
       "internal_path": "db/faction_potential_categories_tables/atbe",
-      "sha256": "f7beed7db8a3783518804d79034018ceef09e1ea945b4477e569fabd2678119c",
+      "sha256": "9ea0dc32f46687dc2d641c6475be1f5d3d6c57fb84ef8b24b579cf1618aa6b3b",
       "bytes": 122,
       "format": "TSV",
       "version": 0,
@@ -1766,7 +1757,7 @@
     },
     {
       "internal_path": "db/faction_set_items_tables/atbe",
-      "sha256": "a8555770020606cc83ff3c92ded0e038f193dd2f806300cb73a875cb9bbcea9f",
+      "sha256": "6500c59b2c18c42a658a9ee0e955c260b797fab65d8b3c86a928379abd370032",
       "bytes": 237,
       "format": "TSV",
       "version": 1,
@@ -1779,13 +1770,13 @@
       "sha256": "106265b40f10113ce4a8641570bf2f0832c3033cb9e35998b92a104415bb0544",
       "bytes": 1240,
       "format": "native DB",
-      "reason": "(WindowsPath('arkhan-new-baseline-20261022/raw/db/factions_tables/zzzz_ovnlccp_comp'), 6, KeyError('ColourRGB'))",
+      "reason": "(WindowsPath('arkhan-baseline-20261031/raw/db/factions_tables/zzzz_ovnlccp_comp'), 6, KeyError('ColourRGB'))",
       "source_path": "src/db/factions_tables/zzzz_ovnlccp_comp",
       "source_sha256": "106265b40f10113ce4a8641570bf2f0832c3033cb9e35998b92a104415bb0544"
     },
     {
       "internal_path": "db/groupings_military_tables/zzzz_ovnlccp_comp",
-      "sha256": "78b9e3d378e97df62036362954eaf20fc0f7344328684a253ec40b8ac999f959",
+      "sha256": "81fc5ec4a8e960e808bf0c81f00823ad6e96fcd852ca354d49941802011192e3",
       "bytes": 99,
       "format": "TSV",
       "version": 0,
@@ -1794,48 +1785,18 @@
       "source_sha256": "f7808849075dc30d0c11e953e0347b02cda7a2ceb0cce49f8e329bf1c4e34673"
     },
     {
-      "internal_path": "db/land_units_tables/arkhan_black_coach",
-      "sha256": "f4b93c4e40b2500ccaf41bfe8e3c3c6c0f2bf4a96745f9777cb0f3f79a32521e",
-      "bytes": 729,
-      "format": "TSV",
-      "version": 54,
-      "rows": 1,
-      "source_path": "src/db/land_units_tables/arkhan_black_coach.tsv",
-      "source_sha256": "c8d32b0dae60d4abf5dcc88139736aacf72328e4936482cbdffe7242960be36f"
-    },
-    {
-      "internal_path": "db/land_units_tables/arkhan_coven_throne",
-      "sha256": "0e7f29cfc447745750680f5434fa51c645ed9654de633ee8c2943260bbdf85dc",
-      "bytes": 703,
-      "format": "TSV",
-      "version": 54,
-      "rows": 1,
-      "source_path": "src/db/land_units_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "96e6c688a21c9b35f6a94aa0325007f21073e31d24d585a2702bcbdbf483c8dd"
-    },
-    {
       "internal_path": "db/land_units_tables/atbe",
-      "sha256": "e56768738faa8eafec07cba8b0f4a73a187b49efd7cad53dc91e486b4131d552",
-      "bytes": 53834,
+      "sha256": "b174923fcd5d9e6766bb545ced659cdb17c8e7e649282dfe68df16f68f73d8e8",
+      "bytes": 54935,
       "format": "TSV",
       "version": 54,
-      "rows": 92,
+      "rows": 94,
       "source_path": "src/db/land_units_tables/atbe.tsv",
-      "source_sha256": "6086cd67bd04e8ad3f1318b7c53a4d255aca67e508dc0bbcea75ca76b5410913"
-    },
-    {
-      "internal_path": "db/land_units_to_battle_personalities_junctions_tables/arkhan_coven_throne",
-      "sha256": "ad689291d785c8895bf30f626a5a2e28fcb8ced0a671ede1e02eaf3e69001409",
-      "bytes": 1919,
-      "format": "TSV",
-      "version": 2,
-      "rows": 17,
-      "source_path": "src/db/land_units_to_battle_personalities_junctions_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "b33065a5001094a372daeb1eb38305f9c2c7fafbd3d026784cb04bb18be185ce"
+      "source_sha256": "3f8ab040072ddd3a0d81057b8ad56f7fd85fa137078ae6ae903ccabf23c9c15f"
     },
     {
       "internal_path": "db/land_units_to_battle_personalities_junctions_tables/atbe",
-      "sha256": "c168847d9823e04982214922d5a60af65f9fb21addf8ec67400df10fad787a7c",
+      "sha256": "c821b7127d4740a0065227e415bc7af3b8837e19b0d60562aa7b74966d4de560",
       "bytes": 6129,
       "format": "TSV",
       "version": 2,
@@ -1844,68 +1805,28 @@
       "source_sha256": "12170ac0c9753984cc5908206775d0caf73531cbca3cdb7906543b74987f9a55"
     },
     {
-      "internal_path": "db/land_units_to_unit_abilites_junctions_tables/arkhan_black_coach",
-      "sha256": "2cdbeda1fcf2876f1e741f86142c64557120b945660efa16042703a12ec414fb",
-      "bytes": 497,
-      "format": "TSV",
-      "version": 1,
-      "rows": 6,
-      "source_path": "src/db/land_units_to_unit_abilites_junctions_tables/arkhan_black_coach.tsv",
-      "source_sha256": "329bedf1656a1d1a9c6af16012b6bf36a003fb7a22b5ba1340fe779abfa2d66c"
-    },
-    {
-      "internal_path": "db/land_units_to_unit_abilites_junctions_tables/arkhan_coven_throne",
-      "sha256": "dcff20f63624cef49f9f1bb0137fcc8c7530db0098e9ec25643c9df480caf023",
-      "bytes": 574,
-      "format": "TSV",
-      "version": 1,
-      "rows": 7,
-      "source_path": "src/db/land_units_to_unit_abilites_junctions_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "495f9cfa3268482c7960e712d6db4a40759c21917982d5f2df384e9f64f9dd5d"
-    },
-    {
       "internal_path": "db/land_units_to_unit_abilites_junctions_tables/atbe",
-      "sha256": "b3bc16b852a0cc8186045fd980d0e442575a5208e459c8338eec71d7b1bf597f",
-      "bytes": 40339,
+      "sha256": "0e3f85582a03c56b713432bf30b35e95e2f8389fa6cb2dd6b958ab99bbf1ff5a",
+      "bytes": 40963,
       "format": "TSV",
       "version": 1,
-      "rows": 536,
+      "rows": 544,
       "source_path": "src/db/land_units_to_unit_abilites_junctions_tables/atbe.tsv",
-      "source_sha256": "681a1d3ef21d73ef4d7f0021586cb46672cba486f4d389ff6ac3d926d3c8d925"
-    },
-    {
-      "internal_path": "db/main_units_tables/arkhan_black_coach",
-      "sha256": "3355d603b9e60df7dcb24431fa185beb6a7f3e7dc3aa072f89e817b5e24aa4ab",
-      "bytes": 466,
-      "format": "TSV",
-      "version": 7,
-      "rows": 1,
-      "source_path": "src/db/main_units_tables/arkhan_black_coach.tsv",
-      "source_sha256": "31211c2735913f5ec215397f33bde6fa8ded29a119d9da8c55e8840281c2077a"
-    },
-    {
-      "internal_path": "db/main_units_tables/arkhan_coven_throne",
-      "sha256": "b2ed812b09baa00245c53dad78ffc89eee2236a59ffe52f43e18ad11145c97e0",
-      "bytes": 452,
-      "format": "TSV",
-      "version": 7,
-      "rows": 1,
-      "source_path": "src/db/main_units_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "e67214aab2978f98d62a099845681b39bcbdc43570528a8ddd55e0da1d5745a7"
+      "source_sha256": "8517e3c7c16b2634286f4de8b6ef21201d4ae53c355074563d4db7f54ab2da4d"
     },
     {
       "internal_path": "db/main_units_tables/atbe",
-      "sha256": "b22c31f32b0c166f28c69df764fd246f07ad6c53c627599f53d0d1cda19d0ebd",
-      "bytes": 30766,
+      "sha256": "6a769e86d0bb806271ffeb0f907a81f88fb90295171bae85f16d5dd43f7f8e48",
+      "bytes": 31473,
       "format": "TSV",
       "version": 7,
-      "rows": 86,
+      "rows": 88,
       "source_path": "src/db/main_units_tables/atbe.tsv",
-      "source_sha256": "6a1dcf3cba780130ac3738682e7eeeb0e4efe2ee9980eb4c895b1f4362c1b959"
+      "source_sha256": "52685ddc37311d0b71b20436a48e9b7e37f012163af53c0ef577909b8b728e95"
     },
     {
       "internal_path": "db/melee_weapons_tables/atbe",
-      "sha256": "1e45d7a470a693ce13f1760d2df5fdb05e2f43ebd7dc51e81dfe89e890719951",
+      "sha256": "ab04d8226d10d4fedb3c42fa35ddb5398093952baf42e04907758f6188285c34",
       "bytes": 873,
       "format": "TSV",
       "version": 25,
@@ -1915,7 +1836,7 @@
     },
     {
       "internal_path": "db/missile_weapons_tables/atbe",
-      "sha256": "1a2cf1cd9a3d03ee6f8667818ae236e1840ee3fcb44ce271d02643f564420403",
+      "sha256": "d0a79b467824feda2abf9a83e7b4fe57a19b9c6481f11aa560c8455833009490",
       "bytes": 618,
       "format": "TSV",
       "version": 12,
@@ -1925,7 +1846,7 @@
     },
     {
       "internal_path": "db/missile_weapons_tables/im_mortal__screaming_skull_catapult",
-      "sha256": "ac8b150a868f16067ae1216794a5cac3ed60fdfdb398f5c08416aca57877155d",
+      "sha256": "5ec4604bf514ddc9e50ff0ffdae7e6b465ab294dcd8ed6cb2ccaf022e15c95bf",
       "bytes": 186,
       "format": "TSV",
       "version": 12,
@@ -1935,7 +1856,7 @@
     },
     {
       "internal_path": "db/mounts_tables/atbe",
-      "sha256": "0346fafbf411f32fbd933c20374b4bf52119df53df17bde468080ed8c0ff0fc8",
+      "sha256": "f9e919514b2cdde31c54c792570abbe5afcc67d94d71d298e7a594dba331f47e",
       "bytes": 1045,
       "format": "TSV",
       "version": 10,
@@ -1945,7 +1866,7 @@
     },
     {
       "internal_path": "db/names_groups_tables/zzzz_ovnlccp_comp",
-      "sha256": "fe9398f77f6f03cfd828afd9c902c1951312ccee95f047a8f48d8da5d1aa2934",
+      "sha256": "77e831b2b3905a3fdb860454cc37ddf50d48ed237ce1d8f8fc3a64bed2188425",
       "bytes": 103,
       "format": "TSV",
       "version": 0,
@@ -1955,27 +1876,27 @@
     },
     {
       "internal_path": "db/names_tables/atbe",
-      "sha256": "68f83bcecab66af3f218a54ebb86d33c374b90aa6e5eda69c59a27e6ebd3249d",
-      "bytes": 320,
+      "sha256": "d3da0a3c9ec6144edbd5177d10dd29503f8b4d3d76230c11fe1656195a1807b5",
+      "bytes": 321,
       "format": "TSV",
       "version": 0,
       "rows": 5,
       "source_path": "src/db/names_tables/atbe.tsv",
-      "source_sha256": "afc75313641038b61a4c004d06ceb902f6fb7dec3fa538a3d786b9ee46815432"
+      "source_sha256": "caacbaa2951b104742e064a7d978adb6ca6a65127964701c729291963df63afb"
     },
     {
       "internal_path": "db/particle_effects_tables/atbe",
-      "sha256": "b94cd2941e900797fd7a523852ad0430f2b694557512c8f17d7d90d31f51747f",
-      "bytes": 587,
+      "sha256": "18b129761934ac2b3dad2647c37acb330a11097267e1128159097d52a4dd02a2",
+      "bytes": 541,
       "format": "TSV",
       "version": 0,
-      "rows": 14,
+      "rows": 13,
       "source_path": "src/db/particle_effects_tables/atbe.tsv",
-      "source_sha256": "7a22a6c756041ea25eab6d1152284474451ebbad19f4abab1317dc14756779c5"
+      "source_sha256": "2b78635a0790b2e033f9eb14044632c920928377d292a9f30db0ed3ff22c4984"
     },
     {
       "internal_path": "db/particle_effects_tables/im_mortal__screaming_skull_catapult",
-      "sha256": "ffd62f98e088266c3af3e4fbe4e1a774b87c574e26b9959d9b4cc3cfb343a5f1",
+      "sha256": "f8ca49fbfb062994d001440635249c67bdadda884f27bed0952c72fd43ec7de1",
       "bytes": 206,
       "format": "TSV",
       "version": 0,
@@ -1985,7 +1906,7 @@
     },
     {
       "internal_path": "db/pooled_resource_factor_junctions_tables/arkhan_energy",
-      "sha256": "2873a453ef275bfcc5341bc8def3f4bee86ee11eb85be390b5034017e9238046",
+      "sha256": "c045e7731c63257062690ad707c687e230b861484907137a69be67c568f61cba",
       "bytes": 1175,
       "format": "TSV",
       "version": 3,
@@ -1995,7 +1916,7 @@
     },
     {
       "internal_path": "db/pooled_resource_factor_junctions_tables/arkhan_research",
-      "sha256": "6d33dbb3b6a00853c143bbaf4f13f8522f997ff0774daba1d5f854135505c928",
+      "sha256": "b3faf6602090f85f0ecb4065242adefc9da6e695e2a3c537175d61d3afd12d41",
       "bytes": 273,
       "format": "TSV",
       "version": 3,
@@ -2005,7 +1926,7 @@
     },
     {
       "internal_path": "db/pooled_resource_factor_junctions_tables/atbe",
-      "sha256": "26eb1af2bbd2314dd0ab870582f7756c665b1584c2b7d1f389c0f7bf834058d7",
+      "sha256": "e4c6c1a5fe9cecc127eecf353f6610c4413a81b36d95ebb677b41978476b2ef0",
       "bytes": 171,
       "format": "TSV",
       "version": 3,
@@ -2015,7 +1936,7 @@
     },
     {
       "internal_path": "db/pooled_resources_tables/arkhan_energy",
-      "sha256": "4375a6741dd3018aaf1d7d7b62fcf05e9155ac145fc9c3128068457b9bfbc138",
+      "sha256": "2e20abf99d0bed9c88e1dd7a40c8d8f26a9e0291c92b223eda4578bfd18c4190",
       "bytes": 227,
       "format": "TSV",
       "version": 2,
@@ -2025,7 +1946,7 @@
     },
     {
       "internal_path": "db/pooled_resources_tables/arkhan_research",
-      "sha256": "1c1c54f1f45cfd324278b860c30600d4fe8ef40565e6fedf82881a9f5048154b",
+      "sha256": "2b4794e1ea4e821d67853e26e5ff2e4ee9fe7fc199d79a01e6d364fbccb97dd8",
       "bytes": 219,
       "format": "TSV",
       "version": 2,
@@ -2035,7 +1956,7 @@
     },
     {
       "internal_path": "db/projectile_displays_tables/atbe",
-      "sha256": "595fae935792b3f76b7d9a54ad6e4a97b106f2fa08da60602b15f66f7e7bd0d0",
+      "sha256": "85059b2de04c58b8d57828a161b030a3f41f00378bf77fa3eb31e8eff724272f",
       "bytes": 1107,
       "format": "TSV",
       "version": 12,
@@ -2045,7 +1966,7 @@
     },
     {
       "internal_path": "db/projectile_displays_tables/im_mortal__screaming_skull_catapult",
-      "sha256": "9e6204e8a995c00d1fe7dd5f9136318f536f1dfb0a2e7d0425c2685b6347f46d",
+      "sha256": "a396b241b350b9e027e53bbc8929fc4288c6a4f1c00690fda12f4de2ea6f91fc",
       "bytes": 376,
       "format": "TSV",
       "version": 12,
@@ -2055,7 +1976,7 @@
     },
     {
       "internal_path": "db/projectile_impacts_tables/im_mortal__screaming_skull_catapult",
-      "sha256": "c1e66507676e87492c4b16719d8804973480aad5dea88e0b08c4cf6f3430df6d",
+      "sha256": "f05a482b3fb5b4ae3344576b167ae067f76b9c64ff1824cbeba99d31a9d87206",
       "bytes": 729,
       "format": "TSV",
       "version": 11,
@@ -2065,7 +1986,7 @@
     },
     {
       "internal_path": "db/projectile_shrapnels_tables/atbe",
-      "sha256": "094a7092897c6184648be2e661314d110bb20255b096539d362697a7fcaac6d2",
+      "sha256": "ba4ab38d639bbb9aa3214ae9a4b170abb1ff6781784413216511c37a8e6d4a64",
       "bytes": 152,
       "format": "TSV",
       "version": 0,
@@ -2075,7 +1996,7 @@
     },
     {
       "internal_path": "db/projectiles_explosions_tables/atbe",
-      "sha256": "989d3d0905408208cc739d80c7effbd76d8e528f6fcac975bbad1fce2320fb7d",
+      "sha256": "2a12d9ce1f8e4ccc2329bd60cd6b68f648768a26b881fd81974db0d4e6b66683",
       "bytes": 700,
       "format": "TSV",
       "version": 19,
@@ -2085,7 +2006,7 @@
     },
     {
       "internal_path": "db/projectiles_tables/atbe",
-      "sha256": "8125577a54be25ba96c8a92d1e811720ec439578a91fd9c294fc2244f49659f4",
+      "sha256": "f6150a36885797b2b3c55060702fdd0add6d2d423d853f853721b26a24211a0a",
       "bytes": 2793,
       "format": "TSV",
       "version": 53,
@@ -2095,7 +2016,7 @@
     },
     {
       "internal_path": "db/projectiles_tables/im_mortal__screaming_skull_catapult",
-      "sha256": "5d9d12452b220644d2aad5d8eb2ee315497703209fb0620e9f32557935283ee6",
+      "sha256": "6e45578e4decfa21d7df5098791196dee23952652ad5fb180142ccf5eba98b7d",
       "bytes": 452,
       "format": "TSV",
       "version": 53,
@@ -2105,7 +2026,7 @@
     },
     {
       "internal_path": "db/region_group_categories_tables/arkhan_energy",
-      "sha256": "cf266ec6b527b6d622558b44a6eecf673482c1ad2ad6f26ada16854656d3d00e",
+      "sha256": "5c11a0a99ed145ddc42b7f32488a519c1ad1c3a88e53b1e5219a7d136d348fc2",
       "bytes": 113,
       "format": "TSV",
       "version": 0,
@@ -2115,7 +2036,7 @@
     },
     {
       "internal_path": "db/region_group_category_pooled_resource_junctions_tables/arkhan_energy",
-      "sha256": "f68b7f8e698b93ae0ade2449300cec55eb2a989451440d7160583a0e545ffa69",
+      "sha256": "1a93e67f525254b9b1fa20858e6be235066ad4170b6883fe926e4778f1e9d55e",
       "bytes": 149,
       "format": "TSV",
       "version": 0,
@@ -2125,7 +2046,7 @@
     },
     {
       "internal_path": "db/resource_cost_pooled_resource_junctions_tables/arkhan_energy",
-      "sha256": "8ffe60eb848678b22519fb78df1305b453b5677db7ae0210faffaddbdbd901e3",
+      "sha256": "12d0625bd15ea0b3a21ea6bff91cb9ffd71b3ff4247a14235132fe3e2dd16eff",
       "bytes": 854,
       "format": "TSV",
       "version": 1,
@@ -2135,7 +2056,7 @@
     },
     {
       "internal_path": "db/resource_costs_tables/arkhan_energy",
-      "sha256": "e940f3b527a6d0a32a36880e3998711856cc68ec4889b8e27d63b85bc8a7007c",
+      "sha256": "7624edad994d1e68a3a1404510c13c8a9ed984619bcbd070d81a72d26e239b93",
       "bytes": 509,
       "format": "TSV",
       "version": 0,
@@ -2145,7 +2066,7 @@
     },
     {
       "internal_path": "db/resource_costs_tables/atbe",
-      "sha256": "8b454f66da34b03068510275313fe4823f4d04234764ab6703dc53aa9bd447ae",
+      "sha256": "f1deac260c18c5f03ed74640a6a0ebd87bdfeea7c637c1713d294563b62021bb",
       "bytes": 397,
       "format": "TSV",
       "version": 0,
@@ -2155,7 +2076,7 @@
     },
     {
       "internal_path": "db/rituals_tables/arkhan_lotd_native",
-      "sha256": "768302c9abb053a23f19edfe69547b39c1ac07ceaa5e380a5db49fe376ef743c",
+      "sha256": "2627140b1550c66c7b80fee147c514c0de3f06acdda8d75ec100d1ec6ef26f1d",
       "bytes": 423,
       "format": "TSV",
       "version": 4,
@@ -2165,7 +2086,7 @@
     },
     {
       "internal_path": "db/special_ability_contact_phase_groups_tables/atbe",
-      "sha256": "9e231edf960e16dc821d4c967c1a1f9bf0896d818b2cbd3b05aa19494656c6a4",
+      "sha256": "17acd878abc7059169bb865952324c279ca5d3a1898d0fdd9ab74b1821be0a5f",
       "bytes": 606,
       "format": "TSV",
       "version": 0,
@@ -2175,7 +2096,7 @@
     },
     {
       "internal_path": "db/special_ability_groups_tables/atbe",
-      "sha256": "1dd16bfacc1de2b3e3a8e6947bdc926ebc08f1fb21ca741aedc33433ecf65f61",
+      "sha256": "47f5352069cbbbc81f9fe1fe9cde00f55161f6df0af68b7dfe73a3548d6f70f6",
       "bytes": 484,
       "format": "TSV",
       "version": 11,
@@ -2185,7 +2106,7 @@
     },
     {
       "internal_path": "db/special_ability_groups_to_unit_abilities_junctions_tables/atbe",
-      "sha256": "3901f75329488e0b3f9d153cbf7b1251ac58790d3f25973bdb71d23111be450a",
+      "sha256": "42df9c06aa355c897a0cb96d3c79cc026aab13b5f0429a63564a989d2eccb82b",
       "bytes": 1348,
       "format": "TSV",
       "version": 1,
@@ -2195,17 +2116,17 @@
     },
     {
       "internal_path": "db/special_ability_groups_to_units_junctions_tables/atbe",
-      "sha256": "b190d59601fe8c54628e297126a075a9847c95473d3507ebf6d268687d589b5b",
-      "bytes": 2840,
+      "sha256": "2088d3b497d6576568384a67e734c58529478156497ee9b8682b872b25e28605",
+      "bytes": 2974,
       "format": "TSV",
       "version": 1,
-      "rows": 39,
+      "rows": 41,
       "source_path": "src/db/special_ability_groups_to_units_junctions_tables/atbe.tsv",
-      "source_sha256": "2efa019f9c3ce1f4a414d249afc48c0cd36d59c4c919578203f9f9f9f26b37ca"
+      "source_sha256": "ddceac458e52358d0988ecbe108b808ae356897b0edeeebd3f00b501b8569cc3"
     },
     {
       "internal_path": "db/special_ability_intensity_settings_tables/atbe",
-      "sha256": "cce552e37d66eb1fdcbff8d91a09e5f7b5ad9972be16962af3eb554d0c6b54e1",
+      "sha256": "9855ba932004f14696e08f781d6e030217972fb08a2330bc8ad447ffbf100b4e",
       "bytes": 257,
       "format": "TSV",
       "version": 3,
@@ -2215,7 +2136,7 @@
     },
     {
       "internal_path": "db/special_ability_phase_attribute_effects_tables/atbe",
-      "sha256": "26f32491e3e10319c985f3dd159d9476a6b85d5d423ee4665bf60a834bf6905e",
+      "sha256": "ff31cefb34810c289d76ae9de0bc37fbe986836abeb6f646e385b6db7325f2eb",
       "bytes": 147,
       "format": "TSV",
       "version": 1,
@@ -2225,7 +2146,7 @@
     },
     {
       "internal_path": "db/special_ability_phase_displays_tables/atbe",
-      "sha256": "11160f4373c0283d7fa13cf3cb9ada4543ce24bebc3b8ba77351175a7c3c0f1b",
+      "sha256": "59d0500f58e52ac5848c7af107ec139b92d411d9b1148a34cef3c77a741f71a5",
       "bytes": 1020,
       "format": "TSV",
       "version": 2,
@@ -2235,7 +2156,7 @@
     },
     {
       "internal_path": "db/special_ability_phase_stat_effects_tables/atbe",
-      "sha256": "6853861d16edebea0b752b78c6ea41a573ca1230ff07e8501320b305804cbc5f",
+      "sha256": "c35d79fb6a564e6f5218456489c85df869543f5571005a543e6a6b531e7a20e4",
       "bytes": 1016,
       "format": "TSV",
       "version": 3,
@@ -2245,7 +2166,7 @@
     },
     {
       "internal_path": "db/special_ability_phases_tables/atbe",
-      "sha256": "abe7d1b25924a9f213379685967384e978bba815e2b9612d7773dfda85c4a2d6",
+      "sha256": "f825978811fb93b99e5360b803edfb4bef437b0d87ce58f84238997accae3eae",
       "bytes": 3095,
       "format": "TSV",
       "version": 44,
@@ -2255,7 +2176,7 @@
     },
     {
       "internal_path": "db/special_ability_to_auto_deactivate_flags_tables/atbe",
-      "sha256": "003269ed0fe83c3f32781baa3d032d13056b0a03f9a051090f2016f501a4d266",
+      "sha256": "7b02efc2ac1aca3cd5c90f7a26185333bfff3e2fabda6b23e48fe1662da7582f",
       "bytes": 954,
       "format": "TSV",
       "version": 0,
@@ -2265,7 +2186,7 @@
     },
     {
       "internal_path": "db/special_ability_to_invalid_target_flags_tables/atbe",
-      "sha256": "805f3b3edd953eab6b193e0514904ffe549aef336b8688658625a6d3cf29d4f1",
+      "sha256": "e5307d8d893618550854b16dfce442cc47f3bf6eabf18621bc5020a947edfd3e",
       "bytes": 427,
       "format": "TSV",
       "version": 0,
@@ -2275,7 +2196,7 @@
     },
     {
       "internal_path": "db/special_ability_to_invalid_usage_flags_tables/atbe",
-      "sha256": "d4e568a179e6cb1febea5a825e03ee53fc61e02b37c2def41f54f5636f704619",
+      "sha256": "4fbdce79c0ec29e2aafb677e7f85d1ed3ae0f1b78c753972d095b42b345e4ef4",
       "bytes": 202,
       "format": "TSV",
       "version": 0,
@@ -2285,7 +2206,7 @@
     },
     {
       "internal_path": "db/special_ability_to_special_ability_phase_junctions_tables/atbe",
-      "sha256": "a0a3599a3ab62a31330adaf030b91f2f846e4d90ee78b1103ff885800cdfbec5",
+      "sha256": "9581db17996284bae2a7d4a110779b48fbe1a1ccc02c6d87c287b88a515c528f",
       "bytes": 1477,
       "format": "TSV",
       "version": 2,
@@ -2295,17 +2216,17 @@
     },
     {
       "internal_path": "db/technologies_tables/atbe",
-      "sha256": "1b9a198e43c432fcd372f54df15b3f3a817d60618307bdfc8acbbbb6a520f42b",
-      "bytes": 3974,
+      "sha256": "560b985e7bac0cb9db85e0ff1979930513f776adf86c5027c86fb48d27b19ed5",
+      "bytes": 3866,
       "format": "TSV",
       "version": 7,
-      "rows": 34,
+      "rows": 33,
       "source_path": "src/db/technologies_tables/atbe.tsv",
-      "source_sha256": "fe60dda15aa36a7c9651f35c8cbe56c807b9d5135369926321bdddc130bd4fa5"
+      "source_sha256": "4c107196262cd106be37bd61141359030588fab7aa0d9f0041fd4b9c1b36c617"
     },
     {
       "internal_path": "db/technology_character_traits_junctions_tables/atbe",
-      "sha256": "54d2b153a4b7a442388427a8149bde33a311a9a8ddac75a6d68a83910069dd2b",
+      "sha256": "b795ed8ecc37bcfff317470295202f0824436b44864418c34df85877cbe81564",
       "bytes": 284,
       "format": "TSV",
       "version": 0,
@@ -2315,17 +2236,17 @@
     },
     {
       "internal_path": "db/technology_effects_junction_tables/atbe",
-      "sha256": "5b252b38c9f4ffcffdf16b238008465b8310bb59fea5bf6e66d67b237c98e4d0",
-      "bytes": 9384,
+      "sha256": "891bf0dd1fba5fdad8713a01823f7618013e3116dc1a0fc99d74112e5ff55cb0",
+      "bytes": 8748,
       "format": "TSV",
       "version": 0,
-      "rows": 90,
+      "rows": 84,
       "source_path": "src/db/technology_effects_junction_tables/atbe.tsv",
-      "source_sha256": "9ef0a5dec286f773652da947fbea42f5408d67b7693168fae956efaaea215918"
+      "source_sha256": "a034587d5c35800acfa48da2b98dfc31339223f8970d6b030ac593b2359f897a"
     },
     {
       "internal_path": "db/technology_node_links_tables/atbe",
-      "sha256": "0ce48ee1ddc626c60b9fe04af7cd33f50f687addf415eeecb91a676f7333964c",
+      "sha256": "293f569e43384c7379f7cb1682be15f70a1bfa08598b6f87352ede592edc3e05",
       "bytes": 2426,
       "format": "TSV",
       "version": 0,
@@ -2335,17 +2256,17 @@
     },
     {
       "internal_path": "db/technology_nodes_tables/atbe",
-      "sha256": "8bc2066bf71da665c0263c1f557973dac284ddc2f7944bb8052596e80ba1de88",
-      "bytes": 5438,
+      "sha256": "ce5f703574072eff31f5f83fc6d03a876a60606a749953d76cdcb608cf39073a",
+      "bytes": 5349,
       "format": "TSV",
       "version": 0,
-      "rows": 34,
+      "rows": 33,
       "source_path": "src/db/technology_nodes_tables/atbe.tsv",
-      "source_sha256": "f8580364678a65a86af83aab8368f093c4e86f07368168d2d811ac56c7483009"
+      "source_sha256": "1ea00e491217dceb1039943b393b4c4e2add6574d30eacf368c95f8864df41d7"
     },
     {
       "internal_path": "db/technology_nodes_tables/atbe_tk",
-      "sha256": "105c83762110f0a1aad32a8bad9f3403ecf5089bb3a161d6cdec65b4d1f9fbf9",
+      "sha256": "1697b467663c9775070757b17703e51fb45d45703185398279888e4682c3e576",
       "bytes": 10064,
       "format": "TSV",
       "version": 0,
@@ -2354,8 +2275,18 @@
       "source_sha256": "8c68acf6489f559f7844c85624ec2a7eb2746cab5d93c0d8c1ba016b96b732a2"
     },
     {
+      "internal_path": "db/technology_required_technology_junctions_tables/atbe",
+      "sha256": "dc83006081ec0d1f396badee5fe767b2113c1609d88c6bc13573c5c09540998e",
+      "bytes": 189,
+      "format": "TSV",
+      "version": 0,
+      "rows": 2,
+      "source_path": "src/db/technology_required_technology_junctions_tables/atbe.tsv",
+      "source_sha256": "ecb7859d570114996bb2a3e85b2bb3bb72c8a54bf21d96868da91f93477fc1ee"
+    },
+    {
       "internal_path": "db/technology_script_lock_reasons_tables/atbe",
-      "sha256": "558826881b97a87c068d35bc613a69c9f246645de8ba2dd6cc1a11c4e22b4c51",
+      "sha256": "883d4161151698720d78d8b0f8106f7782be31717ffcafb64d902cf2ac70b930",
       "bytes": 145,
       "format": "TSV",
       "version": 0,
@@ -2364,28 +2295,8 @@
       "source_sha256": "ddc14b7895f11bf1a9b43a2afb35f9b40f1495b0d108a4ceba6ce673f823c2f8"
     },
     {
-      "internal_path": "db/technology_ui_groups_tables/atbe",
-      "sha256": "0432653a53ba0d33b50debc0c8086e63b719759f16f10f89f6544a56b4acf846",
-      "bytes": 155,
-      "format": "TSV",
-      "version": 6,
-      "rows": 1,
-      "source_path": "src/db/technology_ui_groups_tables/atbe.tsv",
-      "source_sha256": "56d1ad03579852949317fcbd6c96398da778eaf1734f9d3a5c4dbc9d8a601833"
-    },
-    {
-      "internal_path": "db/technology_ui_groups_to_technology_nodes_junctions_tables/atbe",
-      "sha256": "c57025974731ced50e235ee64b4bfd7cc8b1794407c49509b0496104c8b1912a",
-      "bytes": 216,
-      "format": "TSV",
-      "version": 2,
-      "rows": 1,
-      "source_path": "src/db/technology_ui_groups_to_technology_nodes_junctions_tables/atbe.tsv",
-      "source_sha256": "10257f1245029d2e20bda2179c81d66d3322cff210a491eec855d8252e0d471f"
-    },
-    {
       "internal_path": "db/technology_ui_tabs_tables/atbe",
-      "sha256": "707806df091239a6ad6b73987f096c28a6c69099e5390a218863d91c32a30e1b",
+      "sha256": "e844e3bebd0a93c55c5dd16fcccd495fc553b117003de00a2af5b2a725c61e2e",
       "bytes": 132,
       "format": "TSV",
       "version": 1,
@@ -2395,17 +2306,17 @@
     },
     {
       "internal_path": "db/technology_ui_tabs_to_technology_nodes_junctions_tables/atbe",
-      "sha256": "569cacab42805ef5fbfec3a1338c43955534ed42b7ff8c2d5a764d44f9cdefeb",
-      "bytes": 5083,
+      "sha256": "23406a6da28b3318b9834c4794436622d1e7cde30c15ac11e71d85695391ae15",
+      "bytes": 5036,
       "format": "TSV",
       "version": 0,
-      "rows": 108,
+      "rows": 107,
       "source_path": "src/db/technology_ui_tabs_to_technology_nodes_junctions_tables/atbe.tsv",
-      "source_sha256": "ab989311d3a61400916ee2106870029681a711368b867309ce6dd3d7fe583c66"
+      "source_sha256": "215dd814349d8a5c1023ed96773916fbae90a48bf85c69c4423e4867bb3b91f4"
     },
     {
       "internal_path": "db/trait_info_tables/atbe",
-      "sha256": "333ff2b6603f44beb5fd1c3b9b9fa9c7e0eec79aa69f089599494cd962ecc6b4",
+      "sha256": "9dcd06609958e9c0d6ec856b5d88e02ae8a92138a3c525524914d814fbf106ef",
       "bytes": 313,
       "format": "TSV",
       "version": 1,
@@ -2415,7 +2326,7 @@
     },
     {
       "internal_path": "db/trait_level_effects_tables/atbe",
-      "sha256": "e8edcdee622a89579f5f212c91450a650a3aac460565ac7b1bedf5fb5753449d",
+      "sha256": "49e8c346e42d2a51fe2f59bae73fb3905fe03a10fd26b5bde52f552da1494694",
       "bytes": 1823,
       "format": "TSV",
       "version": 0,
@@ -2425,17 +2336,17 @@
     },
     {
       "internal_path": "db/twad_key_deletes_tables/atbe",
-      "sha256": "ef76fe46e6d7b3b06ceb04607c4c6e195534ba55719252237de2bd8324eb62d9",
-      "bytes": 7212,
+      "sha256": "de2a39175c8e471d15e52fabb880d3131082de844603a74b3a6683fd964db51f",
+      "bytes": 6032,
       "format": "TSV",
       "version": 0,
-      "rows": 63,
+      "rows": 52,
       "source_path": "src/db/twad_key_deletes_tables/atbe.tsv",
-      "source_sha256": "dc02caace04bca91fb61ae3bcaf2f6045d145bf02d7e9298acadea23f3b4b140"
+      "source_sha256": "f671042007b1530ae28dc153b8b73affff4bfc142f3947d5f2e3df45002c11e9"
     },
     {
       "internal_path": "db/ui_effect_excluded_units_and_sets_tables/atbe",
-      "sha256": "d68310c237df23c0bc24e101b558a4d4f8e34570d2f6e83efd746859b5c5c75e",
+      "sha256": "591f7cc77446b76074e301519c01270fcad3c970fb0aa61d7afadf7af3dcfe73",
       "bytes": 607,
       "format": "TSV",
       "version": 0,
@@ -2445,7 +2356,7 @@
     },
     {
       "internal_path": "db/ui_features_to_factions_tables/atbe",
-      "sha256": "1110159848a0904284e8463551d58624e936801d3fec70fcaa3e3967ebd9bf1e",
+      "sha256": "86196565905fdad93f413b0a26fb25732fb3113a8f202406516426c0a82b32a0",
       "bytes": 136,
       "format": "TSV",
       "version": 0,
@@ -2455,27 +2366,27 @@
     },
     {
       "internal_path": "db/ui_text_replacements_tables/atbe",
-      "sha256": "bf7c4ad95fe2ae9418aabc8bec09e0601384e4422b15c2debb294951184bea36",
-      "bytes": 149,
+      "sha256": "a2d053ef60a6a592d1d0677e7f9296c46829b7dca926b5160b8cf954e6c79840",
+      "bytes": 212,
       "format": "TSV",
       "version": 0,
-      "rows": 1,
+      "rows": 2,
       "source_path": "src/db/ui_text_replacements_tables/atbe.tsv",
-      "source_sha256": "8939a7d382203c5404c4eb53e2c44443a2c5f67888c3724b081ad7cc2d868ac3"
+      "source_sha256": "be0167daafce03f2377c9d57c63876b6a65096a0615bf2b89adac113e0d008ef"
     },
     {
       "internal_path": "db/ui_unit_bullet_point_unit_overrides_tables/atbe",
-      "sha256": "f7ea5ebfc82381cde4386b767d30a66981f4ed9a35fc42444846372aa38a48af",
-      "bytes": 9997,
+      "sha256": "8bf0d1eedd499fb7e12b11ffa5f511c0cf50068d5cea7a7e7bcc5e6406ae5485",
+      "bytes": 10103,
       "format": "TSV",
       "version": 0,
-      "rows": 201,
+      "rows": 203,
       "source_path": "src/db/ui_unit_bullet_point_unit_overrides_tables/atbe.tsv",
-      "source_sha256": "717513f15af8a591383d0fa59459596cd7839b4160e41d14fe0f32eb22cdf6ae"
+      "source_sha256": "70fe30431fb8eec6f47e8daa75f6dab2c200e0999af0dbfc99835bfc03772e3f"
     },
     {
       "internal_path": "db/unit_abilities_tables/atbe",
-      "sha256": "dc38c7ddf26a72b1c4307dc4e6f4a87d620dd1a63884c469178d95bc94cd589c",
+      "sha256": "3ba67c2cb9e8627dc64d73e5c537b6a51d47c859f1836cbd6bc4a14126d663e9",
       "bytes": 3768,
       "format": "TSV",
       "version": 17,
@@ -2485,7 +2396,7 @@
     },
     {
       "internal_path": "db/unit_abilities_to_additional_ui_effects_juncs_tables/atbe",
-      "sha256": "40d49db4a208eaa7f3b0393d330798dc3fd96158d0338a778ae5ed36e000f548",
+      "sha256": "c8b5182ae2067a7e19ef626aa386255ea8b10935b328d0674fdd67bd639a27a6",
       "bytes": 2351,
       "format": "TSV",
       "version": 0,
@@ -2495,7 +2406,7 @@
     },
     {
       "internal_path": "db/unit_ability_superseded_abilities_set_elements_tables/atbe",
-      "sha256": "5416a12fa405b6eb53009f0acdbbc03fbb5e69d78d48bb9ba734c808374e5b29",
+      "sha256": "fa0a333f2d565078a111dfe295fb5ebc9303406eaf99eb4276ce5b516e0fec73",
       "bytes": 469,
       "format": "TSV",
       "version": 0,
@@ -2505,7 +2416,7 @@
     },
     {
       "internal_path": "db/unit_ability_superseded_abilities_sets_tables/atbe",
-      "sha256": "e92788c5d7bc48cd58fa25d17e67ee2634fe66d5237408a6f2e50df69020117f",
+      "sha256": "2b3566f17228c3ee28c13d142cd4fd342172afab219c8484728ca1f490a043c3",
       "bytes": 144,
       "format": "TSV",
       "version": 0,
@@ -2515,7 +2426,7 @@
     },
     {
       "internal_path": "db/unit_attributes_groups_tables/atbe",
-      "sha256": "3fbb94c8a5d9b94f46e291b82de4376b8532cd57f9eeed6aa8fd2ecf69bb163a",
+      "sha256": "e6d0c4bb8cabef5aeee9dffbe9c32bd0711bead8474e6d993377ce640a7ad192",
       "bytes": 265,
       "format": "TSV",
       "version": 0,
@@ -2525,7 +2436,7 @@
     },
     {
       "internal_path": "db/unit_attributes_to_groups_junctions_tables/atbe",
-      "sha256": "f3504b5ee025ac934b0642819a050231735e0eca23312339861df3490a1c5ca1",
+      "sha256": "ecb01cdb64c9a1bac7dc828385610a402430f292a23606a6450d3ceb2f27dbbd",
       "bytes": 1578,
       "format": "TSV",
       "version": 2,
@@ -2535,7 +2446,7 @@
     },
     {
       "internal_path": "db/unit_banner_unit_height_offsets_tables/atbe",
-      "sha256": "7557a6cfe7988f223c89571a203f768ef1545d6f8e6f06d5679bd77048517dd0",
+      "sha256": "d24540836885b1ad0d76ab2395c594f8d80e6783126e3cbf2ac4877fd5f0c250",
       "bytes": 965,
       "format": "TSV",
       "version": 2,
@@ -2545,7 +2456,7 @@
     },
     {
       "internal_path": "db/unit_missile_weapon_junctions_tables/atbe",
-      "sha256": "a90a9dba1adbef2227c8d81bd14280038cba4a4354cbaafb4dc83674198840c3",
+      "sha256": "6002f3bbcb579c1d1adaba7ad773b6a90e455d85ecd1968260d9e3a949f974cf",
       "bytes": 890,
       "format": "TSV",
       "version": 1,
@@ -2555,17 +2466,17 @@
     },
     {
       "internal_path": "db/unit_set_to_unit_junctions_tables/atbe",
-      "sha256": "3747a6c66f0a58160193376d78e866325775388acd1a2fb0ee723925935cf448",
-      "bytes": 34924,
+      "sha256": "c5fa61c540c1b2dde54c3a73b87a9809cc15d806dc76ce17cf549b44c5fd837a",
+      "bytes": 34871,
       "format": "TSV",
       "version": 1,
-      "rows": 508,
+      "rows": 507,
       "source_path": "src/db/unit_set_to_unit_junctions_tables/atbe.tsv",
-      "source_sha256": "72a5b56a3b9aec1acf8d3a1658164dc92fa901eced425b4869138df6492bdbd8"
+      "source_sha256": "ab913e7d95840b3374798619c3b75c3e72855d81b6a67f8684cb88acf2d483ee"
     },
     {
       "internal_path": "db/unit_set_unit_ability_junctions_tables/atbe",
-      "sha256": "443be63bde3de39116d89b6683b2aa6b4c421db3e7023bc72eaf09cd92c03c70",
+      "sha256": "e9972b60cee0d9c32dfcbb9a3ab2b9cf9bc4ff7c9ac27f66317b7fd97836319b",
       "bytes": 1924,
       "format": "TSV",
       "version": 0,
@@ -2575,7 +2486,7 @@
     },
     {
       "internal_path": "db/unit_set_unit_attribute_junctions_tables/atbe",
-      "sha256": "1bb8383f616f129fead33e4f7ab31a46d1dd8a848c4b45949fcc0278a8f8b1c7",
+      "sha256": "13955411dc5e82e8d0724606fa8055c7d085c33c9790bf34b171fec3fe1d112f",
       "bytes": 779,
       "format": "TSV",
       "version": 0,
@@ -2584,28 +2495,8 @@
       "source_sha256": "c4ad8beb9ee57acc66383d0f66a467c4d71e6aa531df4c8e85e94924d05f48a7"
     },
     {
-      "internal_path": "db/unit_sets_tables/arkhan_black_coach",
-      "sha256": "7bc6a3303ec0dd061788b03877693d3fa34b628a157d23eb1caebaa4ea4865e9",
-      "bytes": 129,
-      "format": "TSV",
-      "version": 2,
-      "rows": 1,
-      "source_path": "src/db/unit_sets_tables/arkhan_black_coach.tsv",
-      "source_sha256": "13e5eb8079cf8f96ff86f1007ef813504e77aa56770b5e67a69fac529dd1a0cd"
-    },
-    {
-      "internal_path": "db/unit_sets_tables/arkhan_coven_throne",
-      "sha256": "49421c9340e9892a884271f190236e80476a9ec56706221f6bd784cbbec6e00a",
-      "bytes": 130,
-      "format": "TSV",
-      "version": 2,
-      "rows": 1,
-      "source_path": "src/db/unit_sets_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "4a706f425f1ae1d746a1dcd96d239951380783c01300cde6c848369f99e8d701"
-    },
-    {
       "internal_path": "db/unit_sets_tables/atbe",
-      "sha256": "67f280f9fa59f0e43b6f909e571895343a296590610ce2264d0dd009f76b05ca",
+      "sha256": "be735df3a37bd569dd8f3288cc9f32acca156c54509b14e99196e35a1141b942",
       "bytes": 2846,
       "format": "TSV",
       "version": 2,
@@ -2615,7 +2506,7 @@
     },
     {
       "internal_path": "db/unit_special_abilities_tables/atbe",
-      "sha256": "e340fece2ecebd4b1d2f84b0e329d1cac9fc5a883eb46933dd788fdc93dad5d9",
+      "sha256": "10bea9df4b4d5d40f549de988b72a36bd680392375b0e614c0ad7914b080c3bf",
       "bytes": 7408,
       "format": "TSV",
       "version": 74,
@@ -2625,7 +2516,7 @@
     },
     {
       "internal_path": "db/unit_variants_colours_tables/atbe",
-      "sha256": "2be99460b1eb611d05727f3e41c5c8be86fbd186cb8dd6045d9135eb9ec3f304",
+      "sha256": "6128b807991976b7efa8b97be957b01b765006d3b4364438ec5560aeee22f5fd",
       "bytes": 448,
       "format": "TSV",
       "version": 3,
@@ -2634,97 +2525,57 @@
       "source_sha256": "fe19cb9fc6e6e2ea98ca350324c15a64ca89a94270a8c3362915acf89cdca636"
     },
     {
-      "internal_path": "db/unit_variants_tables/arkhan_black_coach",
-      "sha256": "3317965adfcecb35c45e033efb4188828d4c3c14fff05a85327cf7a4552f007d",
-      "bytes": 205,
-      "format": "TSV",
-      "version": 5,
-      "rows": 1,
-      "source_path": "src/db/unit_variants_tables/arkhan_black_coach.tsv",
-      "source_sha256": "5405d5b95b3351b6e2371f1728282090724444b4b82d98405646cc36aa584db4"
-    },
-    {
-      "internal_path": "db/unit_variants_tables/arkhan_coven_throne",
-      "sha256": "b23abed466cb2e3f3699a6f70d3c9467b048aace6859e093b57885f9190ab9ac",
-      "bytes": 207,
-      "format": "TSV",
-      "version": 5,
-      "rows": 1,
-      "source_path": "src/db/unit_variants_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "da4357a070a2db3181338d198e878f134edd94250d8e0657ccfcc4608e84f3e7"
-    },
-    {
       "internal_path": "db/unit_variants_tables/atbe",
-      "sha256": "2f630ec29880833c995c9f6e64c0620b0b0d0ee05218577aced03a57320f5ec4",
-      "bytes": 21111,
+      "sha256": "403def870c814e832c2fd0f725386155a709389824484a5f1c38a5545aac5f2f",
+      "bytes": 21387,
       "format": "TSV",
       "version": 5,
-      "rows": 139,
+      "rows": 141,
       "source_path": "src/db/unit_variants_tables/atbe.tsv",
-      "source_sha256": "1f2662cb503d34bfb07d7342fb0d5939e2628763fa69ab1fefb8cd8860518b5d"
+      "source_sha256": "f7108fcbc5a32e50d070cc24c3a8f5922fd29bc3c4811e23a868be961ac93e10"
     },
     {
       "internal_path": "db/units_custom_battle_mounts_tables/atbe",
-      "sha256": "5a7ea636ac6ccb2bf6314c5d1a2a8f6467016fe9200911f7034e3f3b5cd651cc",
-      "bytes": 3521,
+      "sha256": "f2861be5fd7cbeef93997fade4d45ef6803fff2d1ac2be8a22081aa5c881edb3",
+      "bytes": 3653,
       "format": "TSV",
       "version": 1,
-      "rows": 27,
+      "rows": 28,
       "source_path": "src/db/units_custom_battle_mounts_tables/atbe.tsv",
-      "source_sha256": "34601127e120cecf0bdb3708c0862723754e3f726abcf61ce43204374114f40b"
+      "source_sha256": "1e6befb3f7fa77816ed93953091c0abed9a01c1a4ab844de804cc5c2c7b32709"
     },
     {
       "internal_path": "db/units_custom_battle_permissions_tables/atbe",
-      "sha256": "06dcc45a9b47dc2e20ba7b96c8d666bb2d37951b023d4a068904566184e3697c",
-      "bytes": 10049,
+      "sha256": "40fcbcb21c8b13f3a86214cb0b018a2eb4d5967ea2169706ec7ea0532ea964ce",
+      "bytes": 10430,
       "format": "TSV",
       "version": 11,
-      "rows": 56,
+      "rows": 57,
       "source_path": "src/db/units_custom_battle_permissions_tables/atbe.tsv",
-      "source_sha256": "ca3675bf3871bb8ec5e148353b41d79f4850397db5f83446be1b0ebca17c1791"
+      "source_sha256": "0e276f6afb15a5eac6ea786192ab1df275470037ece10abe06f49a3b85792045"
     },
     {
       "internal_path": "db/units_custom_battle_types_tables/atbe",
-      "sha256": "4cc43ff571866f13ed58b1fcb13edc997a75199e1b0a0da00f86d0a1cbdc2ca0",
-      "bytes": 581,
+      "sha256": "dd558beb49fc92f9fc1ab9b5f72f271b7ba747f22356bd850b4f3a6f3865e2c3",
+      "bytes": 826,
       "format": "native DB",
-      "reason": "(WindowsPath('arkhan-new-baseline-20261022/raw/db/units_custom_battle_types_tables/atbe'), 3, KeyError('ColourRGB'))",
+      "reason": "(WindowsPath('arkhan-baseline-20261031/raw/db/units_custom_battle_types_tables/atbe'), 3, KeyError('ColourRGB'))",
       "source_path": "src/db/units_custom_battle_types_tables/atbe",
-      "source_sha256": "4cc43ff571866f13ed58b1fcb13edc997a75199e1b0a0da00f86d0a1cbdc2ca0"
-    },
-    {
-      "internal_path": "db/units_to_groupings_military_permissions_tables/arkhan_black_coach",
-      "sha256": "f9a3ad421bc0cff47848cdf8478bda3cd8bb67cb71564dea59456c7fb870ad8a",
-      "bytes": 140,
-      "format": "TSV",
-      "version": 0,
-      "rows": 1,
-      "source_path": "src/db/units_to_groupings_military_permissions_tables/arkhan_black_coach.tsv",
-      "source_sha256": "ea3b8bce96d5d0398fc1894149ea2c8f4863d1c3758592b1d4e8b9d793bbee17"
-    },
-    {
-      "internal_path": "db/units_to_groupings_military_permissions_tables/arkhan_coven_throne",
-      "sha256": "20fa9aae451e2e25a88cd3928a7375b79f9eb901bddf73357109ad9fd167f486",
-      "bytes": 141,
-      "format": "TSV",
-      "version": 0,
-      "rows": 1,
-      "source_path": "src/db/units_to_groupings_military_permissions_tables/arkhan_coven_throne.tsv",
-      "source_sha256": "004709db68a205771d2d613801c7580985aa3c90237dafa5936230ebb15ae67d"
+      "source_sha256": "dd558beb49fc92f9fc1ab9b5f72f271b7ba747f22356bd850b4f3a6f3865e2c3"
     },
     {
       "internal_path": "db/units_to_groupings_military_permissions_tables/atbe",
-      "sha256": "18afb41247f58c4d322739fa56653152a752357212630fce1e052539e7e27bcc",
-      "bytes": 5425,
+      "sha256": "90ebe19d0763638b5872103db2acafb2aaf9cbfe311aa8ab05cdb4bec9e1336a",
+      "bytes": 5563,
       "format": "TSV",
       "version": 0,
-      "rows": 81,
+      "rows": 83,
       "source_path": "src/db/units_to_groupings_military_permissions_tables/atbe.tsv",
-      "source_sha256": "386613fb4478c94fc87c2a68b1d4cd75b45629c7778ef185ac37a6e1ef0ac6ae"
+      "source_sha256": "445a6d2ceb88c4bf1a81f8801eb69db8bf3ccd7b4616372c265c8c8073622a02"
     },
     {
       "internal_path": "db/variants_tables/atbe",
-      "sha256": "960fe0482f29cd2322273029846d5aef723edeae0b5801f68c5d46761e67787c",
+      "sha256": "e554bdde225a28bec2912bc5d8d80a905f934b2d960316271d0747ed6435de74",
       "bytes": 1782,
       "format": "TSV",
       "version": 6,
@@ -2734,11 +2585,20 @@
     },
     {
       "internal_path": "script/campaign/mod/arkhan_land_of_the_dead.lua",
-      "sha256": "6082010a9b14c296c890ebe01e9cdc7775a6e687d06f46cad7fdaac10d52efad",
-      "bytes": 18586,
+      "sha256": "a7e8133705652bfa73f3f2165150089f65487216d9dafab49c866dadafea4db7",
+      "bytes": 19239,
       "format": "raw",
       "source_path": "src/script/campaign/mod/arkhan_land_of_the_dead.lua",
-      "source_sha256": "6082010a9b14c296c890ebe01e9cdc7775a6e687d06f46cad7fdaac10d52efad"
+      "source_sha256": "a7e8133705652bfa73f3f2165150089f65487216d9dafab49c866dadafea4db7",
+      "input_payload_sha256": "6082010a9b14c296c890ebe01e9cdc7775a6e687d06f46cad7fdaac10d52efad"
+    },
+    {
+      "internal_path": "script/campaign/mod/arkhan_new_army.lua",
+      "sha256": "ebcb5bf7e47aae0538c21a924777b2177f2f27dfa268a17de270fb7f7bed8a33",
+      "bytes": 2281,
+      "format": "raw",
+      "source_path": "src/script/campaign/mod/arkhan_new_army.lua",
+      "source_sha256": "ebcb5bf7e47aae0538c21a924777b2177f2f27dfa268a17de270fb7f7bed8a33"
     },
     {
       "internal_path": "script/campaign/mod/arkhan_starting_hero.lua",
@@ -2758,11 +2618,11 @@
     },
     {
       "internal_path": "script/campaign/mod/arkhan_tmb_tomb_king_unlocks.lua",
-      "sha256": "a71ef4ab2549661aebb1f8585f81b8947083aa9e28074ac036df9d1e40c354da",
-      "bytes": 2411,
+      "sha256": "873a9d54a17977bd4939a275a1543e06c3fd2c6e6b80ea861cd84b50a1de1563",
+      "bytes": 2276,
       "format": "raw",
       "source_path": "src/script/campaign/mod/arkhan_tmb_tomb_king_unlocks.lua",
-      "source_sha256": "a71ef4ab2549661aebb1f8585f81b8947083aa9e28074ac036df9d1e40c354da"
+      "source_sha256": "873a9d54a17977bd4939a275a1543e06c3fd2c6e6b80ea861cd84b50a1de1563"
     },
     {
       "internal_path": "script/campaign/mod/zy_arkhan_lotd_necropolis_refresh.lua",
@@ -2803,26 +2663,6 @@
       "format": "raw",
       "source_path": "src/script/campaign/mod/zz_arkhan_lotd_resource_panels.lua",
       "source_sha256": "d2bb75f1635256738521caf7784138b052642ff03f4c1a800144eaf11fdaa3d0"
-    },
-    {
-      "internal_path": "text/db/arkhan_black_coach.loc",
-      "sha256": "4ea568d03723319b1073507893cdfb0cee16bb913844655c9cdea33acac46eee",
-      "bytes": 407,
-      "format": "native LOC",
-      "version": 1,
-      "rows": 3,
-      "source_path": "src/text/db/arkhan_black_coach.loc",
-      "source_sha256": "4ea568d03723319b1073507893cdfb0cee16bb913844655c9cdea33acac46eee"
-    },
-    {
-      "internal_path": "text/db/arkhan_coven_throne.loc",
-      "sha256": "f0acc143b93129ad784e6856a506c14635d1860ac64122892dbe34c9f4b9871a",
-      "bytes": 415,
-      "format": "native LOC",
-      "version": 1,
-      "rows": 3,
-      "source_path": "src/text/db/arkhan_coven_throne.loc",
-      "source_sha256": "f0acc143b93129ad784e6856a506c14635d1860ac64122892dbe34c9f4b9871a"
     },
     {
       "internal_path": "text/db/arkhan_energy__.loc",
@@ -2886,63 +2726,63 @@
     },
     {
       "internal_path": "text/db/arkhan_research.loc",
-      "sha256": "e4ed02f4f15981e53dd85261ef68f8781872ac3c4a5ae4dccf88475ad8a08c79",
-      "bytes": 627,
+      "sha256": "35e4f508d293fe12012fb81caa3a681032c927a1b9b3fc25624cf3a05c913b25",
+      "bytes": 1050,
       "format": "native LOC",
       "version": 1,
-      "rows": 3,
+      "rows": 4,
       "source_path": "src/text/db/arkhan_research.loc",
-      "source_sha256": "e4ed02f4f15981e53dd85261ef68f8781872ac3c4a5ae4dccf88475ad8a08c79"
+      "source_sha256": "35e4f508d293fe12012fb81caa3a681032c927a1b9b3fc25624cf3a05c913b25"
     },
     {
       "internal_path": "text/db/atbe_agent_recruitment_categories__.loc",
-      "sha256": "ffdff68f4f87bfc27ab708fd3df695830f1badecf77bea19699385238ac40179",
-      "bytes": 1478,
+      "sha256": "de7bb041e8343571ce07b5750e720186b87568b38f448c6302c9328eba8c7cbb",
+      "bytes": 1766,
       "format": "native LOC",
       "version": 1,
-      "rows": 6,
+      "rows": 8,
       "source_path": "src/text/db/atbe_agent_recruitment_categories__.loc",
-      "source_sha256": "ffdff68f4f87bfc27ab708fd3df695830f1badecf77bea19699385238ac40179"
+      "source_sha256": "de7bb041e8343571ce07b5750e720186b87568b38f448c6302c9328eba8c7cbb"
     },
     {
       "internal_path": "text/db/atbe_agent_subtypes__.loc",
-      "sha256": "be5046ee690df99c563dfe9f506b0b95086e6c07b289289bbd02bed6e903cbe6",
-      "bytes": 6008,
+      "sha256": "1baf7f280bff919a7c428878b24970f1d63623971ef307108abaa39c83f869de",
+      "bytes": 6352,
       "format": "native LOC",
       "version": 1,
-      "rows": 36,
+      "rows": 38,
       "source_path": "src/text/db/atbe_agent_subtypes__.loc",
-      "source_sha256": "be5046ee690df99c563dfe9f506b0b95086e6c07b289289bbd02bed6e903cbe6"
+      "source_sha256": "1baf7f280bff919a7c428878b24970f1d63623971ef307108abaa39c83f869de"
     },
     {
       "internal_path": "text/db/atbe_ancillaries__.loc",
-      "sha256": "fa4efcbd7fdb26916f203c973dff5ffe6e578272f3bcbed9918b7620cbd069bb",
-      "bytes": 20911,
+      "sha256": "d54d037e0c1a1bf4033cedb08211f2854a94834d0375afad62dee07d98d0cdbc",
+      "bytes": 21534,
       "format": "native LOC",
       "version": 1,
-      "rows": 93,
+      "rows": 96,
       "source_path": "src/text/db/atbe_ancillaries__.loc",
-      "source_sha256": "fa4efcbd7fdb26916f203c973dff5ffe6e578272f3bcbed9918b7620cbd069bb"
+      "source_sha256": "d54d037e0c1a1bf4033cedb08211f2854a94834d0375afad62dee07d98d0cdbc"
     },
     {
       "internal_path": "text/db/atbe_building_chains__.loc",
-      "sha256": "37635e12c499cc3f0eeae7f762fb2389b68a2ea377074b916d288c5d4a5ce07b",
-      "bytes": 3128,
+      "sha256": "104e38954dbd71f976f2ae81554d01e390f832925c1fd105bda4790fe0de1600",
+      "bytes": 3511,
       "format": "native LOC",
       "version": 1,
-      "rows": 24,
+      "rows": 27,
       "source_path": "src/text/db/atbe_building_chains__.loc",
-      "source_sha256": "37635e12c499cc3f0eeae7f762fb2389b68a2ea377074b916d288c5d4a5ce07b"
+      "source_sha256": "104e38954dbd71f976f2ae81554d01e390f832925c1fd105bda4790fe0de1600"
     },
     {
       "internal_path": "text/db/atbe_building_culture_variants__.loc",
-      "sha256": "ef264e5c70cd46a8cc0406879e5c0df90c0143afe68479b01e259f97c08ab41a",
-      "bytes": 12250,
+      "sha256": "08e1590ba2a77ee7ab9664ec845e7346e4305cd9a7ffdfd5a930c13b73640f60",
+      "bytes": 13056,
       "format": "native LOC",
       "version": 1,
-      "rows": 58,
+      "rows": 62,
       "source_path": "src/text/db/atbe_building_culture_variants__.loc",
-      "source_sha256": "ef264e5c70cd46a8cc0406879e5c0df90c0143afe68479b01e259f97c08ab41a"
+      "source_sha256": "08e1590ba2a77ee7ab9664ec845e7346e4305cd9a7ffdfd5a930c13b73640f60"
     },
     {
       "internal_path": "text/db/atbe_building_effect_context_expressions.loc",
@@ -2956,23 +2796,23 @@
     },
     {
       "internal_path": "text/db/atbe_building_short_description_texts__.loc",
-      "sha256": "f6572d1bd000112bd56a7edc7acf3f69ef0809788eba910969df7286aa9c9ce6",
-      "bytes": 6062,
+      "sha256": "c63b135c6be814c37e46cb3245927e4fb38e2c4d2aff437d5cc4fba4ec08146b",
+      "bytes": 7590,
       "format": "native LOC",
       "version": 1,
-      "rows": 18,
+      "rows": 22,
       "source_path": "src/text/db/atbe_building_short_description_texts__.loc",
-      "source_sha256": "f6572d1bd000112bd56a7edc7acf3f69ef0809788eba910969df7286aa9c9ce6"
+      "source_sha256": "c63b135c6be814c37e46cb3245927e4fb38e2c4d2aff437d5cc4fba4ec08146b"
     },
     {
       "internal_path": "text/db/atbe_character_skill_level_details__.loc",
-      "sha256": "ec929954cdf6fe062b5813d50708d0c42103d31e330cb96987ae88f094518d0a",
-      "bytes": 15882,
+      "sha256": "3e6793848ddf3c3ff55e2d6189a71516eed16428c709f0a5dc4a6d0db25b239b",
+      "bytes": 27462,
       "format": "native LOC",
       "version": 1,
-      "rows": 76,
+      "rows": 130,
       "source_path": "src/text/db/atbe_character_skill_level_details__.loc",
-      "source_sha256": "ec929954cdf6fe062b5813d50708d0c42103d31e330cb96987ae88f094518d0a"
+      "source_sha256": "3e6793848ddf3c3ff55e2d6189a71516eed16428c709f0a5dc4a6d0db25b239b"
     },
     {
       "internal_path": "text/db/atbe_character_skill_node_sets__.loc",
@@ -2986,13 +2826,13 @@
     },
     {
       "internal_path": "text/db/atbe_character_skills__.loc",
-      "sha256": "f2f6ce13c443ab286b48675220ede7dc220c362d285f670cfb6e0b171edbe8b7",
-      "bytes": 52738,
+      "sha256": "9e24b5afb4a87bbce135fcd0398b049eebd3fdbb9d8b756089ae60c8eb3749ee",
+      "bytes": 53586,
       "format": "native LOC",
       "version": 1,
-      "rows": 198,
+      "rows": 202,
       "source_path": "src/text/db/atbe_character_skills__.loc",
-      "source_sha256": "f2f6ce13c443ab286b48675220ede7dc220c362d285f670cfb6e0b171edbe8b7"
+      "source_sha256": "9e24b5afb4a87bbce135fcd0398b049eebd3fdbb9d8b756089ae60c8eb3749ee"
     },
     {
       "internal_path": "text/db/atbe_character_trait_levels__.loc",
@@ -3016,13 +2856,13 @@
     },
     {
       "internal_path": "text/db/atbe_effects__.loc",
-      "sha256": "0ea73417570241d5a99ae0f8c6079b900fab1acd123e4167f99ef6db941cf2ed",
-      "bytes": 29202,
+      "sha256": "d23463ca22aa4babe4e5aa6e75e18b0dd5e16aeb08ab46f5d01199f1df3c5339",
+      "bytes": 30061,
       "format": "native LOC",
       "version": 1,
-      "rows": 122,
+      "rows": 127,
       "source_path": "src/text/db/atbe_effects__.loc",
-      "source_sha256": "0ea73417570241d5a99ae0f8c6079b900fab1acd123e4167f99ef6db941cf2ed"
+      "source_sha256": "d23463ca22aa4babe4e5aa6e75e18b0dd5e16aeb08ab46f5d01199f1df3c5339"
     },
     {
       "internal_path": "text/db/atbe_effects_additional_tooltip_details__.loc",
@@ -3046,23 +2886,23 @@
     },
     {
       "internal_path": "text/db/atbe_land_units__.loc",
-      "sha256": "a397afd9ad64e0416946e0cbec9af1e4c53cccc83c9bb5df077a73925e68474b",
-      "bytes": 24493,
+      "sha256": "f77c38998240d79b250f5d75c06a789b3b627873c01334476069b03977e6342e",
+      "bytes": 27041,
       "format": "native LOC",
       "version": 1,
-      "rows": 171,
+      "rows": 189,
       "source_path": "src/text/db/atbe_land_units__.loc",
-      "source_sha256": "a397afd9ad64e0416946e0cbec9af1e4c53cccc83c9bb5df077a73925e68474b"
+      "source_sha256": "f77c38998240d79b250f5d75c06a789b3b627873c01334476069b03977e6342e"
     },
     {
       "internal_path": "text/db/atbe_names__.loc",
-      "sha256": "052733a03e40aaf3e001530dc547d3d8ef637dcbba2683267c3224156a4a4d38",
-      "bytes": 467,
+      "sha256": "b33026eb516ad31a11eddaf917068b718ffb7679037bec815ba1c6acd30a0a5b",
+      "bytes": 447,
       "format": "native LOC",
       "version": 1,
       "rows": 5,
       "source_path": "src/text/db/atbe_names__.loc",
-      "source_sha256": "052733a03e40aaf3e001530dc547d3d8ef637dcbba2683267c3224156a4a4d38"
+      "source_sha256": "b33026eb516ad31a11eddaf917068b718ffb7679037bec815ba1c6acd30a0a5b"
     },
     {
       "internal_path": "text/db/atbe_pooled_resources__.loc",
@@ -3096,33 +2936,23 @@
     },
     {
       "internal_path": "text/db/atbe_technologies__.loc",
-      "sha256": "853c559f98af7a51b81aac334f445a176e127f2a2205567f4a81665d5d2c65e3",
-      "bytes": 16007,
+      "sha256": "82be323fe3bb6f236c9a6d46007f19bf67aea5dd4af8899b924bc4b338d242e1",
+      "bytes": 19141,
       "format": "native LOC",
       "version": 1,
-      "rows": 71,
+      "rows": 99,
       "source_path": "src/text/db/atbe_technologies__.loc",
-      "source_sha256": "853c559f98af7a51b81aac334f445a176e127f2a2205567f4a81665d5d2c65e3"
-    },
-    {
-      "internal_path": "text/db/atbe_technology_ui_groups__.loc",
-      "sha256": "b863c6be97fb7875adbd71a41970c96a0b036b48e6edd50d310f5922398024f3",
-      "bytes": 1548,
-      "format": "native LOC",
-      "version": 1,
-      "rows": 10,
-      "source_path": "src/text/db/atbe_technology_ui_groups__.loc",
-      "source_sha256": "b863c6be97fb7875adbd71a41970c96a0b036b48e6edd50d310f5922398024f3"
+      "source_sha256": "82be323fe3bb6f236c9a6d46007f19bf67aea5dd4af8899b924bc4b338d242e1"
     },
     {
       "internal_path": "text/db/atbe_technology_ui_tabs__.loc",
-      "sha256": "5f35477d89c379292a555111d04502ae259a1472a414bd90a408333995b023fd",
-      "bytes": 369,
+      "sha256": "e138a1b2b9d64608d9f0168d9e9e90386498b070ce70b19f269d6335e2f36ef0",
+      "bytes": 240,
       "format": "native LOC",
       "version": 1,
-      "rows": 3,
+      "rows": 2,
       "source_path": "src/text/db/atbe_technology_ui_tabs__.loc",
-      "source_sha256": "5f35477d89c379292a555111d04502ae259a1472a414bd90a408333995b023fd"
+      "source_sha256": "e138a1b2b9d64608d9f0168d9e9e90386498b070ce70b19f269d6335e2f36ef0"
     },
     {
       "internal_path": "text/db/atbe_ui_text_replacements__.loc",
@@ -3146,23 +2976,23 @@
     },
     {
       "internal_path": "text/db/atbe_units_custom_battle_mounts__.loc",
-      "sha256": "a6aa0bce1a16c79da2fc0692856a215fd50056971e500836036c4bb5c3d1ce43",
-      "bytes": 18982,
+      "sha256": "89c53417b69fa91c542bafa8327d03f7d539d08a10d995f2498190379398fbf9",
+      "bytes": 19656,
       "format": "native LOC",
       "version": 1,
-      "rows": 54,
+      "rows": 56,
       "source_path": "src/text/db/atbe_units_custom_battle_mounts__.loc",
-      "source_sha256": "a6aa0bce1a16c79da2fc0692856a215fd50056971e500836036c4bb5c3d1ce43"
+      "source_sha256": "89c53417b69fa91c542bafa8327d03f7d539d08a10d995f2498190379398fbf9"
     },
     {
       "internal_path": "text/db/atbe_units_custom_battle_permissions__.loc",
-      "sha256": "b3c24ad81dc5d16a8b62a4de5cdc67152ea440ef42a0fd4ee7c60c04e4496bd5",
-      "bytes": 19180,
+      "sha256": "74a69238adfffb1ce2fb0e649f2b64a4455e9c7c04b1e73c088ce07320632894",
+      "bytes": 19345,
       "format": "native LOC",
       "version": 1,
-      "rows": 84,
+      "rows": 85,
       "source_path": "src/text/db/atbe_units_custom_battle_permissions__.loc",
-      "source_sha256": "b3c24ad81dc5d16a8b62a4de5cdc67152ea440ef42a0fd4ee7c60c04e4496bd5"
+      "source_sha256": "74a69238adfffb1ce2fb0e649f2b64a4455e9c7c04b1e73c088ce07320632894"
     },
     {
       "internal_path": "ui/battle ui/ability_icons/stephen_passive_realm_of_souls_tier_1.png",
@@ -3189,20 +3019,12 @@
       "source_sha256": "8c27f194c1468cd19f2505700c02ed12ad397f0cd5ee764c31479db714b0ebbc"
     },
     {
-      "internal_path": "ui/buildings/icons/wh3_dlc29_nag_melee_military.png",
-      "sha256": "703da32aad342b6609a6811141a91bab282c5cccb4cf0c696b740fe7eb5f0604",
-      "bytes": 4304,
+      "internal_path": "ui/buildings/icons/stephen_tmb_estate_1.png",
+      "sha256": "3ea30e07770a6eff8302fca299ec862206ac6b4d9b8f0d7c54e68e667486fe04",
+      "bytes": 7405,
       "format": "raw",
-      "source_path": "src/ui/buildings/icons/wh3_dlc29_nag_melee_military.png",
-      "source_sha256": "703da32aad342b6609a6811141a91bab282c5cccb4cf0c696b740fe7eb5f0604"
-    },
-    {
-      "internal_path": "ui/buildings/icons/wh3_dlc29_nag_support.png",
-      "sha256": "badc50c4d969dfbfa3662dd554fb76d543dec0ee0fb2cd180549e10adbabe8c8",
-      "bytes": 3453,
-      "format": "raw",
-      "source_path": "src/ui/buildings/icons/wh3_dlc29_nag_support.png",
-      "source_sha256": "badc50c4d969dfbfa3662dd554fb76d543dec0ee0fb2cd180549e10adbabe8c8"
+      "source_path": "src/ui/buildings/icons/stephen_tmb_estate_1.png",
+      "source_sha256": "3ea30e07770a6eff8302fca299ec862206ac6b4d9b8f0d7c54e68e667486fe04"
     },
     {
       "internal_path": "ui/campaign ui/arkhan_lotd_necromantic_energy_topbar.twui.xml",
@@ -3693,22 +3515,6 @@
       "source_sha256": "b09117aa08af2617e87326156610fb4790182c6743eba285397af0ecd36cd6ee"
     },
     {
-      "internal_path": "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
-      "sha256": "e05a75c00d1237aa4bca81aa8cd432b0ac86fd1b35cf72386685e58d34ce29cd",
-      "bytes": 10727,
-      "format": "raw",
-      "source_path": "src/ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
-      "source_sha256": "e05a75c00d1237aa4bca81aa8cd432b0ac86fd1b35cf72386685e58d34ce29cd"
-    },
-    {
-      "internal_path": "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
-      "sha256": "2404f0768bc7b1f1d47858c9c5717952ae01a824397243c404216725c7d70103",
-      "bytes": 11014,
-      "format": "raw",
-      "source_path": "src/ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png",
-      "source_sha256": "2404f0768bc7b1f1d47858c9c5717952ae01a824397243c404216725c7d70103"
-    },
-    {
       "internal_path": "ui/campaign ui/technologies/wh2_dlc09_item_abilities_staff_of_nagash.png",
       "sha256": "421dc983584ef86c544bddc75d88b3dc55db3782b99c1f558dc06bc757d38926",
       "bytes": 13418,
@@ -3966,11 +3772,11 @@
     },
     {
       "internal_path": "ui/portraits/portholes/portrait_settings__liche_priests.bin",
-      "sha256": "0fca5a78b16ff71d14e1875a1e62b4e1accdc21f7dbda94e85fe8f519ac4f827",
-      "bytes": 17055,
+      "sha256": "a6025968f5fc178282402333e539f3814de8928bc8f85e685130bac6b3d5e29d",
+      "bytes": 18825,
       "format": "raw",
       "source_path": "src/ui/portraits/portholes/portrait_settings__liche_priests.bin",
-      "source_sha256": "0fca5a78b16ff71d14e1875a1e62b4e1accdc21f7dbda94e85fe8f519ac4f827"
+      "source_sha256": "a6025968f5fc178282402333e539f3814de8928bc8f85e685130bac6b3d5e29d"
     },
     {
       "internal_path": "ui/portraits/units/no_culture/arkhan_the_black.png",
@@ -4214,11 +4020,11 @@
     },
     {
       "internal_path": "ui/portraits/units/portrait_settings__liche_priests.bin",
-      "sha256": "cf369f587087d18cb6463f77800e1c7234ca7475771411c3b0a73c3302204a8f",
-      "bytes": 15945,
+      "sha256": "345a8c19db6f13aa31ab5627f29a812d0ed5ae48ba8af11df488a29b56e5b0a3",
+      "bytes": 17715,
       "format": "raw",
       "source_path": "src/ui/portraits/units/portrait_settings__liche_priests.bin",
-      "source_sha256": "cf369f587087d18cb6463f77800e1c7234ca7475771411c3b0a73c3302204a8f"
+      "source_sha256": "345a8c19db6f13aa31ab5627f29a812d0ed5ae48ba8af11df488a29b56e5b0a3"
     },
     {
       "internal_path": "ui/skins/default/arkhan_lotd/ritual_button.png",
@@ -5605,22 +5411,6 @@
       "source_sha256": "a79e3e6682cc198184e05a7e651312f781175d7ec1bb10be3bf2096450b6e88e"
     },
     {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_lahmian_1.variantmeshdefinition",
-      "sha256": "7c85b012a65cb8066e531bfa52880273e49468556603ee7a95189aea6218fdaa",
-      "bytes": 799,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_lahmian_1.variantmeshdefinition",
-      "source_sha256": "7c85b012a65cb8066e531bfa52880273e49468556603ee7a95189aea6218fdaa"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_lahmian_1_campiagn.variantmeshdefinition",
-      "sha256": "261e3c46baabd88041bb6b8a7f33d679ef5d0db9da36ce8307535c20c11cfe7f",
-      "bytes": 565,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_lahmian_1_campiagn.variantmeshdefinition",
-      "source_sha256": "261e3c46baabd88041bb6b8a7f33d679ef5d0db9da36ce8307535c20c11cfe7f"
-    },
-    {
       "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_liche_priest_campaign_1.variantmeshdefinition",
       "sha256": "b6c2f85f81b353a4c8e97175a3d524bb061fb82af789ba4baea6a3e2467c400c",
       "bytes": 1848,
@@ -5659,54 +5449,6 @@
       "format": "raw",
       "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_liche_priest_campaign_5.variantmeshdefinition",
       "source_sha256": "19cd363352762a6a8c61cf016dc50ce50be0509ab184a43134ca15b8abe74cb8"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_1.variantmeshdefinition",
-      "sha256": "44e2def88aa50d9a4434a094c63d94206057b57f354860ac7ac8d89498bb001c",
-      "bytes": 1668,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_1.variantmeshdefinition",
-      "source_sha256": "44e2def88aa50d9a4434a094c63d94206057b57f354860ac7ac8d89498bb001c"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_2.variantmeshdefinition",
-      "sha256": "42c5656aea5b4f6fee0a328794fedd9cd1808001e8bb36599e8d41314b473239",
-      "bytes": 1668,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_2.variantmeshdefinition",
-      "source_sha256": "42c5656aea5b4f6fee0a328794fedd9cd1808001e8bb36599e8d41314b473239"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_3.variantmeshdefinition",
-      "sha256": "84d96b430f3fb120594ddb0c9883041962e76e29c10df1c1532fd550a5a11c15",
-      "bytes": 1668,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_3.variantmeshdefinition",
-      "source_sha256": "84d96b430f3fb120594ddb0c9883041962e76e29c10df1c1532fd550a5a11c15"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_4.variantmeshdefinition",
-      "sha256": "38b298a0e75c4d37cd3e849126a3911e6c55bb4b9c11bfdf82bfed4c752a266d",
-      "bytes": 1668,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_4.variantmeshdefinition",
-      "source_sha256": "38b298a0e75c4d37cd3e849126a3911e6c55bb4b9c11bfdf82bfed4c752a266d"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_5.variantmeshdefinition",
-      "sha256": "29cd0018c87b733b625aaa97975a82700a9b4e0b8019579fc57d7efa85562eae",
-      "bytes": 1668,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_master_liche_5.variantmeshdefinition",
-      "source_sha256": "29cd0018c87b733b625aaa97975a82700a9b4e0b8019579fc57d7efa85562eae"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/stephen_tmb_necrarch_1.variantmeshdefinition",
-      "sha256": "a23ddb9790c2371f8006451b55b10088b0da9997817a1dca4f36ef16bda9afd2",
-      "bytes": 1454,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/stephen_tmb_necrarch_1.variantmeshdefinition",
-      "source_sha256": "a23ddb9790c2371f8006451b55b10088b0da9997817a1dca4f36ef16bda9afd2"
     },
     {
       "internal_path": "variantmeshes/variantmeshdefinitions/steve_ark_nagashizzar_guard_sword_set1.variantmeshdefinition",
@@ -5771,14 +5513,6 @@
       "format": "raw",
       "source_path": "src/variantmeshes/variantmeshdefinitions/xereus_tmb_inf_zmb_shamblers.variantmeshdefinition",
       "source_sha256": "14a7ae7d7eae6181d2ab7cf67bdab68ae6251a1c50cf01cf87bd084d2636ced9"
-    },
-    {
-      "internal_path": "variantmeshes/variantmeshdefinitions/xereus_tmb_mon_zombie_dragon.variantmeshdefinition",
-      "sha256": "ca30839d0c066b244082a9100449477d5491052e4086da246229482dd592c985",
-      "bytes": 314,
-      "format": "raw",
-      "source_path": "src/variantmeshes/variantmeshdefinitions/xereus_tmb_mon_zombie_dragon.variantmeshdefinition",
-      "source_sha256": "ca30839d0c066b244082a9100449477d5491052e4086da246229482dd592c985"
     },
     {
       "internal_path": "variantmeshes/wh_variantmodels/hu1/vmp/nehek/lsh_nehekwights_01.rigid_model_v2",
@@ -6541,68 +6275,16 @@
       "source_sha256": "b3ff92ac172086c4235f51a6dfb644966b7016e9586f6f705ad27b8f703efa2b"
     },
     {
-      "internal_path": "vfx/wh3_monarch_mist.xml",
-      "sha256": "b547dcea8584a2987e281186932ac3e812278ac0a4ad7d49a36ec0b09e5c3117",
-      "bytes": 4550,
-      "format": "raw",
-      "source_path": "src/vfx/wh3_monarch_mist.xml",
-      "source_sha256": "b547dcea8584a2987e281186932ac3e812278ac0a4ad7d49a36ec0b09e5c3117"
-    },
-    {
       "internal_path": "vfx/wh_main_shadow_armour.xml",
       "sha256": "d02965c6e4b4a794c4b2dc7b47562722563d3996978c39005d507b4339fa2c9e",
       "bytes": 7841,
       "format": "raw",
       "source_path": "src/vfx/wh_main_shadow_armour.xml",
       "source_sha256": "d02965c6e4b4a794c4b2dc7b47562722563d3996978c39005d507b4339fa2c9e"
-    },
-    {
-      "internal_path": "vfx/wh_main_vampires_gaze_of_nagash_trail_arkhan.xml",
-      "sha256": "870cb68bf75c74cacdff58a95e4430e932eef5c12a9e1ffdbd82c365e95bb89b",
-      "bytes": 4983,
-      "format": "raw",
-      "source_path": "src/vfx/wh_main_vampires_gaze_of_nagash_trail_arkhan.xml",
-      "source_sha256": "870cb68bf75c74cacdff58a95e4430e932eef5c12a9e1ffdbd82c365e95bb89b"
-    },
-    {
-      "internal_path": "ui/battle ui/ability_icons/wh2_dlc09_army_abilities_realm_of_souls_ushabti.png",
-      "sha256": "dd21bef676c247a80e10f073ac4c8011f90417fb42265601a3548c0cc7d979c9",
-      "bytes": 9493,
-      "format": "raw",
-      "source_path": "src/ui/battle ui/ability_icons/wh2_dlc09_army_abilities_realm_of_souls_ushabti.png",
-      "source_sha256": "dd21bef676c247a80e10f073ac4c8011f90417fb42265601a3548c0cc7d979c9"
-    },
-    {
-      "internal_path": "ui/skins/warhammer2/realm_of_souls_ability.png",
-      "sha256": "43c82303fb3f6dfcc53686b2f668906d8fb402fd693976f3d9c7ccbaf636daed",
-      "bytes": 6037,
-      "format": "raw",
-      "source_path": "src/ui/skins/warhammer2/realm_of_souls_ability.png",
-      "source_sha256": "43c82303fb3f6dfcc53686b2f668906d8fb402fd693976f3d9c7ccbaf636daed"
     }
   ],
-  "authorised_additions": [
-    {
-      "date": "2026-10-24",
-      "reason": "User requested adding and pushing the final necromantic building technology icons without spikes.",
-      "paths": [
-        "ui/campaign ui/technologies/necro_tech_crypt_no_spikes.png",
-        "ui/campaign ui/technologies/necro_tech_ritual_dais_no_spikes.png"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "reason": "User requested a colour-only override of the first red creature building icon to match advanced military blue. The second supplied image is a colour reference only.",
-      "paths": [
-        "ui/buildings/icons/wh3_dlc29_nag_melee_military.png"
-      ]
-    },
-    {
-      "date": "2026-10-24",
-      "reason": "User requested recolouring nag_support to match the supplied nah_crucible colour reference; colour only.",
-      "paths": [
-        "ui/buildings/icons/wh3_dlc29_nag_support.png"
-      ]
-    }
+  "removed_unit_keys": [
+    "xereus_tmb_veh_black_coach",
+    "xereus_tmb_veh_coven_throne"
   ]
 }
