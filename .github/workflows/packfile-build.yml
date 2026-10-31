@@ -60,7 +60,7 @@ permissions:
   contents: read
 
 env:
-  RPFM_VERSION: "5.3.2"
+  RPFM_VERSION: "5.3.3"
   DEBUG_ENABLED: ${{ secrets.ACTIONS_STEP_DEBUG == 'true' || inputs.debug_enabled }}
   GH_TOKEN: ${{ secrets.token }}
 
@@ -74,7 +74,7 @@ jobs:
       run: python3 -m unittest discover -s .github/tests -p "test_build_pack_server.py"
     - name: Download verified RPFM Server from GHCR
       id: rpfm
-      uses: Warhammer-Mods/rpfm-server-docker@313149b4134d8f093651bb5629c31f522c7c1ed2 # v5.3.2-server.1
+      uses: Warhammer-Mods/rpfm-server-docker@3db5209b6342e349ec2a2d815e677824a75d9cf9 # v5.3.3-server.1
     - name: Build and verify packfile
       env:
         RPFM_URL: ${{ steps.rpfm.outputs.url }}
