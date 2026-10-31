@@ -1,6 +1,6 @@
 # Arkhan the Black: Expanded
 
-Version: **4.0.5** В· [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610)
+Version: **4.0.5** Р’В· [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610)
 
 [![Build main mod and submods](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml/badge.svg)](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml)
 
@@ -78,7 +78,7 @@ Local validation covers pack integrity, source-table round trips, resource/cost 
 
 The complete, ready-to-paste Steam Workshop description (including Khemric Titan and Spirit Hosts, with small feathered unit cards and a Lords and Heroes gallery) is maintained in [docs/steam-workshop-description.txt](docs/steam-workshop-description.txt).
 
-Separate [2Г— unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are available at 120Г—260, with the transparent edges from the supplied reference. The larger cards are also included under `ui/units/infopics`, using matching unit filenames. The files in `ui/units/icons` keep their current size and edges.
+Separate [2Р“вЂ” unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are available at 120Р“вЂ”260, with the transparent edges from the supplied reference. The larger cards are also included under `ui/units/infopics`, using matching unit filenames. The files in `ui/units/icons` keep their current size and edges.
 
 ## Optional test add-ons
 
@@ -86,3 +86,5 @@ Separate [2Г— unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are av
 
 
 [Radious sandy cards](submods/arkhan_radious/README.md) provides a replacement Radious compatibility submod with sandy unit and character cards in both sizes. Its pack is built by the same queued workflow; the main mod and Radious remain required.
+
+Land of the Dead resolves its starting centre for both Immortal Empires and The Old World. See [map compatibility and validation](docs/old_world_compatibility.md); live Old World testing is still required.

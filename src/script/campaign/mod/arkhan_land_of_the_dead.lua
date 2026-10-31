@@ -13,7 +13,24 @@ arkhan_lotd = arkhan_lotd or {
 }
 
 local mod = arkhan_lotd
-mod.anchor_region_key = "wh3_main_combi_region_wizard_caliphs_palace"
+-- Resolve by map region availability: The Old World can also replace the
+-- Immortal Empires startpos, so the campaign name alone is insufficient.
+mod.anchor_region_keys = {
+    "cr_oldworld_region_black_tower_of_arkhan",
+    "wh3_main_combi_region_wizard_caliphs_palace"
+}
+mod.anchor_region_key = nil
+
+function mod:resolve_anchor_region()
+    for _, key in ipairs(self.anchor_region_keys) do
+        local region = cm:get_region(key)
+        if region and not region:is_null_interface() then
+            self.anchor_region_key = key
+            return region
+        end
+    end
+    self.anchor_region_key = nil
+end
 mod.region_group_key = "arkhan_lotd_necromantic_energy_network"
 mod.energy_resource_key = "arkhan_lotd_necromantic_energy"
 mod.region_group_category = "arkhan_lotd_land_of_the_dead"
@@ -191,8 +208,10 @@ end
 
 -- All of Arkhan's necropolises share one regional pool, as Nagash's do.
 -- A built Arkhan burial mound in a major city establishes an additional
--- centre. The starting palace remains the first centre without a prerequisite.
+-- centre. The campaign-specific starting settlement is the first centre
+-- without a prerequisite, even if a custom map makes it a minor settlement.
 function mod:sync_necropolises()
+    local starting_region = self:resolve_anchor_region()
     local faction = cm:get_faction(self.faction_key)
     if not faction or faction:is_null_interface() then return end
 
@@ -202,8 +221,8 @@ function mod:sync_necropolises()
     for i = 0, faction_regions:num_items() - 1 do
         local region = faction_regions:item_at(i)
         local province = region:province()
-        if region:name() == province:capital_region():name() and
-            (region:name() == self.anchor_region_key or
+        if region:name() == self.anchor_region_key or
+            (region:name() == province:capital_region():name() and
                 cm:region_has_chain_or_superchain(region, self.necropolis_chain_key)) then
             anchors[region:name()] = true
             local function include_province(current)
@@ -222,7 +241,7 @@ function mod:sync_necropolises()
     -- v5 already created a group, before membership was saved in Lua. Seed
     -- the known original palace footprint when migrating an existing save.
     if cm:dynamic_region_group_exists(group) and not next(self.group_regions) then
-        local palace = cm:get_region(self.anchor_region_key)
+        local palace = starting_region
         if palace and not palace:is_null_interface() then
             local function seed(province)
                 each_region(province, function(region)

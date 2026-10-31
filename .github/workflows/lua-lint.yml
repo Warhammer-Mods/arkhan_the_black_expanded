@@ -48,3 +48,7 @@ jobs:
       - name: Check Arkhan research energy payments
         if: ${{ inputs.source_root == '' || inputs.source_root == 'src' }}
         run: lua5.1 .github/tests/arkhan_research_energy.lua
+
+      - name: Check Land of the Dead map compatibility
+        if: ${{ inputs.source_root == '' || inputs.source_root == 'src' }}
+        run: lua5.1 .github/tests/arkhan_lotd_maps.lua
