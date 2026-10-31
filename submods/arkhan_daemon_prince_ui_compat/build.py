@@ -10,7 +10,7 @@ OUTPUT = ROOT / "!arkhan_daemon_prince_ui_compat.pack"
 
 
 def main():
-    data = (ROOT / PATH).read_bytes()
+    data = (ROOT / "src" / PATH).read_bytes()
     ET.fromstring(data)
     index = struct.pack("<IB", len(data), 0) + PATH.replace("/", "\\").encode() + b"\0"
     header = bytearray.fromhex("50464835030000000000000000000000010000002b0000005b7fcf6a")

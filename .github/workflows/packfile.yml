@@ -52,13 +52,13 @@ jobs:
         include:
           - source_root: src
             pack_name: arkhan_the_black_expanded
-          - source_root: submods/arkhan_black_arts
+          - source_root: submods/arkhan_black_arts/src
             pack_name: arkhan_black_arts_TEST
-          - source_root: submods/arkhan_daemon_prince_ui_compat
+          - source_root: submods/arkhan_daemon_prince_ui_compat/src
             pack_name: '!arkhan_daemon_prince_ui_compat'
-          - source_root: submods/arkhan_keep_ai_independent
+          - source_root: submods/arkhan_keep_ai_independent/src
             pack_name: arkhan_keep_ai_independent
-          - source_root: submods/arkhan_radious
+          - source_root: submods/arkhan_radious/src
             pack_name: '!!arkhan_the_black_radious_submod_sandy'
     uses: ./.github/workflows/db-check.yml
     with:
@@ -71,13 +71,13 @@ jobs:
         include:
           - source_root: src
             pack_name: arkhan_the_black_expanded
-          - source_root: submods/arkhan_black_arts
+          - source_root: submods/arkhan_black_arts/src
             pack_name: arkhan_black_arts_TEST
-          - source_root: submods/arkhan_daemon_prince_ui_compat
+          - source_root: submods/arkhan_daemon_prince_ui_compat/src
             pack_name: '!arkhan_daemon_prince_ui_compat'
-          - source_root: submods/arkhan_keep_ai_independent
+          - source_root: submods/arkhan_keep_ai_independent/src
             pack_name: arkhan_keep_ai_independent
-          - source_root: submods/arkhan_radious
+          - source_root: submods/arkhan_radious/src
             pack_name: '!!arkhan_the_black_radious_submod_sandy'
     uses: ./.github/workflows/lua-lint.yml
     with:
@@ -92,13 +92,13 @@ jobs:
         include:
           - source_root: src
             pack_name: arkhan_the_black_expanded
-          - source_root: submods/arkhan_black_arts
+          - source_root: submods/arkhan_black_arts/src
             pack_name: arkhan_black_arts_TEST
-          - source_root: submods/arkhan_daemon_prince_ui_compat
+          - source_root: submods/arkhan_daemon_prince_ui_compat/src
             pack_name: '!arkhan_daemon_prince_ui_compat'
-          - source_root: submods/arkhan_keep_ai_independent
+          - source_root: submods/arkhan_keep_ai_independent/src
             pack_name: arkhan_keep_ai_independent
-          - source_root: submods/arkhan_radious
+          - source_root: submods/arkhan_radious/src
             pack_name: '!!arkhan_the_black_radious_submod_sandy'
     uses: ./.github/workflows/packfile-build.yml
     secrets:

@@ -15,7 +15,7 @@ Download the pack from the **Artifacts** section of a successful [Build main mod
 - Infopics: **120×260**, with the same feathered alpha mask as the main mod's skeleton-warrior infopic.
 - 30 matching character unit cards under `ui/portraits/units/no_culture`, at their original 60×130 size.
 
-<img src="ui/units/infopics/xereus_tmb_inf_skeleton_warriors.png" width="60" height="130" alt="Skeleton Warriors" /><img src="ui/units/infopics/xereus_tmb_cav_necropolis_knights_1.png" width="60" height="130" alt="Necropolis Knights" /><img src="ui/units/infopics/xereus_tmb_casket_souls.png" width="60" height="130" alt="Casket of Souls" /><img src="ui/units/infopics/xereus_tmb_mon_khemric_titan.png" width="60" height="130" alt="Khemric Titan" />
+<img src="src/ui/units/infopics/xereus_tmb_inf_skeleton_warriors.png" width="60" height="130" alt="Skeleton Warriors" /><img src="src/ui/units/infopics/xereus_tmb_cav_necropolis_knights_1.png" width="60" height="130" alt="Necropolis Knights" /><img src="src/ui/units/infopics/xereus_tmb_casket_souls.png" width="60" height="130" alt="Casket of Souls" /><img src="src/ui/units/infopics/xereus_tmb_mon_khemric_titan.png" width="60" height="130" alt="Khemric Titan" />
 
 The artwork was rendered individually from the supplied cards, then exported at the required sizes with deterministic resizing and alpha handling. Full-resolution masters and prompts are included in the separately supplied source archive.
 
@@ -42,3 +42,5 @@ Arkhan the Black: Expanded and the supplied compatibility tables remain credited
 ## Workshop upload
 
 [Upload instructions and prepared page text](UPLOAD.md) target the existing [Radious Workshop item](https://steamcommunity.com/sharedfiles/filedetails/?id=2865162727). This folder includes the title, description, change notes, preview and uploader thumbnail. Rename the downloaded `_sandy` build to the pack basename in the instructions when updating the existing item.
+
+Game files live in `src/`. Import its contents at the pack root, without a `src/` prefix. Build scripts, documentation and Workshop metadata remain outside `src/`.

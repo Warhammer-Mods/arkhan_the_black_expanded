@@ -30,3 +30,5 @@ If research cannot resolve the regional resource, stop the test and report
 that behaviour; no alternate/shared pool is used as a fallback.
 
 Disable the add-on to roll back; keep your pre-test save.
+
+Game files live in `src/`. Import its contents at the pack root, without a `src/` prefix. Build scripts, documentation and Workshop metadata remain outside `src/`.

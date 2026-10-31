@@ -22,7 +22,7 @@ python3 submods/arkhan_daemon_prince_ui_compat/build.py
 
 The pack is written into this folder as `!arkhan_daemon_prince_ui_compat.pack`.
 Python 3 is sufficient; no extra packages are required. To build with RPFM
-instead, import only the `ui/` folder, keeping `ui/campaign ui/` as the internal path.
+instead, import only the `src/ui/` folder, keeping `ui/campaign ui/` as the internal path.
 Do not import the README, build script or Workshop text into the pack.
 
 The main mod’s default build selects only root game folders and excludes this
@@ -50,3 +50,5 @@ Creative Assembly for the original game assets. The Daemon Prince panel is
 preserved from the supplied mod; this patch combines the two UI implementations.
 
 Workshop artwork: composite based on the two supplied original Steam Workshop covers, edited with the built-in image generator. Promotional artwork only; excluded from the submod pack.
+
+Game files live in `src/`. Import its contents at the pack root, without a `src/` prefix. Build scripts, documentation and Workshop metadata remain outside `src/`.

@@ -16,3 +16,7 @@ Run `python .github/scripts/check_main_inventory.py` from the repository root to
 ## Branch policy
 
 - Use the repository's default branch (main) for direct commits, or submit changes through pull requests targeting the default branch. Do not continue committing to develop unless the user explicitly requests it.
+
+## Submod layout
+
+- Each submod stores game files in `submods/<name>/src/`. Keep build scripts, documentation and Workshop metadata in the submod root. Build packs relative to that submod's `src/`, without including the `src/` prefix in internal paths.

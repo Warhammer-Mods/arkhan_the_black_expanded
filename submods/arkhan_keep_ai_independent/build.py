@@ -9,7 +9,7 @@ OUTPUT = ROOT / "arkhan_keep_ai_independent.pack"
 
 
 def main():
-    data = (ROOT / PATH).read_bytes()
+    data = (ROOT / "src" / PATH).read_bytes()
     index = struct.pack("<IB", len(data), 0) + PATH.replace("/", "\\").encode() + b"\0"
     header = bytearray.fromhex("50464835030000000000000000000000010000003a0000005b7fcf6a")
     struct.pack_into("<II", header, 16, 1, len(index))

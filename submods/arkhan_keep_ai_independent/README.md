@@ -18,7 +18,7 @@ python3 submods/arkhan_keep_ai_independent/build.py
 ```
 
 This creates `arkhan_keep_ai_independent.pack` in this folder. Only standard
-Python 3 is required. With RPFM, import only `script/` at the pack root.
+Python 3 is required. With RPFM, import only `src/script/` at the pack root.
 The main mod’s default build excludes this `submods/` directory.
 
 ## Install and release
@@ -38,3 +38,5 @@ may persist; use a pre-submod save to restore the earlier campaign state.
 Stephen and the Arkhan contributors; Creative Assembly for the original game.
 Promotional cover uses the supplied original Arkhan Workshop artwork as a
 reference and is edited with the built-in image generator. It is not packed.
+
+Game files live in `src/`. Import its contents at the pack root, without a `src/` prefix. Build scripts, documentation and Workshop metadata remain outside `src/`.

@@ -168,7 +168,7 @@ class PackTests(unittest.TestCase):
                                   "db/colours_tables/native", "text/db/native.loc"})
 
     def test_submod_root_and_spaces_are_preserved(self):
-        root = "/work/submods/example/"
+        root = "/work/submods/example/src/"
         server = DocumentedV2Server(self.destinations, root)
         self.assertEqual(builder.build_pack(server, self.files, Path("test.pack"), root), 3)
 

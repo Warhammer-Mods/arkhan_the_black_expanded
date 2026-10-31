@@ -139,6 +139,6 @@ files["src/script/campaign/mod/zz_arkhan_lotd_ai.lua"] = {
 }
 
 -- Optional Nagash integration tables are guarded before use and updated in place.
-files["submods/arkhan_keep_ai_independent/script/campaign/mod/zz_arkhan_independent_option.lua"] = {
+files["submods/arkhan_keep_ai_independent/src/script/campaign/mod/zz_arkhan_independent_option.lua"] = {
 	globals = { "nag_mortarchs_config", "episode_nagash_endgame" }
 }

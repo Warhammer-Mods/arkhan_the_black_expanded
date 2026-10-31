@@ -1,6 +1,6 @@
 # Arkhan the Black: Expanded
 
-Version: **4.0.5** · [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610)
+Version: **4.0.5** В· [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2852724610)
 
 [![Build main mod and submods](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml/badge.svg)](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml)
 
@@ -68,7 +68,7 @@ The current building, unit, skill, animation, model and visual-effect sources fr
 - GitHub workflows are maintained within this repository and use current Node 24 actions, read-only permissions, timeouts and cancellation of superseded runs.
 - CI validates database and localisation exports, checks campaign Lua scripts, and builds a downloadable pack containing only game asset folders. Lua warnings are reported but remain nonblocking; lint errors fail the check.
 
-The main mod game files live in `src/`; tooling and documentation stay at the repository root, and submods stay in `submods/`. Import the contents of `src/` so pack paths begin with `db/`, `script/`, `ui/`, etc., without a `src/` prefix. CI builds and validates the main mod from `src/`.
+The main mod game files live in `src/`; tooling and documentation stay at the repository root, and each submod keeps its game files in `submods/<name>/src/`. Import the contents of `src/` so pack paths begin with `db/`, `script/`, `ui/`, etc., without a `src/` prefix. CI builds and validates the main mod from `src/`.
 
 Import the source with RPFM configured for Total War: Warhammer III. Download automated builds from the **Artifacts** section of a successful [Build Packfile run](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml).
 
@@ -78,7 +78,7 @@ Local validation covers pack integrity, source-table round trips, resource/cost 
 
 The complete, ready-to-paste Steam Workshop description (including Khemric Titan and Spirit Hosts, with small feathered unit cards and a Lords and Heroes gallery) is maintained in [docs/steam-workshop-description.txt](docs/steam-workshop-description.txt).
 
-Separate [2× unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are available at 120×260, with the transparent edges from the supplied reference. The larger cards are also included under `ui/units/infopics`, using matching unit filenames. The files in `ui/units/icons` keep their current size and edges.
+Separate [2Г— unit-card PNGs](docs/downloads/arkhan_unit_cards_2x.zip) are available at 120Г—260, with the transparent edges from the supplied reference. The larger cards are also included under `ui/units/infopics`, using matching unit filenames. The files in `ui/units/icons` keep their current size and edges.
 
 ## Optional test add-ons
 
