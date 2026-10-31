@@ -8,11 +8,12 @@ manifest = json.loads(Path("docs/main_pack_baseline.json").read_text(encoding="u
 expected = {item["internal_path"] for item in manifest["files"]}
 actual = {}
 errors = []
+source_root = Path("src")
 for root in GAME_ROOTS:
-    for path in sorted(Path(root).rglob("*")):
+    for path in sorted((source_root / root).rglob("*")):
         if not path.is_file():
             continue
-        target = path.as_posix()
+        target = path.relative_to(source_root).as_posix()
         if target.endswith(".tsv"):
             try:
                 target = path.read_text(encoding="utf-8-sig").splitlines()[1].split("\t")[0].split(";")[2]

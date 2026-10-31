@@ -1,5 +1,5 @@
 -- Run with Lua 5.1 from the repository root; no game runtime required.
-local script_path = arg[1] or "script/campaign/mod/zz_arkhan_lotd_research_energy.lua"
+local script_path = arg[1] or "src/script/campaign/mod/zz_arkhan_lotd_research_energy.lua"
 local FACTION = "wh2_dlc09_tmb_followers_of_nagash"
 local ENERGY = "arkhan_lotd_necromantic_energy"
 local VIEW = "arkhan_lotd_research_energy"

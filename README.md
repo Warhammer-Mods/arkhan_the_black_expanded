@@ -68,6 +68,8 @@ The current building, unit, skill, animation, model and visual-effect sources fr
 - GitHub workflows are maintained within this repository and use current Node 24 actions, read-only permissions, timeouts and cancellation of superseded runs.
 - CI validates database and localisation exports, checks campaign Lua scripts, and builds a downloadable pack containing only game asset folders. Lua warnings are reported but remain nonblocking; lint errors fail the check.
 
+The main mod game files live in `src/`; tooling and documentation stay at the repository root, and submods stay in `submods/`. Import the contents of `src/` so pack paths begin with `db/`, `script/`, `ui/`, etc., without a `src/` prefix. CI builds and validates the main mod from `src/`.
+
 Import the source with RPFM configured for Total War: Warhammer III. Download automated builds from the **Artifacts** section of a successful [Build Packfile run](https://github.com/Warhammer-Mods/arkhan_the_black_expanded/actions/workflows/packfile.yml).
 
 CI uses [RPFM Server 5.3.2](https://github.com/Frodo45127/rpfm/releases/tag/v5.3.2) with its matching pinned Docker action and schema. The action downloads the verified public GHCR image by its immutable digest using the release metadata; consumer jobs no longer compile the server or require registry login. The pack builder uses server API v2, waits for schema-loading jobs, and reopens the saved pack to verify its complete paginated inventory and decode every DB/LOC file, including native binaries. Run the client regression checks with `python3 -m unittest discover -s .github/tests -p "test_build_pack_server.py"`.

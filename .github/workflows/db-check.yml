@@ -6,7 +6,7 @@ on:
       source_root:
         type: string
         required: false
-        default: "."
+        default: "src"
   workflow_dispatch:
 
 permissions:
@@ -20,16 +20,16 @@ jobs:
       - uses: actions/checkout@v7.0.1
       - name: Validate database and localisation exports
         env:
-          CHECK_SOURCE_ROOT: ${{ inputs.source_root || '.' }}
+          CHECK_SOURCE_ROOT: ${{ inputs.source_root || 'src' }}
         run: |
           checker="$GITHUB_WORKSPACE/.github/scripts/check_tsv.py"
           cd "$CHECK_SOURCE_ROOT"
           python3 "$checker"
 
       - name: Verify approved main-pack inventory
-        if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
+        if: ${{ inputs.source_root == '' || inputs.source_root == 'src' }}
         run: python3 .github/scripts/check_main_inventory.py
 
       - name: Verify research cost tooltip registrations
-        if: ${{ inputs.source_root == '' || inputs.source_root == '.' }}
+        if: ${{ inputs.source_root == '' || inputs.source_root == 'src' }}
         run: python3 .github/scripts/check_research_tooltip.py

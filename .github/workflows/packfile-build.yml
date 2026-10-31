@@ -42,7 +42,7 @@ on:
       source_root:
         required: false
         type: string
-        default: "."
+        default: "src"
       pack_name:
         required: false
         type: string

@@ -131,7 +131,7 @@ read_globals = {
 }
 
 -- This module exports its AI controller for other scripts and diagnostics.
-files["script/campaign/mod/zz_arkhan_lotd_ai.lua"] = {
+files["src/script/campaign/mod/zz_arkhan_lotd_ai.lua"] = {
 	globals = { "arkhan_lotd_ai" },
 	-- Public export is consumed outside this file; methods use colon syntax.
 	ignore = { "131/arkhan_lotd_ai" },

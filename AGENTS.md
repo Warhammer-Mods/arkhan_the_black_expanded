@@ -8,7 +8,7 @@ Run `python .github/scripts/check_main_inventory.py` from the repository root to
 
 - Use this baseline and subsequent explicitly authorised changes. Do not merge or restore entries, rows, assets or scripts from earlier uploaded versions.
 - When syncing a user-supplied replacement baseline, reflect removals as well as additions and edits. Earlier files may be compared to describe the diff, but must not supply missing content.
-- The main game sources are under `animations`, `db`, `script`, `text`, `ui`, `variantmeshes` and `vfx`. Keep repository tooling, documentation and separate `submods` outside a main-pack replacement unless the user requests changes to them.
+- The main game sources are under `src/`, with game folders `animations`, `db`, `script`, `text`, `ui`, `variantmeshes` and `vfx`. Pack paths are relative to `src/`; never include the `src/` prefix inside a pack. Keep repository tooling, documentation and separate `submods` outside a main-pack replacement unless the user requests changes to them.
 - Preserve the supplied data and gameplay keys. Export DB/LOC resources through compatible schema-aware tooling, retain native files where required, and verify that rebuilding preserves the supplied values and newline semantics.
 - Do not end newly created DB fragment filenames in numbers.
 - Verify the main pack's complete game-file inventory against its authoritative source; do not preserve extra game files merely because they existed in an older repository revision.

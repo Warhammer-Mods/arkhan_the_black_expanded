@@ -50,7 +50,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - source_root: .
+          - source_root: src
             pack_name: arkhan_the_black_expanded
           - source_root: submods/arkhan_black_arts
             pack_name: arkhan_black_arts_TEST
@@ -69,7 +69,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - source_root: .
+          - source_root: src
             pack_name: arkhan_the_black_expanded
           - source_root: submods/arkhan_black_arts
             pack_name: arkhan_black_arts_TEST
@@ -90,7 +90,7 @@ jobs:
       max-parallel: 1
       matrix:
         include:
-          - source_root: .
+          - source_root: src
             pack_name: arkhan_the_black_expanded
           - source_root: submods/arkhan_black_arts
             pack_name: arkhan_black_arts_TEST
@@ -106,7 +106,7 @@ jobs:
     with:
       source_root: ${{ matrix.source_root }}
       pack_name: ${{ matrix.pack_name }}
-      paths: ${{ matrix.source_root == '.' && github.event_name == 'workflow_dispatch' && inputs.paths || 'animations/** db/** script/** text/** ui/** variantmeshes/** vfx/**' }}
+      paths: ${{ matrix.source_root == 'src' && github.event_name == 'workflow_dispatch' && inputs.paths || 'animations/** db/** script/** text/** ui/** variantmeshes/** vfx/**' }}
       paths_separator: ' '
       game: warhammer_3
       debug_enabled: ${{ inputs.debug_enabled || false }}
