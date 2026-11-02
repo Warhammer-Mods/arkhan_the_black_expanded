@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-24",
-  "file": "ui/buildings/icons/wh3_dlc29_nag_support.png",
+  "date": "2026-11-02",
+  "file": "ui/buildings/icons/stephen_tmb_estate_1.png",
   "operation": "Exact RGB replacement only; no generation, filtering, resizing or geometry edits",
   "dimensions": [
     74,
@@ -27,5 +27,6 @@
     "visible_colour_errors": 0,
     "original_dimensions_preserved": true,
     "alpha_matches_native_original": true
-  }
+  },
+  "scope": "Arkhan only: existing estate levels 1-3 use this icon via faction-specific building_culture_variants rows. No wh3_dlc29_nag_support.png override is shipped."
 }

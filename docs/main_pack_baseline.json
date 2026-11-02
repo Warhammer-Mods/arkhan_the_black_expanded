@@ -3020,11 +3020,12 @@
     },
     {
       "internal_path": "ui/buildings/icons/stephen_tmb_estate_1.png",
-      "sha256": "3ea30e07770a6eff8302fca299ec862206ac6b4d9b8f0d7c54e68e667486fe04",
-      "bytes": 7405,
+      "sha256": "badc50c4d969dfbfa3662dd554fb76d543dec0ee0fb2cd180549e10adbabe8c8",
+      "bytes": 3453,
       "format": "raw",
       "source_path": "src/ui/buildings/icons/stephen_tmb_estate_1.png",
-      "source_sha256": "3ea30e07770a6eff8302fca299ec862206ac6b4d9b8f0d7c54e68e667486fe04"
+      "source_sha256": "badc50c4d969dfbfa3662dd554fb76d543dec0ee0fb2cd180549e10adbabe8c8",
+      "input_payload_sha256": "3ea30e07770a6eff8302fca299ec862206ac6b4d9b8f0d7c54e68e667486fe04"
     },
     {
       "internal_path": "ui/campaign ui/arkhan_lotd_necromantic_energy_topbar.twui.xml",
