@@ -1,0 +1,62 @@
+{
+  "tool": "Built-in imagegen",
+  "purpose": "Five Arkhan technology icons derived from the five supplied references.",
+  "styleReferences": [
+    "arkhan_wh3_main_tech_vmp_units_ghosts_3.png",
+    "arkhan_wh3_main_tech_vmp_necromancers_deadrise_1a.png",
+    "arkhan_wh3_main_tech_vmp_necromancers_misc_11.png"
+  ],
+  "export": "72×72 RGBA. Preserve transparent margins and concentrate purple light inside the circular vignette. Endless Ranks uses a single Corpse Cart master with the original light numeral pixels and a dark outline added at export.",
+  "prompts": [
+    "Edit the first reference's Spirit Shackles icon. Keep the ghostly silver skeletal figure and open curved binding shape, their left-to-right pose and scale. Replace the dull blue-grey circle with a rich dark purple magical vignette, with subtle lavender highlights tracing the shackles. Keep the spectral anatomy and hooked hand recognizable. Match the second image's existing Arkhan technology art: compact dark fantasy painting, near-black plum shadows, concentrated amethyst magic, warm old brass and ivory highlights where appropriate. Center a roughly 62-pixel-wide circular vignette on a square 72-pixel-equivalent canvas with modest clear margins, transparent outside the silhouette and no decorative frame. Small UI scale, detailed with clean readable silhouettes. No letters, numerals, text, labels or logos.",
+    "Edit this ORIGINAL Total War technology icon of a Vampire Counts Corpse Cart. It is a single horse-less wheeled corpse wagon, NOT a formation of soldiers. Faithfully preserve the original three-quarter view and composition: a dark ramshackle wood-and-iron wagon, one clearly visible large spoked wheel at lower right, boxy cart bed with bones/corpse cargo, curved hook hardware at front left, vertical crooked timber stakes and iron hooks rising around the bed and rear. The wagon silhouette and wheel must be the obvious focal point at 72x72. Keep compact gritty hand-painted game icon proportions. Change the background to a dark purple circular vignette with luminous amethyst smoke behind the cart, aged brass highlights, readable wood and iron. No skeleton army, no shield insignia, no people standing around it, no mount pulling it. Remove the Roman numeral so it can be overlaid unchanged afterwards. Full subject visible, transparent outside the icon, no frame or label.",
+    "Edit the first reference's rising hands technology icon. Keep the original three clawed skeletal hands with the tallest hand on the left rising from a rough mound of dark earth. Convert the teal magical light to saturated amethyst violet. Keep warm bone highlights, an earthy base and each finger legible. Remove the flat turquoise bottom strip and rectangular field so the purple vignette and ground taper into transparent edges. Match the second image's existing Arkhan technology art: compact dark fantasy painting, near-black plum shadows, concentrated amethyst magic, warm old brass and ivory highlights where appropriate. Center a roughly 62-pixel-wide circular vignette on a square 72-pixel-equivalent canvas with modest clear margins, transparent outside the silhouette and no decorative frame. Small UI scale, detailed with clean readable silhouettes. No letters, numerals, text, labels or logos."
+  ],
+  "icons": [
+    {
+      "attachment": 1,
+      "source": "wh_main_vmp_spirit_shackles",
+      "technology": "Unquiet Spirits",
+      "technologyKey": "stephen_tech_arkhan_ethereal_2",
+      "icon": "arkhan_tech_unquiet_spirits",
+      "previousIcon": "arkhan_wh3_main_tech_vmp_units_ghosts_2",
+      "sha256": "5fa60c96699885ffa9c95dbe92e963aa861e9f672c44587189e6f0e8b0684ffa"
+    },
+    {
+      "attachment": 2,
+      "source": "wh3_main_tech_vmp_necromancers_corpses_1",
+      "technology": "Endless Ranks I",
+      "technologyKey": "stephen_tech_arkhan_raise_dead_1",
+      "icon": "arkhan_tech_endless_ranks_i",
+      "previousIcon": "arkhan_wh3_main_tech_vmp_necromancers_deadrise_1a",
+      "sha256": "774d08c8bc52bf684c5b20f13759930843535c2682a04ed3a2a038ffa0b2fcb7"
+    },
+    {
+      "attachment": 3,
+      "source": "wh3_main_tech_vmp_necromancers_corpses_2",
+      "technology": "Endless Ranks II",
+      "technologyKey": "stephen_tech_arkhan_raise_dead_2",
+      "icon": "arkhan_tech_endless_ranks_ii",
+      "previousIcon": "arkhan_wh3_main_tech_vmp_necromancers_deadrise_2a",
+      "sha256": "77de995b3aaaddd3e8f6e8f353edab65021326ae549f117c0fcb3f8378b400b5"
+    },
+    {
+      "attachment": 4,
+      "source": "wh3_main_tech_vmp_necromancers_corpses_3",
+      "technology": "Endless Ranks III",
+      "technologyKey": "stephen_tech_arkhan_raise_dead_3",
+      "icon": "arkhan_tech_endless_ranks_iii",
+      "previousIcon": "arkhan_wh3_main_tech_vmp_necromancers_deadrise_3a",
+      "sha256": "bbe82bc426bfd3f3f46bd90630298754a9334fb387aef02e40585817f5c6361c"
+    },
+    {
+      "attachment": 5,
+      "source": "wh3_main_tech_vmp_necromancers_misc_11",
+      "technology": "Undying Masses",
+      "technologyKey": "stephen_tech_arkhan_zombies_2",
+      "icon": "arkhan_tech_undying_masses",
+      "previousIcon": "arkhan_wh3_main_tech_vmp_units_zombies_3c",
+      "sha256": "dddff4d01ea03fffa81338950a2a5b0b9a626b99f75ee5b4a5a7917c8d0d298e"
+    }
+  ]
+}

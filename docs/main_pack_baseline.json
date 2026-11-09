@@ -5,7 +5,7 @@
   "input_sha256": "8b5ef9b20b4153ed417c895e86b273d456126a51d4c2b064c9315ce6ca16982e",
   "patched_sha256": "d4a98e364bb77d9da3ddec640e23a255b44713144c5c4f304ab1e776dc6e413b",
   "input_game_files": 724,
-  "approved_game_files": 726,
+  "approved_game_files": 731,
   "authorised_overlay": "Retain the already-requested Old World starting-centre fix in script/campaign/mod/arkhan_land_of_the_dead.lua. No missing game entries or DB rows restored.",
   "editor_metadata_excluded": [
     "dependencies_manager_v2.rpfm_reserved",
@@ -2222,7 +2222,7 @@
       "version": 7,
       "rows": 33,
       "source_path": "src/db/technologies_tables/atbe.tsv",
-      "source_sha256": "4c107196262cd106be37bd61141359030588fab7aa0d9f0041fd4b9c1b36c617"
+      "source_sha256": "568492ed2159d3b1143ccfe71dc7e822b1ce7752f79dad6fe97d3cb44e4d0e18"
     },
     {
       "internal_path": "db/technology_character_traits_junctions_tables/atbe",
@@ -6298,6 +6298,46 @@
       "format": "raw",
       "source_path": "src/ui/units/infopics/wh2_dlc11_cst_mournguls.png",
       "source_sha256": "7774a0a0dc7a4a850e8264e26f97eb5f93c5331ec5b53e12ca7dd7a8d294aea3"
+    },
+    {
+      "internal_path": "ui/campaign ui/technologies/arkhan_tech_unquiet_spirits.png",
+      "sha256": "5fa60c96699885ffa9c95dbe92e963aa861e9f672c44587189e6f0e8b0684ffa",
+      "bytes": 10441,
+      "format": "raw",
+      "source_path": "src/ui/campaign ui/technologies/arkhan_tech_unquiet_spirits.png",
+      "source_sha256": "5fa60c96699885ffa9c95dbe92e963aa861e9f672c44587189e6f0e8b0684ffa"
+    },
+    {
+      "internal_path": "ui/campaign ui/technologies/arkhan_tech_endless_ranks_i.png",
+      "sha256": "774d08c8bc52bf684c5b20f13759930843535c2682a04ed3a2a038ffa0b2fcb7",
+      "bytes": 11289,
+      "format": "raw",
+      "source_path": "src/ui/campaign ui/technologies/arkhan_tech_endless_ranks_i.png",
+      "source_sha256": "774d08c8bc52bf684c5b20f13759930843535c2682a04ed3a2a038ffa0b2fcb7"
+    },
+    {
+      "internal_path": "ui/campaign ui/technologies/arkhan_tech_endless_ranks_ii.png",
+      "sha256": "77de995b3aaaddd3e8f6e8f353edab65021326ae549f117c0fcb3f8378b400b5",
+      "bytes": 11234,
+      "format": "raw",
+      "source_path": "src/ui/campaign ui/technologies/arkhan_tech_endless_ranks_ii.png",
+      "source_sha256": "77de995b3aaaddd3e8f6e8f353edab65021326ae549f117c0fcb3f8378b400b5"
+    },
+    {
+      "internal_path": "ui/campaign ui/technologies/arkhan_tech_endless_ranks_iii.png",
+      "sha256": "bbe82bc426bfd3f3f46bd90630298754a9334fb387aef02e40585817f5c6361c",
+      "bytes": 11171,
+      "format": "raw",
+      "source_path": "src/ui/campaign ui/technologies/arkhan_tech_endless_ranks_iii.png",
+      "source_sha256": "bbe82bc426bfd3f3f46bd90630298754a9334fb387aef02e40585817f5c6361c"
+    },
+    {
+      "internal_path": "ui/campaign ui/technologies/arkhan_tech_undying_masses.png",
+      "sha256": "dddff4d01ea03fffa81338950a2a5b0b9a626b99f75ee5b4a5a7917c8d0d298e",
+      "bytes": 10307,
+      "format": "raw",
+      "source_path": "src/ui/campaign ui/technologies/arkhan_tech_undying_masses.png",
+      "source_sha256": "dddff4d01ea03fffa81338950a2a5b0b9a626b99f75ee5b4a5a7917c8d0d298e"
     }
   ],
   "removed_unit_keys": [
