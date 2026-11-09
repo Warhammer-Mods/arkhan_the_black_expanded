@@ -6285,19 +6285,19 @@
     },
     {
       "internal_path": "ui/units/icons/wh2_dlc11_cst_mournguls.png",
-      "sha256": "ae9eda95a2c2063f22ab5014236e171ffc6ee3336afe6bdf0391b8be0588fa55",
-      "bytes": 22857,
+      "sha256": "e17fec5d34497590eeae4f3360099a7765b572df2e9376644a7025360a37fc90",
+      "bytes": 21184,
       "format": "raw",
       "source_path": "src/ui/units/icons/wh2_dlc11_cst_mournguls.png",
-      "source_sha256": "ae9eda95a2c2063f22ab5014236e171ffc6ee3336afe6bdf0391b8be0588fa55"
+      "source_sha256": "e17fec5d34497590eeae4f3360099a7765b572df2e9376644a7025360a37fc90"
     },
     {
       "internal_path": "ui/units/infopics/wh2_dlc11_cst_mournguls.png",
-      "sha256": "644020a9d87b8b7daf5ab3492085220fb5c585e75f70251f74d026b14fd074f3",
-      "bytes": 99960,
+      "sha256": "7774a0a0dc7a4a850e8264e26f97eb5f93c5331ec5b53e12ca7dd7a8d294aea3",
+      "bytes": 94738,
       "format": "raw",
       "source_path": "src/ui/units/infopics/wh2_dlc11_cst_mournguls.png",
-      "source_sha256": "644020a9d87b8b7daf5ab3492085220fb5c585e75f70251f74d026b14fd074f3"
+      "source_sha256": "7774a0a0dc7a4a850e8264e26f97eb5f93c5331ec5b53e12ca7dd7a8d294aea3"
     }
   ],
   "removed_unit_keys": [
