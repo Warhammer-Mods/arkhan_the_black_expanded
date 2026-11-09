@@ -5,7 +5,7 @@
   "input_sha256": "8b5ef9b20b4153ed417c895e86b273d456126a51d4c2b064c9315ce6ca16982e",
   "patched_sha256": "d4a98e364bb77d9da3ddec640e23a255b44713144c5c4f304ab1e776dc6e413b",
   "input_game_files": 724,
-  "approved_game_files": 724,
+  "approved_game_files": 726,
   "authorised_overlay": "Retain the already-requested Old World starting-centre fix in script/campaign/mod/arkhan_land_of_the_dead.lua. No missing game entries or DB rows restored.",
   "editor_metadata_excluded": [
     "dependencies_manager_v2.rpfm_reserved",
@@ -6282,6 +6282,22 @@
       "format": "raw",
       "source_path": "src/vfx/wh_main_shadow_armour.xml",
       "source_sha256": "d02965c6e4b4a794c4b2dc7b47562722563d3996978c39005d507b4339fa2c9e"
+    },
+    {
+      "internal_path": "ui/units/icons/wh2_dlc11_cst_mournguls.png",
+      "sha256": "ae9eda95a2c2063f22ab5014236e171ffc6ee3336afe6bdf0391b8be0588fa55",
+      "bytes": 22857,
+      "format": "raw",
+      "source_path": "src/ui/units/icons/wh2_dlc11_cst_mournguls.png",
+      "source_sha256": "ae9eda95a2c2063f22ab5014236e171ffc6ee3336afe6bdf0391b8be0588fa55"
+    },
+    {
+      "internal_path": "ui/units/infopics/wh2_dlc11_cst_mournguls.png",
+      "sha256": "644020a9d87b8b7daf5ab3492085220fb5c585e75f70251f74d026b14fd074f3",
+      "bytes": 99960,
+      "format": "raw",
+      "source_path": "src/ui/units/infopics/wh2_dlc11_cst_mournguls.png",
+      "source_sha256": "644020a9d87b8b7daf5ab3492085220fb5c585e75f70251f74d026b14fd074f3"
     }
   ],
   "removed_unit_keys": [
